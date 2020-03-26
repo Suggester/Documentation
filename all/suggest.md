@@ -4,7 +4,8 @@
 This command is used to suggest things to the staff team of a server.
 ### Required Arguments
 `suggestion` - The suggestion you want to submit, it can include anything.
-?> You can include attachments with your suggestion, you can add it by attaching it as a file, the attachment can be `jpg`, `png`, `jpeg`, `gif`.
+
+?> You can include attachments with your suggestion, you can add it by attaching it as a file, the attachment can be `jpg`, `png`, `jpeg` or `gif`.
 ### Optional Arguments
 **None**
 ### Usage
