@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <title>Suggester Docs</title>
+    <link rel="icon" type="image/ico" href="https://cdn.discordapp.com/avatars/621077348967645235/dbd929d19118279dd34ae342749567a2.webp?size=128">
+    <meta property="og:site_name" content="Suggester Docs">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta name="description" content="The official documentation for the suggester discord bot">
+    <meta name="theme-color" content="#7289da">
+    <meta property="og:title" content="Suggester Docs">
+    <meta property="og:description" content="The official documentation for the suggester discord bot">
+    <meta property="og:url" content="https://karateblobs.js.org">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/664711269332549644/692546849806221332/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3635343432313531353634.png">
+    <meta property="og:image:type" content="image/png">
+
+    <!-- Theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+
+    <!-- Custom theme styles -->
+    <style>
+      :root {
+        --theme-color: blue
+        --base-background-color: #ffffff;
+        --code-theme-background: #183055;
+        --code-inline-color: #ffffff;
+        --code-inline-background: #183055;
+        --code-theme-text: #ffffff;
+        --link-color: #758ddc;
+        --link-color--hover: #758ddc;
+        --link-text-decoration: ;
+        --link-text-decoration--hover: underline;
+        --base-font-size: 17x;
+      }
+   </style>
+
+
+
+</head>
+
+<body>
+    <div id="app"></div>
+    <script>
+        // Docsify
+        window.$docsify = {
+            // GENERAL
+            // -----------------------------------------------------------------
+            name       : 'Suggester Docs',
+            homepage   : 'home.md',
+            logo       : 'https://gblobscdn.gitbook.com/spaces%2F-Ldn_eFIOgLwn9hTBYYh%2Favatar-rectangle.png?generation=1573832950722109&alt=media',
+            loadSidebar: true,
+            loadNavbar: true,
+            auto2top   : true,
+            maxLevel   : 3,
+            alias: {
+              '/.*/_sidebar.md': '_sidebar.md'
+            },
+            // PLUGINS
+            // -----------------------------------------------------------------
+            executeScript: true,
+            ga    : 'UA-100100910-3',
+            search: {
+                depth      : 3,
+                noData     : 'No results!',
+                placeholder: 'Search...'
+            }
+        };
+    </script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+</body>
+</html>
