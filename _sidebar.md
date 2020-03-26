@@ -43,7 +43,7 @@
 
 ---
 
-**SUPPORTING THE BOT!**
+**SUPPORTING THE BOT**
 [Info](supporting/info.md)
 
 ---
