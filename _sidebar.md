@@ -44,7 +44,7 @@
 ---
 
 **SUPPORTING THE BOT!**
-[Info](info.md)
+[Info](supporting/info.md)
 
 ---
 
