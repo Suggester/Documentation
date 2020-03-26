@@ -14,6 +14,8 @@
 [Verify](all/verify.md)
 [Notify](all/notify.md)
 
+---
+
 **STAFF COMMANDS**
 [Approve](staff/approve.md)
 [Deny](staff/deny.md)
@@ -33,9 +35,13 @@
 [Blacklist](staff/blacklist.md)
 [Unblacklist](staff/unblacklist.md)
 
+---
+
 **ADMIN COMMANDS**
 [Setup](admin/setup.md)
 [Config](admin/config.md)
+
+---
 
 **SUPPORTING THE BOT!**
 [Top.gg](supporting/top-gg.md)
@@ -45,6 +51,8 @@
 [Discord Boats](supporting/discord-boats.md)
 [Divine Discord Bot List](supporting/divine-discord-bot-list.md)
 [Glenn Bot List](supporting/glenn-bot-list.md)
+
+---
 
 **FURTHER RESOURCES**
 [Support Server](https://discord.gg/G5pEdUp)
