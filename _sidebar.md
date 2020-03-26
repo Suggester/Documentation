@@ -44,13 +44,7 @@
 ---
 
 **SUPPORTING THE BOT!**
-[Top.gg](supporting/top-gg.md)
-[Botlist.space](supporting/botlist-space.md)
-[Discord Bot List](supporting/dbl.md)
-[Bots For Discord](supporting/bfd.md)
-[Discord Boats](supporting/discord-boats.md)
-[Divine Discord Bot List](supporting/divine-discord-bot-list.md)
-[Glenn Bot List](supporting/glenn-bot-list.md)
+[Info](info.md)
 
 ---
 
