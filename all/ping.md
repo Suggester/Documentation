@@ -2,10 +2,6 @@
 ---
 ### Description
 This command is used to show the response time of the bot.
-### Required Arguments
-**None**
-### Optional Arguments
-**None**
 ### Usage
 ```
 .ping

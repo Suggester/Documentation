@@ -8,8 +8,6 @@ This command allows staff members to anonymously comment on a suggestion. This c
 `comment` - The comment to add to the suggestion
 
 !> A suggestion can have a maximum of 23 comments
-### Optional Arguments
-**None**
 ### Usage
 ```
 .acomment [suggestion id] [comment]

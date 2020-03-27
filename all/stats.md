@@ -2,10 +2,6 @@
 ---
 ### Description
 This command is used to check the stats of suggester, Globally and in the server.
-### Required Arguments
-**None**
-### Optional Arguments
-**None**
 ### Usage
 ```
 .stats
