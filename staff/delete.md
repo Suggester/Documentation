@@ -7,9 +7,9 @@
 ### Optional Arguments
 
 ### Usage
-\`\`\`
+```
 .
-\`\`\`
+```
 ### Aliases
 
 ### Permission Required

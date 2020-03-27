@@ -7,9 +7,9 @@ This command is used to show the link to [invite the bot to your server](https:/
 ### Optional Arguments
 **None**
 ### Usage
-\`\`\`
+```
 .invite
-\`\`\`
+```
 ### Aliases
 **None**
 ### Permission Required

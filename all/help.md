@@ -7,9 +7,9 @@ This command shows help about either a single command or provides the link to th
 ### Optional Arguments
 `command` - A command name to get detailed help about
 ### Usage
-\`\`\`
+```
 .help (command)
-\`\`\`
+```
 ### Aliases
 `command`, `howto`
 ### Permission Required
