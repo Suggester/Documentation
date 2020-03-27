@@ -8,4 +8,6 @@ You can invite the bot using [this link](https://discordapp.com/oauth2/authorize
 In order for the bot to work, it must be configured. See the [setup](admin/setup.md) documentation page for more information about how to start configuring the bot!
 
 ## **Step 3: Get suggesting!**
+You and your members can now use the [suggest](all/suggest.md) command to suggest stuff.
+
 ?> If you have any issues configuring the bot, please join our [support server](https://discord.gg/G5pEdUp) to receive assistance!
