@@ -7,11 +7,7 @@ This command is used to change the status of a suggestion.
 
 `status` - The status you want to use.
 
-?> new status Argument Meaning
-`default`, `none` - Resets status to default (none shown)
-`no` - Not Happening
-`working`, `progress` - In Progress
-`implemented`, `done` - Implemented
+?> new status Argument Meaning `default`, `none` - Resets status to default (none shown) `no` - Not Happening `working`, `progress` - In Progress `implemented`, `done` - Implemented
 
 
 ### Usage
