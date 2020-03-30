@@ -1,7 +1,7 @@
 # Approve
 ---
 ### Description
-This command is used to approve suggestions.
+This command is used to approve suggestions in review mode.
 ### Required Arguments
 `suggestion ID` - The ID of the suggestion you want to approve.
 ### Optional Arguments
