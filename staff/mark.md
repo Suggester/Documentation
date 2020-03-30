@@ -6,6 +6,7 @@ This command is used to change the status of a suggestion.
 `suggestion ID` - The ID of the suggestion you want to change it's status.
 
 `status` - The status you want to use.
+
 ?> new status Argument Meaning
 
 `default`, `none` - Resets status to default (none shown)
