@@ -8,7 +8,7 @@ This command is used to suggest things to the staff team of a server.
 ?> You can include attachments with your suggestion, you can add it by attaching it as a file, the attachment can be `jpg`, `png`, `jpeg` or `gif`.
 ### Usage
 ```
-.suggest [suggestion]
+.suggest <suggestion>
 ```
 ### Aliases
 `submit`

@@ -16,7 +16,7 @@ This command is used to change the status of a suggestion.
 
 ### Usage
 ```
-.mark [suggestion ID] [status]
+.mark <suggestion ID> <status>
 ```
 ### Aliases
 `status`

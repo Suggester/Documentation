@@ -6,7 +6,7 @@ This command is used to unblacklist people that are blacklisted so that they can
 `user` - The user you want to unblacklist.
 ### Usage
 ```
-.unblacklist [user]
+.unblacklist <user>
 ```
 ### Aliases
 `unbl`, `allow`

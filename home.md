@@ -4,4 +4,4 @@ Suggester is an [open source](https://github.com/Suggester-Bot/Suggester) bot th
 
 ?> All **Usage** sections on these docs will assume that the command prefix is the default `.` prefix that is set when the bot is added to a server. The `config` command gives the option of changing the prefix, and if your server's prefix has been changed you should replace `.` with that prefix.
 
-?> In this documentation, arguments in [brackets] are required, while arguments in (parenthesis) are optional. You also should not type out the brackets and parenthesis when using the commands.
+?> In this documentation, arguments in <angle brackets> are required, while arguments in [brackets] are optional. You also should not type out the brackets and parenthesis when using the commands.

@@ -8,7 +8,7 @@ This command is used to blacklist people to prevent them from using the bot in t
 ?> Note that you can't use both arguments in the same command
 ### Usage
 ```
-.blacklist [user|list]
+.blacklist <user|list>
 ```
 ### Aliases
 `bl`, `disallow`

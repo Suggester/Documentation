@@ -8,7 +8,7 @@ This command is used to deny a suggestions in review mode.
 `reason` - The reason of denying the suggestion.
 ### Usage
 ```
-.deny [suggestion ID] (reason)
+.deny <suggestion ID> [reason]
 ```
 ### Permission Required
 People with **Manage Server** permission or configured staff role.
