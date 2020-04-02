@@ -5,7 +5,11 @@ This command is used to set various settings without needing to go through the f
 ### Optional Arguments
 `list` - This argument is used to show current server settings.
 `element` - If this is used without any other argument, it will show current settings for that element.
+
+
 *For configuration*
+
+
 | Config Element | Function                                                                                                                                                                                                                                                                                             | Valid Inputs                            |                                     Usage                                     |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|:-----------------------------------------------------------------------------:|
 | admin          | Anyone with this role inherits staff permissions, but also has permission to configure server settings.                                                                                                                                                                                              | Role name, ID, or @mention              | `config admin [add/remove/list] [role]`                                       |
