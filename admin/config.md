@@ -22,9 +22,6 @@ This command is used to set various settings without needing to go through the f
 
 
 
-
-
-
 | Config Element | Function                                                                                                                                                                                                                                                                                             | Valid Inputs                            |                                     Usage                                     |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|:-----------------------------------------------------------------------------:|
 | admin          | Anyone with this role inherits staff permissions, but also has permission to configure server settings.                                                                                                                                                                                              | Role name, ID, or @mention              | `config admin [add/remove/list] [role]`                                       |
@@ -37,6 +34,16 @@ This command is used to set various settings without needing to go through the f
 | notify         | The `notify` element specifies whether server members should be notified through DM when actions are taken on their suggestions. This is **enabled** by default.                                                                                                                                     | `enable`, `disable`, or `toggle`        | `config notify [enable/disable/toggle]`                                       |
 | mode           | The `mode` element configures the mode of suggestion handling. Setting this to `review` will put all suggestions through the review process before sending them to the suggestions channel. Setting this to `autoapprove` will automatically send all submitted suggestions to the suggestions feed. | `review` or `autoapprove`               | `config mode [review/autoapprove]`                                            |
 | prefix         | The prefix that all commands start with Example: in `.command` the prefix is `.`                                                                                                                                                                                                                     | Any string with no spaces               | `config prefix [prefix]`                                                      |
+
+
+
+
+
+
+
+
+
+
 ### Usage
 ```
 .config (element) (additional parameters)
