@@ -7,7 +7,21 @@ This command is used to set various settings without needing to go through the f
 `element` - If this is used without any other argument, it will show current settings for that element.
 
 
+
+
 *For configuration*
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 | Config Element | Function                                                                                                                                                                                                                                                                                             | Valid Inputs                            |                                     Usage                                     |
