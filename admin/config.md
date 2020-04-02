@@ -13,7 +13,6 @@ This command is used to set various settings without needing to go through the f
 <!-- tabs:start -->
 #### **admin role**
 ## Config Element
----
 ### admin
 ## Function
 ---
