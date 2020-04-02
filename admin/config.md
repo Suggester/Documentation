@@ -12,116 +12,116 @@ This command is used to set various settings without needing to go through the f
 
 <!-- tabs:start -->
 #### **admin role**
-# Config Element
+## Config Element
 ---
 **admin**
-# Function
+## Function
 ---
 **Anyone with this role inherits staff permissions, but also has permission to configure server settings.**
 
-# Valid Inputs
+## Valid Inputs
 ---
 **Role name, ID, or @mention**
 
-# Usage
+## Usage
 ---
 `config admin [add/remove/list] [role]`
 
 #### **staff role**
 
-# Config Element
+## Config Element
 ---
 **staff**
-# Function
+## Function
 ---
 **Anyone with this role has permission to accept and deny suggestions, as well as interact with them in other ways.**
 
-# Valid Inputs
+## Valid Inputs
 ---
 **Role name, ID, or @mention**
 
-# Usage
+## Usage
 ---
 `config staff [add/remove/list] [role]`
 
 #### **review channel**
 
-# Config Element
+## Config Element
 ---
 **review**
-# Function
+## Function
 ---
 **The channel where suggestions are sent immediately after submission to be reviewed by staff. (Only if the mode is set to *review*)**
 
-# Valid Inputs
+## Valid Inputs
 ---
 **Channel ID, name or #mention**
 
-# Usage
+## Usage
 ---
 `config review [channel]`
 
 #### **approved suggestions channel**
 
-# Config Element
+## Config Element
 ---
 **suggestions**
-# Function
+## Function
 ---
 **The channel where approved suggestions are posted. (If the mode is set to *autoapprove* then suggestions are automatically posted here)**
 
-# Valid Inputs
+## Valid Inputs
 ---
 **Channel ID, name or #mention**
 
-# Usage
+## Usage
 ---
 `config suggestions [channel]`
 
 #### **denied suggestions channel**
 
-# Config Element
+## Config Element
 ---
 **denied**
-# Function
+## Function
 ---
 **The channel where suggestions that are denied/deleted are posted.**
 
 **Using** `none` **as the channel will remove the denied suggestions channel if there is one set.**
 
-# Valid Inputs
+## Valid Inputs
 ---
 **Channel ID, name or #mention or** `none`
 
-# Usage
+## Usage
 ---
 `config denied [channel]`
 
 #### **logs channel**
 
-# Config Element
+## Config Element
 ---
 **logs**
-# Function
+## Function
 ---
 **The channel where all actions taken on suggestions are logged.**
 
 **Using** `none` **as the channel will remove the log channel if there is one set.**
 
-# Valid Inputs
+## Valid Inputs
 ---
 **Channel ID, name or #mention or** `none`
 
-# Usage
+## Usage
 ---
 `config logs [channel]`
 
 #### **Reaction Emojis**
 
-# Config Element
+## Config Element
 ---
 **emojis**
-# Function
+## Function
 ---
 **The emojis that should be reacted on approved suggestions. The defaults are 👍, 🤷, and 👎 for upvote, shrug, and downvote respectively.**
 
@@ -129,39 +129,39 @@ This command is used to set various settings without needing to go through the f
 
 **The** `toggle`/`enable`/`disable` **parameters will edit the setting controlling reactions to suggestion feed posts - this is *enabled* by default.**
 
-# Valid Inputs
+## Valid Inputs
 ---
 **Unicode or custom emoji from the server.**
 
-# Usage
+## Usage
 ---
 `config emojis [upvote/shrug/downvote/toggle/enable/disable] [emoji/disable]`
 
 #### **Notify Settings**
 
-# Config Element
+## Config Element
 ---
 **notify**
-# Function
+## Function
 ---
 **The** `notify` **element specifies whether server members should be notified through DM when actions are taken on their suggestions.**
 
 **This is *enabled* by default.**
 
-# Valid Inputs
+## Valid Inputs
 ---
 `enable`, `disable`, **or** `toggle`
 
-# Usage
+## Usage
 ---
 `config notify [enable/disable/toggle]`
 
 #### **Suggestions Mode**
 
-# Config Element
+## Config Element
 ---
 **mode**
-# Function
+## Function
 ---
 **The** `mode` **element configures the mode of suggestion handling.**
 
@@ -169,28 +169,28 @@ This command is used to set various settings without needing to go through the f
 
 **Setting this to** `autoapprove` **will automatically send all submitted suggestions to the suggestions feed.**
 
-# Valid Inputs
+## Valid Inputs
 ---
 `review` **or** `autoapprove`
 
-# Usage
+## Usage
 ---
 `config mode [review/autoapprove]`
 
 #### **The bot's prefix**
 
-# Config Element
+## Config Element
 ---
 **prefix**
-# Function
+## Function
 ---
 **The prefix that all commands start with Example: in** `.command` **the prefix is** `.`
 
-# Valid Inputs
+## Valid Inputs
 ---
 **Any string with no spaces**
 
-# Usage
+## Usage
 ---
 `config prefix [prefix]`
 <!-- tabs:end -->
