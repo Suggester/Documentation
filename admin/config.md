@@ -182,7 +182,7 @@ This command is used to set various settings without needing to go through the f
 
 `config mode [review/autoapprove]`
 
-#### **The b=Bot's Prefix**
+#### **The Bot's Prefix**
 
 ## Config Element
 
