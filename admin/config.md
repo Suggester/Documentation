@@ -14,7 +14,7 @@ This command is used to set various settings without needing to go through the f
 #### **admin role**
 ## Config Element
 ---
-**admin**
+### admin
 ## Function
 ---
 **Anyone with this role inherits staff permissions, but also has permission to configure server settings.**
