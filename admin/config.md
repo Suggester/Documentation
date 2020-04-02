@@ -11,7 +11,7 @@ This command is used to set various settings without needing to go through the f
 *For configuration*
 
 <!-- tabs:start -->
-#### **admin role**
+#### **Admin Role**
 ## Config Element
 ### admin
 
@@ -24,7 +24,7 @@ This command is used to set various settings without needing to go through the f
 ## Usage
 `config admin [add/remove/list] [role]`
 
-#### **staff role**
+#### **Staff Role**
 
 ## Config Element
 
@@ -42,7 +42,7 @@ This command is used to set various settings without needing to go through the f
 
 `config staff [add/remove/list] [role]`
 
-#### **review channel**
+#### **Review Channel**
 
 ## Config Element
 
@@ -60,7 +60,7 @@ This command is used to set various settings without needing to go through the f
 
 `config review [channel]`
 
-#### **approved suggestions channel**
+#### **Approved Suggestions Channel**
 
 ## Config Element
 
@@ -78,7 +78,7 @@ This command is used to set various settings without needing to go through the f
 
 `config suggestions [channel]`
 
-#### **denied suggestions channel**
+#### **Denied Suggestions Channel**
 
 ## Config Element
 
@@ -98,7 +98,7 @@ This command is used to set various settings without needing to go through the f
 
 `config denied [channel]`
 
-#### **logs channel**
+#### **Logs Channel**
 
 ## Config Element
 
@@ -160,7 +160,7 @@ This command is used to set various settings without needing to go through the f
 
 `config notify [enable/disable/toggle]`
 
-#### **Suggestions Mode**
+#### **Suggestions Modes**
 
 ## Config Element
 
@@ -182,7 +182,7 @@ This command is used to set various settings without needing to go through the f
 
 `config mode [review/autoapprove]`
 
-#### **The bot's prefix**
+#### **The b=Bot's Prefix**
 
 ## Config Element
 
