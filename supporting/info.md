@@ -1,7 +1,10 @@
 # Supporting the Bot
 ---
 The best way to support the bot is by voting for it on bot lists. If you are in the [Support Server](https://discord.gg/G5pEdUp), you can get rewards for voting!
-
+---
+The other best way to support the bot is to help create one of the commands suggested the pull requests at our [open source](https://github.com/Suggester-Bot/Suggester) or to fix issues reported on there.
+You can also go into the [Support Server's Suggestion Channel](https://canary.discordapp.com/channels/566002482166104066/621433843294928927/621688543160303626) to create a pull request and see if that gets accepted to the bot. 
+---
 <!-- tabs:start -->
 
 #### **Top.gg**
