@@ -8,7 +8,7 @@ This command is used to approve suggestions in review mode.
 `comment` - Comment you want to include in the suggestion.
 ### Usage
 ```
-.approve <suggestion ID> [comment]
+.approve [suggestion ID]
 ```
 ### Permission Required
 People with **Manage Server** permission or configured staff role.

@@ -14,6 +14,7 @@ This command is used to change the status of a suggestion.
 | `working`, `progress` | In Progress                           |
 | `implemented`, `done` | Implemented                           |
 
+
 ### Usage
 ```
 .mark <suggestion ID> <status>

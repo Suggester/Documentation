@@ -9,21 +9,24 @@
     <link rel="icon" type="image/ico" href="https://suggester.js.org/images/favicon.ico">
     <meta property="og:site_name" content="Suggester Docs">
     <meta property="twitter:card" content="summary_large_image">
-    <meta name="description" content="The official documentation for the suggester discord bot">
+    <meta name="description" content="The official documentation for the Suggester Discord bot">
     <meta name="theme-color" content="#7289da">
     <meta property="og:title" content="Suggester Docs">
-    <meta property="og:description" content="The official documentation for the suggester discord bot">
+    <meta property="og:description" content="The official documentation for the Suggester Discord bot">
     <meta property="og:url" content="https://suggester.js.org">
     <meta property="og:image" content="https://suggester.js.org/images/logo.png">
     <meta property="og:image:type" content="image/png">
 
     <!-- Theme -->
+    <link
+     rel="stylesheet"
+    href="//cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/style.css"
+    />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
 
     <!-- Custom theme styles -->
     <style>
       :root {
-        --theme-color: blue
         --base-background-color: #ffffff;
         --code-theme-background: #183055;
         --code-inline-color: #ffffff;
@@ -34,7 +37,6 @@
         --link-text-decoration: ;
         --link-text-decoration--hover: underline;
         --base-font-size: 16px;
-        --theme-color: dark;
       }
    </style>
 
@@ -53,12 +55,19 @@
             homepage: 'home.md',
             logo: 'https://suggester.js.org/images/logo.png',
             loadSidebar: true,
+            coverpage: true,
             loadNavbar: true,
             auto2top: true,
             maxLevel: 3,
             alias: {
               '/.*/_sidebar.md': '_sidebar.md'
             },
+            /*topBanner : {
+              position : 'relative',
+              zIndex : '10',
+              content : ":eyes: Documentation for Canary 3.2, report any bugs you find []()",
+              backgroundColor: "#f1c40f"
+            },*/
             // PLUGINS
             // -----------------------------------------------------------------
             executeScript: true,
@@ -67,7 +76,8 @@
                 depth      : 3,
                 noData     : 'No results!',
                 placeholder: 'Search...'
-            }
+            },
+            themeColor: "#000000"
         };
     </script>
     <script src="assets/js/main.js"></script>
@@ -75,6 +85,7 @@
     <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>

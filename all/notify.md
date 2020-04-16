@@ -10,7 +10,7 @@ This command is used to manage your notifications from the bot.
 `self` - This subcommand is used to decide if you get notification when you take action on __your suggestions__.
 ### Usage
 ```
-.notify [self] <on|off|toggle>
+.notify (self) <on|off|toggle>
 ```
 ### Aliases
 `notifications`

@@ -8,7 +8,7 @@ This command is used to delete an approved suggestion.
 `reason` - The reason of deleting the suggestion.
 ### Usage
 ```
-.delete <suggestion ID> [reason]
+.delete <suggestion ID> (reason)
 ```
 ### Permission Required
 People with **Manage Server** permission or configured staff role.

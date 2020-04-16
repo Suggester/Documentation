@@ -38,6 +38,7 @@
 ---
 
 **ADMIN COMMANDS**
+[Autosetup](admin/autosetup.md)
 [Setup](admin/setup.md)
 [Config](admin/config.md)
 
@@ -50,4 +51,4 @@
 
 **FURTHER RESOURCES**
 [Support Server](https://discord.gg/G5pEdUp)
-[Invite the Bot!](https://discordapp.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=67497025)
+[Invite the Bot!](https://discordapp.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=872803409)
