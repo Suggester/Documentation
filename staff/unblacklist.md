@@ -1,7 +1,7 @@
 # Unblacklist
 ---
 ### Description
-This command is used to unblacklist people that are blacklisted so that they can use the commands again.
+This command is used to let blacklisted people use the bot in the server again.
 ### Required Arguments
 `user` - The user you want to unblacklist.
 ### Usage

@@ -10,7 +10,7 @@ This command allows staff members to anonymously comment on a suggestion. This c
 !> A suggestion can have a maximum of 23 comments
 ### Usage
 ```
-.acomment <suggestion id> <comment>
+.acomment [suggestion id] [comment]
 ```
 ### Aliases
 `anonymouscomment`

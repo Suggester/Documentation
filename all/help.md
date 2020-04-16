@@ -6,7 +6,7 @@ This command shows help about either a single command or provides the link to th
 `command` - A command name to get detailed help about
 ### Usage
 ```
-.help [command]
+.help (command)
 ```
 ### Aliases
 `command`, `howto`

@@ -10,7 +10,7 @@ This command allows staff members to comment on a suggestion. This comment will 
 !> A suggestion can have a maximum of 23 comments
 ### Usage
 ```
-.comment <suggestion id> <comment>
+.comment [suggestion id] [comment]
 ```
 ### Permission Required
 Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
