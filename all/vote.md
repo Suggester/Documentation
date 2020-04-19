@@ -1,7 +1,7 @@
 # Vote
 ---
 ### Description
-This command is used to show information about voting for suggester on Discord Bot List.
+This command is used to show information about voting for suggester on all the bot lists it is on. (You can also check out how to vote [here](supporting/info.md))
 ### Usage
 ```
 .vote

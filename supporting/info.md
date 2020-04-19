@@ -46,13 +46,6 @@ The best way to support the bot is by voting for it on bot lists. If you are in 
 [![Glenn bot list widget](https://glennbotlist.xyz/bot/564426594144354315/widget)](https://glennbotlist.xyz/bot/564426594144354315/vote)
 ### [Click here to vote!](https://glennbotlist.xyz/bot/564426594144354315/vote)
 
-#### **Divine Discord Bot List**
-
-# Divine Discord Bot List
----
-[![Divine Discord Bot List widget](https://divinediscordbots.com/api/widget/564426594144354315.svg)](https://divinediscordbots.com/bot/564426594144354315/vote)
-### [Click here to vote!](https://divinediscordbots.com/bot/564426594144354315/vote)
-
 #### **Bots on Discord**
 
 # Bots on Discord
