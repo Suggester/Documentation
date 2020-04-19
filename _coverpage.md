@@ -1,4 +1,4 @@
-![Suggester Logo](https://suggester.js.org/images/logo.png)
+![Suggester Logo](/images/logo.png)
 
 - A Discord bot that helps you manage your server suggestions
 
