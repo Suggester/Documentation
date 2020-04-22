@@ -22,14 +22,14 @@ The best way to support the bot is by voting for it on bot lists. If you are in 
 
 # Discord Bot List
 ---
-[![DBL widget](https://discordbotlist.com/bots/564426594144354315/widget)](https://discordbotlist.com/bots/564426594144354315)
+[![Discord Bot List widget](https://discordbotlist.com/bots/564426594144354315/widget)](https://discordbotlist.com/bots/564426594144354315)
 ### [Click here to vote!](https://discordbotlist.com/bots/564426594144354315/upvote)
 
 #### **Bots For Discord**
 
 # Bots For Discord
 ---
-[![BFD widget](https://botsfordiscord.com/api/bot/564426594144354315/widget)](https://botsfordiscord.com/bots/564426594144354315)
+[![Bots For Discord widget](https://botsfordiscord.com/api/bot/564426594144354315/widget)](https://botsfordiscord.com/bots/564426594144354315)
 ### [Click here to vote!](https://botsfordiscord.com/bot/564426594144354315/vote)
 
 #### **Discord Boats**
@@ -49,7 +49,13 @@ The best way to support the bot is by voting for it on bot lists. If you are in 
 #### **Bots on Discord**
 
 # Bots on Discord
-[![Suggester](https://bots.ondiscord.xyz/bots/564426594144354315/embed?showGuilds=true)](https://bots.ondiscord.xyz/bots/564426594144354315)
+[![Bots on Discord widget](https://bots.ondiscord.xyz/bots/564426594144354315/embed?showGuilds=true)](https://bots.ondiscord.xyz/bots/564426594144354315)
 ### [Leave a review here](https://bots.ondiscord.xyz/bots/564426594144354315/review) and tell us what you think about the bot!
+
+#### **Arcane Bot Center**
+
+# Arcane Bot Center
+[![Arcane Bot Center widget](https://arcane-botcenter.xyz/api/widget/564426594144354315.svg)](https://arcane-botcenter.xyz/bot/564426594144354315)
+### [Click here to vote!](https://arcane-botcenter.xyz/bot/564426594144354315)
 
 <!-- tabs:end -->
