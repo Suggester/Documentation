@@ -80,7 +80,7 @@ This command is used to set various settings without needing to go through the f
 
 ## Usage
 
-`config allowed [role]`
+`config approvedrole [role]`
 
 #### **Review Channel**
 
@@ -274,7 +274,7 @@ This command is used to set various settings without needing to go through the f
 
 ## Usage
 
-`config suggestions [channel]`
+`config cleancommands [enable/disable/toggle]`
 
 #### **Prefix**
 

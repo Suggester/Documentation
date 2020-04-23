@@ -13,6 +13,7 @@
 [Vote](all/vote.md)
 [Verify](all/verify.md)
 [Notify](all/notify.md)
+[Changelog](all/changelog.md)
 
 ---
 
