@@ -1,4 +1,4 @@
-![Suggester Logo](/images/logo.png)
+![Suggester Logo](/images/coverpageLogo.png)
 
 - A Discord bot that helps you manage your server suggestions
 
