@@ -1,14 +1,14 @@
 # Silentdeny
 ---
-### Description
-This command is used to deny a suggestion but not send it to the denied suggestion channel, The user still get DMed.
-### Required Arguments
-`suggestion ID` - The ID of the suggestion that you want to deny silently.
-### Optional Arguments
-`reason` - The reason of denying the suggestion
-### Usage
+### Descripción
+Este comando se usa para denegar una sugerencia pero no se envía al canal de sugerencias denegadas, el usuario recibe un MD.
+### Argumentos Requeridos
+`ID de la sugerencia` - El ID de la sugerencia que quieres denegar de forma silenciosa.
+### Argumentos Opcionales
+`razón` - La razón por la que deniegas la sugerencia.
+### Uso
 ```
-.silentdeny <suggestion ID> (reason)
+.silentdeny [ID de la sugerencia] (razón)
 ```
-### Permission Required
-People with **Manage Server** permission or configured staff role.
+### Permisos Requeridos
+Cualquier usuario con el permiso de **Administrar Servidor**, un rol de administrador configurado o un rol de staff configurado pueden usar este comando.
