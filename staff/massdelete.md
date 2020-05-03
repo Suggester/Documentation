@@ -10,9 +10,9 @@ This command is used to delete multiple suggestions at once.
 ?> You have to separate the suggestions IDs and the reason with `-r`
 ### Usage
 ```
-.massdelete <suggestions IDs> (reason)
+.massdelete [suggestions IDs] (reason)
 ```
 ### Aliases
 `medelete`, `multidelete`
 ### Permission Required
-People with **Manage Server** permission or configured staff role.
+Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.

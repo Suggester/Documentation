@@ -3,7 +3,7 @@
 ### Description
 This command allows staff members to comment on a suggestion. This comment will be displayed publicly in the suggestion embed.
 ### Required Arguments
-`suggestion id` - The ID of the suggestion you want to comment on
+`suggestion ID` - The ID of the suggestion you want to comment on
 
 `comment` - The comment to add to the suggestion
 
