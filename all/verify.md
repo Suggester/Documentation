@@ -1,12 +1,12 @@
 # Verify
 ---
-### Description
-This command is used to show the acknowledgements of a user
-### Optional Arguments
-`user` - The user you want information about, it can userID or mention
-### Usage
+### Descripción
+Este comando se usa para mostrar los reconocimientos de un usuario.
+### Argumentos Opcionales
+`usuario` - El usuario del que quieres obtener la información, puede ser con la ID de usuario o una mencion
+### Uso
 ```
-.verify (user)
+.verify (usuario)
 ```
-### Permission Required
-Anyone can use this command, unless they are blacklisted in the server or globally
+### Permisos Requeridos
+Cualquier usuario puede usar este comando, salvo que esté añadido a la lista negra del servidor o global.

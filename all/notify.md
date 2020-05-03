@@ -1,18 +1,18 @@
 # Notify
 ---
-### Description
-This command is used to manage your notifications from the bot.
-### Required Arguments
-`on` - Turns your notification on.
-`off` - Turns your notification off.
-`toggle` - Change your notification mode to the opposite of your current one.
-### Subcommand
-`self` - This subcommand is used to decide if you get notification when you take action on __your suggestions__.
-### Usage
+### Descripción
+Este comando se usa para gestionar tus notificaciones con el bot.
+### Argumentos Requeridos
+`on` - Activa las notificaciones.
+`off` - Desactiva las notificaciones.
+`toggle` - Cambia el modo de notificación al contrario al que esté configurado.
+### Subcomando
+`self` - Este subcomando es usado para decidir si recibes notificaciones cuando tú mismo tomas una acción sobre __tus sugerencias__.
+### Uso
 ```
 .notify (self) <on|off|toggle>
 ```
-### Aliases
+### Alias
 `notifications`
 ### Permission Required
-Anyone can use this command unless they are blacklisted in the server or globally.
+Cualquier usuario puede usar este comando, salvo que esté añadido a la lista negra del servidor o global.

@@ -1,14 +1,14 @@
 # Help
 ---
-### Description
-This command shows help about either a single command or provides the link to the documentation.
-### Optional Arguments
-`command` - A command name to get detailed help about
-### Usage
+### Descripción
+Este comando muestra la ayuda sobre solamente un comando o provee un link a la documentación.
+### Argumentos Opcionales
+`comando` - El nombre de un comando para obtener ayuda detallada.
+### Uso
 ```
-.help (command)
+.help (comando)
 ```
-### Aliases
+### Alias
 `command`, `howto`
-### Permission Required
-Anyone can use this command, unless they are blacklisted in the server or globally.
+### Permisos Requeridos
+Cualquier usuario puede usar este comando, salvo que esté añadido a la lista negra del servidor o global.
