@@ -8,7 +8,7 @@ This command is used to deny a suggestion but not send it to the denied suggesti
 `reason` - The reason of denying the suggestion
 ### Usage
 ```
-.silentdeny <suggestion ID> (reason)
+.silentdeny [suggestion ID] (reason)
 ```
 ### Permission Required
-People with **Manage Server** permission or configured staff role.
+Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.

@@ -9,4 +9,4 @@ This command is used to show all suggestions awaiting review.
 ### Aliases
 `queue`, `showqueue`
 ### Permission Required
-People with **Manage Server** permission or configured staff role.
+Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.

@@ -6,9 +6,9 @@ This command is used prevent people from using the bot in the server.
 `user` - The user you want to blacklist.
 ### Usage
 ```
-.blacklist <user>
+.blacklist [user]
 ```
 ### Aliases
 `bl`, `disallow`
 ### Permission Required
-People with **Manage Server** permission or configured staff role.
+Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
