@@ -1,18 +1,18 @@
 # Massapprove
 ---
-### Description
-This command is used to approve multiple suggestions at once.
-### Required Arguments
-`suggestions IDs` - The suggestions' IDs that you want to approve.
-### Optional Arguments
-`comment` - Comment you want to include in the suggestion.
+### Descripción
+Este comando se usa para aprobar múltiplas sugerencias a la vez.
+### Argumentos Requeridos
+`IDs de las sugerencias` - Los IDs de las sugerencias que quieres aprobar.
+### Argumentos Opcionales
+`comentario` - El comentario que quieres añadir a las sugerencias.
 
-?> You have to separate the suggestions IDs and the comment with `-r`
-### Usage
+?> Tienes que separa las IDs de las sugerencias y el comentario con `-r`
+### Uso
 ```
-.massapprove <suggestions IDs> (comment)
+.massapprove [IDs de las sugerencias] (comentario)
 ```
-### Aliases
+### Alias
 `mapprove`, `multiapprove`
-### Permission Required
-People with **Manage Server** permission or configured staff role.
+### Permisos Requeridos
+Cualquier usuario con el permiso de **Administrar Servidor**, un rol de administrador configurado o un rol de staff configurado pueden usar este comando.

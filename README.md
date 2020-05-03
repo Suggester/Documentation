@@ -1,7 +1,7 @@
-# Suggester Docs {docsify-ignore-all}
+# Documentación de Suggester {docsify-ignore-all}
 ---
-Suggester is an [open source](https://github.com/Suggester-Bot/Suggester) bot that manages server suggestions, allowing staff to review suggestions before they are posted and manage them in many ways. This site has the documentation of all commands, as well as some other helpful information.
+Suggester es un bot de [código abierto](https://github.com/Suggester-Bot/Suggester) que gestiona las sugerencias del servidor, permitiendo al staff revisar sugerencias antes de que se publiquen y gestionarlas de distintas maneras. Este sitio tiene la documentación de todos los comandos, así como otra información que puede ser de ayuda.
 
-?> All **Usage** sections on these docs will assume that the command prefix is the default `.` prefix that is set when the bot is added to a server. The `config` command gives the option of changing the prefix, and if your server's prefix has been changed you should replace `.` with that prefix.
+?> Todos las secciones de **Uso** en estos documentos asumirá que el prefijo es el predeterminado `.` que se configura cuando elbot es añadido al servidor. El comando `config` da la opción de cambiar el prefijo, y si el prefijo de tu servidor ha cambiado tienes que reemplazar el `.` por el prefijo de tu servidor.
 
-?> In this documentation, arguments in [brackets] are required, while arguments in (parenthesis) are optional. You also should not type out the brackets and parenthesis when using the commands.
+?> En esta documentación, los argumentos entre [corchetes] son obligatorios, mientras que los argumentos entre (paréntesis) son opcionales. Tampoco debes escribir ni los corchetes ni los paréntesis cuando uses los comandos.

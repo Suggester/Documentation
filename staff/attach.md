@@ -1,14 +1,14 @@
 # Attach
 ---
-### Description
-This command is used to attach images to approved suggestions.
-### Required Arguments
-`suggestion ID` - The suggestion ID you want to attach a file to it.
+### Descripción
+Este comando permite adjuntar imágenes a una sugerencia aprobada.
+### Argumentos Requeridos
+`ID de la sugerencia` - El ID de la sugerencia a la que quieres adjuntar el archivo.
 
-`attachment` - It can `jpg` `png` `jpeg` and `gif` file.
-### Usage
+`adjunto` - Puede ser un archivo `jpg` `png` `jpeg` o `gif`.
+### Uso
 ```
-.attach <suggestion ID> <attachment>
+.attach [suggestion ID] [attachment]
 ```
-### Permission Required
-People with **Manage Server** permission or configured staff role.
+### Permisos Requeridos
+Cualquier usuario con el permiso de **Administrar Servidor**, un rol de administrador configurado o un rol de staff configurado pueden usar este comando.

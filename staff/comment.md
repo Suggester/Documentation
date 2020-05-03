@@ -1,16 +1,16 @@
 # Comment
 ---
-### Description
-This command allows staff members to comment on a suggestion. This comment will be displayed publicly in the suggestion embed.
-### Required Arguments
-`suggestion id` - The ID of the suggestion you want to comment on
+### Descripción
+Este comando permite a los miembros del staff añadir un comentario a una sugerencia. El comentario se mostrará públicamente en el embed de la sugerencia.
+### Argumentos Requeridos
+`ID de la sugerencia` - El ID de la sugerencia a la que quieres añadir un comentario.
 
-`comment` - The comment to add to the suggestion
+`comentario` - El comentario a añadir a la sugerencia.
 
-!> A suggestion can have a maximum of 23 comments
-### Usage
+!> Una sugerencia puede tener un máximo de 23 comentarios
+### Uso
 ```
-.comment [suggestion id] [comment]
+.comment [ID de la sugerencia] [comentario]
 ```
-### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+### Permisos Requeridos
+Cualquier usuario con el permiso de **Administrar Servidor**, un rol de administrador configurado o un rol de staff configurado pueden usar este comando.

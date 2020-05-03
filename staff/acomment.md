@@ -1,18 +1,18 @@
 # Acomment
 ---
-### Description
-This command allows staff members to anonymously comment on a suggestion. This comment will be displayed publicly in the suggestion embed.
-### Required Arguments
-`suggestion id` - The ID of the suggestion you want to comment on
+### Descripción
+Este comando permite a los miembros del staff comentar anónimamente una sugerencia. Este comentario se mostrará públicamente en el embed de la sugerencia.
+### Argumentos Requeridos
+`ID de la sugerencia` - El ID de la sugerencia en la que quieres comentar.
 
-`comment` - The comment to add to the suggestion
+`comentario` - El comentario a añadir a la sugerencia.
 
-!> A suggestion can have a maximum of 23 comments
-### Usage
+!> Una sugerencia puede tener un máximo de 23 comentarios
+### Uso
 ```
-.acomment [suggestion id] [comment]
+.acomment [id de la sugerencia] [comentario]
 ```
-### Aliases
+### Alias
 `anonymouscomment`
-### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+### Permisos Requeridos
+Cualquier usuario con el permiso de **Administrar Servidor**, un rol de administrador configurado o un rol de staff configurado pueden usar este comando.

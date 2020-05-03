@@ -1,10 +1,10 @@
 ![Suggester Logo](/images/coverpageLogo.png)
 
-- A Discord bot that helps you manage your server suggestions
+- Un bot de Discord que te ayuda a gestionar las sugerencias de tu servidor.
 
-[Invite](https://discordapp.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=805694544)
-[Get Started](getting-started.md)
-[Support Server](https://discord.gg/G5pEdUp)
+[Invitación](https://discordapp.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=805694544)
+[Primeros Pasos](es/getting-started.md)
+[Servidor de Soporte](https://discord.gg/G5pEdUp)
 
 <!-- background color -->
 

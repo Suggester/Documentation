@@ -1,10 +1,10 @@
 # Vote
 ---
-### Description
-This command is used to show information about voting for suggester on all the bot lists it is on. (You can also check out how to vote [here](es/supporting/info.md))
-### Usage
+### Descripción
+Este comando se usa para mostrar información sbre como votar por suggester en todas las listas de bots en las que está añadido. (También puedes mirar como votar [aquí](es/supporting/info.md))
+### Uso
 ```
 .vote
 ```
-### Permission Required
-Anyone can use this command, unless they are blacklisted in the server or globally
+### Permisos Requeridos
+Cualquier usuario puede usar este comando, salvo que esté añadido a la lista negra del servidor o global.

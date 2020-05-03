@@ -1,12 +1,12 @@
 # Listqueue
 ---
-### Description
-This command is used to show all suggestions awaiting review.
-### Usage
+### Descripción
+Este comando se usa para mostrar todas las sugerencias que esperan una revisión.
+### Uso
 ```
 .listqueue
 ```
-### Aliases
+### Alias
 `queue`, `showqueue`
-### Permission Required
-People with **Manage Server** permission or configured staff role.
+### Permisos Requeridos
+Cualquier usuario con el permiso de **Administrar Servidor**, un rol de administrador configurado o un rol de staff configurado pueden usar este comando.
