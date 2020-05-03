@@ -13,4 +13,4 @@ This command is used to suggest things to the staff team of a server.
 ### Aliases
 `submit`
 ### Permission Required
-Anyone can use this command, unless they are blacklisted in the server or globally.
+Anyone can use this command, unless they are blacklisted in the server or globally or the server admins have set up an Allowed Suggestion Role.

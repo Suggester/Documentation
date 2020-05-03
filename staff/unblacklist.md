@@ -6,9 +6,9 @@ This command is used to let blacklisted people use the bot in the server again.
 `user` - The user you want to unblacklist.
 ### Usage
 ```
-.unblacklist <user>
+.unblacklist [user]
 ```
 ### Aliases
 `unbl`, `allow`
 ### Permission Required
-People with **Manage Server** permission or configured staff role.
+Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.

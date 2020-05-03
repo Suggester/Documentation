@@ -17,9 +17,9 @@ This command is used to change the status of a suggestion.
 
 ### Usage
 ```
-.mark <suggestion ID> <status>
+.mark [suggestion ID] [status]
 ```
 ### Aliases
 `status`
 ### Permission Required
-People with **Manage Server** permission or configured staff role.
+Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
