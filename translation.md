@@ -1,4 +1,5 @@
-# Translating the Docs
+# Documentation Translations
 
-If you are interested in translating the docs, you will need to be a translator for the bot [(Check the support server for more info)](https://discord.gg/G5pEdUp).
-If you are a translator for the bot, please DM ModMail in the support server and ask if you can translate the docs, the members of the support team will make everything ready for you and you will be given instructions. The translations are done via github, so if you are unsure about how it works, check out [this](https://help.github.com/en/github)
+If you are interested in helping translate Suggester's documentation, you will need to be a part of our translation team! If you are not yet part of the translation team, hit us up in our support server and we'll get you started!
+More info can be found [here](https://discord.gg/G5pEdUp)! Otherwise, send `@Suggester Support#5646` a DM saying that you're interested in helping translate the documentation so we can get everything ready for you and get you started. We will be doing translations through GitHub, so having a basic understanding of how [Git](https://git-scm.com/docs/gittutorial) and/or [GitHub](https://help.github.com/en/github) work would definitely be in your best interest.
+If, at any point in the translation process, you have any questions, feel free to send `@Suggester Support#5646` a DM and we will be happy to assist you.
