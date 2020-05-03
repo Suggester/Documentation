@@ -1,13 +1,13 @@
 # Setup
 ---
-### Description
-This command is used to set up the server through interactive guide.
+### Descripción
+Este comando es usado para configurar el servidor a través de una guía interactiva.
 
-!>Initiating setup will wipe all the settings currently set on your server. If you already have configuration elements set, the bot will warn you and give you a chance to abort the command. Once you have confirmed you would like to initiate setup, there is no going back. If you want to configure the bot without clearing all your settings, take a look at the [config](es/admin/config.md) command.
+!>Iniciar la configuración borrará todos los ajustes que tengas actualmente en tu servidor. Si tienes algún elemento congigurado el bot de avisará y te dará la opción de abortar el comando. Una vez hayas confirmado que te gustaría iniciar la configuración no hay vuelta atrás. Si te gustase configurar el servidor sin borrar tus ajustes actuales echa un ojo al comando [config](es/admin/config.md).
 
-### Usage
+### Uso
 ```
 .setup
 ```
-### Permission Required
-People with **Manage Server** permission or configured admin role.
+### Permisos Requeridos
+Cualquier usuario con el permiso de **Administrar Servidor** o un rol de administrador configurado.
