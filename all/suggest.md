@@ -13,4 +13,4 @@ Este comando es usado para realizar sugerencias al staff de un servidor.
 ### Alias
 `submit`
 ### Permisos Requeridos
-Cualquier usuario puede usar este comando, salvo que esté añadido a la lista negra del servidor o global.
+Cualquier usuario puede usar este comando, salvo que esté añadido a la lista negra del servidor o global o los administradores del servidor hayan configurado Roles con Permiso para Sugerir.
