@@ -11,4 +11,4 @@ This command is used to approve suggestions in review mode.
 .approve [suggestion ID]
 ```
 ### Permission Required
-People with **Manage Server** permission or configured staff role.
+Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
