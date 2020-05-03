@@ -161,7 +161,7 @@ This command is used to set various settings without needing to go through the f
 ### `implemented`
 ## Function
 
-**The channel where all suggestions that have been marked as __implemented__ using the [mark](/staff/mark.md) command are sent.**
+**The channel where all suggestions that have been marked as __implemented__ using the [mark](NAME_OF_LANG/staff/mark.md) command are sent.**
 
 **Using** `none` **as the channel will remove the implemented archive channel if there is one set.**
 
