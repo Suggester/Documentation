@@ -1,14 +1,14 @@
 # Deletecomment
 ---
-### Description
-This command is used to delete a comment from a suggestion.
-### Required Arguments
-`comment ID` - The ID of the comment you want to delete.
-### Usage
+### Descripción
+Este comando es usado para borrar un comentario de una sugerencia.
+### Argumentos Requeridos
+`ID del comentario` - El ID del comentario que quieres eliminar.
+### Uso
 ```
-.deletecomment <comment ID>
+.deletecomment [ID del comentario]
 ```
-### Aliases
+### Alias
 `delcomment`, `dcomment`, `rmcomment`
-### Permission Required
-People with **Manage Server** permission or configured staff role.
+### Permisos Requeridos
+Cualquier usuario con el permiso de **Administrar Servidor**, un rol de administrador configurado o un rol de staff configurado pueden usar este comando.
