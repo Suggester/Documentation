@@ -270,7 +270,7 @@ This command is used to set various settings without needing to go through the f
 
 ## Valid Inputs
 
-**Channel ID, name or #mention**
+`enable`, `disable` **or** `toggle`
 
 ## Usage
 
