@@ -1,13 +1,13 @@
-# Getting started {docsify-ignore-all}
+# Primeros Pasos {docsify-ignore-all}
 ---
 
-## **Step 1: Invite the Bot**
-You can invite the bot using [this link](https://discordapp.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=805694544). The bot needs all permissions shown in order to function correctly. If these permissions are not present some functions may not work. The bot can be invited to any server where you have the **Manage Server** permission.
+## **Paso 1: Invita al Bot**
+Puedes invitar al bot usando [este enlace](https://discordapp.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=805694544). El bot necesita todos los permisos para poder funcionar correctamente. Si estos permisos no están presentes algunas funciones podrían no funcionar. El bot puede ser invitado a cualquier servidor en el que tengas el permiso de **Administrar Servidor**.
 
-## **Step 2: Configure the Bot**
-In order for the bot to work, it must be configured. See the [setup](es/admin/setup.md) documentation page for more information about how to start configuring the bot!
+## **Paso 2: Configurar el Bot**
+Para poder funcionar, el bot debe ser configurado. ¡Mira la página de la documentación [setup](es/admin/setup.md) para encontrar más información sobre como empezar a configurar el bot!
 
-## **Step 3: Get suggesting!**
-You and your members can now use the [suggest](es/all/suggest.md) command to suggest stuff.
+## **Paso 3: ¡Empieza a sugerir!**
+Tu y tus miembros del servidor puedes usar ahora el comando [suggest](es/all/suggest.md) para realizar sugerencias.
 
-?> If you have any issues configuring the bot, please join our [support server](https://discord.gg/G5pEdUp) to receive assistance!
+?> Si tienes algún problema configurando el bot, por favor, ¡únete a nuestro [servidor de soporte](https://discord.gg/G5pEdUp) para recibir asistencia!

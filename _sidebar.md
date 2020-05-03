@@ -1,9 +1,9 @@
-[Suggester Docs](es/)
-[Getting started](es/getting-started.md)
+[Documentación de Suggester](es/)
+[Primeros Pasos](es/getting-started.md)
 
 ---
 
-**PUBLIC COMMANDS**
+**COMANDOS PÚBLICOS**
 [Suggest](es/all/suggest.md)
 [Help](es/all/help.md)
 [Ping](es/all/ping.md)
@@ -17,7 +17,7 @@
 
 ---
 
-**STAFF COMMANDS**
+**COMANDOS DEL STAFF**
 [Approve](es/staff/approve.md)
 [Deny](es/staff/deny.md)
 [Silentdeny](es/staff/silentdeny.md)
@@ -38,19 +38,19 @@
 
 ---
 
-**ADMIN COMMANDS**
+**COMANDOS DE ADMINISTRADOR**
 [Autosetup](es/admin/autosetup.md)
 [Setup](es/admin/setup.md)
 [Config](es/admin/config.md)
 
 ---
 
-**SUPPORTING THE BOT**
-[Info](es/supporting/info.md)
+**APOYANDO AL BOT**
+[Información](es/supporting/info.md)
 
 ---
 
-**FURTHER RESOURCES**
-[Support Server](https://discord.gg/G5pEdUp)
-[Invite the Bot!](https://discordapp.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=805694544)
-[Translating the docs](es/translation.md)
+**OTROS RECURSOS**
+[Servidor de Soporte](https://discord.gg/G5pEdUp)
+[¡Invita al bot!](https://discordapp.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=805694544)
+[Traducción de la Documentación](es/translation.md)
