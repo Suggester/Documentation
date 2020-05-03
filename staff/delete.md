@@ -1,14 +1,14 @@
 # Delete
 ---
-### Description
-This command is used to delete an approved suggestion.
-### Required Arguments
-`suggestion ID` - The ID of the suggestion you want to delete.
-### Optional Arguments
-`reason` - The reason of deleting the suggestion.
-### Usage
+### Descripción
+Este comando se usa para eliminar una sugerencia aprobada.
+### Argumentos Requeridos
+`ID de la sugerencia` - El ID de la sugerencia que quieres eliminar.
+### Argumentos Opcionales
+`razón` - La razón de la eliminación de la sugerencia.
+### Uso
 ```
-.delete <suggestion ID> (reason)
+.delete [ID de la sugerencia] (razón)
 ```
-### Permission Required
-People with **Manage Server** permission or configured staff role.
+### Permisos Requeridos
+Cualquier usuario con el permiso de **Administrar Servidor**, un rol de administrador configurado o un rol de staff configurado pueden usar este comando.
