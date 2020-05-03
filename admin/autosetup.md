@@ -1,13 +1,13 @@
 # Autosetup
 ---
 ### Description
-This command is used to automatically set up server channels/roles to work with Suggester.
+Cette commande permet d'automatiquement préparer votre serveur (rôles et channels) afin que Suggester soit fonctionnel.
 
-!>Initiating automatic setup will change some of the settings currently set on your server. It will also create several new channels on your server. If you are looking for other configuration options, take a look at the [setup](fr/admin/setup.md) or [config](fr/admin/config.md) commands.
+!> Lancer la configuration automatique modifiera certains paramètres définis sur votre serveur et y créera plusieurs channels. Pour un guide détaillé des autres options de configuration, visitez le mode d'emploi des commandes [setup](fr/admin/setup.md) et [config](fr/admin/config.md).
 
-### Usage
+### Utilisation
 ```
 .autosetup
 ```
-### Permission Required
-People with **Manage Server** permission or configured admin role.
+### Permission Requise
+Personnes disposant de la permission ** Gérer le serveur ** ou ayant le rôle admin configuré.
