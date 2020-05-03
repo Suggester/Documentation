@@ -1,5 +1,5 @@
-# Documentation Translations
+# Traducción de la Documentación
 
-If you are interested in helping translate Suggester's documentation, you will need to be a part of our translation team! If you are not yet part of the translation team, hit us up in our support server and we'll get you started!
-More info can be found [here](https://discord.gg/G5pEdUp)! Otherwise, send `@Suggester Support#5646` a DM saying that you're interested in helping translate the documentation so we can get everything ready for you and get you started. We will be doing translations through GitHub, so having a basic understanding of how [Git](https://git-scm.com/docs/gittutorial) and/or [GitHub](https://help.github.com/en/github) work would definitely be in your best interest.
-If, at any point in the translation process, you have any questions, feel free to send `@Suggester Support#5646` a DM and we will be happy to assist you.
+Si estás interesado en ayudar a traducir la documentación de Suggester, ¡necesitarás ser parte de nuestro equipo de traducción! Si aún no eres parte del equipo, ¡avísanos en nuestro servidor de soporte y te ayudaremos para que puedas empezar!
+¡Puedes encontrar más información [aquí](https://discord.gg/G5pEdUp)! También puedes enviar un MD a `@Suggester Support#5646` diciendo que estás interesado en ayudar a traducir la documentación para que podamos preparar todo para que empieces cuanto antes. Estaremos realizando las traducciones a través de GitHub, por lo que te interesaría tener un conocimiento básico de como funciona [Git](https://git-scm.com/docs/gittutorial) y/o [GitHub](https://help.github.com/en/github).
+Si, en algún punto del proceso de traducción, tienes alguna pregunta, siéntete libre de enviar un MD a `@Suggester Support#5646` para que podamos ayudarte.
