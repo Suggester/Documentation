@@ -1,306 +1,308 @@
 # Config
 
 ### Description
-This command is used to set various settings without needing to go through the full setup.
-### Optional Arguments
-`list` - This argument is used to show current server settings.
+Cette commande est utilisée pour définir divers paramètres sans recommencer l'installation complète.
+
+### Arguments Facultatifs
+`list` - Cet argument est utilisé pour afficher la configuration actuelle.
 
 `element` - If this is used without any other argument, it will show current settings for that element.
 
 
-*For configuration*
+*Pour la configuration*
 
 <!-- tabs:start -->
-#### **Admin Roles**
-## Config Element
+#### **Rôles Admins**
+## Élément de configuration
 
 ### `admin`
-## Function
+## Utilité
 
-**Anyone with any of these roles inherits staff permissions, but also has permission to configure server settings.**
+**Quiconque ayant un de ces rôles dispose des permissions staff, mais a également la possibilité de modifier la configuration du serveur.**
 
-## Valid Inputs
+## Entrées Valides
 
-**Role name, ID, or @mention**
+**Nom d'un rôle, ID, ou @mention**
 
-## Usage
+## Utilisation
 
 `config admin [add/remove/list] [role]`
 
-#### **Staff Roles**
+#### **Rôles Staff**
 
-## Config Element
+## Élément de configuration
 
 ### `staff`
-## Function
+## Utilité
 
-**Anyone with any of these roles has permission to accept and deny suggestions, as well as interact with them in other ways.**
+**Quiconque ayant un de ces rôles dispose de la permission d'approuver et de refuser des suggestions, ainsi qu'intéragir avec ces dernières par d'autres moyens.**
 
-## Valid Inputs
+## Entrées Valides
 
-**Role name, ID, or @mention**
+**Nom d'un rôle, ID, ou @mention**
 
-## Usage
+## Utilisation
 
 `config staff [add/remove/list] [role]`
 
-#### **Allowed Suggestion Roles**
+#### **Rôles Autorisés à Suggérer**
 
-## Config Element
+## Élément de configuration
 
 ### `allowed`
-## Function
+## Utilité
 
-**Anyone with any of these roles (or a staff/admin role) can submit suggestions. If no allowed roles are set, all members can submit suggestions.**
+**Quiconque ayant un de ces rôles (ou un rôle staff/admin) peut soumettre des suggestions. Si aucun rôle n'est défini, tout le monde pourra soumettre des suggestions.**
 
-?> This is useful for locking suggesting to only some members of your server!
+?> C'est très pratique pour limiter l'envoi de suggestions à certaines personnes!
 
-## Valid Inputs
+## Entrées Valides
 
-**Role name, ID, or @mention**
+**Nom d'un rôle, ID, ou @mention**
 
-## Usage
+## Utilisation
 
 `config allowed [add/remove/list] [role]`
 
-#### **Approved Suggestion Role**
+#### **Rôle de suggestion approuvée**
 
-## Config Element
+## Élément de configuration
 
 ### `approvedrole`
-## Function
+## Utilité
 
-**When a member's suggestion is approved they will automatically receive this role.**
+**Quand la suggestion d'un membre est approuvée, son auteur(e) recevra ce rôle.**
 
-**Using** `none` **as the value will remove the approved suggestion role if there is one set.**
+**Utiliser** `none` **comme rôle retirera l'ancien si il y en a un défini.**
 
-## Valid Inputs
+## Entrées Valides
 
-**Role name, ID, or @mention**
+**Nom d'un rôle, ID, ou @mention**
 
-## Usage
+## Utilisation
 
 `config approvedrole [role]`
 
-#### **Review Channel**
+#### **Channel de Review**
 
-## Config Element
+## Élément de configuration
 
 ### `review`
-## Function
+## Utilité
 
-**The channel where suggestions are sent immediately after submission to be reviewed by staff. (Only if the mode is set to *review*)**
+**C'est le channel où seront envoyées toutes les suggestions en attente d'approbation par le staff (uniquement si le mode est défini sur *review*)**
 
-## Valid Inputs
+## Entrées Valides
 
-**Channel ID, name or #mention**
+**Nom d'un channel, ID, ou #mention**
 
-## Usage
+## Utilisation
 
 `config review [channel]`
 
-#### **Approved Suggestions Channel**
+#### **Channel des Suggestions Approuvées**
 
-## Config Element
+## Élément de configuration
 
 ### `suggestions`
-## Function
+## Utilité
 
-**The channel where approved suggestions are posted. (If the mode is set to *autoapprove* then suggestions are automatically posted here)**
+**Le channel où les suggestions approuvées sont postées (si le mode est défini sur *autoapprove*, les suggestions seront automatiquement postées dans ce channel)**
 
-## Valid Inputs
+## Entrées Valides
 
-**Channel ID, name or #mention**
+**Nom d'un channel, ID, ou #mention**
 
-## Usage
+## Utilisation
 
 `config suggestions [channel]`
 
-#### **Denied Suggestions Channel**
+#### ** Channel des Suggestions Refusées**
 
-## Config Element
+## Élément de configuration
 
 ### `denied`
-## Function"
+## Utilité
 
-**The channel where suggestions that are denied/deleted are posted.**
+**Le channel où sont postées les suggestions refusées/supprimées.**
 
-**Using** `none` **as the channel will remove the denied suggestions channel if there is one set.**
+**Utiliser** `none` ** comme channel retirera l'ancien si il y en a un défini.**
 
-## Valid Inputs
+## Entrées Valides
 
-**Channel ID, name or #mention or** `none`
+**Nom d'un channel, ID, #mention ou** `none`
 
-## Usage
+## Utilisation
 
 `config denied [channel]`
 
-#### **Log Channel**
+#### **Channel de Logs**
 
-## Config Element
+## Élément de configuration
 
 ### `logs`
-## Function
+## Utilité
 
-**The channel where all actions taken on suggestions are logged.**
+**Le channel où toutes les actions prises sur des suggestions seront logguées.**
 
-**Using** `none` **as the channel will remove the log channel if there is one set.**
+**Utiliser** `none` **comme channel retirera l'ancien si il y en a un défini.**
 
-## Valid Inputs
+## Entrées Valides
 
-**Channel ID, name or #mention or** `none`
+**Nom d'un channel, ID, #mention ou** `none`
 
-## Usage
+## Utilisation
 
 `config logs [channel]`
 
-#### **Implemented Archive Channel**
+#### **Channel d'Archive des Suggestions Implementées**
 
-## Config Element
+## Élément de configuration
 
 ### `implemented`
-## Function
+## Utilité
 
-**The channel where all suggestions that have been marked as __implemented__ using the [mark](fr/staff/mark.md) command are sent.**
+**Le channel où toutes les suggestions marquées comme __Implémentées__ via la commande [mark](fr/staff/mark.md) seront envoyées.**
 
-**Using** `none` **as the channel will remove the implemented archive channel if there is one set.**
+**Utiliser** `none` **comme channel retirera l'ancien si il y en a un défini.**
 
-## Valid Inputs
+## Entrées Valides
 
-**Channel ID, name or #mention or** `none`
+**Nom d'un channel, ID, #mention ou** `none`
 
-## Usage
+## Utilisation
 
 `config implemented [channel]`
 
-#### **Suggestion Command Channel**
+#### **Channel des Commandes de Suggestion**
 
-## Config Element
+## Élément de configuration
 
 ### `commands`
-## Function
+## Utilité
 
-**The channel where the** `suggest` **command can be used. (If this is not set the suggest command can be used in any channel)**
+**Le channel où la commande** `suggest` **peut être utilisée (si ce n'est pas défini, la commande pourra être utilisée dans n'importe quel channel)**
 
-?> This is useful for keeping suggest commands out of chat channels!
+?> C'est très pratique pour garder les commandes de suggestion hors des channels de chat!
 
-**Using** `none` **as the channel will remove the implemented archive channel if there is one set.**
+**Utiliser** `none` **comme channel retirera l'ancien si il y en a un défini.**
 
-## Valid Inputs
+## Entrées Valides
 
-**Channel ID, name or #mention or** `none`
+**Nom d'un channel, ID, #mention ou** `none`
 
-## Usage
+## Utilisation
 
 `config commands [channel]`
 
-#### **Reaction Emojis**
+#### **Émojis de réaction**
 
-## Config Element
+## Élément de configuration
 
 ### `emojis`
-## Function
+## Utilité
 
-**The emojis that should be reacted on approved suggestions. The defaults are 👍, 🤷, and 👎 for upvote, shrug, and downvote respectively.**
+**Les émojis affichés en réactions sur les  suggestions approuvées. Par défaut, 👍, 🤷, et 👎 représentent respectivelent un avis positif (pour/upvote), sans opinion (shrug) et un avis négatif (contre/downvote).**
 
-**Selecting** `disable` **for an emote disables it - meaning it won't be added to future approved suggestions.**
+**Selectionner** `disable` **pour un des trois émojis le désactivera, ce qui signifie qu'il ne sera pas ajouté sur les futures suggestions approuvées.**
 
-**The** `toggle`/`enable`/`disable` **parameters will edit the setting controlling reactions to suggestion feed posts - this is *enabled* by default.**
+**Les paramètres** `toggle`**,** `enable` **et** `disable` **modifieront le paramètre qui fait que les réactions sont ajoutées dans le fil de suggestions, c'est activé par défaut.**
 
-## Valid Inputs
+## Entrées Valides
 
-**Unicode or custom emoji from the server.**
+**Émoji Unicode ou personalisé provenant du serveur**
 
-## Usage
+## Utilisation
 
 `config emojis [upvote/shrug/downvote/toggle/enable/disable] [emoji/disable]`
 
-#### **Notify Settings**
+#### **Paramètres de Notification**
 
-## Config Element
+## Élément de configuration
 
 ### `notify`
-## Function
+## Utilité
 
-**The** `notify` **element specifies whether server members should be notified through DM when actions are taken on their suggestions.**
+**L'élément** `notify` **précise si les membres du serveur doivent être notifiés ou non via MP lorsque des actions sont prises sur leurs suggestions.**
 
-**This is *enabled* by default.**
+**C'est activé par défaut.**
 
-## Valid Inputs
+## Entrées Valides
 
-`enable`, `disable`, **or** `toggle`
+`enable`, `disable` **ou** `toggle`
 
-## Usage
+## Utilisation
 
 `config notify [enable/disable/toggle]`
 
-#### **Suggestions Mode**
+#### **Mode de Suggestion**
 
-## Config Element
+## Élément de configuration
 
 ### `mode`
-## Function
+## Utilité
 
-**The** `mode` **element configures the mode of suggestion handling.**
+**L'élément** `mode` **détermine le mode de gestion des suggestions.**
 
-**Setting this to** `review` **will put all suggestions through the review process before sending them to the suggestions channel.**
+**Définir ce paramètre sur** `review` **fera passer toutes les suggestions dans un processus d'approbation avant de les envoyer dans le channel des suggestions approuvées.**
 
-**Setting this to** `autoapprove` **will automatically send all submitted suggestions to the suggestions feed.**
+**Définir ce paramètre sur** `autoapprove` **enverra automatiquement les suggestions soumises dans le fil de suggestions.**
 
-## Valid Inputs
+## Entrées Valides
 
-`review` **or** `autoapprove`
+`review` **ou** `autoapprove`
 
-## Usage
+## Utilisation
 
 `config mode [review/autoapprove]`
 
-#### **Auto-Clean Suggestion Channel**
+#### **Nettoyage Automatique des Commmandes de Suggestion**
 
-## Config Element
+## Élément de configuration
 
 ### `cleancommands`
-## Function
+## Utilité
 
-**This element specifies whether or not suggestion commands and responses are deleted after a few seconds.**
+**Cet élément détermine si les commandes de suggestions et leurs réponses doivent être suprimées après quelques secondes.**
 
-**This is *disabled* by default.**
+**C'est desactivé par défaut.**
 
-?> This is useful for keeping your suggestion channel clean!
+?> C'est utile pour garder vos channels propres! 
 
-## Valid Inputs
+## Entrées Valides
+`enable`, `disable` **ou** `toggle`
 
-`enable`, `disable` **or** `toggle`
-
-## Usage
+## Utilisation
 
 `config cleancommands [enable/disable/toggle]`
 
-#### **Prefix**
+#### **Préfixe**
 
-## Config Element
+## Élément de configuration
 
 ### `prefix`
-## Function
+## Utilité
 
-**The prefix that all commands start with Example: in** `.command` **the prefix is** `.`
+**Le préfixe avec lequel toutes les commandes commencent.**
 
-## Valid Inputs
+**Example: in** `.command` **the prefix is** `.`
 
-**Any string with no spaces**
+## Entrées Valides
 
-## Usage
+**N'importe quelle chaine de caractères sans espace**
+
+## Utilisation
 
 `config prefix [prefix]`
 
 <!-- tabs:end -->
 
 
-### Usage
+### Utilisation
 ```
 .config (element) (additional parameters)
 ```
 ### Aliases
 `serverconfig`, `cfg`, `configure`
-### Required Permissions
-People with **Manage Server** permission or configured admin role.
+### Permissions Requises
+Toutes les personnes ayant la permission **Gérer le serveur**, ou le rôle admin configuré.
