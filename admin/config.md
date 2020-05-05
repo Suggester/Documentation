@@ -6,7 +6,7 @@ Cette commande est utilisée pour définir divers paramètres sans recommencer l
 ### Arguments Facultatifs
 `list` - Cet argument est utilisé pour afficher la configuration actuelle.
 
-`element` - If this is used without any other argument, it will show current settings for that element.
+`element` - Si ceci est utilisé sans autre argument, cela affichera les paramètres actuels pour l'élément spécifié.
 
 
 *Pour la configuration*
@@ -289,7 +289,7 @@ Cette commande est utilisée pour définir divers paramètres sans recommencer l
 
 ## Entrées Valides
 
-**N'importe quelle chaine de caractères sans espace**
+**N'importe quelle chaîne de caractères sans espace**
 
 ## Utilisation
 
@@ -304,5 +304,5 @@ Cette commande est utilisée pour définir divers paramètres sans recommencer l
 ```
 ### Aliases
 `serverconfig`, `cfg`, `configure`
-### Permissions Requises
+### Permission Requise
 Toutes les personnes ayant la permission **Gérer le serveur**, ou le rôle admin configuré.
