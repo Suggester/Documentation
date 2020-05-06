@@ -1,14 +1,14 @@
 # Help
 ---
 ### Description
-This command shows help about either a single command or provides the link to the documentation.
-### Optional Arguments
-`command` - A command name to get detailed help about
-### Usage
+Cette commande affiche le message d'aide lié à une commande en particulier ou fournit le lien du [mode d'emploi](https://suggester.js.org/#/fr/).
+### Arguments Optionnels
+`command` - Le nom d'une commande pour obtenir de l'aide avec cette dernière.
+### Utilisation
 ```
 .help (command)
 ```
 ### Aliases
 `command`, `howto`
-### Permission Required
-Anyone can use this command, unless they are blacklisted in the server or globally.
+### Permission Requise
+N'importe qui peut utiliser cette commande, sauf si l'utilisateur est blacklisté sur le serveur ou globalement.
