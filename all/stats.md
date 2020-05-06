@@ -1,12 +1,13 @@
 # Stats
 ---
 ### Description
-This command is used to check the stats of suggester, Globally and in the server.
-### Usage
+Cette commande sert à afficher les statistiques de Suggester, globalement et dans le serveur.
+
+### Utilisation
 ```
 .stats
 ```
 ### Aliases
 `statistics`
-### Permission Required
-Anyone can use this command, unless they are blacklisted in the server or globally.
+### Permission Requise
+N'importe qui peut utiliser cette commande, sauf si l'utilisateur est blacklisté sur le serveur ou globalement.
