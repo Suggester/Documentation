@@ -1,12 +1,12 @@
 # Ping
 ---
 ### Description
-This command is used to show the response time of the bot.
-### Usage
+Cette commande sert à afficher le temps de réponse du bot.
+### Utilisation
 ```
 .ping
 ```
 ### Aliases
-`hi`, `bot`, `about`, `bot`
-### Permission Required
-Anyone can use this command, unless they are blacklisted in the server or globally.
+`hi`, `bot`, `about`
+### Permission Requise
+N'importe qui peut utiliser cette commande, sauf si l'utilisateur est blacklisté sur le serveur ou globalement.
