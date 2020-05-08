@@ -202,11 +202,11 @@ Cette commande est utilisée pour définir divers paramètres sans recommencer l
 ### `emojis`
 ## Utilité
 
-**Les émojis affichés en réactions sur les  suggestions approuvées. Par défaut, 👍, 🤷, et 👎 représentent respectivelent un avis positif (pour/upvote), sans opinion (shrug) et un avis négatif (contre/downvote).**
+**Les émojis affichés en réactions sur les  suggestions approuvées. Par défaut, 👍, 🤷, et 👎 représentent respectivement un avis positif (pour/upvote), sans opinion (shrug) et un avis négatif (contre/downvote).**
 
 **Selectionner** `disable` **pour un des trois émojis le désactivera, ce qui signifie qu'il ne sera pas ajouté sur les futures suggestions approuvées.**
 
-**Les paramètres** `toggle`**,** `enable` **et** `disable` **modifieront le paramètre qui fait que les réactions sont ajoutées dans le fil de suggestions, c'est activé par défaut.**
+**Les paramètres** `toggle`**,** `enable` **et** `disable` **modifieront le paramètre qui fait que les réactions sont ajoutées dans le fil de suggestions (activé par défaut).**
 
 ## Entrées Valides
 
@@ -216,7 +216,7 @@ Cette commande est utilisée pour définir divers paramètres sans recommencer l
 
 `config emojis [upvote/shrug/downvote/toggle/enable/disable] [emoji/disable]`
 
-#### **Paramètres de Notification**
+#### **Paramètres de Notifications**
 
 ## Élément de configuration
 
@@ -256,7 +256,7 @@ Cette commande est utilisée pour définir divers paramètres sans recommencer l
 
 `config mode [review/autoapprove]`
 
-#### **Nettoyage Automatique des Commmandes de Suggestion**
+#### **Nettoyage Automatique des Commandes de Suggestion**
 
 ## Élément de configuration
 
@@ -285,7 +285,7 @@ Cette commande est utilisée pour définir divers paramètres sans recommencer l
 
 **Le préfixe avec lequel toutes les commandes commencent.**
 
-**Example: in** `.command` **the prefix is** `.`
+**Exemple: dans** `.commande` **le préfixe est** `.`
 
 ## Entrées Valides
 
@@ -300,7 +300,7 @@ Cette commande est utilisée pour définir divers paramètres sans recommencer l
 
 ### Utilisation
 ```
-.config (element) (additional parameters)
+.config (élément) (paramètres)
 ```
 ### Aliases
 `serverconfig`, `cfg`, `configure`
