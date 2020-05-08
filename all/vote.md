@@ -1,10 +1,10 @@
 # Vote
 ---
 ### Description
-Cette commande est utilisée pour afficher des informations sur les votes pour Suggester sur toutes les listes de bots dans lesquelles il se trouve. (Vous pouvez aussi découvrir comment voter [ici](supporting/info.md))
-### Utilisation
+This command is used to show information about voting for suggester on all the bot lists it is on. (You can also check out how to vote [here](supporting/info.md))
+### Usage
 ```
 .vote
 ```
 ### Permission Required
-N'importe qui peut utiliser cette commande, sauf si l'utilisateur est blacklisté sur le serveur ou globalement.
+Anyone can use this command, unless they are blacklisted in the server or globally
