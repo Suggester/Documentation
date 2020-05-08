@@ -1,14 +1,14 @@
 # Approve
 ---
 ### Description
-This command is used to approve suggestions in review mode.
-### Required Arguments
-`suggestion ID` - The ID of the suggestion you want to approve.
-### Optional Arguments
-`comment` - Comment you want to include in the suggestion.
-### Usage
+Cette commande permet d'approuver des suggestions quand le mode est défini sur ``review``.
+### Argument Requis
+`ID de suggestion` - L'ID de la suggestion que vous souhaitez approuver.
+### Argument Facultatif
+`commentaire` - Le commentaire à inclure avec la suggestion.
+### Utilisation
 ```
-.approve [suggestion ID] (comment)
+.approve [ID de suggestion] (commentaire)
 ```
-### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+### Permission Requise
+Toutes les personnes ayant la permission **Gérer le serveur**, le rôle admin configuré ou le rôle staff configuré.
