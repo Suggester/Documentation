@@ -1,14 +1,14 @@
 # Deny
 ---
 ### Description
-This command is used to deny a suggestions in review mode.
-### Required Arguments
-`suggestion ID` - The ID of the suggestion you want to deny.
-### Optional Arguments
-`reason` - The reason of denying the suggestion.
-### Usage
+Cette commande permet de refuser des suggestions quand le mode est défini sur ``review``.
+### Argument Requis
+`ID de suggestion` - L’ID de la suggestion que vous souhaitez refuser.
+### Argument Facultatif
+`raison` - La raison du refus de la suggestion.
+### Utilisation
 ```
-.deny [suggestion ID] (reason)
+.deny [ID de suggestion] (raison)
 ```
-### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+### Permission Requise
+Toutes les personnes ayant la permission **Gérer le serveur**, un rôle admin configuré ou un rôle staff configuré.
