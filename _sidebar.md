@@ -57,4 +57,4 @@
 ---
 
 **STATS***
-[Stats on Suggester](stats.md)
+[Stats on Suggester](botstats.md)
