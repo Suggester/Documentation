@@ -57,4 +57,4 @@
 ---
 
 **STATS**
-[Stats on suggester](NAME_OF_LANG/all/botstats.md)
+[Stats on suggester](NAME_OF_LANG/botstats.md)
