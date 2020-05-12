@@ -51,6 +51,10 @@
 ---
 
 **FURTHER RESOURCES**
-[Support Server](https://discord.gg/G5pEdUp)
-[Invite the Bot!](https://discordapp.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=805694544)
+[Useful Links](NAME_OF_LANG/usefullinks.md)
 [Translating the docs](NAME_OF_LANG/translation.md)
+
+---
+
+**STATS**
+[Stats on suggester](NAME_OF_LANG/all/botstats.md)
