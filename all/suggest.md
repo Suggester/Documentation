@@ -1,16 +1,16 @@
 # Suggest
 ---
 ### Description
-This command is used to suggest things to the staff team of a server.
-### Required Arguments
-`suggestion` - The suggestion you want to submit, it can include anything.
+Cette commande permet de soumettre des suggestions au staff du serveur.
+### Argument Requis
+`suggestion` - La suggestion que vous souhaitez soumettre.
 
-?> You can include attachments with your suggestion, you can add it by attaching it as a file, the attachment can be `jpg`, `png`, `jpeg` or `gif`.
-### Usage
+?> Vous pouvez y joindre des fichiers en les attachant à la commande (les formats supportés sont `jpg`, `png`, `jpeg` et `gif`).
+### Utilisation
 ```
 .suggest [suggestion]
 ```
-### Aliases
+### Alias
 `submit`
-### Permission Required
-Anyone can use this command, unless they are blacklisted in the server or globally or the server admins have set up an Allowed Suggestion Role.
+### Permission Requise
+N'importe qui peut utiliser cette commande, sauf si l'utilisateur est blacklisté sur le serveur ou globalement.
