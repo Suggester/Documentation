@@ -1,14 +1,14 @@
 # Blacklist
 ---
 ### Description
-This command is used prevent people from using the bot in the server.
-### Required Arguments
-`user` - The user you want to blacklist.
-### Usage
+Cette commande permet d'empêcher les gens d'utiliser le bot sur le serveur.
+### Argument Requis
+`user` - L'utilisateur que vous souhaitez blacklister.
+### Utilisation
 ```
 .blacklist [user]
 ```
 ### Aliases
 `bl`, `disallow`
-### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+### Permission Requise
+Toutes les personnes ayant la permission **Gérer le serveur**, un rôle admin configuré ou un rôle staff configuré.
