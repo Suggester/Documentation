@@ -8,7 +8,7 @@ All useful links that relate to the bot.
 
 # Bot Invite
 ---
-### To invite our bot, [click here to invite the bot!](https://discordapp.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=805694544)
+### To invite our bot, [click here to invite the bot!](https://discord.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=805694544)
 
 #### **Support Server**
 
