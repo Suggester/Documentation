@@ -3,7 +3,7 @@
 ### Description
 This command is used to show the acknowledgements of a user
 ### Optional Arguments
-`user` - The user you want information about, it can userID or mention
+`user` - The user you want information about, it can be a user ID or a mention
 ### Usage
 ```
 .verify (user)
