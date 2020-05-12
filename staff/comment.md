@@ -1,16 +1,16 @@
 # Comment
 ---
 ### Description
-This command allows staff members to comment on a suggestion. This comment will be displayed publicly in the suggestion embed.
-### Required Arguments
-`suggestion ID` - The ID of the suggestion you want to comment on
+Cette commande permet au staff de laisser un commentaire sur une suggestion, qui sera visible publiquement sur l'embed de la suggestion.
+### Arguments Requis
+`ID de suggestion` - L'ID de la suggestion sur laquelle vous souhaitez laisser un commentaire.
 
-`comment` - The comment to add to the suggestion
+`commentaire` - Le commentaire que vous souhaitez laisser.
 
-!> A suggestion can have a maximum of 23 comments
-### Usage
+!> Une suggestion ne peut contenir que 23 commentaires maximum.
+### Utilisation
 ```
-.comment [suggestion id] [comment]
+.comment [ID de suggestion] [commentaire]
 ```
-### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+### Permission Requise
+Toutes les personnes ayant la permission **Gérer le serveur**, un rôle admin configuré ou un rôle staff configuré.
