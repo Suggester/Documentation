@@ -1,14 +1,14 @@
 # Attach
 ---
 ### Description
-This command is used to attach images to approved suggestions.
-### Required Arguments
-`suggestion ID` - The suggestion ID you want to attach a file to it.
+Cette commande permet de joindre une pièce jointe à une suggestion approuvée.
+### Arguments Requis
+`ID de suggestion` - L'ID de la suggestion à laquelle vous souhaitez joindre une pièce jointe.
 
-`attachment` - It can `jpg` `png` `jpeg` and `gif` file.
-### Usage
+`pièce-jointe` - Les formats supportés sont `.jpg`, `.png`, `.jpeg` et `.gif`.
+### Utilisation
 ```
-.attach [suggestion ID] [attachment]
+.attach [ID de suggestion] [pièce-jointe]
 ```
-### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+### Permission Requise
+Toutes les personnes ayant la permission **Gérer le serveur**, un rôle admin configuré ou un rôle staff configuré.
