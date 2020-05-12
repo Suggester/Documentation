@@ -1,18 +1,18 @@
 # Massdeny
 ---
 ### Description
-This command is used to deny multiple suggestions at once.
-### Required Arguments
-`suggestions IDs` - The suggestions' IDs that you want to deny.
-### Optional Arguments
-`reason` - The reason of denying the suggestions.
+Cette commande permet de refuser plusieurs suggestions en même temps.
+### Argument Requis
+`IDs de suggestions` - Les idées des suggestions que vous souhaitez refuser.
+### Arguments Facultatifs
+`raison` - La raison du refus des suggestions.
 
-?> You have to separate the suggestions IDs and the reason with `-r`
-### Usage
+?> Vous devez séparer les IDs de suggestions et la raison avec `-r`
+### Utilisation
 ```
-.massdeny [suggestions IDs] (reason)
+.massdeny [IDs de suggestions] (raison)
 ```
 ### Aliases
 `mdeny`, `multideny`
-### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+### Permission Requise
+Toutes les personnes ayant la permission **Gérer le serveur**, un rôle admin configuré ou un rôle staff configuré.
