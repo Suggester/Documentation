@@ -56,5 +56,5 @@
 
 ---
 
-**STATS*
+**STATS**
 [Stats on Suggester](es/botstats.md)
