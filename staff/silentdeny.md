@@ -3,8 +3,8 @@
 ### Description
 Cette commande permet de refuser une suggestion sans l'envoyer dans le channel des suggestions refusées, l'auteur de la suggestion sera quand même notifié en MP.
 ### Argument Requis
-`ID de suggestion` - The ID of the suggestion that you want to deny silently.
-### Arguments Facultatifs
+`ID de suggestion` - L'ID de la suggestion que vous souhaitez refuser silencieusement.
+### Argument Facultatif
 `raison` - La raison du refus de la suggestion.
 ### Utilisation
 ```
