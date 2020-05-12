@@ -1,14 +1,14 @@
 # Removeattachment
 ---
 ### Description
-This command is used to remove attachment from a suggestion.
-### Required Arguments
-`suggestion ID` - The ID of the suggestion that you want to remove the attachment from.
-### Usage
+Cette commande permet de retirer la pièce jointe d'une suggestion.
+### Argument Requis
+`ID de suggestion` - L’ID de la suggestion dont vous souhaitez retirer la pièce jointe.
+### Utilisation
 ```
-.removeattachment [suggestion ID]
+.removeattachment [ID de suggestion]
 ```
 ### Aliases
 `rmattachment`, `rmattach`, `delattachment`, `deleteattachment`
-### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+### Permission Requise
+Toutes les personnes ayant la permission **Gérer le serveur**, un rôle admin configuré ou un rôle staff configuré.
