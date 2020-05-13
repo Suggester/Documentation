@@ -53,8 +53,4 @@
 **FURTHER RESOURCES**
 [Useful Links](usefullinks.md)
 [Translating the docs](translation.md)
-
----
-
-**STATS**
 [Stats on Suggester](botstats.md)
