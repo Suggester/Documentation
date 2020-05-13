@@ -3,9 +3,9 @@
 ### Description
 This command is used to change the status of a suggestion.
 ### Required Arguments
-`suggestion ID` - The ID of the suggestion you want to change it's status.
+`suggestion ID` - The ID of the suggestion you want to change the status of.
 
-`status` - The status you want to use.
+`status` - The new status you want to set on the suggestion.
 
 | Argument              |                Meaning                |
 |-----------------------|:-------------------------------------:|
