@@ -26,6 +26,6 @@ All useful links that relate to the bot.
 
 # Github
 ---
-### [Click here](https://github.com/Suggester-Bot/Suggester) to take a look at our open source bot! If you wish to contribute to the bot, take a look at the suggestions channel in the [support server](https://discord.gg/G5pEdUp) and talk to the devs and create a pull request for them to look at!
+### [Click here](https://github.com/Suggester-Bot/Suggester) to take a look at our open source bot! If you wish to contribute to the bot, take a look at the suggestions channel in the [support server](https://discord.gg/G5pEdUp) and talk to the devs and create a pull request for them to look at! More info in readme at the source.
 
 <!-- tabs:end -->
