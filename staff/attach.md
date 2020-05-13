@@ -3,9 +3,12 @@
 ### Description
 This command is used to attach images to approved suggestions.
 ### Required Arguments
-`suggestion ID` - The suggestion ID you want to attach a file to it.
+`suggestion ID` - The ID of the suggestion you want to attach an image to.
 
-`attachment` - It can `jpg` `png` `jpeg` and `gif` file.
+`attachment` - The image you want to attach to the suggestion, read below for supported formats.
+
+?> Supported formats are `.jpg`, `.png`, `.jpeg` and `.gif`.
+
 ### Usage
 ```
 .attach [suggestion ID] [attachment]
