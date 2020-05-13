@@ -1,18 +1,18 @@
 # Massdelete
 ---
 ### Description
-This command is used to delete multiple suggestions at once.
-### Required Arguments
-`suggestions IDs` - The suggestions' IDs that you want to delete.
-### Optional Arguments
-`reason` - The reason of deleting the suggestions.
+Cette commande permet de supprimer plusieurs suggestions en même temps.
+### Argument Requis
+`IDs de suggestion` - Les IDs des suggestions que vous souhaitez supprimer.
+### Argument Facultatif
+`raison` - La raison de la supression de ces suggestions. 
 
-?> You have to separate the suggestions IDs and the reason with `-r`
-### Usage
+?> Vous devez séparer les IDs de suggestion et la raison avec `-r`
+### Utilisation
 ```
-.massdelete [suggestions IDs] (reason)
+.massdelete [IDs de suggestion] (raison)
 ```
 ### Aliases
 `medelete`, `multidelete`
-### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+### Permission Requise
+Toutes les personnes ayant la permission **Gérer le serveur**, un rôle admin configuré ou un rôle staff configuré.
