@@ -1,7 +1,7 @@
 # Listqueue
 ---
 ### Description
-This command is used to show all suggestions awaiting review.
+This command is used to show a list of all suggestions awaiting review with their IDs and a jump link to find them in the review channel.
 ### Usage
 ```
 .listqueue
