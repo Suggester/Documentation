@@ -1,25 +1,24 @@
 # Mark
 ---
 ### Description
-This command is used to change the status of a suggestion.
-### Required Arguments
-`suggestion ID` - The ID of the suggestion you want to change it's status.
+Cette commande permet de modifier le statut d'une suggestion.
+### Arguments Requis
+` ID de suggestion` - L'ID de la suggestion dont vous souhaitez changer le statut.
 
-`status` - The status you want to use.
+`statut` - Le nouveau statut que vous souhaitez appliquer.
 
-| Argument              |                Meaning                |
-|-----------------------|:-------------------------------------:|
-| `default`, `none`     | Resets status to default (none shown) |
-| `no`                  | Not Happening                         |
-| `working`, `progress` | In Progress                           |
-| `implemented`, `done` | Implemented                           |
+| Argument              |                Définition                    |
+|-----------------------|:--------------------------------------------:|
+| `default`, `none`     | Remet le statut à zéro (aucun n'est affiché) |
+| `no`                  | N'aura pas lieu                              |
+| `working`, `progress` | En cours                                     |
+| `implemented`, `done` | Implémenté                                   |
 
-
-### Usage
+### Utilisation
 ```
-.mark [suggestion ID] [status]
+.mark [ID de suggestion] [statut]
 ```
 ### Aliases
 `status`
-### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+### Permission Requise
+Toutes les personnes ayant la permission **Gérer le serveur**, un rôle admin configuré ou un rôle staff configuré.
