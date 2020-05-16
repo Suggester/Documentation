@@ -26,6 +26,6 @@ Click on any langauge that you feel comfortable using.
 
 # More Languages
 ---
-### If you would like to help translate the website or learn more, please take a look [here](https://discord.com/channels/566002482166104066/706591288308269147/706591807005524048)
+### If you would like to help translate the website or learn more, please take a look [here].(https://discord.com/channels/566002482166104066/706591288308269147/706591807005524048)
 
 <!-- tabs:end -->
