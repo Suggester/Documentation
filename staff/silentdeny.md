@@ -1,14 +1,14 @@
 # Silentdeny
 ---
 ### Description
-This command is used to deny a suggestion but not send it to the denied suggestion channel, The user still get DMed.
+This command is used to deny a suggestion without sending it to the denied suggestion channel. The user will still be DM'd.
 ### Required Arguments
-`suggestion ID` - The ID of the suggestion that you want to deny silently.
+`suggestionId` - The ID of the suggestion.
 ### Optional Arguments
-`reason` - The reason of denying the suggestion
+`reason` - The reason for denying the suggestion.
 ### Usage
 ```
-.silentdeny [suggestion ID] (reason)
+.silentdeny <suggestionId> [reason]
 ```
 ### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+The user must have **Manage Server** or a configured staff role.
