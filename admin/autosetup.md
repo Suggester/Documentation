@@ -3,7 +3,7 @@
 ### Description
 Automatically setup the bot.
 
-!>Using `autosetup` will automaticall create four channels, one for suggestions, one for denied suggestions, one for pending suggestions and one one for logs. If you are looking for more granular options, take a look at the [setup](/admin/setup.md) and [config](/admin/config.md) commands.
+!>Using `autosetup` will automatically create four channels, one for suggestions, one for denied suggestions, one for pending suggestions and one one for logs. If you are looking for more granular options, take a look at the [setup](/admin/setup.md) and [config](/admin/config.md) commands.
 
 ### Usage
 ```
