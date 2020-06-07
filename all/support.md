@@ -1,7 +1,7 @@
 # Support
 ---
 ### Description
-Cette commande affiche l'invitation du serveur de support.
+Affiche l'invitation du serveur de support
 ### Utilisation
 ```
 .support
