@@ -3,13 +3,13 @@
 ### Description
 This command is used to remove a comment from a suggestion.
 ### Required Arguments
-`comment ID` - The ID of the comment you want to delete.
+`commentId` - The ID of the comment you want to delete.
 
 ?> Check the field name above the comment to find *ID* followed by a number, this is the comment ID.
 
 ### Usage
 ```
-.deletecomment [comment ID]
+.deletecomment [commentId]
 ```
 ### Aliases
 `delcomment`, `dcomment`, `rmcomment`
