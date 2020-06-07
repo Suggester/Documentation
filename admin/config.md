@@ -53,7 +53,7 @@ Configure individual options for the bot.
 ### `allowed`
 ## Function
 
-**Annyone with these roles can sumbit suggestions. If this is left blank, all members may submit suggestions.**
+**Anyone with these roles can submit suggestions. If this is left blank, all members may submit suggestions.**
 
 ?> This is useful for locking the ability to make suggestions to specific server members.
 
@@ -64,6 +64,25 @@ Configure individual options for the bot.
 ## Usage
 
 `config allowed [<add|remove|list> <role>]`
+
+#### **Blocked Roles**
+
+## Config Element
+
+### `blocked`
+## Function
+
+**Anyone with these roles cannot use the bot, unless they have a staff/admin role.**
+
+?> This works similarly to the [blacklist](NAME_OF_LANG/staff/blacklist) command, but blacklists a role instead of a user.
+
+## Valid Inputs
+
+**Role name, ID, or @mention**
+
+## Usage
+
+`config blocked [<add|remove|list> <role>]`
 
 #### **Approved Suggestion Role**
 
@@ -83,6 +102,25 @@ Configure individual options for the bot.
 ## Usage
 
 `config approvedrole [role]`
+
+#### **Suggestion Submitted Mention Role**
+
+## Config Element
+
+### `pingrole`
+## Function
+
+**When a member submits a suggestion (in the review mode) this role will be mentioned in the suggestion review channel.**
+
+**Using** `none` **as the value will remove the suggestion submitted mention role if one is set.**
+
+## Valid Inputs
+
+**Role name, ID, or @mention**
+
+## Usage
+
+`config pingrole [role]`
 
 #### **Review Channel**
 
@@ -275,6 +313,25 @@ Configure individual options for the bot.
 ## Usage
 
 `config cleancommands [enable|disable|toggle]`
+
+#### **Locale**
+
+## Config Element
+
+### `locale`
+## Function
+
+**The locale config element allows you to set the language in which server responses and feed messages will be shown in.**
+
+**Not specifying a locale will show the list of available locales and the currently selected locale.**
+
+## Valid Inputs
+
+**Any locale name**
+
+## Usage
+
+`config locale [locale]`
 
 #### **Prefix**
 

@@ -9,10 +9,13 @@
 [Ping](NAME_OF_LANG/all/ping.md)
 [Support](NAME_OF_LANG/all/support.md)
 [Invite](NAME_OF_LANG/all/invite.md)
+[Locale](NAME_OF_LANG/all/locale.md)
+[Shard](NAME_OF_LANG/all/shard.md)
 [Stats](NAME_OF_LANG/all/stats.md)
 [Vote](NAME_OF_LANG/all/vote.md)
 [Verify](NAME_OF_LANG/all/verify.md)
 [Notify](NAME_OF_LANG/all/notify.md)
+[Tutorial](NAME_OF_LANG/all/tutorial.md)
 [Changelog](NAME_OF_LANG/all/changelog.md)
 
 ---
@@ -22,6 +25,7 @@
 [Deny](NAME_OF_LANG/staff/deny.md)
 [Silentdeny](NAME_OF_LANG/staff/silentdeny.md)
 [Delete](NAME_OF_LANG/staff/delete.md)
+[Silentdelete](NAME_OF_LANG/staff/silentdelete.md)
 [Massapprove](NAME_OF_LANG/staff/massapprove.md)
 [Massdeny](NAME_OF_LANG/staff/massdeny.md)
 [Massdelete](NAME_OF_LANG/staff/massdelete.md)
