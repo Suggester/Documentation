@@ -3,6 +3,7 @@
 ### Description
 This command is used to change the status of a suggestion.
 ### Required Arguments
+
 `suggestionId` - The ID of the suggestion.
 
 `status` - The status you want to set.
