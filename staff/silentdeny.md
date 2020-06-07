@@ -1,7 +1,7 @@
 # Silentdeny
 ---
 ### Description
-This command is used to deny a suggestion without sending it to the denied suggestion channel. The user will still be DM'd.
+This command is used to deny a suggestion without sending it to the denied suggestion channel or DMing the suggesting user.
 ### Required Arguments
 `suggestionId` - The ID of the suggestion.
 ### Optional Arguments
