@@ -52,7 +52,7 @@
 
 **FURTHER RESOURCES**
 [Useful Links](usefullinks.md)
-[Translating the docs](translation.md)
+[Translations](translation.md)
 
 ---
 
