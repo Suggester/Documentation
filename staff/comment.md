@@ -1,16 +1,16 @@
 # Comment
 ---
 ### Description
-This command allows staff members to comment on a suggestion. This comment will be displayed publicly in the suggestion embed.
+This command allows staff members to add comments to a suggestion. The comment will be displayed publicly in the suggestion feed.
 ### Required Arguments
-`suggestion ID` - The ID of the suggestion you want to comment on
+`suggestionId` - The ID of the suggestion.
 
-`comment` - The comment to add to the suggestion
+`comment` - The comment to add.
 
 !> A suggestion can have a maximum of 23 comments
 ### Usage
 ```
-.comment [suggestion id] [comment]
+.comment <suggestionId> <comment>
 ```
 ### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+The user must have **Manage Server** or a configured staff role.
