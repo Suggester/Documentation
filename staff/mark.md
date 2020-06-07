@@ -15,10 +15,12 @@ This command is used to change the status of a suggestion.
 | `working`, `progress` | In Progress                           |
 | `implemented`, `done` | Implemented                           |
 
+### Optional Arguments
+`comment` - A comment you want to add to the suggestion
 
 ### Usage
 ```
-.mark <suggestionId> <status>
+.mark <suggestionId> <status> (comment)
 ```
 ### Aliases
 `status`
