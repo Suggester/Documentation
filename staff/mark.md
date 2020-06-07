@@ -15,10 +15,12 @@ Este comando se usa para cambiar el estado de una sugerencia.
 | `working`, `progress` | En Progreso                                               |
 | `implemented`, `done` | Implementada                                              |
 
+### Argumentos Opcionales
+`comentario` - El comentario que quieres añadir a la sugerencia.
 
 ### Uso
 ```
-.mark <suggestionID> <status>
+.mark <suggestionID> <status> [comment]
 ```
 ### Alias
 `status`

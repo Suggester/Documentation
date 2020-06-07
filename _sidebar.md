@@ -9,10 +9,13 @@
 [Ping](es/all/ping.md)
 [Support](es/all/support.md)
 [Invite](es/all/invite.md)
+[Locale](es/all/locale.md)
+[Shard](es/all/shard.md)
 [Stats](es/all/stats.md)
 [Vote](es/all/vote.md)
 [Verify](es/all/verify.md)
 [Notify](es/all/notify.md)
+[tutorial](es/all/tutorial.md)
 [Changelog](es/all/changelog.md)
 
 ---
@@ -22,6 +25,7 @@
 [Deny](es/staff/deny.md)
 [Silentdeny](es/staff/silentdeny.md)
 [Delete](es/staff/delete.md)
+[Silentdelete](es/staff/silentdelete.md)
 [Massapprove](es/staff/massapprove.md)
 [Massdeny](es/staff/massdeny.md)
 [Massdelete](es/staff/massdelete.md)
@@ -54,4 +58,3 @@
 [Enlaces Útiles](es/usefullinks.md)
 [Traducciones](es/translation.md)
 [Estadísticas de Suggester](es/botstats.md)
-

@@ -1,7 +1,7 @@
 # Silentdeny
 ---
 ### Descripción
-Este comando se usa para denegar una sugerencia sin enviarla al canal de sugerencias denegadas. El usuario recibirá una notificación por MD.
+Este comando se usa para denegar una sugerencia sin enviarla al canal de sugerencias denegadas y sin enviar un MD al usuario.
 ### Argumentos Requeridos
 `suggestionID` - El ID de la sugerencia.
 ### Argumentos Opcionales

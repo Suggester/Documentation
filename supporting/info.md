@@ -50,7 +50,7 @@ La mejor forma de apoyar al bot es votar por él en las listas de bots. Si está
 
 # Bots on Discord
 [![Bots on Discord widget](https://bots.ondiscord.xyz/bots/564426594144354315/embed?showGuilds=true)](https://bots.ondiscord.xyz/bots/564426594144354315)
-### [Deja una reseña aquí](https://bots.ondiscord.xyz/bots/564426594144354315/review) and tell us what you think about the bot!
+### ¡[Deja una reseña aquí](https://bots.ondiscord.xyz/bots/564426594144354315/review) y cuéntanos que opinas del bot!
 
 #### **Arcane Bot Center**
 

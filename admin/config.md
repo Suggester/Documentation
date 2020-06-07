@@ -53,17 +53,36 @@ Configura opciones individuales para el bot.
 ### `allowed`
 ## Función
 
-**Cualquier usuario con cualquera de esos roles puede realizar sugerencias. Si se deja en blanco, todos los miembros podrán realizar sugerencias**
+**Cualquier usuario con cualquiera de esos roles puede realizar sugerencias. Si se deja en blanco, todos los miembros podrán realizar sugerencias**
 
 ?> ¡Esto es útil para bloquear las sugerencias a miembros específicos de tu servidor!
 
 ## Entradas Válidas
 
-**Nombre del rol, ID or @mención**
+**Nombre del rol, ID o @mención**
 
 ## Uso
 
 `config allowed [<add|remove|list> <rol>]`
+
+#### **Roles Bloqueados**
+
+## Elemento Configurable
+
+### `blocked`
+## Función
+
+**Cualquier usuario con cualquiera de estos roles no podrá usar el bot, salvo que tengan el rol de staff/administrador.**
+
+?> Esto funciona de forma similar al comando [blacklist](es/staff/blacklist.md), pero añade a la lista negra un rol en vez de un usuario.
+
+## Entradas Válidas
+
+**Nombre del rol, ID o @mención**
+
+## Uso
+
+`config blocked [<add|remove|list> <rol>]`
 
 #### **Rol de Sugerencias Aprobadas**
 
@@ -83,6 +102,25 @@ Configura opciones individuales para el bot.
 ## Uso
 
 `config approvedrole [rol]`
+
+#### **Rol Mencionado de Sugerencias Realizadas**
+
+## Elemento Configurable
+
+### `pingrole`
+## Función
+
+**Cuando un miembro realiza una sugerencia (en el modo de revisión) este rol será mencionado en el canal de revisión de sugerencias.**
+
+**Usar** `none` **como valor eliminará el rol mencionado de sugerencias realizadas si está configurado**
+
+## Entradas Válidas
+
+**Nombre del rol, ID, @meción** o `none`
+
+## Uso
+
+`config pingrole [rol]`
 
 #### **Canal de Revisión**
 
@@ -275,6 +313,25 @@ Configura opciones individuales para el bot.
 ## Uso
 
 `config cleancommands [enable|disable|toggle]`
+
+#### **Idioma**
+
+## Elemento Configurable
+
+### `locale`
+## Función
+
+**El elemento de configuración idioma te permite configurar el idioma en el cual se mostrarán las respuestas y los mensajes del bot en el servidor.**
+
+**Si no especificas un idioma el bot mostrará la lista de idiomas disponibles y el idioma configurado.**
+
+## Entradas Válidas
+
+**Cualquier nombre de idioma
+
+## Uso
+
+`config locale [idioma]`
 
 #### **Prefijo**
 
