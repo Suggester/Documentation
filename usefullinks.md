@@ -22,4 +22,10 @@ All useful links that relate to the bot.
 ---
 ### We even have a [Twitter](https://twitter.com/SuggesterBot)! We will be using it to announce updates, outages and polls!
 
+#### Github
+
+# Github
+---
+### [Click here](https://github.com/Suggester-Bot/Suggester) to take a look at our open source bot! If you wish to contribute to the bot, take a look at the suggestions channel in the [support server](https://discord.gg/G5pEdUp) and talk to the devs and create a pull request for them to look at! More info in readme at the source.
+
 <!-- tabs:end -->
