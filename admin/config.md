@@ -1,11 +1,13 @@
 # Config
 
 ### Description
-This command is used to set various settings without needing to go through the full setup.
+Configure individual options for the bot.
 ### Optional Arguments
-`list` - This argument is used to show current server settings.
+`list` - Show the server's current configuration.
 
-`element` - If this is used without any other argument, it will show current settings for that element.
+`element` - The setting to change.
+
+`...input` - The value of the setting you would like to change. Leaving this blank will show the current value.
 
 
 *For configuration*
@@ -17,7 +19,7 @@ This command is used to set various settings without needing to go through the f
 ### `admin`
 ## Function
 
-**Anyone with any of these roles inherits staff permissions, but also has permission to configure server settings.**
+**The admin role automatically inherits all staff permissions and the ability to configure server settings.**
 
 ## Valid Inputs
 
@@ -25,7 +27,7 @@ This command is used to set various settings without needing to go through the f
 
 ## Usage
 
-`config admin [add/remove/list] [role]`
+`config admin [<add|remove|list> <role>]`
 
 #### **Staff Roles**
 
@@ -34,7 +36,7 @@ This command is used to set various settings without needing to go through the f
 ### `staff`
 ## Function
 
-**Anyone with any of these roles has permission to accept and deny suggestions, as well as interact with them in other ways.**
+**The staff roles grant permission to interact with suggestions (approve, deny, etc.).**
 
 ## Valid Inputs
 
@@ -42,7 +44,7 @@ This command is used to set various settings without needing to go through the f
 
 ## Usage
 
-`config staff [add/remove/list] [role]`
+`config staff [<add|remove|list> <role>]`
 
 #### **Allowed Suggestion Roles**
 
@@ -51,9 +53,9 @@ This command is used to set various settings without needing to go through the f
 ### `allowed`
 ## Function
 
-**Anyone with any of these roles (or a staff/admin role) can submit suggestions. If no allowed roles are set, all members can submit suggestions.**
+**Annyone with these roles can sumbit suggestions. If this is left blank, all members may submit suggestions.**
 
-?> This is useful for locking suggesting to only some members of your server!
+?> This is useful for locking the ability to make suggestions to specific server members.
 
 ## Valid Inputs
 
@@ -61,7 +63,7 @@ This command is used to set various settings without needing to go through the f
 
 ## Usage
 
-`config allowed [add/remove/list] [role]`
+`config allowed [<add|remove|list> <role>]`
 
 #### **Approved Suggestion Role**
 
@@ -70,9 +72,9 @@ This command is used to set various settings without needing to go through the f
 ### `approvedrole`
 ## Function
 
-**When a member's suggestion is approved they will automatically receive this role.**
+**When a member's suggestion is approved, they will automatically receive this role.**
 
-**Using** `none` **as the value will remove the approved suggestion role if there is one set.**
+**Using** `none` **as the value will remove the approved suggestion role if one is set.**
 
 ## Valid Inputs
 
@@ -89,11 +91,11 @@ This command is used to set various settings without needing to go through the f
 ### `review`
 ## Function
 
-**The channel where suggestions are sent immediately after submission to be reviewed by staff. (Only if the mode is set to *review*)**
+**The channel where suggestions are sent to be reviewed by server staff. (This channel will only be used if the mode is set to *review*)**
 
 ## Valid Inputs
 
-**Channel ID, name or #mention**
+**Channel name, ID or #mention**
 
 ## Usage
 
@@ -106,11 +108,11 @@ This command is used to set various settings without needing to go through the f
 ### `suggestions`
 ## Function
 
-**The channel where approved suggestions are posted. (If the mode is set to *autoapprove* then suggestions are automatically posted here)**
+**The channel is where approved suggestions will be sent. (If the mode is set to *autoapprove*, suggestions will automatically be posted here)**
 
 ## Valid Inputs
 
-**Channel ID, name or #mention**
+**Channel name, ID or #mention**
 
 ## Usage
 
@@ -123,13 +125,13 @@ This command is used to set various settings without needing to go through the f
 ### `denied`
 ## Function"
 
-**The channel where suggestions that are denied/deleted are posted.**
+**The channel where suggestions that are denied or deleted are posted.**
 
-**Using** `none` **as the channel will remove the denied suggestions channel if there is one set.**
+**Using** `none` **will remove the denied suggestions channel if one is set.**
 
 ## Valid Inputs
 
-**Channel ID, name or #mention or** `none`
+**Channel name, ID, #mention or** `none`
 
 ## Usage
 
@@ -144,11 +146,11 @@ This command is used to set various settings without needing to go through the f
 
 **The channel where all actions taken on suggestions are logged.**
 
-**Using** `none` **as the channel will remove the log channel if there is one set.**
+**Using** `none` **will remove the log channel if one is set.**
 
 ## Valid Inputs
 
-**Channel ID, name or #mention or** `none`
+**Channel name, ID, #mention or** `none`
 
 ## Usage
 
@@ -161,13 +163,13 @@ This command is used to set various settings without needing to go through the f
 ### `implemented`
 ## Function
 
-**The channel where all suggestions that have been marked as __implemented__ using the [mark](/staff/mark.md) command are sent.**
+**The channel where all suggestions that have been marked as __implemented__ are sent.**
 
-**Using** `none` **as the channel will remove the implemented archive channel if there is one set.**
+**Using** `none` **will remove the implemented suggestions channel if one is set.**
 
 ## Valid Inputs
 
-**Channel ID, name or #mention or** `none`
+**Channel name, ID, #mention or** `none`
 
 ## Usage
 
@@ -180,15 +182,15 @@ This command is used to set various settings without needing to go through the f
 ### `commands`
 ## Function
 
-**The channel where the** `suggest` **command can be used. (If this is not set the suggest command can be used in any channel)**
+**The channel where the** `suggest` **command can be used. (If this is not set, the** `suggest` **command can be used in any channel)**
 
 ?> This is useful for keeping suggest commands out of chat channels!
 
-**Using** `none` **as the channel will remove the implemented archive channel if there is one set.**
+**Using** `none` **will remove the suggestion channel if one is set.**
 
 ## Valid Inputs
 
-**Channel ID, name or #mention or** `none`
+**Channel name, ID, #mention or** `none`
 
 ## Usage
 
@@ -201,11 +203,9 @@ This command is used to set various settings without needing to go through the f
 ### `emojis`
 ## Function
 
-**The emojis that should be reacted on approved suggestions. The defaults are 👍, 🤷, and 👎 for upvote, shrug, and downvote respectively.**
+**The reactions that will be added to approved suggestions. By default, 👍, 🤷 and 👎 will be used.**
 
-**Selecting** `disable` **for an emote disables it - meaning it won't be added to future approved suggestions.**
-
-**The** `toggle`/`enable`/`disable` **parameters will edit the setting controlling reactions to suggestion feed posts - this is *enabled* by default.**
+**Selecting** `disable` **will disable it, meaning it will not be added to approved suggestions in the future.**
 
 ## Valid Inputs
 
@@ -213,7 +213,7 @@ This command is used to set various settings without needing to go through the f
 
 ## Usage
 
-`config emojis [upvote/shrug/downvote/toggle/enable/disable] [emoji/disable]`
+`config emojis [<upvote|shrug|downvote|toggle|enable|disable>] [emoji|disable]`
 
 #### **Notify Settings**
 
@@ -222,17 +222,17 @@ This command is used to set various settings without needing to go through the f
 ### `notify`
 ## Function
 
-**The** `notify` **element specifies whether server members should be notified through DM when actions are taken on their suggestions.**
+**The** `notify` **element specifies whether server members will be notified when actions are taken on suggestions they have submitted.**
 
 **This is *enabled* by default.**
 
 ## Valid Inputs
 
-`enable`, `disable`, **or** `toggle`
+`enable`, `disable` **or** `toggle`
 
 ## Usage
 
-`config notify [enable/disable/toggle]`
+`config notify [enable|disable|toggle]`
 
 #### **Suggestions Mode**
 
@@ -243,9 +243,9 @@ This command is used to set various settings without needing to go through the f
 
 **The** `mode` **element configures the mode of suggestion handling.**
 
-**Setting this to** `review` **will put all suggestions through the review process before sending them to the suggestions channel.**
+**Setting the mode to** `review` **will send all suggestions to the review channel before sending them to the suggestions channel.**
 
-**Setting this to** `autoapprove` **will automatically send all submitted suggestions to the suggestions feed.**
+**Setting the mode to** `autoapprove` **will automatically send all submitted suggestions directly to the suggestions feed.**
 
 ## Valid Inputs
 
@@ -253,7 +253,7 @@ This command is used to set various settings without needing to go through the f
 
 ## Usage
 
-`config mode [review/autoapprove]`
+`config mode [review|autoapprove]`
 
 #### **Auto-Clean Suggestion Channel**
 
@@ -262,7 +262,7 @@ This command is used to set various settings without needing to go through the f
 ### `cleancommands`
 ## Function
 
-**This element specifies whether or not suggestion commands and responses are deleted after a few seconds.**
+**This will automatically deletes suggestion commands and the bot's response shortly after running the command.**
 
 **This is *disabled* by default.**
 
@@ -274,7 +274,7 @@ This command is used to set various settings without needing to go through the f
 
 ## Usage
 
-`config cleancommands [enable/disable/toggle]`
+`config cleancommands [enable|disable|toggle]`
 
 #### **Prefix**
 
@@ -283,7 +283,9 @@ This command is used to set various settings without needing to go through the f
 ### `prefix`
 ## Function
 
-**The prefix that all commands start with Example: in** `.command` **the prefix is** `.`
+**The prefix that will be used for all of Suggester's commands**
+
+**The default prefix is** `.`
 
 ## Valid Inputs
 
@@ -298,9 +300,9 @@ This command is used to set various settings without needing to go through the f
 
 ### Usage
 ```
-.config (element) (additional parameters)
+.config <element> [additional parameters]
 ```
 ### Aliases
 `serverconfig`, `cfg`, `configure`
 ### Required Permissions
-People with **Manage Server** permission or configured admin role.
+The user must have **Manage Server** or the configured admin role.

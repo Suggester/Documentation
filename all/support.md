@@ -1,10 +1,10 @@
 # Support
 ---
 ### Description
-This command is used to show the invite link to the support server.
+Show some info about how to get in touch with the support team.
 ### Usage
 ```
 .support
 ```
 ### Permission Required
-Anyone can use this command, unless they are blacklisted in the server or globally.
+Anyone can use this command

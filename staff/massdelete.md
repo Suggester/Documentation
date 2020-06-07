@@ -3,16 +3,16 @@
 ### Description
 This command is used to delete multiple suggestions at once.
 ### Required Arguments
-`suggestions IDs` - The suggestions' IDs that you want to delete.
+`suggestionIds` - The suggestion IDs that you want to delete.
 ### Optional Arguments
-`reason` - The reason of deleting the suggestions.
+`reason` - The reason for deleting the suggestions.
 
-?> You have to separate the suggestions IDs and the reason with `-r`
+?> You have to separate the suggestion IDs and the reason with `-r`
 ### Usage
 ```
-.massdelete [suggestions IDs] (reason)
+.massdelete <suggestionIds> [-r <reason>]
 ```
 ### Aliases
 `medelete`, `multidelete`
 ### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+The user must have **Manage Server** or a configured staff role.

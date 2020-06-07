@@ -1,14 +1,14 @@
 # Attach
 ---
 ### Description
-This command is used to attach images to approved suggestions.
+Attact an image to a suggestion in the suggestion feed.
 ### Required Arguments
-`suggestion ID` - The suggestion ID you want to attach a file to it.
+`suggestionId` - The suggestion ID
 
-`attachment` - It can `jpg` `png` `jpeg` and `gif` file.
+`attachment` - The image to attach. It must be a `png`, `jpg`, `jpeg` or `gif` file.
 ### Usage
 ```
-.attach [suggestion ID] [attachment]
+.attach <suggestionId> <attachment>
 ```
 ### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+The user must have **Manage Server** or a configured staff role.
