@@ -1,7 +1,7 @@
 # Comment
 ---
 ### Description
-Cette commande permet au staff de laisser un commentaire sur une suggestion, qui sera visible publiquement sur l'embed de la suggestion.
+Laisse un commentaire sur une suggestion qui sera visible publiquement sur l'embed de la suggestion
 ### Arguments Requis
 `ID de suggestion` - L'ID de la suggestion sur laquelle vous souhaitez laisser un commentaire.
 
@@ -10,7 +10,7 @@ Cette commande permet au staff de laisser un commentaire sur une suggestion, qui
 !> Une suggestion ne peut contenir que 23 commentaires maximum.
 ### Utilisation
 ```
-.comment [ID de suggestion] [commentaire]
+.comment <ID de suggestion> <commentaire>
 ```
 ### Permission Requise
 Toutes les personnes ayant la permission **Gérer le serveur**, un rôle admin configuré ou un rôle staff configuré.
