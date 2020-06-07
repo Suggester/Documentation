@@ -6,7 +6,7 @@ This command allows you to set your locale on the bot. Using this command with n
 ?> This command sets your __user__ locale. This locale will be shown on all responses and messages you receive from the bot.
 The default locale is English.
 
-?> If you want to help translate the bot into your language, see the [translation page](NAME_OF_LANG/translation.md)
+?> If you want to help translate the bot into your language, see the [translation page](tr/translation.md)
 ### Optional Arguments
 `locale` - The locale you want to set
 

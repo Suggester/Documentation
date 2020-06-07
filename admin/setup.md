@@ -3,7 +3,7 @@
 ### Description
 Setup Suggester using an interactive wizard-like setup process.
 
-!>Using `setup` will erase any settings currently set on your server. If you want to configure specific settings, use the [config](NAME_OF_LANG/admin/config.md) command.
+!>Using `setup` will erase any settings currently set on your server. If you want to configure specific settings, use the [config](tr/admin/config.md) command.
 
 ### Usage
 ```

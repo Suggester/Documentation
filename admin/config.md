@@ -74,7 +74,7 @@ Configure individual options for the bot.
 
 **Anyone with these roles cannot use the bot, unless they have a staff/admin role.**
 
-?> This works similarly to the [blacklist](NAME_OF_LANG/staff/blacklist) command, but blacklists a role instead of a user.
+?> This works similarly to the [blacklist](tr/staff/blacklist) command, but blacklists a role instead of a user.
 
 ## Valid Inputs
 
