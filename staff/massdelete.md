@@ -1,16 +1,16 @@
 # Massdelete
 ---
 ### Description
-Cette commande permet de supprimer plusieurs suggestions en même temps.
-### Argument Requis
+Supprime plusieurs suggestions 
+### Arguments Requis
 `IDs de suggestion` - Les IDs des suggestions que vous souhaitez supprimer.
 ### Argument Facultatif
-`raison` - La raison de la supression de ces suggestions. 
+`raison` - La raison pour laquelle vous souhaitez supprimer ces suggestions. 
 
 ?> Vous devez séparer les IDs de suggestion et la raison avec `-r`
 ### Utilisation
 ```
-.massdelete [IDs de suggestion] (raison)
+.massdelete <IDs de suggestion> [-r (raison)]
 ```
 ### Aliases
 `medelete`, `multidelete`
