@@ -1,11 +1,11 @@
 # Mark
 ---
 ### Description
-Cette commande permet de modifier le statut d'une suggestion.
+Modifie le statut d'une suggestion
 ### Arguments Requis
-` ID de suggestion` - L'ID de la suggestion dont vous souhaitez changer le statut.
+` ID de suggestion` - L'ID de la suggestion dont vous souhaitez changer le statut
 
-`statut` - Le nouveau statut que vous souhaitez appliquer.
+`statut` - Le nouveau statut que vous souhaitez appliquer
 
 | Argument              |                Définition                    |
 |-----------------------|:--------------------------------------------:|
@@ -16,7 +16,7 @@ Cette commande permet de modifier le statut d'une suggestion.
 
 ### Utilisation
 ```
-.mark [ID de suggestion] [statut]
+.mark <ID de suggestion> <statut>
 ```
 ### Aliases
 `status`
