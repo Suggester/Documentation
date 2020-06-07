@@ -2,7 +2,7 @@
 * [Servidor de Soporte](https://discord.gg/G5pEdUp)
 * Idiomas
 
- * [:us: English](https://suggester.j.org/#/)
- * [:es: Español](https://suggester.j.org/#/es/)
- * [:fr: Français](https://suggester.j.org/#/fr/)
+ * [:us: English](https://suggester.js.org/#/)
+ * [:es: Español](https://suggester.js.org/#/es/)
+ * [:fr: Français](https://suggester.js.org/#/fr/)
  * [:globe_with_meridians: Traducciones](es/translation.md)
