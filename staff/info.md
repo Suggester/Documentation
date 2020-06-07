@@ -1,12 +1,12 @@
 # Info
 ---
 ### Description
-This command is used to get info of a suggestion.
+Get info about an approved suggestion
 ### Required Arguments
-`suggestion ID` - The ID of the suggestion you want to get info about.
+`suggestionId` - The ID of the suggestion.
 ### Usage
 ```
-.info [suggestion ID]
+.info <suggestionId>
 ```
 ### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+The user must have **Manage Server** or a configured staff role.

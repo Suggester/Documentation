@@ -1,4 +1,4 @@
-[Suggester Docs](/)
+[Suggester Docs](home.md)
 [Getting started](getting-started.md)
 
 ---
@@ -52,9 +52,5 @@
 
 **FURTHER RESOURCES**
 [Useful Links](usefullinks.md)
-[Translating the docs](translation.md)
-
----
-
-**STATS**
+[Translations](translation.md)
 [Stats on Suggester](botstats.md)

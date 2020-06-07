@@ -1,16 +1,16 @@
 # Suggest
 ---
 ### Description
-This command is used to suggest things to the staff team of a server.
+Submit a suggestion!
 ### Required Arguments
-`suggestion` - The suggestion you want to submit, it can include anything.
+`suggestion` - Your *amazing* suggestion
 
-?> You can include attachments with your suggestion, you can add it by attaching it as a file, the attachment can be `jpg`, `png`, `jpeg` or `gif`.
+?> You can even include an image with your suggestion, just upload it with your suggestion. Supported file types: `jpg`, `png`, `jpeg`, `gif`.
 ### Usage
 ```
-.suggest [suggestion]
+.suggest <suggestion>
 ```
 ### Aliases
 `submit`
 ### Permission Required
-Anyone can use this command, unless they are blacklisted in the server or globally or the server admins have set up an Allowed Suggestion Role.
+This command can be used by any user by default. This can be changed to require a specific role.
