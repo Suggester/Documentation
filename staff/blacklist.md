@@ -6,9 +6,9 @@ Este comando es usado para prevenir que la gente use el bot en el servidor.
 `usuario` - El usuario al que quieres añadir a la lista negra. Puede ser la ID del usuario o la mención.
 ### Uso
 ```
-.blacklist [usuario]
+.blacklist <usuario>
 ```
 ### Alias
 `bl`, `disallow`
 ### Permisos Requeridos
-Cualquier usuario con el permiso de **Administrar Servidor**, un rol de administrador configurado o un rol de staff configurado pueden usar este comando.
+El usuario debe tener el permiso de **Administrar Servidor** o un rol de staff configurado.

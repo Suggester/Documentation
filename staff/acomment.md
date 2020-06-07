@@ -1,18 +1,18 @@
 # Acomment
 ---
 ### Descripción
-Este comando permite a los miembros del staff comentar anónimamente una sugerencia. Este comentario se mostrará públicamente en el embed de la sugerencia.
+Añade un comentario anónimo a una sugerencia.
 ### Argumentos Requeridos
-`ID de la sugerencia` - El ID de la sugerencia en la que quieres comentar.
+`suggestionID` - El ID de la sugerencia.
 
-`comentario` - El comentario a añadir a la sugerencia.
+`comentario` - El comentario a añadir.
 
 !> Una sugerencia puede tener un máximo de 23 comentarios
 ### Uso
 ```
-.acomment [id de la sugerencia] [comentario]
+.acomment <suggestionID> <comentario>
 ```
 ### Alias
 `anonymouscomment`
 ### Permisos Requeridos
-Cualquier usuario con el permiso de **Administrar Servidor**, un rol de administrador configurado o un rol de staff configurado pueden usar este comando.
+El usuario debe tener el permiso de **Administrar Servidor** o un rol de staff configurado.

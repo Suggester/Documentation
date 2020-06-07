@@ -1,14 +1,14 @@
 # Help
 ---
 ### Descripción
-Este comando muestra la ayuda sobre solamente un comando o provee un link a la documentación.
+Obtén ayuda con un comando.
 ### Argumentos Opcionales
-`comando` - El nombre de un comando para obtener ayuda detallada.
+`comando` - El nombre de un comando
 ### Uso
 ```
-.help (comando)
+.help [comando]
 ```
 ### Alias
 `command`, `howto`
 ### Permisos Requeridos
-Cualquier usuario puede usar este comando, salvo que esté añadido a la lista negra del servidor o global.
+Cualquier usuario puede usar este comando.

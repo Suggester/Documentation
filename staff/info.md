@@ -1,12 +1,12 @@
 # Info
 ---
 ### Descripción
-Este comando se usa para obtener información sobre una sugerencia.
+Obtén información sobre una sugerencia.
 ### Argumentos Requeridos
-`ID de la sugerencia` - El ID de la sugerencia de la que quieres obtener información.
+`suggestionID` - El ID de la sugerencia.
 ### Uso
 ```
-.info [ID de la sugerencia]
+.info <suggestionID>
 ```
 ### Permisos Requeridos
-Cualquier usuario con el permiso de **Administrar Servidor**, un rol de administrador configurado o un rol de staff configurado pueden usar este comando.
+El usuario debe tener el permiso de **Administrar Servidor** o un rol de staff configurado.

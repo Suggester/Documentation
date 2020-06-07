@@ -3,11 +3,12 @@
 ### Descripción
 Este comando se usa para cambiar el estado de una sugerencia.
 ### Argumentos Requeridos
-`ID de la sugerencia` - El ID de la sugerencia a la que quieres cambiar el estado.
+
+`suggestionID` - El ID de la sugerencia.
 
 `estado` - El estado que quieres usar.
 
-| Argument              |                Meaning                                    |
+| Argumento              |                Significado                                    |
 |-----------------------|:---------------------------------------------------------:|
 | `default`, `none`     | Restaura el estado al predeterminado (no muestra ninguno) |
 | `no`                  | No Sucederá                                               |
@@ -17,9 +18,9 @@ Este comando se usa para cambiar el estado de una sugerencia.
 
 ### Uso
 ```
-.mark [ID de la sugerencia] [estado]
+.mark <suggestionID> <status>
 ```
 ### Alias
 `status`
 ### Permisos Requeridos
-Cualquier usuario con el permiso de **Administrar Servidor**, un rol de administrador configurado o un rol de staff configurado pueden usar este comando.
+El usuario debe tener el permiso de **Administrar Servidor** o un rol de staff configurado.

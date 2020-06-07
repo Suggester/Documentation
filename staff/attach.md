@@ -1,14 +1,14 @@
 # Attach
 ---
 ### Descripción
-Este comando permite adjuntar imágenes a una sugerencia aprobada.
+Adjunta una imagen a una sugerencia en el feed de sugerencias.
 ### Argumentos Requeridos
-`ID de la sugerencia` - El ID de la sugerencia a la que quieres adjuntar el archivo.
+`suggestionID` - El ID de la sugerencia.
 
-`adjunto` - Puede ser un archivo `jpg` `png` `jpeg` o `gif`.
+`adjunto` - La imagen a adjuntar. Debe ser un archivo `jpg` `png` `jpeg` o `gif`.
 ### Uso
 ```
-.attach [suggestion ID] [attachment]
+.attach <suggestionID> <adjunto>
 ```
 ### Permisos Requeridos
-Cualquier usuario con el permiso de **Administrar Servidor**, un rol de administrador configurado o un rol de staff configurado pueden usar este comando.
+El usuario debe tener el permiso de **Administrar Servidor** o un rol de staff configurado.

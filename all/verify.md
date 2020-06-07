@@ -1,12 +1,12 @@
 # Verify
 ---
 ### Descripción
-Este comando se usa para mostrar los reconocimientos de un usuario.
+Muesta los permisos relacionados con el bot de un usuario.
 ### Argumentos Opcionales
-`usuario` - El usuario del que quieres obtener la información, puede ser con la ID de usuario o una mencion
+`usuario` - El ID de usuario o mención
 ### Uso
 ```
-.verify (usuario)
+.verify [usuario]
 ```
 ### Permisos Requeridos
-Cualquier usuario puede usar este comando, salvo que esté añadido a la lista negra del servidor o global.
+Cualquier usuario puede usar este comando.

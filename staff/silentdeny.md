@@ -1,14 +1,14 @@
 # Silentdeny
 ---
 ### Descripción
-Este comando se usa para denegar una sugerencia pero no se envía al canal de sugerencias denegadas, el usuario recibe un MD.
+Este comando se usa para denegar una sugerencia sin enviarla al canal de sugerencias denegadas. El usuario recibirá una notificación por MD.
 ### Argumentos Requeridos
-`ID de la sugerencia` - El ID de la sugerencia que quieres denegar de forma silenciosa.
+`suggestionID` - El ID de la sugerencia.
 ### Argumentos Opcionales
 `razón` - La razón por la que deniegas la sugerencia.
 ### Uso
 ```
-.silentdeny [ID de la sugerencia] (razón)
+.silentdeny <suggestionID> [razón]
 ```
 ### Permisos Requeridos
-Cualquier usuario con el permiso de **Administrar Servidor**, un rol de administrador configurado o un rol de staff configurado pueden usar este comando.
+El usuario debe tener el permiso de **Administrar Servidor** o un rol de staff configurado.

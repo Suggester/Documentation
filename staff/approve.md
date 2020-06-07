@@ -1,14 +1,14 @@
 # Approve
 ---
 ### Descripción
-Este comando permite aprobar una sugerencia en el modo de revisión.
+Aprueba una sugerencia (en el modo `review`).
 ### Argumentos Requeridos
-`ID de la sugerencia` - El ID de la sugerencia que quieres aprobar.
+`suggestionID` - El ID de la sugerencia.
 ### Argumentos Opcionales
 `comentario` - El comentario que quieres añadir en la sugerencia.
 ### Uso
 ```
-.approve [ID de la sugerencia] (comentario)
+.approve <suggestionID> [comentario]
 ```
 ### Permisos Requeridos
-Cualquier usuario con el permiso de **Administrar Servidor**, un rol de administrador configurado o un rol de staff configurado pueden usar este comando.
+El usuario debe tener el permiso de **Administrar Servidor** o un rol de staff configurado.

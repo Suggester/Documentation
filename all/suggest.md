@@ -1,11 +1,11 @@
 # Suggest
 ---
 ### Descripción
-Este comando es usado para realizar sugerencias al staff de un servidor.
+¡Realiza una sugerencia!
 ### Argumentos Requeridos
-`sugerencia` - La sugerencia que quieres realizar, puede incluir cualquier cosa.
+`sugerencia` - Tu *fabulosa* sugerencia
 
-?> Puedes incluir adjuntos con tu sugerencia, para hacerlo debes adjuntar el archivo a la sugerencia, el adjunto puede ser `jpg`, `png`, `jpeg` o `gif`.
+?> Puedes incluso incluir una imagen con tu sugerencia, solo tienes que subirla junto con tu sugerencia. Formatos de archivo admitidos: `jpg`, `png`, `jpeg`, `gif`.
 ### Uso
 ```
 .suggest [sugerecia]
@@ -13,4 +13,4 @@ Este comando es usado para realizar sugerencias al staff de un servidor.
 ### Alias
 `submit`
 ### Permisos Requeridos
-Cualquier usuario puede usar este comando, salvo que esté añadido a la lista negra del servidor o global o los administradores del servidor hayan configurado Roles con Permiso para Sugerir.
+Cualquier usuario puede usar este comando de forma predeterminada. Este ajuste puede ser cambiado para requerir un rol específico.

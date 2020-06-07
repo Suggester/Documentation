@@ -1,7 +1,7 @@
 # Stats
 ---
 ### Descripción
-Este comando se usa para obtener las estadísticas de suggester, globales o del servidor.
+Muestra algunas estadísticas del bot.
 ### Uso
 ```
 .stats
@@ -9,4 +9,4 @@ Este comando se usa para obtener las estadísticas de suggester, globales o del 
 ### Alias
 `statistics`
 ### Permisos Requeridos
-Cualquier usuario puede usar este comando, salvo que esté añadido a la lista negra del servidor o global.
+Cualquier usuario puede usar este comando.

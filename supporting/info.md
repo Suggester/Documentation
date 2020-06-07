@@ -1,6 +1,6 @@
 # Apoyando al Bot
 ---
-La mejor forma de apoyar al bot es votar por él en las listas de bots. Si estás en el [Servidor de Soporte](https://discord.gg/G5pEdUp), ¡puedes obtener recompensas por votar!
+La mejor forma de apoyar al bot es votar por él en las listas de bots. Si estás en el [servidor de soporte](https://discord.gg/G5pEdUp), ¡puedes incluso obtener recompensas por votar!
 
 <!-- tabs:start -->
 

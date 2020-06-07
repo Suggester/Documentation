@@ -1,11 +1,13 @@
 # Config
 
 ### Descripción
-Este comando es usado para configurar varios ajuestes sin nedesidad de realizar una configuración completa.
+Configura opciones individuales para el bot.
 ### Argumentos Opcionales
-`list` - Este argumento es usado para mostrar la configuración actual del servidor.
+`list` - Muestra la configuración actual del servidor.
 
-`element` - Si es usado sin ningún otro argumento, mostrará la configuración acutal para ese elemento.
+`elemento` - El ajuste a cambiar
+
+`...entrada` - El valor del ajuste que te gustaría cambiar. Dejarlo en blanco mostrará el ajuste actual.
 
 
 *Para configuración*
@@ -17,7 +19,7 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 ### `admin`
 ## Función
 
-**Cualquier usuario con cualquiera de esos roles hereda permisos de staff, pero también tendrá permiso para configurar ajustes del servidor.**
+**El rol de administrador hereda automáticamente todos los permisos del staff y la habilidad de configurar los ajustes del servidor.**
 
 ## Entradas Válidas
 
@@ -25,7 +27,7 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 
 ## Uso
 
-`config admin [add/remove/list] [rol]`
+`config admin [<add|remove|list> <rol>]`
 
 #### **Roles de Staff**
 
@@ -34,7 +36,7 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 ### `staff`
 ## Función
 
-**Cualquier usuario con cualquera de esos roles tendrá permiso para aceptar y denegar sugerencia, y también para interactuar con estas de otras maneras.**
+**Los roles de staff otorgan el permiso de interactuar con las sugerencias (aprobar, denegar, etc.).**
 
 ## Entradas Válidas
 
@@ -42,7 +44,7 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 
 ## Uso
 
-`config staff [add/remove/list] [rol]`
+`config staff [<add|remove|list> <rol>]`
 
 #### **Roles con Permiso para Sugerir**
 
@@ -51,9 +53,9 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 ### `allowed`
 ## Función
 
-**Cualquier usuario con cualquera de esos roles (o un rol de staff/administrador) puede realizar sugerencias. Si no hay roles permitidos configurados todos los miembros pueden realizar sugerencias.**
+**Cualquier usuario con cualquera de esos roles puede realizar sugerencias. Si se deja en blanco, todos los miembros podrán realizar sugerencias**
 
-?> ¡Esto es útil para bloquear las sugerencias a solo algunos miembros de tu servidor!
+?> ¡Esto es útil para bloquear las sugerencias a miembros específicos de tu servidor!
 
 ## Entradas Válidas
 
@@ -61,7 +63,7 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 
 ## Uso
 
-`config allowed [add/remove/list] [rol]`
+`config allowed [<add|remove|list> <rol>]`
 
 #### **Rol de Sugerencias Aprobadas**
 
@@ -89,7 +91,7 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 ### `review`
 ## Función
 
-**El canal donde se enviarán las sugerencias inmediatamente después de ser realizadas para que sean revisadas por el staff. (Únicamente si el modo está configurado en *revisión*)**
+**El canal donde se enviarán las sugerencias para que sean revisadas por el staff. (Únicamente si el modo está configurado en *revisión*)**
 
 ## Entradas Válidas
 
@@ -106,7 +108,7 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 ### `suggestions`
 ## Función
 
-**El canal donde las sugerencias aprobadas son enviadas. (Si el modo está configurado como *autoaprobar* entonces todas las sugerencias son enviadas automáticamente a este canal)**
+**El canal donde las sugerencias aprobadas son enviadas. (Si el modo está configurado como *autoaprobar*  todas las sugerencias serán enviadas automáticamente a este canal)**
 
 ## Entradas Válidas
 
@@ -123,7 +125,7 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 ### `denied`
 ## Función
 
-**El canal donde las sugerencias denegadas/borradas son enviadas.**
+**El canal donde son enviadas las sugerencias que son denegadas o borradas.**
 
 **Usar** `none` **como canal eliminará el canal de sugerencias denegadas si está configurado.**
 
@@ -161,7 +163,7 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 ### `implemented`
 ## Función
 
-**El canal donde se enviarán todas las sugerencias que hayan sido marcadas como __implementadas__ usando el comando  [mark](es/staff/mark.md).**
+**El canal donde se enviarán todas las sugerencias que hayan sido marcadas como __implementadas__.**
 
 **Usar** `none` **como canal eliminará el actual canal de archivo de sugerencias implementadas si hay alguno configurado.**
 
@@ -180,9 +182,11 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 ### `commands`
 ## Función
 
-**El canal donde el comando** `suggest` **puede ser usado. (Si esto no es configurado el comando `suggest` podrá ser usado en cualquier canal)**
+**El canal donde el comando** `suggest` **puede ser usado. (Si esto no es configurado el comando** `suggest` **podrá ser usado en cualquier canal)**
 
 ?> ¡Esto es útil para mantener los comandos del bot lejos de los canales de chat!
+
+**Usar** `none` **eliminará el canal si está configurado.**
 
 ## Entradas Válidas
 
@@ -199,11 +203,9 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 ### `emojis`
 ## Función
 
-**Los emojis que deberían añadirse como reacción a las sugerencias aprobadas. Los predeterminados son 👍, 🤷, y 👎 para voto positivo, neutral y voto negativo respectivamente.**
+**Las reacciones que se añadirán a las sugerencias aprobadas. Por defecto serán usados 👍, 🤷, y 👎**
 
-**Seleccionar** `disable` **para un emote lo desactiva - lo que significa que no será añadido a futuras sugerencias aprobadas.**
-
-**Los parámetros** `toggle`/`enable`/`disable` **editarán los ajustes que controlan las reacciones del feed de sugerencias - esto está *activado* de forma predeterminada.**
+**Seleccionar** `disable` **lo desactivará, lo que significa que no será añadido a futuras sugerencias aprobadas.**
 
 ## Entradas válidas
 
@@ -211,7 +213,7 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 
 ## Uso
 
-`config emojis [upvote/shrug/downvote/toggle/enable/disable] [emoji/disable]`
+`config emojis [<upvote|shrug|downvote|toggle|enable|disable>] [emoji|disable]`
 
 #### **Ajustes de Notificaciones**
 
@@ -220,17 +222,17 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 ### `notify`
 ## Función
 
-**El elemento** `notify` **especifica si los miembros del servidor deberían ser notificados a través de MD cuando se realicen acciones en sus sugerencias o no.**
+**El elemento** `notify` **especifica si los miembros del servidor serán notificados a través de MD cuando se realicen acciones en sus sugerencias o no.**
 
 **Este ajuste está *activado* de forma predeterminada.**
 
 ## Entradas Válidas
 
-`enable`, `disable`, **o** `toggle`
+`enable`, `disable` **o** `toggle`
 
 ## Uso
 
-`config notify [enable/disable/toggle]`
+`config notify [enable|disable|toggle]`
 
 #### **Modo de Sugerencias**
 
@@ -241,9 +243,9 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 
 **El elemento** `mode` **configura el modo en el que se gestionan las sugerencias.**
 
-**Ajustándolo a** `review` *(revisión)* **hará que todas las sugerencias pasen por un servicio de revisión antes de aparecer en el canal de sugerencias.**
+**Ajustándolo a** `review` *(revisión)* **enviará todas las sugerencias al canal de revisión antes de aparecer en el canal de sugerencias.**
 
-**Ajustándolo a** `autoapprove` *(autoaprobar)* **hará que todas las sugerencias aparezcan directamente en el canal de sugerencias.**
+**Ajustándolo a** `autoapprove` *(autoaprobar)* *enviará todas las sugerencias al canal de sugerencias.**
 
 ## Entradas Válidas
 
@@ -251,7 +253,7 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 
 ## Uso
 
-`config mode [review/autoapprove]`
+`config mode [review|autoapprove]`
 
 #### **Auto-Limpieza del Canal de Sugerencias**
 
@@ -260,7 +262,7 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 ### `cleancommands`
 ## Función
 
-**Este elemento especifica si los comandos de sugerencias y las respuestas del bot han de borrarse o no después de unos segundos.**
+**Esto borrará automáticamente los comandos de sugerenicas y las respuestas del bot al rato de usarse el comando.**
 
 **Este ajuste está *desactivado* de forma predeterminada.**
 
@@ -272,7 +274,7 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 
 ## Uso
 
-`config cleancommands [enable/disable/toggle]`
+`config cleancommands [enable|disable|toggle]`
 
 #### **Prefijo**
 
@@ -281,7 +283,9 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 ### `prefix`
 ## Función
 
-**El prefijo por el que comienzan todos los comandos, por ejemplo: en** `.command` **el prefijo es** `.`
+**El prefijo por el que comienzan todos los comandos.**
+
+**El prefijo predeterminado es** `.`
 
 ## Entradas Válidas
 
@@ -296,9 +300,9 @@ Este comando es usado para configurar varios ajuestes sin nedesidad de realizar 
 
 ### Uso
 ```
-.config (elemento) (parámetros adicionales)
+.config <elemento> [parámetros adicionales]
 ```
 ### Alias
 `serverconfig`, `cfg`, `configure`
 ### Permisos Requeridos
-Cualquier usuario con el permiso de **Administrar Servidor** o un rol de administrador configurado.
+El usuario debe tener el permiso de **Administrar Servidor** o un rol de administrador configurado.

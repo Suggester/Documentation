@@ -51,6 +51,6 @@
 ---
 
 **OTROS RECURSOS**
-[Servidor de Soporte](https://discord.gg/G5pEdUp)
-[¡Invita al bot!](https://discordapp.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=805694544)
-[Traducción de la Documentación](es/translation.md)
+[Enlaces Útiles](es/usefullinks.md)
+[Traducciones](es/translation.md)
+[Estadísticas de Suggester](es/botstats.md)
