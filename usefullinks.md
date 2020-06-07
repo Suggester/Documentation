@@ -20,9 +20,9 @@ All useful links that relate to the bot.
 
 # Twitter
 ---
-### We even have a [Twitter](https://twitter.com/SuggesterBot)! We will be using it to announce updates, outages and polls!
+### We even have a [Twitter](https://twitter.com/SuggesterBot)! We will be using it to announce updates, outages, polls and more!
 
-#### Github
+#### **Github**
 
 # Github
 ---
