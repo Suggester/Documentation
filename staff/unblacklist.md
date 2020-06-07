@@ -1,7 +1,7 @@
 # Unblacklist
 ---
 ### Description
-This command is used to let blacklisted people use the bot in the server again.
+This command is will remove users from the server blacklist.
 ### Required Arguments
 `user` - The user you want to unblacklist.
 ### Usage
@@ -11,4 +11,4 @@ This command is used to let blacklisted people use the bot in the server again.
 ### Aliases
 `unbl`, `allow`
 ### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+The user must have **Manage Server** or a configured staff role.

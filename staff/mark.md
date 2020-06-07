@@ -3,9 +3,10 @@
 ### Description
 This command is used to change the status of a suggestion.
 ### Required Arguments
-`suggestion ID` - The ID of the suggestion you want to change it's status.
 
-`status` - The status you want to use.
+`suggestionId` - The ID of the suggestion.
+
+`status` - The status you want to set.
 
 | Argument              |                Meaning                |
 |-----------------------|:-------------------------------------:|
@@ -17,9 +18,9 @@ This command is used to change the status of a suggestion.
 
 ### Usage
 ```
-.mark [suggestion ID] [status]
+.mark <suggestionId> <status>
 ```
 ### Aliases
 `status`
 ### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+The user must have **Manage Server** or a configured staff role.

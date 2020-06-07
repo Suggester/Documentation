@@ -1,7 +1,7 @@
 # Listqueue
 ---
 ### Description
-This command is used to show all suggestions awaiting review.
+Get a list of all suggestions currently in the suggestion queue. (Note: you must be in review mode to use this command.)
 ### Usage
 ```
 .listqueue
@@ -9,4 +9,4 @@ This command is used to show all suggestions awaiting review.
 ### Aliases
 `queue`, `showqueue`
 ### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+The user must have **Manage Server** or a configured staff role.

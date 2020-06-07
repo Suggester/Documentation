@@ -1,14 +1,17 @@
 # Deletecomment
 ---
 ### Description
-This command is used to delete a comment from a suggestion.
+This command is used to remove a comment from a suggestion.
 ### Required Arguments
-`comment ID` - The ID of the comment you want to delete.
+`commentId` - The ID of the comment you want to delete.
+
+?> Check the field name above the comment to find *ID* followed by a number, this is the comment ID.
+
 ### Usage
 ```
-.deletecomment [comment ID]
+.deletecomment [commentId]
 ```
 ### Aliases
 `delcomment`, `dcomment`, `rmcomment`
 ### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+The user must have **Manage Server** or a configured staff role.

@@ -52,9 +52,5 @@
 
 **FURTHER RESOURCES**
 [Useful Links](NAME_OF_LANG/usefullinks.md)
-[Translating the docs](NAME_OF_LANG/translation.md)
-
----
-
-**STATS**
-[Stats on suggester](NAME_OF_LANG/botstats.md)
+[Translations](NAME_OF_LANG/translation.md)
+[Stats on Suggester](NAME_OF_LANG/botstats.md)

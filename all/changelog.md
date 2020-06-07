@@ -1,7 +1,7 @@
 # Changelog
 ---
 ### Description
-This command shows the latest release changelog from the [Suggester GitHub Repo](https://github.com/Suggester-Bot/Suggester).
+Show the [latest release](https://github.com/Suggester-Bot/Suggester/releases/latest) changelog.
 ### Usage
 ```
 .changelog
@@ -9,4 +9,4 @@ This command shows the latest release changelog from the [Suggester GitHub Repo]
 ### Aliases
 `changes`
 ### Permission Required
-Anyone can use this command, unless they are blacklisted in the server or globally.
+Anyone can use this command
