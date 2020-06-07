@@ -1,12 +1,12 @@
 # Verify
 ---
 ### Description
-This command is used to show the acknowledgements of a user
+Show a user's permissions as they relate to the bot.
 ### Optional Arguments
-`user` - The user you want information about, it can be a user ID or a mention
+`user` - The user's ID or mention
 ### Usage
 ```
-.verify (user)
+.verify [user]
 ```
 ### Permission Required
-Anyone can use this command, unless they are blacklisted in the server or globally
+Anyone can use this command

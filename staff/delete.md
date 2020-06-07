@@ -3,12 +3,12 @@
 ### Description
 This command is used to delete an approved suggestion.
 ### Required Arguments
-`suggestion ID` - The ID of the suggestion you want to delete.
+`suggestionId` - The ID of the suggestion you want to delete.
 ### Optional Arguments
-`reason` - The reason of deleting the suggestion.
+`reason` - The reason the suggestion is being deleted.
 ### Usage
 ```
-.delete [suggestion ID] (reason)
+.delete <suggestionId> [reason]
 ```
 ### Permission Required
-Any user with the **Manage Server** permission, a configured admin role or a configured staff role can use this command.
+The user must have **Manage Server** or a configured staff role.
