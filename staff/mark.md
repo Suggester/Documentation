@@ -20,7 +20,7 @@ This command is used to change the status of a suggestion.
 
 ### Usage
 ```
-.mark <suggestionId> <status> (comment)
+.mark <suggestionId> <status> [comment]
 ```
 ### Aliases
 `status`
