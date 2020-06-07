@@ -53,7 +53,7 @@ Configure individual options for the bot.
 ### `allowed`
 ## Function
 
-**Anyone with these roles can sumbit suggestions. If this is left blank, all members may submit suggestions.**
+**Anyone with these roles can submit suggestions. If this is left blank, all members may submit suggestions.**
 
 ?> This is useful for locking the ability to make suggestions to specific server members.
 
