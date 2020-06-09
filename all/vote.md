@@ -1,7 +1,9 @@
 # Vote
 ---
 ### Description
-Cette commande est utilisée pour afficher des informations sur les votes pour Suggester sur toutes les listes de bots dans lesquelles il se trouve. (Vous pouvez aussi découvrir comment voter [ici](supporting/info.md))
+Affiche des informations pour soutenir Suggester en votant sur les listes de bots dans lesquelles il se trouve
+
+?> Découvrez comment voter [ici](supporting/info.md)!
 ### Utilisation
 ```
 .vote
