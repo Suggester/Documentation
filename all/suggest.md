@@ -1,16 +1,16 @@
 # Suggest
 ---
 ### Description
-Cette commande permet de soumettre des suggestions au staff du serveur.
+Soumet une suggestion
 ### Argument Requis
-`suggestion` - La suggestion que vous souhaitez soumettre.
+`suggestion` - Votre *incroyable* suggestion 
 
-?> Vous pouvez y joindre des fichiers en les attachant à la commande (les formats supportés sont `jpg`, `png`, `jpeg` et `gif`).
+?> Vous pouvez également y ajouter une image, les formats supportés sont `jpg`, `png`, `jpeg` et `gif`.
 ### Utilisation
 ```
-.suggest [suggestion]
+.suggest <suggestion>
 ```
 ### Alias
 `submit`
 ### Permission Requise
-N'importe qui peut utiliser cette commande, sauf si l'utilisateur est blacklisté sur le serveur ou globalement.
+Tout le monde peut utiliser cette commande, cela peut changé en configurant un rôle autorisé. 
