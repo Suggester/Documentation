@@ -1,7 +1,7 @@
 # Blacklist
 ---
 ### Description
-This command is used blacklist people from using the bot.
+Prevent someone from using the bot.
 ### Required Arguments
 `user` - The user you want to blacklist.
 ### Usage
