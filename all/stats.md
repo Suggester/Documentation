@@ -1,7 +1,7 @@
 # Stats
 ---
 ### Description
-Cette commande sert à afficher les statistiques de Suggester, globalement et dans le serveur.
+Affiche les statistiques de Suggester 
 
 ### Utilisation
 ```
@@ -10,4 +10,4 @@ Cette commande sert à afficher les statistiques de Suggester, globalement et da
 ### Aliases
 `statistics`
 ### Permission Requise
-N'importe qui peut utiliser cette commande, sauf si l'utilisateur est blacklisté sur le serveur ou globalement.
+N'importe qui peut utiliser cette commande
