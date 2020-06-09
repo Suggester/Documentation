@@ -1,15 +1,15 @@
 # Changelog
 ---
 ### Description
-Cette commande affiche le changelog le plus récent provenant du [Repo GitHub de Suggester](https://github.com/Suggester-Bot/Suggester).
+Affiche le [changelog](https://github.com/Suggester-Bot/Suggester/releases/latest)
 
-!> Les changelogs sont actuellement uniquement disponibles en anglais.
+!> Les changelogs sont uniquement disponibles en anglais.
 
 ### Usage
 ```
 .changelog
 ```
-### Aliases
+### Alias
 `changes`
 ### Permission Requise
-N'importe qui peut utiliser cette commande, sauf si l'utilisateur est blacklisté sur le serveur ou globalement.
+N'importe qui peut utiliser cette commande
