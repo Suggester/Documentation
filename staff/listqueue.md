@@ -1,7 +1,7 @@
 # Listqueue
 ---
 ### Description
-Cette commande permet d'afficher une liste des suggestions en attente d'approbation. 
+Affiche une liste des suggestions en attente d'approbation (uniquement si le mode défini est `review)
 ### Utilisation
 ```
 .listqueue
