@@ -1,12 +1,12 @@
 # Unblacklist
 ---
 ### Description
-Cette commande permet de laisser les personnes précédemment blacklistées utiliser le bot à nouveau sur le serveur.
+Retire les utilisateurs de la blacklist
 ### Argument Requis
-`user` - L'utilisateur que vous souhaitez blacklister.
+`utilisateur` - L'utilisateur que vous souhaitez retirer de la blacklist.
 ### Utilisation
 ```
-.unblacklist [user]
+.unblacklist <utilisateur>
 ```
 ### Aliases
 `unbl`, `allow`
