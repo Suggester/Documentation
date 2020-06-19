@@ -1,7 +1,7 @@
-# Suggester Docs {docsify-ignore-all}
+# Suggester Dokümantasyonu {docsify-ignore-all}
 ---
-Suggester is an [open source](https://github.com/Suggester-Bot/Suggester) bot that manages server suggestions. On this site, we have documented what all of Suggester's commands and how to use them.
+Suggester önerileri yönetmeye yarayan bir [açık kaynaklı](https://github.com/Suggester-Bot/Suggester) bottur. Bu sitede, Suggester'in komutlarını ve nasıl kullanılacağını listeledik.
 
-?> All **Usage** sections on these docs will assume that the prefix  is `.` You can change your server's prefix using the [config](tr/admin/config.md) command.
+?> Tüm **Kullanım** bölümlerinde normal prefix `.`dır. Sunucunun prefixini [config](tr/admin/config.md) komuduyla değiştirebilirsiniz.
 
-?> In this documentation, arguments in <angle brackets> are __required__ and [square brackets] are __optional__.
+?> Bu dokümantasyonda, girişler <açı parantezlerinde> __gereklidir__ ve [kare parantezlerde] __isteğe bağlıdır__.
