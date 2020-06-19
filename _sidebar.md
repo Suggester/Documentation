@@ -1,9 +1,9 @@
-[Suggester Docs](tr/)
-[Getting started](tr/getting-started.md)
+[Suggester Dokümantasyonları](tr/)
+[Haydi Başlayalım](tr/getting-started.md)
 
 ---
 
-**PUBLIC COMMANDS**
+**HERKESE AÇIK KOMUTLAR**
 [Suggest](tr/all/suggest.md)
 [Help](tr/all/help.md)
 [Ping](tr/all/ping.md)
@@ -20,7 +20,7 @@
 
 ---
 
-**STAFF COMMANDS**
+**YETKİLİ KOMUTLARI**
 [Approve](tr/staff/approve.md)
 [Deny](tr/staff/deny.md)
 [Silentdeny](tr/staff/silentdeny.md)
@@ -42,19 +42,19 @@
 
 ---
 
-**ADMIN COMMANDS**
+**YÖNETİCİ KOMUTLARI**
 [Autosetup](tr/admin/autosetup.md)
 [Setup](tr/admin/setup.md)
 [Config](tr/admin/config.md)
 
 ---
 
-**SUPPORTING THE BOT**
+**BOTU DESTEKLEME**
 [Info](tr/supporting/info.md)
 
 ---
 
-**FURTHER RESOURCES**
+**İLERİ KAYNAKLAR**
 [Useful Links](tr/usefullinks.md)
 [Translations](tr/translation.md)
 [Stats on Suggester](tr/botstats.md)
