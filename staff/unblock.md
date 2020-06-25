@@ -1,12 +1,12 @@
-# Unblacklist
+# Unblock
 ---
 ### Description
-This command is will remove users from the server blacklist.
+This command is will remove users from the server block list.
 ### Required Arguments
-`user` - The user you want to unblacklist.
+`user` - The user you want to block list.
 ### Usage
 ```
-.unblacklist <user>
+.unblock <user>
 ```
 ### Aliases
 `unbl`, `allow`
