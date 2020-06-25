@@ -9,6 +9,6 @@ This command will remove users from the server block list.
 .unblock <user>
 ```
 ### Aliases
-`unbl`, `allow`
+`allow`
 ### Permission Required
 The user must have **Manage Server** or a configured staff role.
