@@ -1,7 +1,7 @@
 # Unblacklist
 ---
 ### Description
-Remove users from the server blacklist
+This command is will remove users from the server blacklist.
 ### Required Arguments
 `user` - The user you want to unblacklist.
 ### Usage
