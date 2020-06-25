@@ -37,8 +37,8 @@
 [Comment](staff/comment.md)
 [Acomment](staff/acomment.md)
 [Deletecomment](staff/deletecomment.md)
-[Blacklist](staff/block.md)
-[Unblacklist](staff/unblock.md)
+[Block](staff/block.md)
+[Unblock](staff/unblock.md)
 
 ---
 
