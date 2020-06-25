@@ -1,12 +1,12 @@
-# Blacklist
+# Block
 ---
 ### Description
-This command is used blacklist people from using the bot.
+This command is used block people from using the bot.
 ### Required Arguments
-`user` - The user you want to blacklist.
+`user` - The user you want to block.
 ### Usage
 ```
-.blacklist <user>
+.block <user>
 ```
 ### Aliases
 `bl`, `disallow`
