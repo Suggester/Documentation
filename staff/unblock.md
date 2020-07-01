@@ -3,7 +3,7 @@
 ### Description
 This command will remove users from the server block list.
 ### Required Arguments
-`user` - The user you want to block list.
+`user` - The user you want to unblock.
 ### Usage
 ```
 .unblock <user>
