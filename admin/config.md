@@ -9,6 +9,7 @@ Configure individual options for the bot.
 
 `...input` - The value of the setting you would like to change. Leaving this blank will show the current value.
 
+?> Use `.config list` without any other arguments to shot server's current configuration.
 
 *For configuration*
 
