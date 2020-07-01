@@ -1,14 +1,14 @@
-# Blacklist
+# Unblock
 ---
 ### Description
-This command is used blacklist people from using the bot.
+This command will remove users from the server block list.
 ### Required Arguments
-`user` - The user you want to blacklist.
+`user` - The user you want to unblock.
 ### Usage
 ```
-.blacklist <user>
+.unblock <user>
 ```
 ### Aliases
-`bl`, `disallow`
+`allow`
 ### Permission Required
 The user must have **Manage Server** or a configured staff role.
