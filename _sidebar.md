@@ -58,3 +58,5 @@
 [Useful Links](usefullinks.md)
 [Translations](translation.md)
 [Stats on Suggester](botstats.md)
+[Legal](legal.md)
+
