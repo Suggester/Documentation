@@ -353,6 +353,98 @@ Configure individual options for the bot.
 
 `config prefix [prefix]`
 
+#### **Allowed Roles To Vote**
+
+## Config Element
+
+### `voting`
+## Function
+
+**Allowing specific role(s) to vote for approved suggestions**
+
+## Valid Inputs
+
+**Role ID or mention or name**
+
+## Usage
+
+`config voting [add|remove] <role>`
+
+#### **Self Voting**
+
+## Config Element
+
+### `selfvote`
+## Function
+
+**Disallowing people to vote on their own suggestions**
+
+**By default everyone can vote on their own suggestions**
+
+## Valid Inputs
+
+`on`, `off` **or** `toggle`
+
+## Usage
+
+`config selfvote [on|off|toggle]`
+
+#### **Disallowing Multiple Votes**
+
+## Config Element
+
+### `one`
+## Function
+
+**Disallowing people to vote multiple times on the same suggestion**
+
+**Everyone can vote multiple times on same suggestion by default**
+
+## Valid Inputs
+
+`on`, `off`, **or** `toggle`
+
+## Usage
+
+`config one [on|off|toggle]`
+
+#### **Changing The Suggestion Color**
+
+## Config Element
+
+### `color`
+## Function
+
+**Changing the color of the suggestion when it reaches specific amount of upvotes**
+
+**By default the color is gold**
+
+## Valid Inputs
+
+**Hex color**
+
+## Usage
+
+`config colorchange color <color>`
+
+#### **Changing The Needed Amount of Upvotes**
+
+## Config Element
+
+### `number`
+## Function
+
+**Changing the amount of upvotes needed to change the color of the suggestion**
+
+**By default the amount is 15 upvotes**
+
+## Valid Inputs
+
+**Any number**
+
+## Usage
+
+`config colorchange number <threshold>`
 <!-- tabs:end -->
 
 
@@ -363,4 +455,4 @@ Configure individual options for the bot.
 ### Aliases
 `serverconfig`, `cfg`, `configure`
 ### Required Permissions
-The user must have **Manage Server** or the configured admin role.
+The user must have **Manage Server** or a configured admin role.

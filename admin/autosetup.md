@@ -10,4 +10,4 @@ Automatically setup the bot.
 .autosetup
 ```
 ### Permission Required
-The user must have **Manage Server** or the configured admin role.
+The user must have **Manage Server** or a configured admin role.
