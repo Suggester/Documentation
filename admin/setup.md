@@ -10,4 +10,4 @@ Setup Suggester using an interactive wizard-like setup process.
 .setup
 ```
 ### Permission Required
-The user must have **Manage Server** or the configured admin role.
+The user must have **Manage Server** or a configured admin role.
