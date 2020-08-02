@@ -16,7 +16,7 @@ In order for the bot to function, we store some information about servers and us
 This data is used throughout the bot to make it work. Without storing the data above, it would not be possible for Suggester to function. The data we collect is used for the purposes stated above, and nothing else. We will never give out the information we store to unauthorized users.
  
 ## Security
-All data and bot services are protected by authentication and access is limited to a small subset of users (developers, and (for some data) Suggester staff members). If you believe you have found a security issue in one of our systems, **do not** post in a public chat. DM a Developer (Brightness™#0001 or @Ben.#0002) with information and we will investigate.
+All data and bot services are protected by authentication and access is limited to a small subset of users (developers, and (for some data) Suggester staff members). If you believe you have found a security issue in one of our systems, **do not** post in a public chat. DM a Developer (Brightness™#0001 or Ben!#0002) with information and we will investigate.
 
 ## Concerns
 If you have any concerns about the data we store or the functions of the bot, contact a member of the Suggester staff team or our Support bot that you can find in the [support server](https://discord.gg/G5pEdUp). 
