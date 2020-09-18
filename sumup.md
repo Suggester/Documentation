@@ -1,5 +1,6 @@
 # Public Commands Sumup
-Suggester contains a lot of commands everyone can use, but they don't really need a whole article for each and every of them, as they are mostly basic. You'll find in this page the full list of public commands with a quick explanation of what they do
+Suggester contains a lot of commands everyone can use, but they don't really need a whole article for each and every of them, as they are mostly basic. You'll find in this page the full list of public commands with a quick explanation of what they do.
+
 Commands in this list will use the default prefix (`.`), meaning if you configured a different one, you will have to replace it accordingly.
 
 ### Public Commands
@@ -18,6 +19,22 @@ Commands in this list will use the default prefix (`.`), meaning if you configur
 
 `.verify`: Show a user’s permissions as they relate to the bot, also accepts a mention/user ID argument to check someone's else permissions
 
+`.changelog`: Link the latest stable release from [GitHub](https://github.com/Suggester-Bot/Suggester/releases/latest)
+
+`.tutorial`: Show a quick guide about setting up and using the bot (the response to this command is the same as the embed sent when the bot is added to a server)
+
 ### Special Sunflowers
 
-These are special commands everyone can use, so we added them to another part
+These are special commands everyone can use, so we added them to another part :3
+
+`.notify`: Set your notification settings for the current server, running this command with no argument will show your current settings. To edit them, you'll need an extra argument:
+
+  `on` - Enable notifications
+  `off` - Disable notifications
+  `toggle` - Toggle the current state
+  
+`.suggest`: This bot's main command! Use it to suggest stuff in your favorite servers, you can also add an attachment by attaching it to the command message! 
+
+`.locale`: This command sets your **user** locale, all responses and messages you receive from the bot will use that language (defaulting to English). Using it with no arguments will show a list of all available locales
+
+?> Since translations are community made, all strings might not yet be translated when you'll see them in the bot
