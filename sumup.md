@@ -27,13 +27,13 @@ Commands in this list will use the default prefix (`.`), meaning if you configur
 
 These are special commands everyone can use, so we added them to another part :3
 
-`.notify`: Set your notification settings for the current server, running this command with no argument will show your current settings. To edit them, you'll need an extra argument:
+`.notify`: Set your notification settings for the current server, running this command with no argument will show your current settings. To edit them, you'll need an extra argument show below
 
-  `on` - Enable notifications
-  
-  `off` - Disable notifications
-  
-  `toggle` - Toggle the current state
+| Argument              |                Description                   |
+|-----------------------|:--------------------------------------------:|
+| `on`                  | Enable notifications                         |
+| `off`                 | Disable notifications                        |
+| `toggle`              | Toggle the current state                     |
   
 `.suggest`: This bot's main command! Use it to suggest stuff in your favorite servers, you can also add an attachment by attaching it to the command message! 
 
