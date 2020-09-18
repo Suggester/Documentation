@@ -3,21 +3,8 @@
 
 ---
 
-**PUBLIC COMMANDS**
-[Suggest](all/suggest.md)
-[Help](all/help.md)
-[Ping](all/ping.md)
-[Support](all/support.md)
-[Invite](all/invite.md)
-[Locale](all/locale.md)
-[Shard](all/shard.md)
-[Stats](all/stats.md)
-[Vote](all/vote.md)
-[Verify](all/verify.md)
-[Notify](all/notify.md)
-[Tutorial](all/tutorial.md)
-[Changelog](all/changelog.md)
-
+**INTRODUCTION**
+[Public Commands Sumup](sumup.md)
 ---
 
 **STAFF COMMANDS**
