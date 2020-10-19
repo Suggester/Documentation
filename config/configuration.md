@@ -8,8 +8,10 @@ To edit a configuration element, use `.config [element] [value]`. There are curr
 
 ### Optional Arguments
 
-`.config list` will show the current configuration & its status 
-`.config [element]` will show the current value of a specific element
+`.config list` will show the current configuration & its status\
+`.config [element]` will show the current value of a specific element\
+`.config help` with no other argument will show an interactive menu explaining all elements like this documentation\
+`.config help [element]` will show more information about a specific element
 
 ### Aliases
 `serverconfig`, `cfg` and `configure`
