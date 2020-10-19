@@ -12,8 +12,8 @@ Any channel name, ID or #mention
 ### Logged Actions
 
 - Suggestion approvals, denials, deletions and submissions
-- Comments (both public and anonymous) and their deletion
+- Comments (both public and [anonymous](staff/acomment.md)) and their [deletion](staff/deletecomment.md)
 - Status changes
 - Blocking & unblocking
-- Attachments
+- Attachments added with the [`.attach`](staff/attach.md) command
 
