@@ -2,7 +2,7 @@
 
 ### What is it for?
 Suggester bases its permission system the same as Discord, by using different roles. Blocked roles define what roles will be prevented from using the bot at all in the server\
-If you want to block one specific user, use the `.block` command instead
+If you want to block a specific user, use the [`.block`](staff/block.md) command.
 
 ### Usage
 Set up blocked roles using `.config blocked add/remove/list [role]`
