@@ -1,7 +1,7 @@
 # Configuration Element: Notifications
 
 ### What is it for?
-This setting defines server notifications, whether or not users are sent a DM when an action is taken on one of their suggestions (users can still define their own settings with the [notify](all/notify.md) command)
+This setting defines server notifications, whether or not users are sent a DM when an action is taken on one of their suggestions (users can still define their own settings with the [notify](master/sumup.md#special-sunflowers) command)
 
 ### Usage
 Set up server notifications using `.config notify on/off/toggle`
