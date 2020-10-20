@@ -1,18 +1,19 @@
-# Massapprove
+# Command: massapprove
 ---
 ### Description
-This command is used to approve multiple suggestions at once.
-### Required Arguments
-`suggestionIds` - The suggestion IDs that you want to approve.
-### Optional Arguments
-`comment` - A comment that you want to include on all of the approved suggestions.
+Use this command approve multiple suggestions at once
 
-?> You have to separate the suggestion IDs and the comment with `-r`
 ### Usage
-```
-.massapprove <suggestionIds> [-r <comment>]
-```
+Use `.massapprove [suggestion IDs] (-r <comment>)` in any channel the bot can read & send messages in
+
+###  Arguments
+`suggestion IDs`: The ID of each suggestion you'd like to approve\
+`comment`: A comment you want to include on each approved suggestions
+
+?> You have to separate the suggestion IDs and the comment with `-r` (eg. `.massapprove 10 11 12 -r Good ideas!`)
+
 ### Aliases
-`mapprove`, `multiapprove`
-### Permission Required
-The user must have **Manage Server** or a configured staff role.
+`mapprove` & `multiapprove`
+
+### User Permission
+To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role
