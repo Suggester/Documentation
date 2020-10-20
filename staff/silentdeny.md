@@ -4,7 +4,7 @@
 Use this command to deny a suggestion without sending it to the denied suggestion channel nor notifying the suggesting user in DMs
 
 ### Usage
-Use `.silentddeny [suggestion ID] (reason)` in any channel the bot can read & send messages in
+Use `.silentdeny [suggestion ID] (reason)` in any channel the bot can read & send messages in
 
 ### Arguments
 `suggestion ID`: The ID of the suggestion you'd like to silent deny
