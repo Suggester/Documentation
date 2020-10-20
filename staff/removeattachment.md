@@ -1,14 +1,16 @@
-# Removeattachment
+# Command: removeattachment
 ---
 ### Description
-This command is used to remove attachment from a suggestion.
-### Required Arguments
-`suggestionId` - The ID of the suggestion.
+Use this command to remove an attachment from a suggestion
+
 ### Usage
-```
-.removeattachment <suggestionId>
-```
+Use `.removeattachment [suggestion ID]` in any channel the bot can read & send messages in
+
+### Arguments
+`suggestion ID`: The ID of the suggestion you'd like to remove the attachment from
+
 ### Aliases
-`rmattachment`, `rmattach`, `delattachment`, `deleteattachment`
-### Permission Required
-The user must have **Manage Server** or a configured staff role.
+`rmattachment`, `rmattach`, `delattachment` and `deleteattachment`
+
+### User Permission
+To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role
