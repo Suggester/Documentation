@@ -1,28 +1,31 @@
-# Mark
+# Command: mark
 ---
 ### Description
-This command is used to change the status of a suggestion.
-### Required Arguments
-
-`suggestionId` - The ID of the suggestion.
-
-`status` - The status you want to set.
-
-| Argument              |                Meaning                |
-|-----------------------|:-------------------------------------:|
-| `default`, `none`     | Resets status to default (none shown) |
-| `no`                  | Not Happening                         |
-| `working`, `progress` | In Progress                           |
-| `implemented`, `done` | Implemented                           |
-
-### Optional Arguments
-`comment` - A comment you want to add to the suggestion
+Use this command to modify a suggestion's status
 
 ### Usage
-```
-.mark <suggestionId> <status> [comment]
-```
-### Aliases
+Use `.mark [suggestion ID] [status] (comment)`
+
+### Arguments
+
+`suggestion ID`: The ID of the suggestion you'd like to modify the status.
+
+`status`: The new status you want to set, use the table below to find all available statuses (If no status is provided, an interactive menu will be shown to choose one)
+
+| Argument              |                Meaning                |                 Context Examples                                                                         |
+|-----------------------|:-------------------------------------:|-------------------------------------------------------------------|
+| `default`, `none`     | Resets status to default (none shown) |                                                                                                          |
+| `no`                  | Not Happening                         | Used to let users know the suggestion will not be implemented                                            |
+| `working`, `progress` | In Progress                           | Useful to leak upcoming stuff 👀                                                                        |
+| `implemented`, `done` | Implemented                           | Use this status when something has been implemented                                                      |
+| `consideration`       | In Consideration                      | Handy status to let users know you're debating about the suggestion, but nothing official *yet*          |
+
+
+`comment`: A comment you want to add to the suggestion (optional)
+
+
+### Alias
 `status`
-### Permission Required
-The user must have **Manage Server** or a configured staff role.
+
+### User Permission
+To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role
