@@ -23,6 +23,8 @@ Commands in this list will use the default prefix (`.`), meaning if you configur
 
 `.tutorial`: Show a quick guide about setting up and using the bot (the response to this command is the same as the embed sent when the bot is added to a server)
 
+`.github`: Send a link to Suggester's repository
+
 ### Special Sunflowers
 
 These are special commands everyone can use, so we added them to another part :3
