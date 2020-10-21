@@ -19,7 +19,7 @@ Commands in this list will use the default prefix (`.`), meaning if you configur
 
 `.verify`: Show a user permissions as they relate to the bot, also accepts a mention/user ID argument to check someone else's permissions
 
-`.changelog`: Link the latest stable release from [GitHub](https://github.com/Suggester-Bot/Suggester/releases/latest)
+`.changelog`: Link the latest stable release from [GitHub](https://github.com/Suggester/Suggester/releases/latest)
 
 `.tutorial`: Show a quick guide about setting up and using the bot (the response to this command is the same as the embed sent when the bot is added to a server)
 
