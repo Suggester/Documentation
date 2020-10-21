@@ -8,6 +8,7 @@
 ---
 
 **STAFF COMMANDS**
+❯ Suggestion Managing
 [Approve](staff/approve.md)
 [Deny](staff/deny.md)
 [Silentdeny](staff/silentdeny.md)
@@ -16,23 +17,28 @@
 [Massapprove](staff/massapprove.md)
 [Massdeny](staff/massdeny.md)
 [Massdelete](staff/massdelete.md)
+
+❯ Comments
+[Comment](staff/comment.md)
+[Acomment](staff/acomment.md)
+[Deletecomment](staff/deletecomment.md)
+❯ Moderation
+[Block](staff/block.md)
+[Unblock](staff/unblock.md)
+
+❯ Misc
 [Listqueue](staff/listqueue.md)
 [Info](staff/info.md)
 [Mark](staff/mark.md)
 [Attach](staff/attach.md)
 [Removeattachment](staff/removeattachment.md)
-[Comment](staff/comment.md)
-[Acomment](staff/acomment.md)
-[Deletecomment](staff/deletecomment.md)
-[Block](staff/block.md)
-[Unblock](staff/unblock.md)
 
 ---
 
 **ADMIN COMMANDS**
 [Autosetup](admin/autosetup.md)
 [Setup](admin/setup.md)
-[Config](admin/config.md)
+[Config](config/configuration.md)
 
 ---
 
