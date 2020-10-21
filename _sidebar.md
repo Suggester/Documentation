@@ -3,17 +3,17 @@
 
 ---
 
-**INTRODUCTION**\
+**INTRODUCTION**
 [Public Commands Sumup](sumup.md)
 [Configuring the bot](config/configuration.md)
 ---
 
-**ADMIN COMMANDS**\
+**ADMIN COMMANDS**
 [autosetup](admin/autosetup.md)
 [setup](admin/setup.md)
 ---
 
-### **STAFF COMMANDS**\
+### **STAFF COMMANDS**
 **❯ Suggestion Managing**
 [approve](staff/approve.md)
 [deny](staff/deny.md)
