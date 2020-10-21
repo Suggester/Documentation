@@ -42,3 +42,23 @@ These are special commands everyone can use, so we added them to another part :3
 `.locale`: This command sets your **user** locale, all responses and messages you receive from the bot will use that language (defaulting to English). Using it with no arguments will show a list of all available locales
 
 ?> Since translations are community made, all strings might not yet be translated when you'll see them in the bot
+
+
+# Suggestion Following
+
+### What is that?
+You can follow suggestions to be notified when a change is made to them. It works just like normal notifications, but the title refers to "a suggestion you follow" instead of "your suggestion". You can follow suggestions by using the [`.follow`](following/follow.md) command, or upvoting them (you will receive a DM the first time you upvote a suggestion which will contain basic information about following, don't worry we'll explain it below)
+
+### Autofollowing 
+By default, you'll automatically follow suggestions you **upvote**, though that can be disabled using `.follow auto off` whic means you will not receive notifications for suggestions you've autofollowed in the past, and you won't follow any more automatically. If you turn it back on, you'll receive notifications again for suggestions you autofollowed. This should respect all server and user notification settings.
+
+
+
+
+
+
+
+
+
+
+
