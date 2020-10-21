@@ -7,7 +7,7 @@
 [Public Commands Sumup](sumup.md)
 ---
 
-**STAFF COMMANDS**
+**STAFF COMMANDS**\
 ❯ Suggestion Managing
 [Approve](staff/approve.md)
 [Deny](staff/deny.md)
@@ -18,15 +18,15 @@
 [Massdeny](staff/massdeny.md)
 [Massdelete](staff/massdelete.md)
 
-❯ Comments
+**❯ Comments**
 [Comment](staff/comment.md)
 [Acomment](staff/acomment.md)
 [Deletecomment](staff/deletecomment.md)
-❯ Moderation
+**❯ Moderation**
 [Block](staff/block.md)
 [Unblock](staff/unblock.md)
 
-❯ Misc
+**❯ Misc**
 [Listqueue](staff/listqueue.md)
 [Info](staff/info.md)
 [Mark](staff/mark.md)
