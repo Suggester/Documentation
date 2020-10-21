@@ -3,53 +3,49 @@
 
 ---
 
-**INTRODUCTION** 
-[Public Commands Sumup](sumup.md)
+**INTRODUCTION**\
+[Public Commands Sumup](sumup.md)\
 [Configuring the bot](config/configuration.md)\
 ---
 
-**ADMIN COMMANDS**
+**ADMIN COMMANDS**\
 [autosetup](admin/autosetup.md)\
 [setup](admin/setup.md)\
 ---
 
 **STAFF COMMANDS**\
-❯ Suggestion Managing
-[Approve](staff/approve.md)\
-[Deny](staff/deny.md)\
-[Silentdeny](staff/silentdeny.md)\
-[Delete](staff/delete.md)\
-[Silentdelete](staff/silentdelete.md)\
-[Massapprove](staff/massapprove.md)\
-[Massdeny](staff/massdeny.md)\
-[Massdelete](staff/massdelete.md)\
+**❯ Suggestion Managing**
+[approve](staff/approve.md)\
+[deny](staff/deny.md)\
+[silentdeny](staff/silentdeny.md)\
+[delete](staff/delete.md)\
+[silentdelete](staff/silentdelete.md)\
+[massapprove](staff/massapprove.md)\
+[massdeny](staff/massdeny.md)\
+[massdelete](staff/massdelete.md)\
 
 **❯ Comments**
-[Comment](staff/comment.md)\
-[Acomment](staff/acomment.md)\
-[Deletecomment](staff/deletecomment.md)\
+[comment](staff/comment.md)\
+[anonymouscomment](staff/acomment.md)\
+[deletecomment](staff/deletecomment.md)\
 
 **❯ Moderation**
-[Block](staff/block.md)\
-[Unblock](staff/unblock.md)\
+[block](staff/block.md)\
+[unblock](staff/unblock.md)\
 
 **❯ Misc**
-[Listqueue](staff/listqueue.md)\
-[Info](staff/info.md)\
-[Mark](staff/mark.md)\
-[Attach](staff/attach.md)\
-[Removeattachment](staff/removeattachment.md)\
+[listqueue](staff/listqueue.md)\
+[info](staff/info.md)\
+[mark](staff/mark.md)\
+[attach](staff/attach.md)\
+[removeattachment](staff/removeattachment.md)\
 
 ---
 
-**SUPPORTING THE BOT**
-[Info](supporting/info.md)
-
----
-
-**FURTHER RESOURCES**
+**SUGGESTER**
+[Supporting me](supporting/info.md)
 [Useful Links](usefullinks.md)
-[Translations](translation.md)
-[Stats on Suggester](botstats.md)
-[Legal](legal.md)
+[Community Programs](translation.md)
+[Stats](botstats.md)
+[Privacy Policy](legal.md)
 
