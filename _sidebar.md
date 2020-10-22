@@ -3,9 +3,12 @@
 
 ---
 
-**INTRODUCTION**
-[Public Commands Sumup](sumup.md)
-[Configuring the bot](config/configuration.md)
+**DOCUMENTATION**
+[Intro](/misc/home.md)
+[Beginner's Guide]
+[Configuration](config/configuration.md)
+[F.A.Q]
+[Public Commands](sumup.md)
 ---
 
 **ADMIN COMMANDS**
