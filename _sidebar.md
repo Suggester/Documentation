@@ -3,8 +3,9 @@
 [Intro](home.md)
 [Beginner's Guide](beginner-guide.md)
 [Configuration](config/configuration.md)
-[F.A.Q]
+[F.A.Q](faq.md)
 [Public Commands](sumup.md)
+Changelog (soon)
 ---
 
 **ADMIN COMMANDS**
