@@ -1,10 +1,6 @@
-[Suggester Docs](home.md)
-[Getting started](getting-started.md)
-
----
 
 **DOCUMENTATION**
-[Intro](/misc/home.md)
+[Intro](home.md)
 [Beginner's Guide]
 [Configuration](config/configuration.md)
 [F.A.Q]
