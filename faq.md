@@ -16,3 +16,12 @@ A comment's ID is formed by the ID of the suggestion its on followed by `_` and 
 
 ### I found a bug, how do I report it?
 soon
+
+### How do I set a locale?
+soon
+
+### What is Suggester 2 & how can I invite it to my server?
+soon
+
+### canary?
+soon? idk
