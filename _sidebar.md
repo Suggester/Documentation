@@ -5,12 +5,13 @@
 [Configuration](config/configuration.md)
 [F.A.Q](faq.md)
 [Public Commands](sumup.md)
-Changelog (soon)
+[Changelog](changelog.md)
 ---
 
 **ADMIN COMMANDS**
 [autosetup](admin/autosetup.md)
 [setup](admin/setup.md)
+[config](config/configuration.md)
 ---
 
 ### **STAFF COMMANDS**
@@ -23,6 +24,7 @@ Changelog (soon)
 [massapprove](staff/massapprove.md)
 [massdeny](staff/massdeny.md)
 [massdelete](staff/massdelete.md)
+[import] soon
 
 **❯ Comments**
 [comment](staff/comment.md)
