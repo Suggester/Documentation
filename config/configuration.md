@@ -25,7 +25,7 @@ Any member with the **Manage Server** permission or a configured admin role is a
 
 | Element                                       |                Type                          |   Required?¹          | Default Value         |
 |-----------------------------------------------|:--------------------------------------------:|-----------------------|-----------------------|
-| [Admin Roles](/config/adminroles)             | Role                                         |        ✓              |      None             |
+| [Admin Roles](/config/adminroles.md)          | Role                                         |        ✓              |      None             |
 | [Allowed Roles](/config/allowedroles.md)      | Role                                         |                       |         None          | 
 | [Approve Role](/config/approverole.md)        | Role                                         |                       |         None           |
 | [Blocked Roles](/config/blockedroles.md)      | Role                                         |                       |         None           |
@@ -36,7 +36,7 @@ Any member with the **Manage Server** permission or a configured admin role is a
 | [Denied](/config/denied.md)                   | Channel                                      |           ✓           |         None           |
 | [Emojis](/config/emojis.md)                   | Emojis                                       |                       |      👍,🤷 and 👎     |
 | [Implemented](/config/implemented.md)         | Role                                         |                       |        None            |
-| [ICSS](/config/inchannelsuggestions)          | Toggle                                       |                       |         Disabled       |
+| [ICSS](/config/inchannelsuggestions.md)       | Toggle                                       |                       |         Disabled       |
 | [Locale](/config/locale.md)                   | Role                                         |                       |          English       |
 | [Logs](/config/logs.md)                       | Channel                                      |                       |            None        |
 | [Mode](/config/mode.md)                       |                                              |           ✓           |            None       |
