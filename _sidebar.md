@@ -47,7 +47,7 @@
 **SUGGESTER**
 [Supporting me](supporting/info.md)
 [Useful Links](usefullinks.md)
-[Community Programs](translation.md)
+[Community Programs](community-programs.md)
 [Stats](botstats.md)
 [Privacy Policy](legal.md)
 
