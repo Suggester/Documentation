@@ -25,25 +25,25 @@ Any member with the **Manage Server** permission or a configured admin role is a
 /config/
 
 
-| Element                                       |                Type                          |   Required?*          | Default Value         |
+| Element                                       |                Type                          |   Required?¹          | Default Value         |
 |-----------------------------------------------|:--------------------------------------------:|-----------------------|-----------------------|
-| [Admin Roles](/config/adminroles)             | Role                                         |        ✓              |      None               |
-| [Allowed Roles](/config/allowedroles.md)      | Role                                         |                       |         None              | 
-| [Approve Role](/config/approverole.md)        | Role                                         |                       |         None              |
-| [Blocked Roles](/config/blockedroles.md)      | Role                                         |                       |         None              |
-| [Clean Commands](/config/cleancommands.md)    | Toggle                                       |                       |         Disabled              |
-| [Color CHange](/config/colorchange.md)        |                                              |                       | 15 votes - #FFD700     |
-| [Commands](/config/commands.md)               | Channel                                      |                       |         None              |
-| [Cooldown](/config/cooldown.md)               | Number                                       |                       |       0 seconds                |
-| [Denied](/config/denied.md)                   | Channel                                      |           ✓           |         None              |
-| [Emojis](/config/emojis.md)                   | Emojis                                       |                       |          👍,🤷 and 👎             |
-| [Implemented](/config/implemented.md)         | Role                                         |                       |        None               |
-| [ICSS](/config/inchannelsuggestions)          | Toggle                                       |                       |         Disabled              |
-| [Locale](/config/locale.md)                   | Role                                         |                       |          English             |
-| [Logs](/config/logs.md)                       | Channel                                      |                       |            None           |
-| [Mode](/config/mode.md)                       |                                              |           ✓            |            None          |
-| [Notifications](/config/notify.md)            |  Toggle                                      |                       |            Enabled           |
-| [One Vote](/config/onevote.md)                |  Toggle                                      |                       |                       |
+| [Admin Roles](/config/adminroles)             | Role                                         |        ✓              |      None             |
+| [Allowed Roles](/config/allowedroles.md)      | Role                                         |                       |         None          | 
+| [Approve Role](/config/approverole.md)        | Role                                         |                       |         None           |
+| [Blocked Roles](/config/blockedroles.md)      | Role                                         |                       |         None           |
+| [Clean Commands](/config/cleancommands.md)    | Toggle                                       |                       |         Disabled       |
+| [Color Change](/config/colorchange.md)        |                                              |                       | 15 votes - #FFD700     |
+| [Commands](/config/commands.md)               | Channel                                      |                       |         None           |
+| [Cooldown](/config/cooldown.md)               | Number                                       |                       |       0 seconds        |
+| [Denied](/config/denied.md)                   | Channel                                      |           ✓           |         None           |
+| [Emojis](/config/emojis.md)                   | Emojis                                       |                       |      👍,🤷 and 👎     |
+| [Implemented](/config/implemented.md)         | Role                                         |                       |        None            |
+| [ICSS](/config/inchannelsuggestions)          | Toggle                                       |                       |         Disabled       |
+| [Locale](/config/locale.md)                   | Role                                         |                       |          English       |
+| [Logs](/config/logs.md)                       | Channel                                      |                       |            None        |
+| [Mode](/config/mode.md)                       |                                              |           ✓           |            None       |
+| [Notifications](/config/notify.md)            |  Toggle                                      |                       |            Enabled     |
+| [One Vote](/config/onevote.md)                |  Toggle                                      |                       |                      |
 | [Ping Role](/config/pingrole.md)              | Role                                         |                       |   None                    |
 | [Prefix](/config/prefix.md)                   |                                              |          ✓             |     `.`                  |
 | [Review](/config/review.md)                   | Channel                                      |          ✓             |     None                  |
@@ -52,6 +52,6 @@ Any member with the **Manage Server** permission or a configured admin role is a
 | [Suggestions](/config/suggestions.md)         | Channel                                      |          ✓             |       None                      |
 | [Voting Roles](/config/voting.md)             | Role                                         |                        |       All roles                  |
 
-\* The `Required?` colon denotes if each element is required or not for the bot to function properly
+¹ The `Required?` colon denotes if each element is required or not for the bot to function properly
 
 
