@@ -27,30 +27,31 @@ Any member with the **Manage Server** permission or a configured admin role is a
 
 | Element                                       |                Type                          |   Required?*          | Default Value         |
 |-----------------------------------------------|:--------------------------------------------:|-----------------------|-----------------------|
-| [Admin Roles](/config/adminroles)             | Role                                         |                       |                       |
-| [Allowed Roles](/config/allowedroles.md)      | Role                                         |                       |                       | 
-| [Staff Roles](/config/staffroles.md)          | Role                                         |                       |                       |
-| [Approve Role](/config/approverole.md)        | Role                                         |                       |                       |
-| [Blocked Roles](/config/blockedroles.md)      | Role                                         |                       |                       |
-| [Clean Commands](/config/cleancommands.md)    | Role                                         |                       |                       |
-| [Color CHange](/config/colorchange.md)        | Role                                         |                       |                       |
-| [Commands](/config/commands.md)               | Role                                         |                       |                       |
-| [Cooldown](/config/cooldown.md)               | Role                                         |                       |                       |
-| [Denied](/config/denied.md)                   | Role                                         |                       |                       |
-| [Emojis](/config/emojis.md)                   | Role                                         |                       |                       |
-| [Implemented](/config/implemented.md)         | Role                                         |                       |                       |
-| [ICSS](/config/inchannelsuggestions)          | Role                                         |                       |                       |
-| [Locale](/config/locale.md)                   | Role                                         |                       |                       |
-| [Logs](/config/logs.md)                       | Role                                         |                       |                       |
-| [Mode](/config/mode.md)                       | Role                                         |                       |                       |
-| [Notifications](/config/notify.md)            | Role                                         |                       |                       |
-| [One Vote](/config/onevote.md)                | Role                                         |                       |                       |
-| [Ping Role](/config/pingrole.md)              | Role                                         |                       |                       |
-| [Prefix](/config/prefix.md)                   | Role                                         |                       |                       |
-| [Review](/config/review.md)                   | Role                                         |                       |                       |
-| [Self Vote](/config/selfvote.md)              | Role                                         |                       |                       |
-| [Staff Roles](/config/staffroles.md)          | Role                                         |                       |                       |
-| [Suggestions](/config/suggestions.md)         | Role                                         |                       |                       |
-| [Voting Roles](/config/voting.md)             | Role                                         |                       |                       |
+| [Admin Roles](/config/adminroles)             | Role                                         |        ✓              |      None               |
+| [Allowed Roles](/config/allowedroles.md)      | Role                                         |                       |         None              | 
+| [Approve Role](/config/approverole.md)        | Role                                         |                       |         None              |
+| [Blocked Roles](/config/blockedroles.md)      | Role                                         |                       |         None              |
+| [Clean Commands](/config/cleancommands.md)    | Toggle                                       |                       |         Disabled              |
+| [Color CHange](/config/colorchange.md)        |                                              |                       | 15 votes - #FFD700     |
+| [Commands](/config/commands.md)               | Channel                                      |                       |         None              |
+| [Cooldown](/config/cooldown.md)               | Number                                       |                       |       0 seconds                |
+| [Denied](/config/denied.md)                   | Channel                                      |           ✓           |         None              |
+| [Emojis](/config/emojis.md)                   | Emojis                                       |                       |          👍,🤷 and 👎             |
+| [Implemented](/config/implemented.md)         | Role                                         |                       |        None               |
+| [ICSS](/config/inchannelsuggestions)          | Toggle                                       |                       |         Disabled              |
+| [Locale](/config/locale.md)                   | Role                                         |                       |          English             |
+| [Logs](/config/logs.md)                       | Channel                                      |                       |            None           |
+| [Mode](/config/mode.md)                       |                                              |           ✓            |            None          |
+| [Notifications](/config/notify.md)            |  Toggle                                      |                       |            Enabled           |
+| [One Vote](/config/onevote.md)                |  Toggle                                      |                       |                       |
+| [Ping Role](/config/pingrole.md)              | Role                                         |                       |   None                    |
+| [Prefix](/config/prefix.md)                   |                                              |          ✓             |     `.`                  |
+| [Review](/config/review.md)                   | Channel                                      |          ✓             |     None                  |
+| [Self Vote](/config/selfvote.md)              | Toggle                                       |                       |                                |
+| [Staff Roles](/config/staffroles.md)          | Role                                         |           ✓            |       None                      |
+| [Suggestions](/config/suggestions.md)         | Channel                                      |          ✓             |       None                      |
+| [Voting Roles](/config/voting.md)             | Role                                         |                        |       All roles                  |
+
+* The Required? colon denotes if each element is required or not for the bot to function properly
 
 
