@@ -1,11 +1,9 @@
 ![Suggester Logo](/images/coverpageLogo.png)
 
-- A Discord bot that helps you manage your server suggestions pog test
+Suggester is a discord bot helping staff members & admins to manage feedback in their server, with the usage of a modern suggestion system and its granular configuration elements
 
 [Get Started](getting-started.md)
 [More Info](home.md)
 
 
-<!-- background color -->
 
-![color](rgb(255, 255, 255))
