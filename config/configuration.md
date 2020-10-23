@@ -41,11 +41,11 @@ Any member with the **Manage Server** permission or a configured admin role is a
 | [Logs](/config/logs.md)                       | Channel                                      |                       |            None        |
 | [Mode](/config/mode.md)                       |                                              |           ✓           |            None       |
 | [Notifications](/config/notify.md)            |  Toggle                                      |                       |            Enabled     |
-| [One Vote](/config/onevote.md)                |  Toggle                                      |                       |                      |
+| [One Vote](/config/onevote.md)                |  Toggle                                      |                       |       Enabled               |
 | [Ping Role](/config/pingrole.md)              | Role                                         |                       |   None                    |
 | [Prefix](/config/prefix.md)                   |                                              |          ✓             |     `.`                  |
 | [Review](/config/review.md)                   | Channel                                      |          ✓             |     None                  |
-| [Self Vote](/config/selfvote.md)              | Toggle                                       |                       |                                |
+| [Self Vote](/config/selfvote.md)              | Toggle                                       |                       |         Enabled                       |
 | [Staff Roles](/config/staffroles.md)          | Role                                         |           ✓            |       None                      |
 | [Suggestions](/config/suggestions.md)         | Channel                                      |          ✓             |       None                      |
 | [Voting Roles](/config/voting.md)             | Role                                         |                        |       All roles                  |
