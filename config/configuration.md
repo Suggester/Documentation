@@ -52,6 +52,6 @@ Any member with the **Manage Server** permission or a configured admin role is a
 | [Suggestions](/config/suggestions.md)         | Channel                                      |          ✓             |       None                      |
 | [Voting Roles](/config/voting.md)             | Role                                         |                        |       All roles                  |
 
-* The Required? colon denotes if each element is required or not for the bot to function properly
+\* The `Required?` colon denotes if each element is required or not for the bot to function properly
 
 
