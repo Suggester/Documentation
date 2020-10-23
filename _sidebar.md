@@ -8,10 +8,10 @@
 [Changelog](changelog.md)
 ---
 
-**ADMIN COMMANDS**
-[autosetup](admin/autosetup.md)
-[setup](admin/setup.md)
-[config](config/configuration.md)
+- **ADMIN COMMANDS**
+  - [autosetup](admin/autosetup.md)
+  - [setup](admin/setup.md)
+  - [config](config/configuration.md)
 ---
 
 ### **STAFF COMMANDS**
