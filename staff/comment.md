@@ -15,7 +15,4 @@ Use `.comment [suggestion ID] [comment]` in any channel the bot can read & send 
 ### User Permission
 To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role
 
-📝 **Note:** Since comments are part of an embed, you can even include hyperlinks using the following syntax:\
-
-> Syntax: `[text](link)`
-> Example: [Click me!](https://google.com) 
+📝 **Note:** Since comments are part of an embed, you can even include hyperlinks!
