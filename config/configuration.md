@@ -22,8 +22,6 @@ Any member with the **Manage Server** permission or a configured admin role is a
 ⚠ **Warning:** Adding the `@everyone` role as an admin role will give everyone in the server elevated permissions and may cause harm, do it at your own risks!
 
 # Configuration Elements
-/config/
-
 
 | Element                                       |                Type                          |   Required?¹          | Default Value         |
 |-----------------------------------------------|:--------------------------------------------:|-----------------------|-----------------------|
