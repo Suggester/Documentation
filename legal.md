@@ -20,5 +20,5 @@ All data and bot services are protected by authentication and access is limited 
 
 ## Concerns
 If you have any concerns about the data we store or the functions of the bot, contact a member of the Suggester staff team via our support bot that you can find in the [support server](https://discord.gg/G5pEdUp). 
-We'll be more than happy to clear up any concerns you may have.
+We'll be more than happy to clear up any concerns you may have.\
 !> If you would like your data to be removed from our systems, please contact one of the developers listed above and we'll help you out from there.
