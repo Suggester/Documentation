@@ -12,9 +12,10 @@
 [autosetup](admin/autosetup.md)
 [setup](admin/setup.md)
 [config](config/configuration.md)
+[import](admin/import.md)
 ---
 
-### **STAFF COMMANDS**
+**STAFF COMMANDS**
 **❯ Suggestion Managing**
 [approve](staff/approve.md)
 [deny](staff/deny.md)
@@ -24,7 +25,6 @@
 [massapprove](staff/massapprove.md)
 [massdeny](staff/massdeny.md)
 [massdelete](staff/massdelete.md)
-[import] soon
 
 **❯ Comments**
 [comment](staff/comment.md)
