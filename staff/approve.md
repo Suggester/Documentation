@@ -4,7 +4,7 @@
 Use this command to approve a suggestion (only available while the mode is set to `review`)
 
 ### Usage
-Run `.approve [suggestion ID] (comment)` in any channel the bot can read & send messages in
+Use `.approve [suggestion ID] (comment)` in any channel the bot can read & send messages in
 
 ### Arguments
 `suggestion ID`: The ID of the suggestion you'd like to approve\
