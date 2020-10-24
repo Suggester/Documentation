@@ -16,6 +16,7 @@
 ---
 
 ### **STAFF COMMANDS**\
+
 **❯ Suggestion Managing**
 [approve](staff/approve.md)
 [deny](staff/deny.md)
