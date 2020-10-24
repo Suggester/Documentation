@@ -26,7 +26,7 @@ Suggester offers many different locales, so you can choose what language the bot
 - To configure your User locale, use the `.locales` command to see the list of all available languages. Find the one you want, then use `.locale [name]` to set it!
 - To configure your Server locale, use the [`.config locale`](/config/locale.md) command to see all available languages. Find the one you want, then use `.config locale [name]` to set it!
 
-If your language isn't there and you want to translate it, take a look at our [Translation Program](commmunity-programs.md)
+If your language isn't there and you want to translate it, take a look at our [Translation Program](community-programs.md)
 
 ### What is Suggester 2 & how can I invite it to my server?
 Suggester 2 is identical to Suggester in almost every way! It allows you to manage two different suggestion setups with different settings in your server. Its default prefix is a dot (`.`) but you can indeed change it at any time by doing `@Suggester 2#6730 config prefix [new prefix]`
