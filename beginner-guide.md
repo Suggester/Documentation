@@ -1,6 +1,6 @@
 # Beginner's Guide: How to start using Suggester? {docsify-ignore-all}
 ---
-You've ever wanted an awesome discord bot suiting all your needs and giving away free cookies? Well, Suggester only allows the former (good news, I guess?).. Okay, let's start. It can look a bit complicated at first, but don't fret we'll dive into it below!
+Have you ever wanted a discord bot allowing you to manage suggestions as well as giving away free cookies? Well, Suggester only allows the former (good news, I guess?).. Okay, let's start. It can look a bit complicated at first, but don't fret, we'll dive into it below.
 
 First, you need to add Suggester to your server, you can do so with [this link](https://discord.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=805694544) (you'll need the **Manage Server** permission on the server you'd like to add the bot). Suggester needs all permissions shown to function correctly, if any of these permissions are omitted, some functions may not work.
 
