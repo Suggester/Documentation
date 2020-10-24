@@ -46,8 +46,7 @@
 ---
 
 ### **SUGGESTER**
-[Supporting me](supporting/info.md)
-[Useful Links](usefullinks.md)
+[Support my development](supporting/info.md)
 [Community Programs](community-programs.md)
 [Stats](botstats.md)
 [Privacy Policy](legal.md)
