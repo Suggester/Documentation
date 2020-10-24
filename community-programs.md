@@ -3,7 +3,7 @@
 ### 🌐 Translating Suggester
 
 Hallo! Bonjour! Buenos dias! If you are interested in helping translate Suggester, you will need to be a part of our translation team! If you are not yet part of it, hit us up in our [support server](https://discord.gg/G5pEdUp) and we'll get you started!
-When you're done accepting our party invite, head over to `#community-programs` where you'll find more information. Translations are handled using a super cool bot which provides an interactive way to translate everything. If you're fluent in the langauge, can understand the system and how it works, and have a basic understanding of english, you're suited for our Translation Team! 
+When you're done accepting our party invite, head over to `#community-programs` where you'll find more information. Translations are handled using a super cool bot which provides an interactive way to translate everything. If you're fluent in the language, can understand the system and how it works, and have a basic understanding of english, you're suited for our Translation Team! 
 
 ### 🐛 Hunting Bugs
 
