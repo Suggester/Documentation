@@ -15,7 +15,7 @@ A comment's ID is formed by the ID of the suggestion its on followed by `_` and 
 **Example ID:** `12345_1`
 
 ### I found a bug, how do I report it?
-soon
+If you want to report a bug, you'll need to be part of our [Canary Program](community-programs?id=🐛-hunting-bugs)
 
 ### How do I set a locale?
 
@@ -27,6 +27,10 @@ Suggester offers many different locales, so you can choose what language the bot
 If your language isn't there and you want to translate it, take a look at our [Translation Program](commmunity-programs.md)
 
 ### What is Suggester 2 & how can I invite it to my server?
-soon
+Suggester 2 is identical to Suggester in almost every way! It allows you to manage two different suggestion setups with different settings in your server. Its default prefix is a dot (`.`) but you can indeed change it at any time by doing `@Suggester 2#6730 config prefix [new prefix]`
+
+You can add it to your server with this [link](https://discord.com/oauth2/authorize?client_id=708299727166242866&scope=bot&permissions=805694544)
+
+
 
 
