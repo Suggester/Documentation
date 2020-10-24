@@ -15,7 +15,7 @@
 [import](admin/import.md)
 ---
 
-**STAFF COMMANDS**\
+**STAFF COMMANDS**
 
 **❯ Suggestion Managing**
 [approve](staff/approve.md)
