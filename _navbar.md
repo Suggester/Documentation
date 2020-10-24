@@ -1,4 +1,4 @@
-* [Changelog](changelog.md)
+* [Changelog](changelog.md 'New features announcements, bug fixes and more!')
 
 * Getting started
 
