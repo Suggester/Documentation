@@ -23,17 +23,17 @@ Any member with the **Manage Server** permission or a configured admin role is a
 
 # Configuration Elements
 
-| Element                                       |                Type                          |   Required?¹          | Default Value         |
-|-----------------------------------------------|:--------------------------------------------:|-----------------------|-----------------------|
-| [Admin Roles](/config/adminroles.md)          | Role                                         |        ✓              |      None             |
-| [Allowed Roles](/config/allowedroles.md)      | Role                                         |                       |         None          | 
+| Element                                       |                Type                          |   Required?¹          | Default Value          |
+|-----------------------------------------------|:--------------------------------------------:|-----------------------|------------------------|
+| [Admin Roles](/config/adminroles.md)          | Role                                         |        ✓              |      None              |
+| [Allowed Roles](/config/allowedroles.md)      | Role                                         |                       |         None           | 
 | [Approve Role](/config/approverole.md)        | Role                                         |                       |         None           |
 | [Blocked Roles](/config/blockedroles.md)      | Role                                         |                       |         None           |
 | [Clean Commands](/config/cleancommands.md)    | Toggle                                       |                       |         Disabled       |
 | [Color Change](/config/colorchange.md)        |                                              |                       | 15 votes - #FFD700     |
 | [Commands](/config/commands.md)               | Channel                                      |                       |         None           |
-| [Cooldown](/config/cooldown.md)               | Number                                       |                       |       0 seconds        |
-| [Denied](/config/denied.md)                   | Channel                                      |           ✓           |         None           |
+| [Cooldown](/config/cooldown.md)               | Number                                       |                       |       0 second         |
+| [Denied](/config/denied.md)                   | Channel                                      |                       |         None           |
 | [Emojis](/config/emojis.md)                   | Emojis                                       |                       |      👍,🤷 and 👎     |
 | [Implemented](/config/implemented.md)         | Role                                         |                       |        None            |
 | [ICSS](/config/inchannelsuggestions.md)       | Toggle                                       |                       |         Disabled       |
@@ -47,7 +47,7 @@ Any member with the **Manage Server** permission or a configured admin role is a
 | [Review](/config/review.md)                   | Channel                                      |          ✓             |     None                  |
 | [Self Vote](/config/selfvote.md)              | Toggle                                       |                       |         Enabled                       |
 | [Staff Roles](/config/staffroles.md)          | Role                                         |           ✓            |       None                      |
-| [Suggestions](/config/suggestions.md)         | Channel                                      |          ✓             |       None                      |
+| [Suggestions Feed](/config/suggestions.md)    | Channel                                      |          ✓             |       None                      |
 | [Voting Roles](/config/voting.md)             | Role                                         |                        |       All roles                  |
 
 ¹ The `Required?` colon denotes if each element is required or not for the bot to function properly
