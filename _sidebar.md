@@ -8,14 +8,14 @@
 [Changelog](changelog.md)
 ---
 
-### **ADMIN COMMANDS**
+**ADMIN COMMANDS**
 [autosetup](admin/autosetup.md)
 [setup](admin/setup.md)
 [config](config/configuration.md)
 [import](admin/import.md)
 ---
 
-### **STAFF COMMANDS**\
+**STAFF COMMANDS**\
 
 **❯ Suggestion Managing**
 [approve](staff/approve.md)
