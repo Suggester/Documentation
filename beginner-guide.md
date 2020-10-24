@@ -1,4 +1,4 @@
-# Beginner's Guide: How to start using Suggester? {docsify-ignore-all}
+# Beginner's Guide: Suggester Basics
 ---
 Have you ever wanted a discord bot allowing you to manage suggestions as well as giving away free cookies? Well, Suggester only allows the former (good news, I guess?).. Okay, let's start. It can look a bit complicated at first, but don't fret, we'll dive into it below.
 
