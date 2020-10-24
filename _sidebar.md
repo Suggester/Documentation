@@ -1,5 +1,5 @@
 
-**DOCUMENTATION**
+### **DOCUMENTATION**
 [Intro](home.md)
 [Beginner's Guide](beginner-guide.md)
 [Configuration](config/configuration.md)
@@ -8,14 +8,14 @@
 [Changelog](changelog.md)
 ---
 
-**ADMIN COMMANDS**
+### **ADMIN COMMANDS**
 [autosetup](admin/autosetup.md)
 [setup](admin/setup.md)
 [config](config/configuration.md)
 [import](admin/import.md)
 ---
 
-**STAFF COMMANDS**
+### **STAFF COMMANDS**
 **❯ Suggestion Managing**
 [approve](staff/approve.md)
 [deny](staff/deny.md)
@@ -44,7 +44,7 @@
 
 ---
 
-**SUGGESTER**
+### **SUGGESTER**
 [Supporting me](supporting/info.md)
 [Useful Links](usefullinks.md)
 [Community Programs](community-programs.md)
