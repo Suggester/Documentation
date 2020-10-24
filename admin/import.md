@@ -1,16 +1,16 @@
 # Command: import
 ---
 ### Description
-Use this command to import suggestions from [supported bots](admin/import.md?id=supported-bots) as well as users' into Suggester's database, so you can manage them using our technology. 
+Use this command to import suggestions from [supported bots](admin/import.md?id=supported-bots) as well as users' into Suggester's database, so you can manage them using our technology
 
 
 ### Usage
 Use `.import (message override)` in a channel with suggestions you'd like to import
 
 ### Arguments
-`message override`: The number of past suggestions you'd like to import (optional, default to 30).  
+`message override`: The number of past suggestions you'd like to import (optional, default to 30) 
 
-!> If you need to import more than 30 suggestions, don't use the command and contact us in our [support server](https://discord.gg/G5pEdUp)
+!> If you need to import more than 30 suggestions, please contact our [Support Team](https://discord.gg/G5pEdUp)!
 
 
 ### User Permission
@@ -35,5 +35,3 @@ Suggester currently supports importing suggestions from the following bots:
 - AXVin#4169
 - Ticks#3610
 - Fast Bot.#2211
-
-?> Suggestions cannot be transfered from one instance to another
