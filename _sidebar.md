@@ -42,6 +42,7 @@
 [mark](staff/mark.md)
 [attach](staff/attach.md)
 [removeattachment](staff/removeattachment.md)
+[exempt](staff/exempt.md)
 
 ---
 
