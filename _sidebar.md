@@ -1,62 +1,54 @@
-[Suggester Docs](home.md)
-[Getting started](getting-started.md)
 
----
-
-**PUBLIC COMMANDS**
-[Suggest](all/suggest.md)
-[Help](all/help.md)
-[Ping](all/ping.md)
-[Support](all/support.md)
-[Invite](all/invite.md)
-[Locale](all/locale.md)
-[Shard](all/shard.md)
-[Stats](all/stats.md)
-[Vote](all/vote.md)
-[Verify](all/verify.md)
-[Notify](all/notify.md)
-[Tutorial](all/tutorial.md)
-[Changelog](all/changelog.md)
-
----
-
-**STAFF COMMANDS**
-[Approve](staff/approve.md)
-[Deny](staff/deny.md)
-[Silentdeny](staff/silentdeny.md)
-[Delete](staff/delete.md)
-[Silentdelete](staff/silentdelete.md)
-[Massapprove](staff/massapprove.md)
-[Massdeny](staff/massdeny.md)
-[Massdelete](staff/massdelete.md)
-[Listqueue](staff/listqueue.md)
-[Info](staff/info.md)
-[Mark](staff/mark.md)
-[Attach](staff/attach.md)
-[Removeattachment](staff/removeattachment.md)
-[Comment](staff/comment.md)
-[Acomment](staff/acomment.md)
-[Deletecomment](staff/deletecomment.md)
-[Block](staff/block.md)
-[Unblock](staff/unblock.md)
-
+### **DOCUMENTATION**
+[Intro](home.md)
+[Beginner's Guide](beginner-guide.md)
+[Configuration](config/configuration.md)
+[F.A.Q](faq.md)
+[Public Commands](sumup.md)
+[Changelog](changelog.md)
 ---
 
 **ADMIN COMMANDS**
-[Autosetup](admin/autosetup.md)
-[Setup](admin/setup.md)
-[Config](admin/config.md)
+[autosetup](admin/autosetup.md)
+[setup](admin/setup.md)
+[config](config/configuration.md)
+[import](admin/import.md)
+---
+
+**STAFF COMMANDS**
+
+**❯ Suggestion Managing**
+[approve](staff/approve.md)
+[deny](staff/deny.md)
+[silentdeny](staff/silentdeny.md)
+[delete](staff/delete.md)
+[silentdelete](staff/silentdelete.md)
+[massapprove](staff/massapprove.md)
+[massdeny](staff/massdeny.md)
+[massdelete](staff/massdelete.md)
+
+**❯ Comments**
+[comment](staff/comment.md)
+[anonymouscomment](staff/acomment.md)
+[deletecomment](staff/deletecomment.md)
+
+**❯ Moderation**
+[block](staff/block.md)
+[unblock](staff/unblock.md)
+
+**❯ Misc**
+[listqueue](staff/listqueue.md)
+[info](staff/info.md)
+[mark](staff/mark.md)
+[attach](staff/attach.md)
+[removeattachment](staff/removeattachment.md)
+[exempt](staff/exempt.md)
 
 ---
 
-**SUPPORTING THE BOT**
-[Info](supporting/info.md)
-
----
-
-**FURTHER RESOURCES**
-[Useful Links](usefullinks.md)
-[Translations](translation.md)
-[Stats on Suggester](botstats.md)
-[Legal](legal.md)
+### **SUGGESTER**
+[Support my development](supporting/info.md)
+[Community Programs](community-programs.md)
+[Stats](botstats.md)
+[Privacy Policy](legal.md)
 

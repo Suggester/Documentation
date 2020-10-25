@@ -1,14 +1,14 @@
-# Silentdelete
+# Command: silentdelete
 ---
 ### Description
-This command is used to delete a suggestion without sending it to the denied suggestion channel or DMing the suggesting user.
-### Required Arguments
-`suggestionId` - The ID of the suggestion.
-### Optional Arguments
-`reason` - The reason for deleting the suggestion.
+Use this command to delete a suggestion without sending it to the denied suggestion channel nor notifying the suggesting user in DMs
+
 ### Usage
-```
-.silentdelete <suggestionId> [reason]
-```
-### Permission Required
-The user must have **Manage Server** or a configured staff role.
+Use `.silentdelete [suggestion ID] (reason)` in any channel the bot can read & send messages in
+
+### Arguments
+`suggestion ID`: The ID of the suggestion you'd like to silent delete
+`reason`: The reason you're silent deleting this suggestion (optional)
+
+### User Permission
+To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role

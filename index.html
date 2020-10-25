@@ -9,22 +9,25 @@
     <link rel="icon" type="image/ico" href="/images/favicon.ico">
     <meta property="og:site_name" content="Suggester Docs">
     <meta property="twitter:card" content="summary_large_image">
-    <meta name="description" content="The official documentation for the Suggester Discord bot">
-    <meta name="theme-color" content="#7289da">
-    <meta property="og:title" content="Suggester Docs">
-    <meta property="og:description" content="The official documentation for the Suggester Discord bot">
+    <meta name="description" content="Everything you need to know about how Suggester work, including all commands, configuration elements and everything around it">
+    <meta name="theme-color" content="#fffffd">
+    <meta property="og:title" content="Official Suggester Documentation">
+    <meta property="og:description" content="Everything you need to know about how Suggester work, including all commands, configuration elements and everything around it">
     <meta property="og:url" content="https://suggester.js.org">
-    <meta property="og:image" content="https://suggester.js.org/images/logo.png">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/566351843282780181/769229116054175814/newsbanner_1.png">
     <meta property="og:image:type" content="image/png">
 
     <!-- Theme -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
 
-    <!-- Custom theme styles -->
+<!-- Custom theme styles -->
     <style>
       :root {
+        --cover-color: #000000;
         --base-background-color: #ffffff;
         --code-theme-background: #183055;
+        --cover-background-color: #ffffff; 
+        --cover-background-mask-opacity: 1;
         --code-inline-color: #ffffff;
         --code-inline-background: #183055;
         --code-theme-text: #ffffff;
@@ -33,6 +36,7 @@
         --link-text-decoration: ;
         --link-text-decoration--hover: underline;
         --base-font-size: 16px;
+        
       }
    </style>
 
@@ -49,11 +53,13 @@
             // -----------------------------------------------------------------
             name: 'Suggester Docs',
             homepage: 'home.md',
-            logo: '/images/logo.png',
+            logo: 'https://cdn.discordapp.com/attachments/566351843282780181/769229116054175814/newsbanner_1.png',
             loadSidebar: true,
             coverpage: true,
             loadNavbar: true,
             auto2top: true,
+            notFoundPage: '/404.md',
+            notFoundPage: true,
             maxLevel: 3,
             alias: {
               '/.*/_navbar.md': '/_navbar.md',
@@ -63,7 +69,7 @@
               '/tr/(.*)': 'https://raw.githubusercontent.com/Suggester-Bot/Documentation/turkish/$1'
             },
             footer: {
-              copy: '<span><a href="https://discord.gg/G5pEdUp">Support Server</a> - <a href="https://discordapp.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=872803417">Bot Invite</a> - <a href="https://suggester.js.org/#/translation">Translation Program</a> - <a href="https://suggester.js.org/#/legal">Privacy Policy</a></span>',
+              copy: '<span><a href="#/community-programs.md">Community Programs</a> - <a href="#/legal">Privacy Policy</a></span>',
               auth: '- © Suggester 2020',
               style: 'text-align: center;'
             },
@@ -76,7 +82,8 @@
                 noData     : 'No results!',
                 placeholder: 'Search...'
             },
-            themeColor: "#000000"
+            themeColor: "#23272A"
+           
         };
     </script>
     <script src="https://unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>

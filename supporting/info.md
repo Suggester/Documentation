@@ -1,61 +1,43 @@
-# Supporting the Bot
+
+# Supporting Suggester ❤
 ---
-The best way to support the bot is by voting on bot lists. If you are in the [support server](https://discord.gg/G5pEdUp), you can even get rewards for voting!
 
-<!-- tabs:start -->
+Voting on various bot lists sites really helps support Suggester, so as thanks we allow you to purchase various roles in the [support server](https://discord.gg/G5pEdUp) with the votes you accumulate! By voting on bot lists, you earn points that you can spend in our custom shop!
+Commands can only be used in the support server.
 
-#### **Top.gg**
 
-# Top.gg
+| List                                                                               |                Cooldown                      |  Specificities       |
+|------------------------------------------------------------------------------------|:--------------------------------------------:|----------------------|
+|  [top.gg](https://top.gg/bot/564426594144354315/vote)                              | Once every 12 hours                          | Voting on Fridays, Saturdays or Sundays (GMT) awards 2 votes
+|  [botlist.space](https://botlist.space/bot/564426594144354315/upvote)              | Once every 24 hours                          |
+|  [Discord Bot List](https://discordbotlist.com/bots/564426594144354315/upvote)     | Once every 24 hours                          |
+|  [Bots for Discord](https://botsfordiscord.com/bot/564426594144354315/vote)        | Once every day, resets at midnight UTC       | Leaving a review then using the **v!checkreview** command awards 3 votes
+|  [Discord Boats](https://discord.boats/bot/564426594144354315/vote)                | Once every 12 hours |
+|  [Bots on Discord](https://bots.ondiscord.xyz/bots/564426594144354315/review)      | Once every 12 hours |
+|  [Arcane Bot Center](https://arcane-botcenter.xyz/bot/564426594144354315)          | Once every 12 hours |
+
+🔥 Voting 5 times in a row (keeping a streak) on any bot list site gives 1 extra vote for every 5-Day-Streak completed!
+
+![streak](https://media3.giphy.com/media/443kbHqcFFwOvTuAWf/giphy.gif)
+
+
+
+
+
+# Widgets
 ---
 [![Top.gg Widget](https://discordbots.org/api/widget/564426594144354315.svg)](https://discordbots.org/bot/564426594144354315)
-### [Click here to vote!](https://top.gg/bot/564426594144354315/vote)
 
-#### **Botlist.space**
-
-# Botlist.space
----
 [![Botlist.space Widget](https://api.botlist.space/widget/564426594144354315/2)](https://botlist.space/bot/564426594144354315?utm_source=bls&utm_medium=widget&utm_campaign=564426594144354315)
-### [Click here to vote!](https://botlist.space/bot/564426594144354315/upvote)
 
-#### **Discord Bot List**
-
-# Discord Bot List
----
 [![Discord Bot List widget](https://discordbotlist.com/bots/564426594144354315/widget)](https://discordbotlist.com/bots/564426594144354315)
-### [Click here to vote!](https://discordbotlist.com/bots/564426594144354315/upvote)
 
-#### **Bots For Discord**
-
-# Bots For Discord
----
 [![Bots For Discord widget](https://botsfordiscord.com/api/bot/564426594144354315/widget)](https://botsfordiscord.com/bots/564426594144354315)
-### [Click here to vote!](https://botsfordiscord.com/bot/564426594144354315/vote)
 
-#### **Discord Boats**
-
-# Discord Boats
----
 [![Discord.boats widget](https://discord.boats/api/widget/564426594144354315)](https://discord.boats/bot/564426594144354315)
-### [Click here to vote!](https://discord.boats/bot/564426594144354315/vote)
 
-#### **Glenn Bot List**
-
-# Glenn Bot List
----
-[![Glenn bot list widget](https://glennbotlist.xyz/bot/564426594144354315/widget)](https://glennbotlist.xyz/bot/564426594144354315/vote)
-### [Click here to vote!](https://glennbotlist.xyz/bot/564426594144354315/vote)
-
-#### **Bots on Discord**
-
-# Bots on Discord
 [![Bots on Discord widget](https://bots.ondiscord.xyz/bots/564426594144354315/embed?showGuilds=true)](https://bots.ondiscord.xyz/bots/564426594144354315)
-### [Leave a review here](https://bots.ondiscord.xyz/bots/564426594144354315/review) and tell us what you think about the bot!
 
-#### **Arcane Bot Center**
-
-# Arcane Bot Center
 [![Arcane Bot Center widget](https://arcane-botcenter.xyz/api/widget/564426594144354315.svg)](https://arcane-botcenter.xyz/bot/564426594144354315)
-### [Click here to vote!](https://arcane-botcenter.xyz/bot/564426594144354315)
 
 <!-- tabs:end -->

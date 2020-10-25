@@ -1,18 +1,19 @@
-# Massdeny
+# Command: massdeny
 ---
 ### Description
-This command is used to deny multiple suggestions at once.
-### Required Arguments
-`suggestionIds` - The suggestion IDs that you want to deny.
-### Optional Arguments
-`reason` - The reason for denying the suggestions.
+Use this command to deny multiple suggestions at once
 
-?> You have to separate the suggestions IDs and the reason with `-r`
 ### Usage
-```
-.massdeny <suggestionIds> [-r <reason>]
-```
+Use `.massdeny [suggestion IDs] (-r <reason>)` in any channel the bot can read & send messages in
+
+###  Arguments
+`suggestion IDs`: The ID of each suggestion you'd like to deny\
+`reason`: The reason you'd like to add on each denied suggestion (optional)
+
+?> You have to separate the suggestion IDs and the reason with `-r` (eg. `.massdeny 10 11 12 -r Bad ideas >:(`)
+
 ### Aliases
-`mdeny`, `multideny`
-### Permission Required
-The user must have **Manage Server** or a configured staff role.
+`mdeny` & `multideny`
+
+### User Permission
+To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role

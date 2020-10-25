@@ -1,10 +1,7 @@
-![Suggester Logo](/images/coverpageLogo.png)
+![Suggester Logo](https://cdn.discordapp.com/attachments/566351843282780181/769229116054175814/newsbanner_1.png)
 
-A Discord bot helping staff members & admins to manage feedback in their server, with the usage of a modern suggestion system and its granular configuration elements
+Suggester is a discord bot helping staff members & admins to manage feedback in their server, with the usage of a modern suggestion system and its granular configuration elements
 
-[Get Started](getting-started.md)
-[More Info](home.md)
+[Introduction](README.md)
+[The Basics](beginner-guide.md)
 
-<!-- background color -->
-
-![color](#7289da)

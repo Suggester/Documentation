@@ -1,12 +1,13 @@
-# Listqueue
+# Command: listqueue
 ---
 ### Description
-Get a list of all suggestions currently in the suggestion queue. (Note: you must be in review mode to use this command.)
+Use this command to get a list of all suggestions currently awaiting review (only available while the mode is set to `review`)
+
 ### Usage
-```
-.listqueue
-```
+Use `.listqueue` in any channel the bot can read and send messages in
+
 ### Aliases
-`queue`, `showqueue`
-### Permission Required
-The user must have **Manage Server** or a configured staff role.
+`queue` & `showqueue`
+
+### User Permission
+To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role

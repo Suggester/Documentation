@@ -1,18 +1,19 @@
-# Acomment
+# Command: acomment
 ---
 ### Description
-Add an anonymous comment to a suggestion.
-### Required Arguments
-`suggestionId` - The ID of the suggestion
+Use this command to add an anonymous comment to a suggestion, shown as "Staff Comment"
 
-`comment` - The comment to add
-
-!> A suggestion can have a maximum of 23 comments
 ### Usage
-```
-.acomment <suggestionId> <comment>
-```
-### Aliases
+Run `.acomment [suggestion ID] <comment>` in any channel the bot can read & send messages in
+
+### Arguments
+`suggestion ID`: The ID of the suggestion you'd like to anonymously comment on\
+`comment`: The comment to add
+
+!> Up to 23 comments can be added to the same suggestion!
+
+### Alias
 `anonymouscomment`
-### Permission Required
-The user must have **Manage Server** or a configured staff role.
+
+### User Permission
+To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role

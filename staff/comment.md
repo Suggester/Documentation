@@ -1,16 +1,18 @@
-# Comment
+# Command: comment
 ---
 ### Description
-This command allows staff members to add comments to a suggestion. The comment will be displayed publicly in the suggestion feed.
-### Required Arguments
-`suggestionId` - The ID of the suggestion.
+Use this command to add comments on a suggestion, they'll be publicly displayed on the suggestion embed
 
-`comment` - The comment to add.
-
-!> A suggestion can have a maximum of 23 comments
 ### Usage
-```
-.comment <suggestionId> <comment>
-```
-### Permission Required
-The user must have **Manage Server** or a configured staff role.
+Use `.comment [suggestion ID] [comment]` in any channel the bot can read & send messages in
+
+### Arguments
+`suggestion ID`: The ID of the suggestion you'd like to comment on\
+`comment`: The comment to add, it supports [markdown](https://support.discord.com/hc/en-us/articles/210298617), different mentions (channels, users & roles!) and emojis (both animated and classic!). 
+
+!> Up to 23 comments can be added to the same suggestion!
+
+### User Permission
+To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role
+
+📝 **Note:** Since comments are part of an embed, you can even include hyperlinks!

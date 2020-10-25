@@ -1,18 +1,20 @@
-# Massdelete
+# Command: massdelete
 ---
 ### Description
-This command is used to delete multiple suggestions at once.
-### Required Arguments
-`suggestionIds` - The suggestion IDs that you want to delete.
-### Optional Arguments
-`reason` - The reason for deleting the suggestions.
+Use this command to delete multiple suggestions at once
 
-?> You have to separate the suggestion IDs and the reason with `-r`
 ### Usage
-```
-.massdelete <suggestionIds> [-r <reason>]
-```
+Use `.massdelete [suggestion IDs] (-r <reason>)` in any channel the bot can read & send messages in
+
+### Arguments
+`suggestion IDs`: The ID of each suggestion you'd like to delete\
+`reason`: The reason you'd like to add on each deleted suggestion (optional) 
+
+?> You have to separate the suggestion IDs and the reason with `-r` (eg. `.massdelete 10 11 12 -r Negative feedback`)
+
 ### Aliases
-`medelete`, `multidelete`
-### Permission Required
-The user must have **Manage Server** or a configured staff role.
+`mdelete` & `multidelete`
+
+### User Permission
+To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role
+
