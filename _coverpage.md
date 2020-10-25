@@ -5,6 +5,3 @@ Suggester is a discord bot helping staff members & admins to manage feedback in 
 [Introduction](README.md)
 [The Basics](beginner-guide.md)
 
-
-
-
