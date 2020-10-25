@@ -14,4 +14,4 @@ Use `.attach [suggestion ID] [attachment]` in any channel the bot can read & sen
 To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role
 
 
-⚠ **Important Note:** To maintain images even after the original command have been deleted (for example when `cleancommands` is enabled), we rehost attached files in a private channel only a few people have access to, see our [Privacy Policy](../legal.md) for more information.
+!> ⚠ **Important Note:** To maintain images even after the original command has been deleted (for example when `cleancommands` is enabled), we rehost attached files in a private channel only a few people have access to, see our [Privacy Policy](/legal.md) for more information.
