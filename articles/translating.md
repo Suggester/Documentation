@@ -40,6 +40,7 @@ Last but not least, don't forget to keep the [markdown](https://support.discord.
 You have 5 minutes to translate a string, then 2 minutes to make sure it is correct and confirm it by clicking on the ✅ reaction. If you made a typo or want to retranslate it, click on the ❌! 
 
 ?> If you ever make a mistake after the string has been confirmed, don't worry! You can easily fix it, using the `>mt` command in `#translator-chat`.
+
 ?> **Syntax:** `>mt [locale code] [string name] [new translation]` 
 
 As a thank you, every translator will get the "Translator" acknowledgement on the `.verify` command, as well as the ability to choose a custom one once they've translated a significant part the language.
