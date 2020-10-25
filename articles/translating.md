@@ -25,8 +25,8 @@ The process has now started! To correctly translate, don't forget to add the [ma
 
 ### The DOs and DONTs when translating
 
-We currently don't support command names and arguments in other languages, meaning that you **must not** translate them. For example, `approve` will remain in english, same goes for command arguments (`on`, `off` and `toggle`). Words in `{{placeholders}}` represent real data and should also be kept in english.
-However, syntax guiding (see example below) must be translated.
+We currently don't support command names and arguments in other languages, meaning that you **must not** translate them. For example, `approve` will remain in english, same goes for command arguments (eg `on`, `off`, `toggle`, `list`, `add`, `remove`...). Words in `{{placeholders}}` represent real data and should also be kept in english.
+However, syntax guiding (see example below) must be translated
 
 ![Syntax Guiding](https://cdn.discordapp.com/attachments/769650556502409226/769988849430298624/unknown.png)
 
@@ -34,12 +34,10 @@ However, syntax guiding (see example below) must be translated.
 
 You have 5 minutes to translate a string, then 2 minutes to make sure it is correct and confirm it by clicking on the ✅ reaction. If you made a typo or want to retranslate it, click on the ❌! 
 
-If you ever make a mistake after the string has been confirmed, don't worry! You can easily fix it, using the `>mt` command in `#translator-chat`.
+?> If you ever make a mistake after the string has been confirmed, don't worry! You can easily fix it, using the `>mt` command in `#translator-chat`.\ **Syntax:** `>mt [locale code] [string name] [new translation]` 
 
-**Syntax:** `>mt [locale code] [string name] [new translation]` 
+As a thank you, every translator will get the "Translator" acknowledgement on the `.verify` command, as well as the ability to choose a custom one once you've translated a significant part your language.
 
-As a thank you, every translator will get the "Translator" acknowledgement on the `.verify` command, as well as the ability to choose a custom one once you've translated at least 10% of your language.
 
-If you have any questions, let us know in #translator-chat!
 
 Thanks for reading and good luck translating!
