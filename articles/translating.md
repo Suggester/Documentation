@@ -1,7 +1,8 @@
 # Translating Suggester: Everything You Need To Know
 
 Hey welcome! Thanks for your interest in translating Suggester, it means a lot! Before starting, let me explain how it works. 
-We use the `@i18n#1614` bot to handle translations, which means you will have to make sure your DMs aren't closed on the [support server](https://discord.gg/G5pEdUp) before starting.\ 
+We use the `@i18n#1614` bot to handle translations, which means you will have to make sure your DMs aren't closed on the [support server](https://discord.gg/G5pEdUp) before starting. 
+
 When you're done verifying, run the `>start` command in [`#translator-chat`](https://canary.discord.com/channels/566002482166104066/705524292690903060/769890174225219604)`. The bot will then either start the process if you only have one authorized locale, or ask you to pick a locale code from your authorized ones
 
 ?> A **locale code** is a short string, usually composed of a few letters, which represents your language. For example, the locale code of the French language is `fr`, English's is `en`, etc.. 
@@ -13,15 +14,15 @@ You might be wondering what are all those fields, so I'll explain below.
 
 - The first field, named "English String", shows the original string you have to translate in your language, easy! 
 
-- A few pixels below, you can see the "Raw Content" field, which basically shows the content with no magic used (no markdown no nothing). It is used to show how to add markdown and hyperlinks to the string.
+- A few pixels below, you can see the "**Raw Content**" field, which basically shows the content with no magic used (no markdown no nothing). It is used to show how to add markdown and hyperlinks to the string.
 
-- Another few pixels and you'll meet the "Context" field, it adds more details to each string to facilitate translation, especially for languages using gendered words or different grammatical syntaxes.
+- Another few pixels and you'll meet the "**Context**" field, it adds more details to each string to facilitate translation, especially for languages using gendered words or different grammatical syntaxes.
 
-- Finally, the "Parameters" field lists, if any, all placeholders present in the string to translate. 
+- Finally, the "**Parameters**" field lists, if any, all placeholders present in the string to translate. 
 
 ![Translation Embed Fields](https://cdn.discordapp.com/attachments/769650556502409226/769980267124490270/unknown.png)
 
-The process has now started! To correctly translate, don't forget to add the [markdown](https://support.discord.com/hc/en-us/articles/210298617) (bold, italic, codeblocks etc).
+
 
 ### The DOs and DONTs when translating
 
@@ -29,6 +30,8 @@ We currently don't support command names and arguments in other languages, meani
 However, syntax guiding (see example below) must be translated
 
 ![Syntax Guiding](https://cdn.discordapp.com/attachments/769650556502409226/769988849430298624/unknown.png)
+
+Last but not least, don't forget to keep the [markdown](https://support.discord.com/hc/en-us/articles/210298617) when you translate a string (bold, italic, codeblocks etc..).
 
 ### Details
 
