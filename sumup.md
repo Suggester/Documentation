@@ -5,7 +5,7 @@ Commands in this list will use the default prefix (`.`), meaning if you configur
 
 ### Commands Anyone Can Use
 
-`.help`: Shows an interactive menu containing all Suggester's commands, can also include a command argument (`.help <command>`) to get info about a specific command
+`.help`: Shows an interactive menu containing all Suggester's commands, can also include a command argument (`.help (command)`) to get info about a specific command
 
 `.ping`: Displays the response time and some other information about the bot
 
@@ -13,7 +13,7 @@ Commands in this list will use the default prefix (`.`), meaning if you configur
 
 `.invite`: Sends the link to [add the bot](https://discord.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=805694544) to your server
 
-`.vote`: Shows information about [voting](/voting/info.md) for Suggester on several bot lists 
+`.vote`: Shows information about [voting](voting/info.md) for Suggester on several bot lists 
 
 `.verify`: Shows a user permissions as they relate to the bot, also accepts a mention/user ID argument to check someone else's permissions
 
