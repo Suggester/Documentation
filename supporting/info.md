@@ -2,7 +2,7 @@
 # Supporting Suggester ❤
 ---
 
-Voting on various bot lists sites really helps support Suggester, so as thanks we allow you to purchase various roles in the [support server](https://discord.gg/G5pEdUp) with the votes you accumulate! By voting on bot lists, you earn points that you can spend in our custom shop!
+Voting on various bot lists sites really helps support Suggester, so as a thank you, we allow you to purchase various roles in the [support server](https://discord.gg/G5pEdUp) with the votes you accumulate! By voting on bot lists, you earn points that you can spend in our custom shop!
 Commands can only be used in the support server.
 
 
