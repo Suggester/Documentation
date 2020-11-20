@@ -10,7 +10,7 @@ Use `.top (time)` or `.down (time)` in any channel the bot can read & send messa
 `(time)`: The period of time you'd like to search suggestions from (see examples below)
 
 **Examples:**
-> Using `.top 1w` will show the most popular suggestions submitted during the last week
+> Using `.top 1w` will show the most popular suggestions submitted during the last week\
 > Using `.down 3d` will show the less upvoted suggestions submitted in the last three days
 
 ?> Use `m` for minutes, `h` for hours, `d` for days and `w` for weeks
