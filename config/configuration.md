@@ -43,14 +43,14 @@ Any member with the **Manage Server** permission or a configured [admin role](/c
 | [Logs](/config/logs.md)                       | Channel                                      |                       |            None        |
 | [Mode](/config/mode.md)                       |                                              |           ✓           |            None       |
 | [Notifications](/config/notify.md)            |  Toggle                                      |                       |            Enabled     |
-| [One Vote](/config/onevote.md)                |  Toggle                                      |                       |       Enabled               |
-| [Ping Role](/config/pingrole.md)              | Role                                         |                       |   None                    |
-| [Prefix](/config/prefix.md)                   |                                              |          ✓             |     `.`                  |
-| [Review](/config/review.md)                   | Channel                                      |          ✓             |     None                  |
-| [Self Vote](/config/selfvote.md)              | Toggle                                       |                       |         Enabled                       |
-| [Staff Roles](/config/staffroles.md)          | Role                                         |           ✓            |       None                      |
-| [Suggestions Feed](/config/suggestions.md)    | Channel                                      |          ✓             |       None                      |
-| [Voting Roles](/config/voting.md)             | Role                                         |                        |       All roles                  |
+| [One Vote](/config/onevote.md)                |  Toggle                                      |                       |       Enabled          |
+| [Ping Role](/config/pingrole.md)              | Role                                         |                       |   None                 |
+| [Prefix](/config/prefix.md)                   |                                              |          ✓             |     `.`               |
+| [Review](/config/review.md)                   | Channel                                      |          ✓             |     None              |
+| [Self Vote](/config/selfvote.md)              | Toggle                                       |                       |         Enabled         |
+| [Staff Roles](/config/staffroles.md)          | Role                                         |           ✓            |       None             |
+| [Suggestions Feed](/config/suggestions.md)    | Channel                                      |          ✓             |       None             |
+| [Voting Roles](/config/voting.md)             | Role                                         |                        |       All roles         |
 
 ¹ The `Required?` colon denotes if each element is required or not for the bot to function properly, not configuring required elements will show an error
 
