@@ -6,6 +6,7 @@
 [F.A.Q](faq.md)
 [Public Commands](sumup.md)
 [Changelog](changelog.md)
+[Editing a suggestion](suggestion-editing.md)
 ---
 
 **ADMIN COMMANDS**
