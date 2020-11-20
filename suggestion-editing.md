@@ -12,7 +12,7 @@ Use `.edit [suggestion ID] (new content)` in any channel the bot can read & send
 
 ### Arguments
 
-`suggestion ID`: The ID of the suggestion you’d like to edit. If you don't have staff/admin perms, you can only edit your own suggestions
+`suggestion ID`: The ID of the suggestion you’d like to edit. If you don't have staff/admin perms, you can only edit your own suggestions\
 `new content`: The new version of the suggestion
 
 ### Permissions
