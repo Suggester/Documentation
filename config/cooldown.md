@@ -1,15 +1,13 @@
-# Configuration Element: [NEW] Suggestion Cooldown 
+# Configuration Element: Suggestion Cooldown 
 
 ### What is it for?
-This element defines the time users must wait between submitting suggestions
-
+This element defines the time users must wait before being able to suggest stuff again 
 
 ### Usage
-Set up a cooldown by using `.config cooldown [time]`
+Configure the cooldown using `.config cooldown [time]`
 
 ### Accepted Imputs
 Use `s` for seconds, `m` for minutes, `h` for hours and `d` for days
 
 
-
-⚠ **Warning!** While there is no actual limit, very large cooldowns might not work properly
+?> Staff & Admin members are exempted from this cooldown and therefore do not need to wait between suggestions
