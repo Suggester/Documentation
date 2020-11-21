@@ -1,5 +1,24 @@
 # Changelog
 
+### Suggester v4.6 (November 20th, 2020)
+
+- The ability to edit suggestions has been added! Users can now edit suggestions they’ve submitted, and server admins/staff can edit any suggestion (the footer will show if the suggestion was edited by a staff member). A user editing their own approved suggestion in the review mode will send the edit for review
+- Added a `shortinfo` command for when you want to show info about a suggestion in a concise manner without any internal information like the staff member who took action on it
+- Added an implemented suggestion role (`cfg implementedrole`), so users who get their suggestions marked as Implemented can receive a role
+- Added a configuration element to control auto-following server-wide (`cfg autofollow`) which is enabled by default
+- The `top` command is now numbered 
+- Server staff/admins are now exempted from the configured suggestion cooldown
+- The character limit on suggestions has been raised to 1900 characters (previously 1024)
+- The comment limit is now 15 comments per suggestion
+
+🎉 **5000 Servers!!**
+
+Thanks for helping Suggester reach 5000 Servers! To celebrate, we'll be giving out 10 VoteBoat votes to 5 winners in a giveaway on our [Support Server](https://discord.gg/G5pEdUp)! (it ends soon 👀)
+
+🍔 **Reddit**
+
+Suggester is now present on Reddit! Join us at https://www.reddit.com/r/Suggester/ 
+
 ### Suggester v4.5.1 (October 21st, 2020)
 
 This release primarily contains performance improvements for servers with a large number of approved suggestions/members who vote on suggestions:
