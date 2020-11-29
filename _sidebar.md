@@ -6,9 +6,15 @@
 [F.A.Q](faq.md)
 [Public Commands](sumup.md)
 [Changelog](changelog.md)
-[Editing a suggestion](suggestion-editing.md)
----
 
+---
+**SUGGESTION EDITING**
+[Editing a suggestion](editing/suggestion-editing.md)
+
+**❯ Commands**
+[approveedit](editing/approveedit.md)
+[denyedit](editing/denyedit.md)
+---
 **ADMIN COMMANDS**
 [autosetup](admin/autosetup.md)
 [setup](admin/setup.md)
