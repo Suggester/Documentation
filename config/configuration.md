@@ -1,6 +1,6 @@
 # Usage of the config command
 
-The `.config` command allows you to modify how Suggester will interact within your server, you will be able to customize notifications, permissions, reactions and much more! We'll dive into it later, for now let's talk about the command itself.
+The `.config` command allows you to modify how Suggester will interact within your server, you will be able to customize notifications, permissions, reactions and much more! We'll dive into it later, for now let's talk about the command itself
 
 ### How can I use it?
 
@@ -23,35 +23,34 @@ Any member with the **Manage Server** permission or a configured [admin role](/c
 
 # Configuration Elements
 
-| Element                                       |                Type                          |   Required?¹          | Default Value          |
-|-----------------------------------------------|:--------------------------------------------:|-----------------------|------------------------|
-| [Admin Roles](/config/adminroles.md)          | Role                                         |        ✓              |         None           |
-| [Allowed Roles](/config/allowedroles.md)      | Role                                         |                       |         None           | 
-| [Approve Role](/config/approverole.md)        | Role                                         |                       |         None           |
-| [Autofollowing Preferences](/config/autofollowing.md) | Toggle                               |                       |         Enabled        |
-| [Blocked Roles](/config/blockedroles.md)      | Role                                         |                       |         None           |
-| [Clean Commands](/config/cleancommands.md)    | Toggle                                       |                       |         Disabled       |
-| [Color Change](/config/colorchange.md)        |                                              |                       | 15 votes - #FFD700     |
-| [Commands](/config/commands.md)               | Channel                                      |                       |         None           |
-| [Cooldown](/config/cooldown.md)               | Number                                       |                       |       0 second         |
-| [Denied](/config/denied.md)                   | Channel                                      |                       |         None           |
-| [Emojis](/config/emojis.md)                   | Emojis                                       |                       |      👍,🤷 and 👎     |
-| [ICSS](/config/inchannelsuggestions.md)       | Toggle                                       |                       |         Disabled       |
-| [Implemented](/config/implemented.md)         | Role                                         |                       |        None            |
-| [Implemented Role](/config/implementedrole.md)| Role                                         |                       |        None            |
-| [Language](/config/locale.md)                 | Role                                         |                       |          English       |
-| [Logs](/config/logs.md)                       | Channel                                      |                       |            None        |
-| [Mode](/config/mode.md)                       |                                              |           ✓           |            None       |
-| [Notifications](/config/notify.md)            |  Toggle                                      |                       |            Enabled     |
-| [One Vote](/config/onevote.md)                |  Toggle                                      |                       |       Enabled          |
-| [Ping Role](/config/pingrole.md)              | Role                                         |                       |   None                 |
-| [Prefix](/config/prefix.md)                   |                                              |          ✓             |     `.`               |
-| [Review](/config/review.md)                   | Channel                                      |          ✓             |     None              |
-| [Self Vote](/config/selfvote.md)              | Toggle                                       |                       |         Enabled         |
-| [Staff Roles](/config/staffroles.md)          | Role                                         |           ✓            |       None             |
-| [Suggestions Feed](/config/suggestions.md)    | Channel                                      |          ✓             |       None             |
-| [Voting Roles](/config/voting.md)             | Role                                         |                        |       All roles         |
+| Element                                       |  Default Value          |  Quick Description¹  |
+|-----------------------------------------------|:------------------------:|------------------------------------------|
+| [Admin Roles](/config/adminroles.md)²         |                     | roles with all perms |
+| [Allowed Roles](/config/allowedroles.md)      |               | roles allowed to send suggestions |
+| [Approve Role](/config/approverole.md)        |                       | roles given to the author of a suggestion when it gets appproved |
+| [Autofollowing Preferences](/config/autofollowing.md) |      Enabled        | settings for autofollowing |
+| [Blocked Roles](/config/blockedroles.md)      |                     | roles blocked from sending suggestions |
+| [Clean Commands](/config/cleancommands.md)    |           Disabled       | settings for commands deletion |
+| [Color Change](/config/colorchange.md)        |   15 votes - #FFD700     | change the color of the suggestion embed when it reaches X net upvotes |
+| [Commands](/config/commands.md)               |                    | list of channels where commands can be used | 
+| [Cooldown](/config/cooldown.md)               |      0 second         | suggestion cooldown |
+| [Denied](/config/denied.md)                   |                  | channel where denied suggestions are posted |
+| [Emojis](/config/emojis.md)                   |   👍,🤷 and 👎     | reaction emojis to vote on approved suggestions |
+| [ICSS](/config/inchannelsuggestions.md)       | Disabled       | settings for ICSS |
+| [Implemented](/config/implemented.md)         |               | channel where implemented suggestions are sent |
+| [Implemented Role](/config/implementedrole.md)|                   | role given to the author of a suggestion when it gets marked as Implemented |
+| [Language](/config/locale.md)                 |       English       | the language used by the bot server wide |
+| [Logs](/config/logs.md)                       |                   | a channel where all actions are logged |
+| [Mode](/config/mode.md)²                       |               | the suggestion handling mode |
+| [Notifications](/config/notify.md)            |           Enabled     | settings for notifications |
+| [One Vote](/config/onevote.md)                |  Enabled          | settings to limit voting to one reaction |
+| [Ping Role](/config/pingrole.md)              |                   | role pinged when a new suggestion is submitted |
+| [Prefix](/config/prefix.md)²                   |       `.`               | prefix :bigbrain: |
+| [Review](/config/review.md)²                   |                   | review channel where pending suggestions are sent |
+| [Self Vote](/config/selfvote.md)              |  Enabled         | settings to limit voting on owned suggestions |
+| [Staff Roles](/config/staffroles.md)²          |               | roles with suggestion managing perms |
+| [Suggestions Feed](/config/suggestions.md)²    |     | channel where approved suggestions are sent |
+| [Voting Roles](/config/voting.md)            |      All roles         | list of roles allowed to vote |
 
-¹ The `Required?` colon denotes if each element is required or not for the bot to function properly, not configuring required elements will show an error
-
-
+¹ Click on the option link for more information about it!\
+² These elements are required for the bot to function properly, if any of these hasn't been configured, an error will appear.
