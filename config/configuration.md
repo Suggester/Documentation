@@ -4,7 +4,7 @@ The `.config` command allows you to modify how Suggester will interact within yo
 
 ### How can I use it?
 
-To edit a configuration element, use `.config [element] [value]` in any channel the bot can read & send messages in. There are currently 20+ different settings you can customize, which you can find more information on the table below.
+To edit a configuration element, use `.config [element] [value]` in any channel the bot can read & send messages in. There are currently 25+ different settings you can customize, which you can find more information on the table below.
 
 ### Optional Arguments
 
@@ -52,5 +52,5 @@ Any member with the **Manage Server** permission or a configured [admin role](/c
 | [Suggestions Feed](/config/suggestions.md)²    |     | channel where approved suggestions are sent |
 | [Voting Roles](/config/voting.md)            |      All roles         | list of roles allowed to vote |
 
-¹ Click on the option link for more information about it!\
+> ¹ Click on the option link for more information about it!\
 ² These elements are required for the bot to function properly, if any of these hasn't been configured, an error will appear.
