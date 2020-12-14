@@ -38,6 +38,7 @@
 [comment](staff/comment.md)
 [anonymouscomment](staff/acomment.md)
 [deletecomment](staff/deletecomment.md)
+[editcomment](editing/comment-editing.md)
 
 **❯ Moderation**
 [block](staff/block.md)
