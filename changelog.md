@@ -1,4 +1,10 @@
 # Changelog
+### Suggester v4.6.1 (December 14th, 2020)
+- Added a comment editing feature for server staff! You can now use `editcomment [comment ID] [new content]` to modify comments either posted by you or posted anonymously
+- Fixed a bug where suggestions couldn't be deleted if their review channel had been deleted
+- Added the "Read Message History" permission to some commands where the bot adds reactions
+- Re-implemented and improved a legume-themed eastern egg from a long time ago.. (we did it! 🎉)
+
 
 ### Suggester v4.6 (November 20th, 2020)
 
@@ -13,7 +19,7 @@
 
 🎉 **5000 Servers!!**
 
-Thanks for helping Suggester reach 5000 Servers! To celebrate, we'll be giving out 10 VoteBoat votes to 5 winners in a giveaway on our [Support Server](https://discord.gg/G5pEdUp)! (it ends soon 👀)
+Thanks for helping Suggester reach 5000 Servers! To celebrate, we'll be giving out 10 VoteBoat votes to 5 winners in a giveaway on our [Support Server](https://discord.gg/G5pEdUp)! 
 
 🍔 **Reddit**
 
@@ -57,5 +63,5 @@ __Bugfixes__
 - There is no longer a redundant reply message when you react to approve/deny
 - The `github` command shows the link to Suggester's GitHub repository
  
-We also added a new **large server** system. If your server has a large (read: several thousands) number of members/high volume of suggestions and would benefit from features like an increased `top` command view and reduced cooldowns for server staff members, contact our [Support Team](https://discord.gg/G5pEdUp) and we'll work from there.
+We also added a new **large server** system. If your server has a large (as in several thousands) number of members or high volume of suggestions and would benefit from features like an increased `top` command view and reduced cooldowns for server staff members, contact our [Support Team](https://discord.gg/G5pEdUp) and we'll work from there.
  
