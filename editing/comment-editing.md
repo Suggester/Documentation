@@ -7,10 +7,10 @@ Use this command to edit a comment
 Run `.editcomment [comment ID] [new content]` in any channel the bot can read & send messages in
 
 ### Arguments
-`suggestion ID`: The ID of the comment you’d like to edit
+`comment ID`: The ID of the comment you’d like to edit
 `new content`: The edited version of the comment
 
-!> **Note:** you can only edit your own comments
+!> **Note:** You can only edit your own comments or anonymous ones added using the [`.acomment`](/staff/acomment.md) command
 
 ### Alias
 `ecomment`, `revisecomment` and `ec`
@@ -21,5 +21,8 @@ To execute this command, the user must have the **Manage Server** permission or 
 ### Other Resources
 
 - [How to find a comment's ID?](faq.md?id=how-to-find-a-comments-id)
-- [Removing a comment](staff/deletecomment)
-- [🦆](https://www.youtube.com/watch?v=j5a0jTc9S10&t=1s)
+- [How to remove a comment?](staff/deletecomment)
+ 
+ 
+ 
+ [🦆](https://www.youtube.com/watch?v=j5a0jTc9S10&t=1s)
