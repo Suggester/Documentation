@@ -7,7 +7,7 @@ This is useful for keeping your channels clean!
 ### Usage
 Set up clean commands using `.config clean on/off/toggle`
 
-### Accepted Imputs
+### Accepted Inputs
 Either `on`, `off` or `toggle`
 
 📝 **Note:** Configuration errors will not be deleted.
