@@ -2,10 +2,10 @@
 Mistakes happen, when your grammar decides to randomly take a nap when suggesting something, you can now fix it using shiny `edit` command! 
 
 ### Users
-Regular users can only edit their own approved suggestion(s). If the mode is set to [review](config/mode.md), any edit will require review by a staff member unless it is edited by someone with staff or admin permissions
+Regular users can only edit their own approved suggestion(s). If the mode is set to [review](config/mode.md), any edit will require review by a staff member unless it is edited by someone with staff or admin permissions.
 
 ### Staff & Admins
-Users with staff or admin permissions can edit any suggestion, with no approval required. If the suggestion has been edited by a server staff member, it will displayed along their username on the suggestion embed
+Users with staff or admin permissions can edit any suggestion, with no approval required. If the suggestion has been edited by a server staff member, it will displayed along their username on the suggestion embed.
 
 ![edited by a server staff member](https://cdn.discordapp.com/attachments/769650556502409226/782613453437140992/unknown.png)
 
@@ -14,12 +14,12 @@ If the mode is set to [review](config/mode.md), all editing requests from users 
 ![pending edit request](https://cdn.discordapp.com/attachments/769650556502409226/782617101940162560/unknown.png)
 
 ### Usage
-Use `.edit [suggestion ID] (new content)` in any channel the bot can read & send messages in
+Use `.edit [suggestion ID] (new content)` in any channel the bot can read & send messages in.
 
 ### Arguments
 
-`suggestion ID`: The ID of the suggestion you’d like to edit. If you don't have staff/admin perms, you can only edit your own suggestions\
-`new content`: The edited version of the suggestion,
+`suggestion ID`: The ID of the suggestion you’d like to edit. If you don't have staff/admin perms, you can only edit your own suggestions.\
+`new content`: The edited version of the suggestion.
 
 !> Once you've edited a suggestion, you cannot restore its original content! 
 
