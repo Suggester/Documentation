@@ -1,13 +1,13 @@
 # Configuration Element: Server Locale
 
 ### What is it for?
-This setting defines which language will Suggester use when responding to commands
+This setting defines which language will Suggester use when responding to commands.
 
 ### Usage
 Set up the server locale using `.config locale [language]`
 
 ### Accepted Imputs
-A supported locale name or code, which you can find using `.locales`
+A supported locale name or code, which you can find using `.locales`.
 
 ⚠ **Warning!** If a user has already configured a locale using the `.locale` command, Suggester will prioritize it. However if they haven't, the bot will respond in the language configured here.
 
