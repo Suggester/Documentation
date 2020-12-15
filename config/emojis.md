@@ -7,7 +7,7 @@ Set up vote reactions using `.config emojis up/mid/down [emoji]`
 
 You can also enable/disable any reaction using `.config emojis up/mid/down disable/enable`.
 
-### Accepted Imputs
+### Accepted Inputs
 Any :emoji:
 
 ⚠ **Warning!** You can only use emojis from the current server or default emojis.
