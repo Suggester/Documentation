@@ -13,7 +13,7 @@ Set up the new color using `.config colorchange color [color]`
 > This element supports [HEX colors](https://www.w3schools.com/colors/colors_picker.asp), [CSS colors](https://www.w3schools.com/colors/colors_w3css.asp), and more!
 Set up the theresold using `.config colorchange number [number]`
 
-### Accepted Imputs
+### Accepted Inputs
 | Argument              |               Valid Imput             |
 |-----------------------|:-------------------------------------:|
 | color                 | Any valid HEX or CSS color code       |
