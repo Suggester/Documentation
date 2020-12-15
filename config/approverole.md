@@ -1,7 +1,7 @@
 # Configuration Element: Approve Role
 
 ### What is it for?
-This setting defines what role will users whose suggestions were approved receive upon approval
+This setting defines what role users will be given when they have a suggestion approved.
 
 ### Usage
 Set up an approve role using `.config approverole [role]`
