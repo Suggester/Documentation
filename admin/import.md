@@ -1,20 +1,20 @@
 # Command: import
 ---
 ### Description
-Use this command to import suggestions from [supported bots](admin/import.md?id=supported-bots) as well as users' into Suggester's database, so you can manage them using our technology
+Use this command to import suggestions from [supported bots](admin/import.md?id=supported-bots) as well as users' into Suggester's database, so you can manage them using our technology.
 
 
 ### Usage
-Use `.import (message override)` in a channel with suggestions you'd like to import
+Use `.import (message override)` in a channel with suggestions you'd like to import.
 
 ### Arguments
-`message override`: The number of past suggestions you'd like to import (optional, default to 30) 
+`message override`: The number of past suggestions you'd like to import (optional, default to 30). 
 
 !> If you need to import more than 30 suggestions, please contact our [Support Team](https://discord.gg/G5pEdUp)!
 
 
 ### User Permission
-To execute this command, the user must have the **Manage Server** permission or a configured [admin](/config/adminroles.md) role
+To execute this command, the user must have the **Manage Server** permission or a configured [admin](/config/adminroles.md) role.
 
 ### Supported Bots
 
