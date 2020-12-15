@@ -1,12 +1,12 @@
-# Configuration Element: Suggestion Feed
+# Configuration Element: Approved Suggestion Feed
 
 ### What is it for?
-The channel where suggestions are sent once they are approved, or directly after submission when the mode is set to `autoapprove`
+The channel where suggestions are sent once they are approved or directly after submission when the mode is set to `autoapprove`.
 
 ### Usage
 Set up the suggestion feed using `.config suggestions [channel]`
 
-### Accepted Imputs
+### Accepted Inputs
 Any channel name, ID or #mention
 
 📝 **Note:** It is recommended to set up a channel that is only used for server suggestions, as it can keep things clean!
