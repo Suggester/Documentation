@@ -5,7 +5,7 @@ We use the `i18n#1614` bot to handle translations, which means you will have to 
 
 When you're done verifying, run the `>start` command in [`#translator-chat`](https://canary.discord.com/channels/566002482166104066/705524292690903060). The bot will then either start the process if you only have one authorized locale, or ask you to pick a locale code from your authorized ones
 
-?> A **locale code** is a short string, usually composed of a few letters, which represents your language. For example, the locale code of the French language is `fr`, English's is `en`, etc.. 
+?> A **locale code** is a short string, usually composed of a few letters, which represents your language. For example, the locale code of the French language is `fr`, English's is `en` and etc. 
 
 ### Dynamic Process Embed Fields
 
@@ -29,7 +29,7 @@ You can also find the name of the string you're currently translating on the emb
 ### The DOs and DONTs when translating
 
 We currently don't support command names and arguments in other languages, meaning that you **must not** translate them. For example, `approve` will remain in english, same goes for command arguments (eg `on`, `off`, `toggle`, `list`, `add`, `remove`...). Words in `{{placeholders}}` represent real data and should also be kept in english.
-However, syntax guiding (see example below) must be translated
+However, syntax guiding (see example below) must be translated.
 
 ![Syntax Guiding](https://cdn.discordapp.com/attachments/769650556502409226/769988849430298624/unknown.png)
 
@@ -43,7 +43,7 @@ You have 5 minutes to translate a string, then 2 minutes to make sure it is corr
 
 ?> **Syntax:** `>mt [locale code] [string name] [new translation]` 
 
-As a thank you, every translator will get the "Translator" acknowledgement on the `.verify` command, as well as the ability to choose a custom one once they've translated a significant part the language.
+As a thank you, every translator will get the "Translator" acknowledgement on the `.verify` command, as well as the ability to choose a custom one once they've translated a significant part of the language they are translating.
 
 
 Thanks for reading and good luck translating!
