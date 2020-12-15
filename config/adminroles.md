@@ -6,9 +6,9 @@ Any role configured as admin will automatically receive all staff permissions, p
 
 
 ### Usage
-Set up an admin role using `.config admin add/remove/list [role]`.
+Set up an admin role using `.config admin add/remove/list [role]`
 
-### Accepted Imputs
-Any role name, ID or @mention.
+### Accepted Inputs
+Any role name, ID or @mention
 
 ⚠ **Warning!** Adding the everyone role to the configuration will give **all members of your server** enhanced permissions on the bot!
