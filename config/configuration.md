@@ -37,7 +37,7 @@ Any member with the **Manage Server** permission or a configured [admin role](/c
 | [Cooldown](/config/cooldown.md)               |      0 second         | The suggestion cooldown. |
 | [Denied](/config/denied.md)                   |                  | The channel where denied suggestions are posted. |
 | [Emojis](/config/emojis.md)                   |   👍,🤷 and 👎     | The reaction emojis to vote on approved suggestions |
-| [ICSS](/config/inchannelsuggestions.md)       | Disabled       | The settings for ICSS (Inchannel Suggestions). |
+| [ICSS](/config/inchannelsuggestions.md)       | Disabled       | The settings for ICSS (Inchannel Suggestion Submissions). |
 | [Implemented](/config/implemented.md)         |               | The channel where implemented suggestions are sent to. |
 | [Implemented Role](/config/implementedrole.md)|                   | The role given to the author of a suggestion when it gets marked as [Implemented](/config/implemented.md). |
 | [Language](/config/locale.md)                 |       English       | The language used by the bot server wide. |
