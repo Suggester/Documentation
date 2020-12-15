@@ -6,7 +6,7 @@ This setting controls whether or not users can submit suggestions by sending a m
 ### Usage
 Set up ICSS using `.config sendinchannel on/off/toggle`
 
-### Accepted Imputs
+### Accepted Inputs
 Either `on`, `off` or `toggle`
 
-📝 **Note:** Other bots' & system messages are ignored and will not be converted into a suggestion, regardless of your ICSS settings
+📝 **Note:** Other bots' & system messages are ignored and will not be converted into a suggestion, regardless of your ICSS settings.
