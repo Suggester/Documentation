@@ -11,3 +11,7 @@ To execute this command, the user must have the **Manage Server** permission or 
 
 ### Bot Permission
 To execute this command, Suggester will need the **Manage Channels** permission
+
+![manage channels permission](https://cdn.discordapp.com/attachments/769650556502409226/794313355606097950/unknown.png)
+
+?> Channel names now use the guild's configured [language](/config/locale.md), though only if the corresponding string have been translated.
