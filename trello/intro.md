@@ -40,7 +40,7 @@ To add a new action to run when a certain event occurs, send the following synta
 |:-------------------------------------------------------:|:----------------------------------------------------------------------------------:|
 | Add approved suggestions to a list                      | [Click Click Click](/trello/events/approved-suggestions.md)                        |
 | Archive deleted suggestions                             | [Travel your cursor around here, then hit](/trello/events/deleted-suggestions.md)  |
-| Remove deleted suggestions from the Board               | [Place your pointer than push it here](/trello/events/deleted-suggestions.md)      |
+| Remove deleted suggestions from the Board               | [Place your pointer then push it here](/trello/events/deleted-suggestions.md)      |
 | Give a label to suggestions marked as Implemented       | [Pop your mouse while hovering this](/trello/events/marked-as-implemented.md)      |
 | Add new suggestions to a list                           | [Deliver a quick click on this link](/trello/events/new-suggestion.md)             |
 
