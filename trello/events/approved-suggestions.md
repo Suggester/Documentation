@@ -1,4 +1,4 @@
-# Trello Integration Configuration: When a suggestion is approved (action)
+# Trello Integration Configuration Example: When a suggestion is approved 
 
 ### What is it for?
 This subsetting allows you to define on what list will approved suggestions be added (only available if the [mode](/config/mode.md) is set to `review`)
