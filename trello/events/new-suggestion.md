@@ -1,4 +1,4 @@
-# Trello Integration Configuration: When a new suggestion is submitted (action)
+# Trello Integration Configuration Example: When a new suggestion is submitted 
 
 ### What is it for?
 This subsetting allows you to define on what list will new suggestions be added
