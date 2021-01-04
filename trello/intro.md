@@ -1,6 +1,5 @@
 # Suggester Trello Integration
 Our awesome developer's latest feature just got out of the oven, introducing the **Suggester Trello Integration**. You will be now be able to connect a Trello board to your server, and automatically organize suggestions based on actions you take on them directly on Discord using our bot! Each action is fully customisable and will allow you to keep things organized pretty easily\
-
 You might be wondering a few things so we will dive into it below.
 
 ### What is Trello?
@@ -22,33 +21,30 @@ You can configure Suggester to do certain actions when any of the following even
 - A suggestion is deleted
 
 Actions that you can configure are:
-- Moving a suggestion to a list
-- Giving a [label](https://help.trello.com/article/797-adding-labels-to-cards) to a suggestion
-- Removing a suggestion from the board
-- Archiving a suggestion
+- Moving a suggestion to a list\
+- Giving a [label](https://help.trello.com/article/797-adding-labels-to-cards) to a suggestion\
+- Removing a suggestion from the board\
+- Archiving a suggestion\
 
 ### Usage & Examples
-
 To add a new action to run when a certain event occurs, send the following syntax in any channel the bot can read & send messages in:
 
 `.config trello actions [event name] [action name]`
 #### Arguments
-`[event name]` can be `suggest`, `approve`, `implemented`, `deny`, `delete` or `working`
+`[event name]` can be `suggest`, `approve`, `implemented`, `deny`, `delete` or `working`\
 `[action name]` can be ``list`, `label`, `delete`, `archive` or `none` (to reset the assigned action)
 
 #### Examples
 
-| Description    | Link              |
-|:------------------------------------------:|:-----------------:|
-| Add approved suggestions to a list |
-| Archive deleted suggestions        |
-| Remove deleted suggestions from the Board |0
-|Give a label to suggestions|
+| Description                                             | Link                                                                               |
+|:-------------------------------------------------------:|:----------------------------------------------------------------------------------:|
+| Add approved suggestions to a list                      | [Click here](/trello/events/approved-suggestions.md)                               |
+| Archive deleted suggestions                             | [Hit here](/trello/events/deleted-suggestions.md)                                  |
+| Remove deleted suggestions from the Board               | [Place your pointer than push it here](/trello/events/deleted-suggestions.md)      |
+| Give a label to suggestions marked as Implemented       | [Pop your mouse while hovering this](/trello/events/marked-as-implemented.md)      |
+| Add new suggestions to a list                           | [Deliver a quick click on this link](/trello/events/new-suggestion.md)             |
+
+### That's all folks
+This feature is fairly complex as we want to provide a lot of customizability for servers who use the Trello feature. If you need help, want to report a bug, have any questions or feedback, feel free to join our [Support Server](https://discord.gg/G5pEdUp)!
 
 
-
-
-
-This feature is fairly complex as we want to provide a lot of customizability for servers who use the Trello feature. If you have any questions, feedback, or think something doesn't look right - please ping me!
-
- this is a pretty big feature with a lot of moving parts
