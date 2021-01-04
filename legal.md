@@ -12,7 +12,7 @@ In order for the bot to function, we store some information about servers and us
 **- Submitted Suggestions/Comments:** We store message content submitted as suggestions and comments in order for the bot to have data about each suggestion.\
 **- Attachment URLs:** We store URLs of files attached to suggestions in order to make the attaching feature possible.\
 We log **commands used and servers the bot is added to/removed from** for analytical purposes.
-
+We store information pertaining to Trello boards connected to the bot and actions such as card creation and comments taken via the bot on those boards.
 
 ## Why Do We Need & How We Use The Data
 This data is used throughout the bot to make it work. Without storing the data above, it would not be possible for Suggester to function. The data we collect is used for the purposes stated above, and nothing else. We will never give out the information we store to unauthorized users.
