@@ -24,6 +24,28 @@ You can configure Suggester to do certain actions when any of the following even
 Actions that you can configure are:
 - Moving a suggestion to a list
 - Giving a [label](https://help.trello.com/article/797-adding-labels-to-cards) to a suggestion
+- Removing a suggestion from the board
+- Archiving a suggestion
+
+### Usage & Examples
+
+To add a new action to run when a certain event occurs, send the following syntax in any channel the bot can read & send messages in:
+
+`.config trello actions [event name] [action name]`
+#### Arguments
+`[event name]` can be `suggest`, `approve`, `implemented`, `deny`, `delete` or `working`
+`[action name]` can be ``list`, `label`, `delete`, `archive` or `none` (to reset the assigned action)
+
+#### Examples
+
+| Description    | Link              |
+|:------------------------------------------:|:-----------------:|
+| Add approved suggestions to a list |
+| Archive deleted suggestions        |
+| Remove deleted suggestions from the Board |0
+|Give a label to suggestions|
+
+
 
 
 
