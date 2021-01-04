@@ -1,4 +1,4 @@
-# Trello Integration Configuration: When a new suggestion is deleted (action)
+ # Trello Integration Configuration Example: When a suggestion is deleted 
 
 ### What is it for?
 This subsetting allows you to define if [deleted](/staff/delete.md) suggestions will be archived 
