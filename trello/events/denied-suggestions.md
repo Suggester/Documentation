@@ -1,4 +1,4 @@
-# Trello Integration Configuration: When a new suggestion is denied (action)
+# Trello Integration Configuration Example: When a suggestion is denied 
 
 ### What is it for?
 This subsetting allows you to define if denied suggestions will be removed from the board
