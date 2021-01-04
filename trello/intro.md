@@ -21,10 +21,10 @@ You can configure Suggester to do certain actions when any of the following even
 - A suggestion is deleted
 
 Actions that you can configure are:
-- Moving a suggestion to a list\
-- Giving a [label](https://help.trello.com/article/797-adding-labels-to-cards) to a suggestion\
-- Removing a suggestion from the board\
-- Archiving a suggestion\
+- Moving a suggestion to a list
+- Giving a [label](https://help.trello.com/article/797-adding-labels-to-cards) to a suggestion
+- Removing a suggestion from the board
+- Archiving a suggestion
 
 ### Usage & Examples
 To add a new action to run when a certain event occurs, send the following syntax in any channel the bot can read & send messages in:
@@ -32,14 +32,14 @@ To add a new action to run when a certain event occurs, send the following synta
 `.config trello actions [event name] [action name]`
 #### Arguments
 `[event name]` can be `suggest`, `approve`, `implemented`, `deny`, `delete` or `working`\
-`[action name]` can be ``list`, `label`, `delete`, `archive` or `none` (to reset the assigned action)
+`[action name]` can be `list`, `label`, `delete`, `archive` or `none` (to reset the assigned action)
 
 #### Examples
 
 | Description                                             | Link                                                                               |
 |:-------------------------------------------------------:|:----------------------------------------------------------------------------------:|
-| Add approved suggestions to a list                      | [Click here](/trello/events/approved-suggestions.md)                               |
-| Archive deleted suggestions                             | [Hit here](/trello/events/deleted-suggestions.md)                                  |
+| Add approved suggestions to a list                      | [Click Click Click](/trello/events/approved-suggestions.md)                        |
+| Archive deleted suggestions                             | [Travel your cursor around here, then hit](/trello/events/deleted-suggestions.md)  |
 | Remove deleted suggestions from the Board               | [Place your pointer than push it here](/trello/events/deleted-suggestions.md)      |
 | Give a label to suggestions marked as Implemented       | [Pop your mouse while hovering this](/trello/events/marked-as-implemented.md)      |
 | Add new suggestions to a list                           | [Deliver a quick click on this link](/trello/events/new-suggestion.md)             |
