@@ -1,4 +1,4 @@
-# Trello Integration Configuration: When a suggestion is marked as implemented (action)
+# Trello Integration Configuration Example: When a suggestion is marked as implemented
 
 ### What is it for?
 This subsetting allows you to define what label will be given to suggestions [marked](/staff/mark.md) as Implemented
