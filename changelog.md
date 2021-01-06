@@ -1,4 +1,8 @@
-# # Changelog
+### Changelog
+### Suggester v4.7.1 (January 6th, 2021)
+- We now support importing suggestions from the `Gaius Cicereius#3705` bot
+- You can now enable/disable comment timestamps on the suggestion embeds using `cfg commenttime [on/off/toggle]` 
+
 ### Suggester v4.7 (January 4th, 2021)
 - This release brings a new major feature to the bot: a Trello integration! We have a new documentation page for it, which can be found [here](/trello/intro.md), and you can also use `config help trello` to find more examples
 - The `queue` command now shows the suggestions you are viewing out of the whole in the title (ex. 1-10 out of 20)
