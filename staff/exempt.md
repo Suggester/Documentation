@@ -3,6 +3,8 @@
 ### Description
 Use this command to allow a specific user to bypass the [configured suggestion cooldown](/config/cooldown.md) in the current server
 
+?> This only applies to one suggestion, if the user needs to be exempted again, you'll need to use the command again.
+
 ### Usage
 Use `.exempt [user]` in any channel the bot can read & send messages in
 
