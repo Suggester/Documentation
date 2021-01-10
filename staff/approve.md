@@ -10,5 +10,8 @@ Use `.approve [suggestion ID] (comment)` in any channel the bot can read & send 
 `suggestion ID`: The ID of the suggestion you'd like to approve\
 `comment`: A comment to add to the approved suggestion (optional) 
 
+### Aliases
+`.accept` and `.yes`
+
 ### User Permission
 To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role
