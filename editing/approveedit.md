@@ -12,7 +12,7 @@ Run `.approveedit [suggestion ID]` in any channel the bot can read & send messag
 
 !> If there is multiple pending edits on the same suggestion, using this command will approve the most recent one
 
-### Alias
+### Aliases
 `acceptedit` & `approvedit`
 
 ### User Permission
