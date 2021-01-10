@@ -6,6 +6,9 @@ This command allows admins to automatically setup the bot. This will automatical
 ### Usage
 Run `.autosetup` in any channel the bot can read and send messages in
 
+### Alias
+`.autoconfig`
+
 ### User Permission
 To execute this command, the user must have the **Manage Server** permission or a configured [admin](/config/adminroles.md) role
 
