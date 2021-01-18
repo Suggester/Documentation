@@ -8,7 +8,7 @@ At **15** net upvotes, the embed color will change to **#FFD700**.
 
 
 ### Usage
-Set up the new color using `.config colorchange color [color]`
+Set up the new color using `.config colorchange color [color]`\
 Set up the requires theresold using `.config colorchange number [number]`
 
 > This element supports [HEX colors](https://www.w3schools.com/colors/colors_picker.asp), [CSS colors](https://www.w3schools.com/colors/colors_w3css.asp), and more!
