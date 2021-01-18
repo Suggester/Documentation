@@ -39,7 +39,7 @@ Suggester also allows you to keep your server members updated via commenting and
 
 ![f](/images/Switching%20to%20suggester.png)
 
-We support importing old suggestions into our bot that were sent from users as well as via bots such as CarlBot, Zira, UnbelievaBoat, and many more with the `[import](admin/import.md)` command!
+We support importing old suggestions into our bot that were sent from users as well as via bots such as CarlBot, Zira, UnbelievaBoat, and many more with the [`import`](admin/import.md) command!
 
 ![g](/images/import1.png)
 ![h](/images/import2.png)
