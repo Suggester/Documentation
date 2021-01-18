@@ -11,7 +11,9 @@ Use `.block [user] (duration)` in any channel the bot can read & send messages i
 `duration`: The duration you want to block the user for (optional)
 
 ### Duration & Examples
-See the table below for more informztion about how to format durations:
+See the table below for more information on how to format durations
+
+
 | Name     | Shortcut |
 |:--------:|:--------:|
 | seconds  | s        |
@@ -20,9 +22,9 @@ See the table below for more informztion about how to format durations:
 | days     | d        |
 | weeks    | w        |
 
-##### Examples
-`.block @poggers 3h no spam!`: blocks `@poggers` for 3 hours with reason "no spam!"\
-`.block @poggers 7d hahayes`: blocks `@poggers` for 7 days with reason "hahayes"
+> **Examples**
+> Using `.block @poggers 2h no spam!`will block `@poggers` for 2 hours with reason "no spam!"\
+> Using `.block @poggers 6d hahayes` will block `@poggers` for 6 days with reason "hahayes"
 
 ### Alias
 `disallow`
