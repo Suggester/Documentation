@@ -1,4 +1,4 @@
-### Suggester
+# Suggester
 
 ![a](/images/suggesterbanner.png)
 
@@ -6,10 +6,8 @@ Suggester is a Discord bot helping server staff members & admins to manage feedb
 
 #### Quick Links
 
-> [Bot Invite Link](https://discord.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=805694544)
-
-> [Support Server](https://discord.gg/G5pEdUp)
-
+> [Bot Invite Link](https://discord.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=805694544)\
+> [Support Server](https://discord.gg/G5pEdUp)\
 > [GitHub](https://github.com/Suggester/Suggester)
 
 ![b](/images/Why%20use%20suggester%3F.png)
@@ -37,7 +35,7 @@ Suggester also allows you to keep your server members updated via commenting and
 > - MoonlightCapital, bot developer, owner of Moonlight Labs.
 
 > Suggester is the most advanced suggestion bot I ever seen. At first when suggested I was doubtful but after trying it I couldn't go back! It works better than other bots which just think of suggestions as a side idea. But with Suggester suggestions are the main focus and not just a afterthought. Suggester brings features I didn't know I needed to the table while remaining simple and easy to use. Would highly recommend.
-> Issai H - Bot Developer and Bot Hub Owner.
+> - Issai H, Bot Developer and Bot Hub Owner.
 
 ![f](/images/Switching%20to%20suggester.png)
 
