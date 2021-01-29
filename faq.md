@@ -5,9 +5,9 @@ You will find below a summary of questions we often see asked, if your question 
 Most likely not, as settings stay stored even if the bot is kicked and re-added. If you're having an issue, contact our Support Team and we'll look into it further.
 
 ### Suggester isn't responding in my server, what can I do?
-Check the bot's permissions in the channel you're attempting to use commands in, it must be able to **read and send messages** in order to respond. 
-If it does have correct perms, make sure you're using the right prefix, it is configurable per-server so it may have been changed.\
-Do note that you can always use the bot mention as a prefix (`Suggester#8366`), if none of the above solved your issue, let us know in our [Support Server](https://discord.gg/G5pEdUp)!
+First, make sure you are using the correct prefix (you can check using `@Suggester#8366 prefix`). If you're using the right prefix, it might be a permission issue: Make sure Suggester has correct permissions, it needs at least **Read Messages**, **Send Messages** and **Embed Links** in the channel you're trying to use commands in
+
+If none of the above solved your issue, let us know in our [Support Server](https://discord.gg/G5pEdUp)!
 
 ### How do I find a comment's ID?
 Some commands will use a comment's ID as an argument. To find the ID of a comment, look at its field name, it will be displayed after the comment author's tag (if the comment is anonymous, it will be shown after ''Staff Comment'').
