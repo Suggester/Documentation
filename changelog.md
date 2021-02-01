@@ -14,8 +14,8 @@
 ### Suggester v4.7 (January 4th, 2021)
 - This release brings a new major feature to the bot: a Trello integration! We have a new documentation page for it, which can be found [here](/trello/intro.md), and you can also use `config help trello` to find more examples
 - The `queue` command now shows the suggestions you are viewing out of the whole in the title (ex. 1-10 out of 20)
-- `shortinfo` now has options to shorten the output: 
-Adding `-trimsuggest` (or `-ts` for short) to the end will limit the suggestion content output to 250 character
+- `shortinfo` now has options to shorten the output:\
+Adding `-trimsuggest` (or `-ts` for short) to the end will limit the suggestion content output to 250 character\
 Adding `-noattach` (`-na` for short) will hide the suggestion's attachment
 - Added suggestion caps: these prevent more suggestions from being submitted if the number of approved, non-denied, non-implemented suggestions is greater than or equal to the amount configured using `config cap`
 - Command-specific documentation links can now be found in `help [command]`, as well as in `config help [element]`
@@ -31,7 +31,7 @@ Adding `-noattach` (`-na` for short) will hide the suggestion's attachment
 - Added a comment editing feature for server staff! You can now use `editcomment [comment ID] [new content]` to modify comments either posted by you or posted anonymously
 - Fixed a bug where suggestions couldn't be deleted if their review channel had been deleted
 - Added the "Read Message History" permission to some commands where the bot adds reactions
-- Re-implemented and improved a legume-themed eastern egg from a long time ago.. (we did it! 🎉)
+- Re-implemented and improved a legume-themed easter egg from a long time ago.. (we did it! 🎉)
 
 
 ### Suggester v4.6 (November 20th, 2020)
