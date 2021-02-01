@@ -1,4 +1,12 @@
 ### Changelog
+
+### Suggester v4.7.2 (January 31st, 2021)
+- The `ping` command has been redesigned to show more information and not error when the bot is starting up
+- The `mark` command should no longer output an error if you don't specify a status in the command and select a reaction to choose one
+- Voting totals (upvotes/downvotes) should be more accurate now
+- **@everyone** and **@here** mentions for the `feedping` and `reviewping` elements now resolve correctly and ping intended users
+
+
 ### Suggester v4.7.1 (January 6th, 2021)
 - We now support importing suggestions from the `Gaius Cicereius#3705` bot
 - You can now enable/disable comment timestamps on the suggestion embeds using `cfg commenttime [on/off/toggle]` 
