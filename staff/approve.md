@@ -1,7 +1,9 @@
 # Command: approve
 ---
 ### Description
-Use this command to approve a suggestion (only available while the mode is set to `review`)
+Use this command to approve a suggestion 
+
+?> This command is only available when the mode is set to **review**
 
 ### Usage
 Use `.approve [suggestion ID] (comment)` in any channel the bot can read & send messages in
@@ -11,7 +13,7 @@ Use `.approve [suggestion ID] (comment)` in any channel the bot can read & send 
 `comment`: A comment to add to the approved suggestion (optional) 
 
 ### Aliases
-`.accept` and `.yes`
+`accept` and `yes`
 
 ### User Permission
 To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role
