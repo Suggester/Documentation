@@ -1,7 +1,7 @@
 # Command: mark
 ---
 ### Description
-Use this command to modify a suggestion's status
+Use this command to edit a suggestion's status
 
 ### Usage
 Use `.mark [suggestion ID] [status] (comment)`
@@ -14,14 +14,14 @@ Use `.mark [suggestion ID] [status] (comment)`
 
 | Argument              |                Meaning                |                 Context Examples                                                                         |
 |-----------------------|:-------------------------------------:|-------------------------------------------------------------------|
-| `default`, `none`     | Resets status to default (none shown) |                                                                                                          |
-| `no`                  | Not Happening                         | Used to let users know the suggestion will not be implemented                                            |
-| `working`, `progress` | In Progress                           | Useful to leak upcoming stuff 👀                                                                        |
+| `default`, `none`, `reset`     | Resets status to default (none shown) |                                                                                                          |
+| `no`, `not`                  | Not Happening                         | Used to let users know the suggestion will not be implemented                                            |
+| `working`, `progress`, `inprogress` | In Progress                           | Useful to leak upcoming stuff 👀                                                                        |
 | `implemented`, `done` | Implemented                           | Use this status when something has been implemented                                                      |
-| `consideration`       | In Consideration                      | Handy status to let users know you're debating about the suggestion, but nothing official *yet*          |
+| `consideration`, `consider`, `considered`, `inconsideration`       | In Consideration                      | Handy status to let users know you're debating about the suggestion, but nothing official *yet*          |
 
 
-`comment`: A comment you want to add to the suggestion (optional)
+`comment`: A comment to add to the suggestion (optional)
 
 
 ### Alias

@@ -1,4 +1,56 @@
-# Changelog
+### Changelog
+
+### Suggester v4.7.2 (January 31st, 2021)
+- The `ping` command has been redesigned to show more information and not error when the bot is starting up
+- The `mark` command should no longer output an error if you don't specify a status in the command and select a reaction to choose one
+- Voting totals (upvotes/downvotes) should be more accurate now
+- **@everyone** and **@here** mentions for the `feedping` and `reviewping` elements now resolve correctly and ping intended users
+
+
+### Suggester v4.7.1 (January 6th, 2021)
+- We now support importing suggestions from the `Gaius Cicereius#3705` bot
+- You can now enable/disable comment timestamps on the suggestion embeds using `cfg commenttime [on/off/toggle]` 
+
+### Suggester v4.7 (January 4th, 2021)
+- This release brings a new major feature to the bot: a Trello integration! We have a new documentation page for it, which can be found [here](/trello/intro.md), and you can also use `config help trello` to find more examples
+- The `queue` command now shows the suggestions you are viewing out of the whole in the title (ex. 1-10 out of 20)
+- `shortinfo` now has options to shorten the output:\
+Adding `-trimsuggest` (or `-ts` for short) to the end will limit the suggestion content output to 250 character\
+Adding `-noattach` (`-na` for short) will hide the suggestion's attachment
+- Added suggestion caps: these prevent more suggestions from being submitted if the number of approved, non-denied, non-implemented suggestions is greater than or equal to the amount configured using `config cap`
+- Command-specific documentation links can now be found in `help [command]`, as well as in `config help [element]`
+- Added the feed ping role: when a suggestion is sent to the suggestions feed via autoapprove or manual approval the role will be mentioned. This role can be configured using `config feedping`. Due to there now being 2 ping roles, the old `pingrole` is now called `reviewping`
+- Messages from blocked users are now deleted when `inchannelsuggestions` is enabled
+- `autosetup` channel names now reflect guild locale-specific configuration
+- Servers with over 5000 members may receive a large server protip
+- `in` was removed as an alias for  the "in progress" status
+- Global cooldown messages will now be affected by server `cleancommands` configuration
+- Minor bugfixes and improvements
+
+### Suggester v4.6.1 (December 14th, 2020)
+- Added a comment editing feature for server staff! You can now use `editcomment [comment ID] [new content]` to modify comments either posted by you or posted anonymously
+- Fixed a bug where suggestions couldn't be deleted if their review channel had been deleted
+- Added the "Read Message History" permission to some commands where the bot adds reactions
+- Re-implemented and improved a legume-themed easter egg from a long time ago.. (we did it! 🎉)
+
+
+### Suggester v4.6 (November 20th, 2020)
+- The ability to edit suggestions has been added! Users can now edit suggestions they’ve submitted, and server admins/staff can edit any suggestion (the footer will show if the suggestion was edited by a staff member). A user editing their own approved suggestion in the review mode will send the edit for review
+- Added a `shortinfo` command for when you want to show info about a suggestion in a concise manner without any internal information like the staff member who took action on it
+- Added an implemented suggestion role (`cfg implementedrole`), so users who get their suggestions marked as Implemented can receive a role
+- Added a configuration element to control auto-following server-wide (`cfg autofollow`) which is enabled by default
+- The `top` command is now numbered 
+- Server staff/admins are now exempted from the configured suggestion cooldown
+- The character limit on suggestions has been raised to 1900 characters (previously 1024)
+- The comment limit is now 15 comments per suggestion
+
+🎉 **5000 Servers!!**
+
+Thanks for helping Suggester reach 5000 Servers! To celebrate, we'll be giving out 10 VoteBoat votes to 5 winners in a giveaway on our [Support Server](https://discord.gg/G5pEdUp)! 
+
+🍔 **Reddit**
+
+Suggester is now present on Reddit! Join us at https://www.reddit.com/r/Suggester/ 
 
 ### Suggester v4.5.1 (October 21st, 2020)
 
@@ -38,5 +90,5 @@ __Bugfixes__
 - There is no longer a redundant reply message when you react to approve/deny
 - The `github` command shows the link to Suggester's GitHub repository
  
-We also added a new **large server** system. If your server has a large (read: several thousands) number of members/high volume of suggestions and would benefit from features like an increased `top` command view and reduced cooldowns for server staff members, contact our [Support Team](https://discord.gg/G5pEdUp) and we'll work from there.
+We also added a new **large server** system. If your server has a large (as in several thousands) number of members or high volume of suggestions and would benefit from features like an increased `top` command view and reduced cooldowns for server staff members, contact our [Support Team](https://discord.gg/G5pEdUp) and we'll work from there.
  

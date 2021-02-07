@@ -6,8 +6,15 @@ This command allows admins to automatically setup the bot. This will automatical
 ### Usage
 Run `.autosetup` in any channel the bot can read and send messages in
 
+### Alias
+`.autoconfig`
+
 ### User Permission
 To execute this command, the user must have the **Manage Server** permission or a configured [admin](/config/adminroles.md) role
 
 ### Bot Permission
 To execute this command, Suggester will need the **Manage Channels** permission
+
+![manage channels permission](https://cdn.discordapp.com/attachments/769650556502409226/794313355606097950/unknown.png)
+
+?> Channel names now use the guild's configured [language](/config/locale.md), though only if the corresponding string have been translated.

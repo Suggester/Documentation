@@ -6,8 +6,16 @@
 [F.A.Q](faq.md)
 [Public Commands](sumup.md)
 [Changelog](changelog.md)
----
+[Trello Integration](/trello/intro.md)
 
+---
+**SUGGESTION EDITING**
+[Editing a suggestion](editing/suggestion-editing.md)
+
+**❯ Commands**
+[approveedit](editing/approveedit.md)
+[denyedit](editing/denyedit.md)
+---
 **ADMIN COMMANDS**
 [autosetup](admin/autosetup.md)
 [setup](admin/setup.md)
@@ -31,6 +39,7 @@
 [comment](staff/comment.md)
 [anonymouscomment](staff/acomment.md)
 [deletecomment](staff/deletecomment.md)
+[editcomment](editing/comment-editing.md)
 
 **❯ Moderation**
 [block](staff/block.md)
@@ -43,6 +52,7 @@
 [attach](staff/attach.md)
 [removeattachment](staff/removeattachment.md)
 [exempt](staff/exempt.md)
+[top & down](staff/top-n-down.md)
 
 ---
 

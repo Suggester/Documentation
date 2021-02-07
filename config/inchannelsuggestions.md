@@ -9,4 +9,6 @@ Set up ICSS using `.config sendinchannel on/off/toggle`
 ### Accepted Imputs
 Either `on`, `off` or `toggle`
 
-📝 **Note:** Other bots' & system messages are ignored and will not be converted into a suggestion, regardless of your ICSS settings
+?> Other bots' & system messages are ignored and will not be converted into a suggestion, regardless of your ICSS settings.
+
+!> Messages from blocked users will be deleted if ICSS is enabled.

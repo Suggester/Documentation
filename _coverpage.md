@@ -2,6 +2,6 @@
 
 Suggester is a discord bot helping staff members & admins to manage feedback in their server, with the usage of a modern suggestion system and its granular configuration elements
 
-[Introduction](README.md)
-[The Basics](beginner-guide.md)
+[Introduction](emboarding.md)
+[Getting Started](beginner-guide.md)
 
