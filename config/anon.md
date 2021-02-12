@@ -9,4 +9,4 @@ Choose your preferences using `.config anon on/off/toggle`
 ### Accepted Imputs
 Either `on`, `off` or `toggle`
 
-?> More information about **anonymous suggestions** can be found here (hyperlink missing ) 
+?> More information about **anonymous suggestions** can be found [here](/articles/anonymoussuggestions.md)!
