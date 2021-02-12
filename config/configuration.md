@@ -27,6 +27,7 @@ Any member with the **Manage Server** permission or a configured [admin role](/c
 |-----------------------------------------------|:------------------------:|------------------------------------------|
 | [Admin Roles](/config/adminroles.md)²         |                          | roles with all perms |
 | [Allowed Roles](/config/allowedroles.md)      |                          | roles allowed to send suggestions |
+|[Anonymous Suggestions](/config/anon.md)       |        Disabled          | settings for anonymous feedback |
 | [Approve Role](/config/approverole.md)        |                          | roles given to the author of a suggestion when it gets appproved |
 | [Autofollowing](/config/autofollowing.md)     |        Enabled           | settings for autofollowing |
 | [Blocked Roles](/config/blockedroles.md)      |                          | roles blocked from sending suggestions |
