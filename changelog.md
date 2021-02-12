@@ -1,4 +1,12 @@
-### Changelog
+# Changelog
+
+### Suggester v4.8 (February 12nd, 2021)
+We've added a long-requested feature... anonymous suggestions!
+- This is done via Discord's new slash commands feature, which means that you'll have to re-invite the bot using this [link](https://discord.com/api/oauth2/authorize?client_id=564426594144354315&permissions=805694544&scope=bot%20applications.commands) to use them
+- Anonymous suggestions are disabled by default but can be enabled using `config anon on`
+- They show up as anonymous in the suggestion feed, but staff members are able to see who submitted the suggestion for moderation purposes
+
+- **Documentation:** The FAQ is being reworked and will be temporarily unavailable
 
 ### Suggester v4.7.2 (January 31st, 2021)
 - The `ping` command has been redesigned to show more information and not error when the bot is starting up
