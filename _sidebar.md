@@ -3,10 +3,10 @@
 [Intro](home.md)
 [Beginner's Guide](beginner-guide.md)
 [Configuration](config/configuration.md)
-[F.A.Q](faq.md)
 [Public Commands](sumup.md)
 [Changelog](changelog.md)
 [Trello Integration](/trello/intro.md)
+[⭐ Anonymous Suggestions](/articles/anonymoussuggestions.md)
 
 ---
 **SUGGESTION EDITING**
