@@ -1,10 +1,10 @@
 # Usage of the config command
 
-The `.config` command allows you to modify how Suggester will interact within your server, you will be able to customize notifications, permissions, reactions and much more! We'll dive into it later, for now let's talk about the command itself
+The `.config` command allows you to modify how Suggester will interact within your server, giving you the abiloty to customize notifications, permissions, reactions and much more! We'll dive into it later, for now let's talk about the command itself.
 
 ### How can I use it?
 
-To edit a configuration element, use `.config [element] [value]` in any channel the bot can read & send messages in. There are currently 25+ different settings you can customize, which you can find more information on the table below.
+To edit a configuration element, use `.config [element] [value]` in any channel the bot can read & send messages in. There are currently 30+ different settings you can customize, which you can find more information on the table below.
 
 ### Optional Arguments
 
