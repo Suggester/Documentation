@@ -22,6 +22,7 @@ Suggester currently supports importing suggestions from the following bots:
 - Anchor#8635
 - Carl-bot#1536
 - Fast Bot.#2211
+- Gaius Cicereius#3705 
 - Juzo#2390
 - Kashima#4514
 - Suggestion#2670
