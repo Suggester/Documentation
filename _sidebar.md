@@ -9,21 +9,21 @@
 [Trello Integration](/trello/intro.md)
 
 ---
-**SUGGESTION EDITING**
+# **SUGGESTION EDITING**
 [Editing a suggestion](editing/suggestion-editing.md)
 
 **❯ Commands**
 [approveedit](editing/approveedit.md)
 [denyedit](editing/denyedit.md)
 ---
-**ADMIN COMMANDS**
+# **ADMIN COMMANDS**
 [autosetup](admin/autosetup.md)
 [setup](admin/setup.md)
 [config](config/configuration.md)
 [import](admin/import.md)
 ---
 
-**STAFF COMMANDS**
+# **STAFF COMMANDS**
 
 **❯ Suggestion Managing**
 [approve](staff/approve.md)
@@ -56,7 +56,7 @@
 
 ---
 
-### **SUGGESTER**
+# **SUGGESTER**
 [Support my development](supporting/info.md)
 [Community Programs](community-programs.md)
 [Stats](botstats.md)
