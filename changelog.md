@@ -1,12 +1,9 @@
-# Changelog
+### Changelog
 
-### Suggester v4.8 (February 12nd, 2021)
-We've added a long-requested feature... anonymous suggestions!
-- This is done via Discord's new slash commands feature, which means that you'll have to re-invite the bot using this [link](https://discord.com/api/oauth2/authorize?client_id=564426594144354315&permissions=805694544&scope=bot%20applications.commands) to use them
-- Anonymous suggestions are disabled by default but can be enabled using `config anon on`
-- They show up as anonymous in the suggestion feed, but staff members are able to see who submitted the suggestion for moderation purposes
+<!-- tabs:start -->
 
-- **Documentation:** The FAQ is being reworked and will be temporarily unavailable
+<!-- tab:2021 -->
+
 
 ### Suggester v4.7.2 (January 31st, 2021)
 - The `ping` command has been redesigned to show more information and not error when the bot is starting up
@@ -34,6 +31,8 @@ Adding `-noattach` (`-na` for short) will hide the suggestion's attachment
 - `in` was removed as an alias for  the "in progress" status
 - Global cooldown messages will now be affected by server `cleancommands` configuration
 - Minor bugfixes and improvements
+
+<!-- tab:2020 -->
 
 ### Suggester v4.6.1 (December 14th, 2020)
 - Added a comment editing feature for server staff! You can now use `editcomment [comment ID] [new content]` to modify comments either posted by you or posted anonymously
@@ -99,4 +98,6 @@ __Bugfixes__
 - The `github` command shows the link to Suggester's GitHub repository
  
 We also added a new **large server** system. If your server has a large (as in several thousands) number of members or high volume of suggestions and would benefit from features like an increased `top` command view and reduced cooldowns for server staff members, contact our [Support Team](https://discord.gg/G5pEdUp) and we'll work from there.
+
+<!-- tabs:end -->
  
