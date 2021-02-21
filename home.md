@@ -8,10 +8,10 @@ In this documentation, arguments surrounded by [square brackets] are __required_
 If you have any questions, feel free to ask us in our [Support Server](https://discord.gg/G5pEdUp)! Don't worry, we don't bite :)
 
 
-| Resource                           | Link |
+| Resource                           | Link                                         |
 |------------------------------------|----------------------------------------------|
-| GitHub Repository                  | https://github.com/Suggester/Suggester  |
-| Support Server                     | https://suggester.js.org/support  |   |
-| Bot Invite Link                    | https://discord.com/api/oauth2/authorize?client_id=564426594144354315&permissions=805694544&scope=bot%20applications.commands |
-| Beginner Guide | https://suggester.js.org/#/beginner-guide |
+| GitHub Repository                  | https://github.com/Suggester/Suggester       |
+| Support Server                     | https://suggester.js.org/support             |
+| Bot Invite Link                    | https://suggester.js.org/invite |
+| Beginner Guide                     | https://suggester.js.org/#/beginner-guide |
 
