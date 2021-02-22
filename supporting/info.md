@@ -36,5 +36,3 @@ Commands can only be used in the support server.
 
 [![Bots on Discord Widget](https://bots.ondiscord.xyz/bots/564426594144354315/embed?showGuilds=true)](https://bots.ondiscord.xyz/bots/564426594144354315)
 
-[![Arcane Bot Center Widget](https://arcane-center.xyz/widget/564426594144354315.svg)](https://arcane-botcenter.xyz/bot/564426594144354315)
-ter.xyz
