@@ -10,7 +10,7 @@ If you have any questions, feel free to ask us in our [Support Server](https://d
 
 | Resource                           | Link                                         |
 |------------------------------------|----------------------------------------------|
-| GitHub Repository                  | https://github.com/Suggester/Suggester       |
+| GitHub Repository                  | https://suggester.js.org/github       |
 | Support Server                     | https://suggester.js.org/support             |
 | Bot Invite Link                    | https://suggester.js.org/invite |
 | Beginner Guide                     | https://suggester.js.org/#/beginner-guide |
