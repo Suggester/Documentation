@@ -6,7 +6,7 @@
 [Public Commands](sumup.md)
 [Changelog](changelog.md)
 [Trello Integration](/trello/intro.md)
-[⭐ Anonymous Suggestions](/articles/anonymoussuggestions.md)
+[Anonymous Suggestions](/articles/anonymoussuggestions.md)
 
 ---
 **SUGGESTION EDITING**
@@ -59,6 +59,6 @@
 ### **SUGGESTER**
 [Support my development](supporting/info.md)
 [Community Programs](community-programs.md)
-[Stats](botstats.md)
+[Statistics](botstats.md)
 [Privacy Policy](legal.md)
 
