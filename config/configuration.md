@@ -1,10 +1,10 @@
 # Usage of the config command
 
-The `.config` command allows you to modify how Suggester will interact within your server, you will be able to customize notifications, permissions, reactions and much more! We'll dive into it later, for now let's talk about the command itself
+The `.config` command allows you to modify how Suggester will interact within your server, giving you the abiloty to customize notifications, permissions, reactions and much more! We'll dive into it later, for now let's talk about the command itself.
 
 ### How can I use it?
 
-To edit a configuration element, use `.config [element] [value]` in any channel the bot can read & send messages in. There are currently 25+ different settings you can customize, which you can find more information on the table below.
+To edit a configuration element, use `.config [element] [value]` in any channel the bot can read & send messages in. There are currently 30+ different settings you can customize, which you can find more information on the table below.
 
 ### Optional Arguments
 
@@ -27,6 +27,7 @@ Any member with the **Manage Server** permission or a configured [admin role](/c
 |-----------------------------------------------|:------------------------:|------------------------------------------|
 | [Admin Roles](/config/adminroles.md)²         |                          | roles with all perms |
 | [Allowed Roles](/config/allowedroles.md)      |                          | roles allowed to send suggestions |
+|[Anonymous Suggestions](/config/anon.md)       |        Disabled          | settings for anonymous feedback |
 | [Approve Role](/config/approverole.md)        |                          | roles given to the author of a suggestion when it gets appproved |
 | [Autofollowing](/config/autofollowing.md)     |        Enabled           | settings for autofollowing |
 | [Blocked Roles](/config/blockedroles.md)      |                          | roles blocked from sending suggestions |

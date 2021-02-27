@@ -1,7 +1,16 @@
 # Command: autosetup
 ---
 ### What does it do?
-This command allows admins to automatically setup the bot. This will automatically create four channels, one for [approved suggestions](/config/suggestions.md), one for [denied suggestions](/config/denied.md), one for [pending suggestions](/config/review.md) and one for [logs](/config/logs.md). If you are looking for more granular options, take a look at the [setup](/admin/setup.md) and [config](config/configuration.md) commands.
+This command allows admins to automatically setup the bot. This will automatically create useful channels to use Suggester in your server!
+
+#### Explanation
+**Suggester will create 4 channels and 1 category in your server:**
+- The first channel will host [approved suggestions](/config/suggestions.md), any idea you choose to approve will be posted there for people to vote on.
+- The second one will be used for [denied suggestions](/config/denied.md): bad ideas, spam, people begging for free cookies or whatever, all suggestions you decide to deny will be sent there (unless you prefer them to stay in the dark by [silent-denying](staff/silentdeny.md) them 👀).
+- The third one is the coolest because it will be used to choose a stance on new suggestions, you'll be able to approve or deny them and optionally add a comment.
+- Lastly, a new channel will be created to have eyes on everything. Well, at least what Suggester does in your server, read more about suggestion logs [here](/config/logs.md). 
+
+?> If you are looking for more granular options, take a look at the [setup](/admin/setup.md) and [config](config/configuration.md) commands.
 
 ### Usage
 Run `.autosetup` in any channel the bot can read and send messages in
@@ -13,8 +22,8 @@ Run `.autosetup` in any channel the bot can read and send messages in
 To execute this command, the user must have the **Manage Server** permission or a configured [admin](/config/adminroles.md) role
 
 ### Bot Permission
-To execute this command, Suggester will need the **Manage Channels** permission
+To execute this command, Suggester will need the **Manage Channels** permission:
 
 ![manage channels permission](https://cdn.discordapp.com/attachments/769650556502409226/794313355606097950/unknown.png)
 
-?> Channel names now use the guild's configured [language](/config/locale.md), though only if the corresponding string have been translated.
+?> If you have configured a server-wide [language](/config/locale.md), the names of the created channels will be set accordingly. If they still appear in english, it means the corresponding strings have not yet been translated. 
