@@ -22,9 +22,8 @@ See the table below for more information on how to format durations
 | days     | d        |
 | weeks    | w        |
 
-> **Examples**\
-> Using `.block @poggers 2h no spam!`will block **@poggers** for 2 hours with reason "no spam!"\
-> Using `.block @poggers 6d hahayes` will block **@poggers** for 6 days with reason "hahayes"
+### Examples
+![Blocking](/assets/blocking.png)
 
 ### Alias
 `disallow`
