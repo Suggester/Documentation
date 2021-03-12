@@ -11,7 +11,7 @@ Use `.top (time)` or `.down (time)` in any channel the bot can read & send messa
 
 ### Example
 
-![Popular Suggestions](/assets/top.png)
+![Popular Suggestions](./assets/top.png)
 
 > Use `m` for minutes, `h` for hours, `d` for days and `w` for weeks
 
