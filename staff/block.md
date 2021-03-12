@@ -23,7 +23,7 @@ See the table below for more information on how to format durations
 | weeks    | w        |
 
 ### Examples
-![Blocking](/assets/blocking.png)
+![Blocking](../assets/blocking.png)
 
 ### Alias
 `disallow`
