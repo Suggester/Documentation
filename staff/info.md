@@ -6,6 +6,9 @@ Use this command to get more information about a specific suggestion
 ### Usage
 Use `.info [suggestion ID]` in any channel the bot can read & send messages in
 
+
+![Suggestion details](/assets/info.png)
+
 ### Arguments
 `suggestion ID`: The ID of the suggestion you'd like know more about
 
