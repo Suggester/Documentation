@@ -10,7 +10,7 @@ This command allows admins to automatically setup the bot. This will automatical
 - The third one is the coolest because it will be used to choose a stance on new suggestions, you'll be able to approve or deny them and optionally add a comment.
 - Lastly, a new channel will be created to have eyes on everything. Well, at least what Suggester does in your server, read more about suggestion logs [here](/config/logs.md). 
 
-?> If you are looking for more granular options, take a look at the [setup](/admin/setup.md) and [config](config/configuration.md) commands.
+?> If you are looking for more granular options, take a look at the [config](config/configuration.md) command!
 
 ### Usage
 Run `.autosetup` in any channel the bot can read and send messages in
@@ -24,6 +24,8 @@ To execute this command, the user must have the **Manage Server** permission or 
 ### Bot Permission
 To execute this command, Suggester will need the **Manage Channels** permission:
 
-![manage channels permission](https://cdn.discordapp.com/attachments/769650556502409226/794313355606097950/unknown.png)
+![Manage Channels Permission](/assets/manage-channels.png)
 
 ?> If you have configured a server-wide [language](/config/locale.md), the names of the created channels will be set accordingly. If they still appear in english, it means the corresponding strings have not yet been translated. 
+
+![Autosetup Spanish](/assets/autosetup-spanish.png)

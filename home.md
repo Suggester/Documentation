@@ -5,13 +5,14 @@ All sections in these docs will use the bot's default prefix, which is currently
 
 In this documentation, arguments surrounded by [square brackets] are __required__ while arguments surrounded by (parenthesis) are __optional__.
 
-If you have any questions, feel free to ask us in our [Support Server](https://discord.gg/G5pEdUp)! Don't worry, we don't bite :)
+If you have any questions, feel free to ask us in our [Support Server](https://suggester.js.org/support  )! Don't worry, we don't bite :)
 
 
 | Resource                           | Link                                         |
 |------------------------------------|----------------------------------------------|
-| GitHub Repository                  | https://suggester.js.org/github       |
+| GitHub Repository                  | https://suggester.js.org/github              |
 | Support Server                     | https://suggester.js.org/support             |
-| Bot Invite Link                    | https://suggester.js.org/invite |
-| Beginner Guide                     | https://suggester.js.org/#/beginner-guide |
+| Bot Invite Link                    | https://suggester.js.org/invite              |
+| Beginner Guide                     | https://suggester.js.org/#/beginner-guide    |
+| Server Template                    | https://discord.new/Ye9n7V9SVNPg             |
 
