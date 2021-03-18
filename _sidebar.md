@@ -59,6 +59,6 @@
 # **SUGGESTER**
 [Support my development](topics/supporting.md)
 [Community Programs](community-programs.md)
-[Statistics](botstats.md)
+[Statistics](topics/stats.md)
 [Privacy Policy](legal.md)
 
