@@ -4,5 +4,3 @@
 
 [Introduction](emboarding.md)
 [Getting Started](beginner-guide.md)
-[Google](google.com)
-
