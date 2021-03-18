@@ -5,8 +5,8 @@
 [Configuration](config/configuration.md)
 [Public Commands](sumup.md)
 [Changelog](changelog.md)
-[Trello Integration](/trello/intro.md)
-[Anonymous Suggestions](/articles/anonymoussuggestions.md)
+[Trello Integration](/topics/trello/intro.md)
+[Anonymous Suggestions](/topics/anonymous-suggestions.md)
 
 ---
 # **SUGGESTION EDITING**
@@ -57,7 +57,7 @@
 ---
 
 # **SUGGESTER**
-[Support my development](supporting/info.md)
+[Support my development](topics/supporting.md)
 [Community Programs](community-programs.md)
 [Statistics](botstats.md)
 [Privacy Policy](legal.md)
