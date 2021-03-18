@@ -1,13 +1,13 @@
 # Command: dupe
 ---
 ### Description
-Use this command to deny a suggestion as a duplicate of another, linking the orignal one in the denial reason 
+Use this command to deny (or delete, if it's already approved) a suggestion as a duplicate of another, linking the orignal one in the denial reason.
 
 ### Usage
 Use `.dupe [duplicate suggestion ID] [original suggestion ID]` in any channel the bot can read & send messages in
 
 ### Arguments
-`duplicate suggestion ID`: The ID of the suggestion you'd like to deny as a dupe\
+`duplicate suggestion ID`: The ID of the suggestion you'd like to deny/delete as a dupe\
 `original suggestion ID`: The ID of the original suggestion 
 
 
