@@ -19,6 +19,4 @@ They show as anonymous in the suggestions feed and public info commands (such as
 
 The slash command used to submit an anonymous suggestion shares the same behavior as the regular suggest command, any configuration errors or configured submission restrictions are applied (suggestion cap, blocked roles, cooldown, etc..)
 
-
- 
 > Please let us know if you find any bugs or have feedback about this implementation by joining our [support server](https://suggester.js.org/support)!
