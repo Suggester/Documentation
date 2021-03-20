@@ -26,6 +26,7 @@ Commands in this list will use the default prefix (`.`), meaning if you configur
 - `.github`: Links Suggester's repository, where you can contribute to its development!
 
 - `.shard`: Tells which shard the current server is on. [Learn more](https://discord.com/developers/docs/topics/gateway#sharding)
+- `.shards`: Displays some statistics about the current shard
 
 ## Special Sunflowers
 
