@@ -3,7 +3,8 @@
 <!-- tabs:start -->
 
 <!-- tab:2021 -->
-
+### Suggester v4.9 (March Xth, 2021)
+yes
 
 ### Suggester v4.7.2 (January 31st, 2021)
 - The `ping` command has been redesigned to show more information and not error when the bot is starting up
@@ -17,7 +18,7 @@
 - You can now enable/disable comment timestamps on the suggestion embeds using `cfg commenttime [on/off/toggle]` 
 
 ### Suggester v4.7 (January 4th, 2021)
-- This release brings a new major feature to the bot: a Trello integration! We have a new documentation page for it, which can be found [here](/trello/intro.md), and you can also use `config help trello` to find more examples
+- This release brings a new major feature to the bot: a Trello integration! We have a new documentation page for it, which can be found [here](/topics/trello/intro.md), and you can also use `config help trello` to find more examples
 - The `queue` command now shows the suggestions you are viewing out of the whole in the title (ex. 1-10 out of 20)
 - `shortinfo` now has options to shorten the output:\
 Adding `-trimsuggest` (or `-ts` for short) to the end will limit the suggestion content output to 250 character\
@@ -51,11 +52,11 @@ Adding `-noattach` (`-na` for short) will hide the suggestion's attachment
 - The character limit on suggestions has been raised to 1900 characters (previously 1024)
 - The comment limit is now 15 comments per suggestion
 
-🎉 **5000 Servers!!**
+**5000 Servers!!**
 
-Thanks for helping Suggester reach 5000 Servers! To celebrate, we'll be giving out 10 VoteBoat votes to 5 winners in a giveaway on our [Support Server](https://discord.gg/G5pEdUp)! 
+Thanks for helping Suggester reach 5000 Servers! To celebrate, we'll be giving out 10 VoteBoat votes to 5 winners in a giveaway on our [Support Server](https://suggester.js.org/support)! 
 
-🍔 **Reddit**
+**Reddit**
 
 Suggester is now present on Reddit! Join us at https://www.reddit.com/r/Suggester/ 
 
@@ -80,7 +81,7 @@ __New Features & Improvements__
 
 __Bugfixes__
 - Fixed handling of the commands channel for servers who had one set before the 4.4 release
-- System messages are no longer accepted for inchannelsuggestions
+- System messages are no longer accepted for `inchannelsuggestions`
 - Reactions are now removed from the review message when using massapprove/deny
 - Other minor things
 
@@ -109,18 +110,16 @@ We also added a new **large server** system. If your server has a large (as in s
 - The average uptime value is no longer 0
 
 ### Suggester v4.2.1 (August 12nd, 2020)
-- The help command has been reworked to give a list of commands inside Discord, instead of using an external documentation site. Additionally, using help [command] now shows examples on how to use most commands.
-- Using config help will show information about using the config command and configuring all elements of the bot
-- The locales embed has been redesigned to separate locales that are incomplete and mostly complete
-- Redesigned the ping and verify commands
+- The help command has been reworked to give a list of commands inside Discord, instead of using an external documentation site. Additionally, using `help [command]` now shows examples on how to use most commands.
+- Using `config help` will show information about using the config command and configuring all elements of the bot
+- The `locales` embed has been redesigned to separate locales that are incomplete and mostly complete
+- Redesigned the `ping` and `verify` commands
 - Minor bugfixes and improvements
 
-If you've got any questions about this release, join our Support Server and ask in the #support-text channel!
-Additionally, with school and things ramping up around this time we might not have as much time to push new features. To help us prioritize features you want added, vote on your favorites in #suggestions!
+Additionally, with school and things ramping up around this time we might not have as much time to push new features. To help us prioritize features you want added, vote on your favorites in the [support server](https://suggester.js.org/support)!
 
 ### Suggester v4.2 (August 4th, 2020)
-:suggestercircle: Suggester v4.2
-- We've added an import command that allows you to import old suggestions into the bot. Any messages from users are imported as their suggestions, and we also support importing suggestions from the bots listed [here](admin/import.md#supported-bots)
+- We've added an `import` command that allows you to import old suggestions into the bot. Any messages from users are imported as their suggestions, and we also support importing suggestions from the bots listed [here](admin/import.md#supported-bots)
 - You can now view the top 10 list of highest voted suggestions in your server using the `top` command!
 - Suggester now has protips, which give you some helpful tips about using the bot every so often. If you're already a pro, you can disable these using the `protips` command 😎
 - Live vote totals are now shown on suggestions
@@ -133,7 +132,7 @@ Additionally, with school and things ramping up around this time we might not ha
 
 ### Suggester v4.1.1 (July 14th, 2020)
 This release contains bugfixes from the v4.1 release from earlier today, specifically:
-- Fix an issue where the some of the presences shown had incorrect information
+- Fixed an issue where the some of the presences shown had incorrect information
 - The message-in-suggestion-channel suggestion method has been changed so that commands that start with a backslash (\), the server prefix, or the bot's mention (@Suggester) will not submit a suggestion.
 
 ### Suggester v4.1 (July 14th, 2020)
