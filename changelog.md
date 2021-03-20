@@ -98,7 +98,7 @@ __Bugfixes__
 - There is no longer a redundant reply message when you react to approve/deny
 - The `github` command shows the link to Suggester's GitHub repository
  
-We also added a new **large server** system. If your server has a large (as in several thousands) number of members or high volume of suggestions and would benefit from features like an increased `top` command view and reduced cooldowns for server staff members, contact our [Support Team](https://discord.gg/G5pEdUp) and we'll work from there.
+We also added a new **large server** system. If your server has a large (as in several thousands) number of members or high volume of suggestions and would benefit from features like an increased `top` command view and reduced cooldowns for server staff members, contact our [Support Team](https://suggester.js.org/support) and we'll work from there.
 
 ### Suggester v4.2.2 (September 2nd, 2020)
 - `config help notify` now shows correct information
