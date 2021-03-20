@@ -12,7 +12,7 @@ Use `.dupe [duplicate suggestion ID] [original suggestion ID]` in any channel th
 
 
 ### Alias
-`.duplicate` & `.d`
+`.duplicate` and `.d`
 
 ### User Permission
 To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role
