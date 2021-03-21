@@ -5,16 +5,12 @@
 [Configuration](config/configuration.md)
 [Public Commands](sumup.md)
 [Changelog](changelog.md)
+
+### **TOPICS**
 [Trello Integration](/topics/trello/intro.md)
 [Anonymous Suggestions](/topics/anonymous-suggestions.md)
+[Editing a suggestion](/topics/suggestion-editing.md)
 
----
-# **SUGGESTION EDITING**
-[Editing a suggestion](editing/suggestion-editing.md)
-
-**❯ Commands**
-[approveedit](editing/approveedit.md)
-[denyedit](editing/denyedit.md)
 ---
 # **ADMIN COMMANDS**
 [autosetup](admin/autosetup.md)
@@ -34,16 +30,19 @@
 [massapprove](staff/massapprove.md)
 [massdeny](staff/massdeny.md)
 [massdelete](staff/massdelete.md)
+[approveedit](staff/approveedit.md) 
+[denyedit](staff/denyedit.md)
 
 **❯ Comments**
 [comment](staff/comment.md)
 [anonymouscomment](staff/acomment.md)
 [deletecomment](staff/deletecomment.md)
-[editcomment](editing/comment-editing.md)
+[editcomment](staff/comment-editing.md)
 
 **❯ Moderation**
 [block](staff/block.md)
 [unblock](staff/unblock.md)
+
 
 **❯ Misc**
 [listqueue](staff/listqueue.md)
