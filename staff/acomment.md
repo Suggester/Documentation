@@ -10,7 +10,7 @@ Run `.acomment [suggestion ID] (comment)` in any channel the bot can read & send
 `suggestion ID`: The ID of the suggestion you'd like to anonymously comment on\
 `comment`: The comment to add
 
-!> Up to 15 comments can be added to the same suggestion!
+?> Up to 15 comments can be added to the same suggestion.
 
 ### Alias
 `anonymouscomment`
