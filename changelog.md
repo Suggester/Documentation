@@ -6,17 +6,19 @@
 ### Suggester v4.9 (March Xth, 2021)
 yes
 
+---
 ### Suggester v4.7.2 (January 31st, 2021)
 - The `ping` command has been redesigned to show more information and not error when the bot is starting up
 - The `mark` command should no longer output an error if you don't specify a status in the command and select a reaction to choose one
 - Voting totals (upvotes/downvotes) should be more accurate now
 - **@everyone** and **@here** mentions for the `feedping` and `reviewping` elements now resolve correctly and ping intended users
 
-
+---
 ### Suggester v4.7.1 (January 6th, 2021)
 - We now support importing suggestions from the `Gaius Cicereius#3705` bot
 - You can now enable/disable comment timestamps on the suggestion embeds using `cfg commenttime [on/off/toggle]` 
 
+---
 ### Suggester v4.7 (January 4th, 2021)
 - This release brings a new major feature to the bot: a Trello integration! We have a new documentation page for it, which can be found [here](/topics/trello/intro.md), and you can also use `config help trello` to find more examples
 - The `queue` command now shows the suggestions you are viewing out of the whole in the title (ex. 1-10 out of 20)
@@ -35,13 +37,14 @@ Adding `-noattach` (`-na` for short) will hide the suggestion's attachment
 
 <!-- tab:2020 -->
 
+---
 ### Suggester v4.6.1 (December 14th, 2020)
 - Added a comment editing feature for server staff! You can now use `editcomment [comment ID] [new content]` to modify comments either posted by you or posted anonymously
 - Fixed a bug where suggestions couldn't be deleted if their review channel had been deleted
 - Added the "Read Message History" permission to some commands where the bot adds reactions
 - Re-implemented and improved a legume-themed easter egg from a long time ago.. (we did it! 🎉)
 
-
+---
 ### Suggester v4.6 (November 20th, 2020)
 - The ability to edit suggestions has been added! Users can now edit suggestions they’ve submitted, and server admins/staff can edit any suggestion (the footer will show if the suggestion was edited by a staff member). A user editing their own approved suggestion in the review mode will send the edit for review
 - Added a `shortinfo` command for when you want to show info about a suggestion in a concise manner without any internal information like the staff member who took action on it
@@ -52,11 +55,9 @@ Adding `-noattach` (`-na` for short) will hide the suggestion's attachment
 - The character limit on suggestions has been raised to 1900 characters (previously 1024)
 - The comment limit is now 15 comments per suggestion
 
-**5000 Servers!!**
+**5000**: Thanks for helping Suggester reach 5000 Servers! To celebrate, we'll be giving out 10 VoteBoat votes to 5 winners in a giveaway on our [Support Server](https://suggester.js.org/support)! 
 
-Thanks for helping Suggester reach 5000 Servers! To celebrate, we'll be giving out 10 VoteBoat votes to 5 winners in a giveaway on our [Support Server](https://suggester.js.org/support)! 
-
-
+---
 ### Suggester v4.5.1 (October 21st, 2020)
 
 This release primarily contains performance improvements for servers with a large number of approved suggestions/members who vote on suggestions:
@@ -64,11 +65,11 @@ This release primarily contains performance improvements for servers with a larg
 - Changed notifications so that logging occurs first, which should reduce lag when a suggestion has a lot of followers
 - Fixed a small issue with the `delete` command not working when the suggestion channel was changed
  
-
+---
 ### Suggester v4.5 (October 17th, 2020)
 It’s been a while since we released an update, but we’ve finally got some new stuff for you!
 
-__New Features & Improvements__
+**New Features & Improvements**
 - The `cleancommands` config element now applies to more commands. This was mainly applied to commands that are used frequently or where the response is mostly just to let you know the command succeeded. Both the command message and the bot response are deleted after 7.5 seconds.
 - We’ve added a new suggestion cooldown (`config cooldown`) config element! After submitting a suggestion, users must wait the configured duration before submitting another. Server staff members can waive this cooldown using the `exempt` command.
 - The `dupe` command has been added so that you can deny a suggestion as a duplicate of another. Usage is `dupe 1 2` (1 being the duplicate suggestion and 2 being the original)
@@ -76,15 +77,14 @@ __New Features & Improvements__
 - `prefix` is now its own separate command
 - 👻 
 
-__Bugfixes__
+**Bug Fixes**
 - Fixed handling of the commands channel for servers who had one set before the 4.4 release
 - System messages are no longer accepted for `inchannelsuggestions`
 - Reactions are now removed from the review message when using massapprove/deny
 - Other minor things
 
-
+---
 ### Suggester v4.4 (September 18th, 2020)
-
 - You can now __follow__ suggestions to be notified when they are updated. This works just like notifications sent to the suggester, but you can get them for suggestions you didn't submit. You can follow suggestions using the `follow` command and by upvoting any suggestion!
 - Users can now be blocked from using the bot for a period of time using `block [user] [time]`
 - You can now set multiple commands channels using `config commands add #channel`
@@ -97,6 +97,7 @@ __Bugfixes__
  
 We also added a new **large server** system. If your server has a large (as in several thousands) number of members or high volume of suggestions and would benefit from features like an increased `top` command view and reduced cooldowns for server staff members, contact our [Support Team](https://suggester.js.org/support) and we'll work from there.
 
+---
 ### Suggester v4.2.2 (September 2nd, 2020)
 - `config help notify` now shows correct information
 - Translations are now shown properly in `config help`
@@ -106,6 +107,7 @@ We also added a new **large server** system. If your server has a large (as in s
 - Added some memory reduction processes
 - The average uptime value is no longer 0
 
+---
 ### Suggester v4.2.1 (August 12nd, 2020)
 - The help command has been reworked to give a list of commands inside Discord, instead of using an external documentation site. Additionally, using `help [command]` now shows examples on how to use most commands.
 - Using `config help` will show information about using the config command and configuring all elements of the bot
@@ -115,6 +117,7 @@ We also added a new **large server** system. If your server has a large (as in s
 
 Additionally, with school and things ramping up around this time we might not have as much time to push new features. To help us prioritize features you want added, vote on your favorites in the [support server](https://suggester.js.org/support)!
 
+---
 ### Suggester v4.2 (August 4th, 2020)
 - We've added an `import` command that allows you to import old suggestions into the bot. Any messages from users are imported as their suggestions, and we also support importing suggestions from the bots listed [here](admin/import.md#supported-bots)
 - You can now view the top 10 list of highest voted suggestions in your server using the `top` command!
@@ -122,16 +125,19 @@ Additionally, with school and things ramping up around this time we might not ha
 - Live vote totals are now shown on suggestions
 - If a suggestion is marked as Not Happening and there is no denied suggestions channel, reactions will be removed
 
+---
 ### Suggester v4.1.2 (July 20th, 2020) 
-- In-channel suggestions are now __disabled__ by default, and can be configured using config `sendinchannel <on|off|toggle>`. The release of this feature didn't go as planned, sorry for the confusion it caused.
+- In-channel suggestions are now **disabled** by default, and can be configured using config `sendinchannel <on|off|toggle>`. The release of this feature didn't go as planned, sorry for the confusion it caused.
 - A new status has been added: "In Consideration"! Use `mark <suggestion ID> considered` to try it out
 - `silentdeny` should now remove reactions from the review embed
 
+---
 ### Suggester v4.1.1 (July 14th, 2020)
 This release contains bugfixes from the v4.1 release from earlier today, specifically:
 - Fixed an issue where the some of the presences shown had incorrect information
 - The message-in-suggestion-channel suggestion method has been changed so that commands that start with a backslash (\), the server prefix, or the bot's mention (@Suggester) will not submit a suggestion.
 
+---
 ### Suggester v4.1 (July 14th, 2020)
 **New:**
 - Suggestions submitted for review (after this release) can now be approved/denied with check and x reactions that are automatically added to the "Suggestion Awaiting Review" embed. The approve/deny commands still exist unchanged.
@@ -148,18 +154,20 @@ This release contains bugfixes from the v4.1 release from earlier today, specifi
 - The bot can now be used via DMs for a few commands including `help`, `changelog`, and `ping`
 - All discordapp.com links now refer to discord.com
 
-**Bugfixes/Other:**
+**Bug Fixes/Other:**
 - The `deletecomment` command no longer outputs two log messages
 - If a pagination embed has less than one page, instructions for navigating via reactions are no longer shown
 - The temporary `blacklist` command from the last release was removed
 - Fixed a bug where if suggestion was submitted with a newline after the command the first word of the suggestion was sometimes cut out
 
+---
 ### Suggester v4.0.2 (June 25th, 2020)
 - Over the past few weeks, protesters around the world have spoken out against all forms of racism and to proudly declare that Black Lives Matter. Here at Suggester, we support the Black Lives Matter movement and the protests, therefore we are working to eliminate even subtle forms of racism by moving away from terms like “blacklist” and “whitelist”. We have renamed the `blacklist` and `unblacklist` commands to `block` and `unblock`, respectively. This [article](https://9to5google.com/2020/06/12/google-android-chrome-blacklist-blocklist-more-inclusive/) provides more context about why many tech companies are moving away from these terms.
 - Fixed the small bug where the text in the footer of the changelog was ordered wrong
 - Added `accept` as an alias for `approve`
 - Locales are now managed more effectively and are easier to import into the bot without a reboot
 
+---
 ### Suggester v4.0.1 (June 10th, 2020)
 This release contains bugfixes for the v4 release from a few days ago:
 - When a suggestion is approved the user now receives the correct link to the suggestion feed message (previously the link ended with /undefined)
@@ -167,6 +175,7 @@ This release contains bugfixes for the v4 release from a few days ago:
 - Fixed a bug with logging commands where the date was incorrect (we have some cool charts relating to this, check them out [here](/botstats.md)
 Also we've reached 30,000 suggestions :POG:
 
+---
 ### Suggester v4 (June 7th, 2020)
 For this update, we reworked the entire bot to make some major changes:
 
@@ -204,21 +213,23 @@ The message Suggester sends when it joins a server can now be shown at any time 
 The old selfnotify feature that toggled DM notifications when you took action on one of your own suggestions has been removed due to it not being used
 
 ---
-
 ### Suggester v3.2.4 (June 1st, 2020)
-Small hotfix only pushed to Suggester and not on GitHub, which allows the bot to be used in news channels
+Small hotfix only pushed to Suggester and not on GitHub which allows the bot to be used in news channels
 
+---
 ### Suggester v3.2.3 (May 21st, 2020)
 This release is only being pushed to the main Suggester bot, and will not be shown on GitHub
 - This update brings sharding to the bot, as we're getting close to the 2,500 server threshold where the bot must be sharded
 - You should not see any differences in how the bot functions, except that the ping command looks different and the stats command has been temporarily disabled
 
+---
 ### Suggester v3.2.2 (April 24th, 2020)
 This release contains bugfixes and minor improvements:
 - Timestamps for when suggestions were submitted should be more accurate 
 - Fixed an issue with invalid user arguments sometimes not causing commands to stop executing.
 - Removed some unused packages and bumped a few to the latest version.
 
+---
 ### Suggester v3.1.2 (April 23th, 2020)
 **New Stuff**
 - The new `changelog` command shows the latest released changelog of the bot (with pagination if it's super long)
@@ -229,6 +240,7 @@ This release contains bugfixes and minor improvements:
 - If `cleancommands` is enabled, all suggest commands/responses are now deleted - even if there's an error. (configuration errors aren't removed)
 - Updated the bot invite link 
 
+---
 ### Suggester v3.2 (April 16th, 2020)
 We went through #suggestions and asked in #feedback what you wanted to see added to the bot, and then added a massive number of new features! This update also makes the bot more scalable and depending less on the main server.
 
@@ -254,7 +266,7 @@ We went through #suggestions and asked in #feedback what you wanted to see added
 
 **Cooldowns**: Commands now have cooldowns, preventing excessive spam. Fair warning, you may be blocked from the bot if you violate these cooldowns too many times.
 
-**Verify Changes**: The `verify` command no longer uses roles from the support server. OG Partners/Contributors/Canary Testers can request a custom acknowledgement by asking a staff member.
+**Verify Changes**: The `.verify` command no longer uses roles from the support server. OG Partners/Contributors/Canary Testers can request a custom acknowledgement by asking a staff member.
 
 **Permissions**: 
 - The `help` command will now retrieve information about any command regardless of permissions.
@@ -262,14 +274,15 @@ We went through #suggestions and asked in #feedback what you wanted to see added
 
 That's a lot of stuff ⚡
 
+---
 ### Suggester B.E.A.N Edition (April 1st, 2020)
-
 - Everything is bean colored
 - Everyone can now use the `bean` command in any server
 
 In other news... If you're trying to create a server and you want basic suggestion channels, feel free to use our template. This template will create a server with the channels/roles you need, and some channels with setup instructions!
 https://discord.new/Ye9n7V9SVNPg
 
+---
 ### Suggester 3.1.4 (March 25th, 2020) 
 ⚠️ Due to some issues with configuration changes, some log channels were incorrectly configured and therefore did not function as intended. Any log channel configured while Suggester was on version 2 has now been reset.
 
@@ -283,17 +296,17 @@ https://discord.new/Ye9n7V9SVNPg
 - VoteBoat streaks now work properly, go get those extra votes!
 - #feedback was added to the support server to more effectively gather feedback about certain topics. 
 
+---
 ### Suggester 3.1.2 (March 24th, 2020) 
 - Lots and lots of bugfixes
 - Removed "shared servers" from `stats` because it didn't work properly anymore and making it work would make the command even more resource intensive
 
+---
 ### Suggester 3.1.1 (March 23rd, 2020)
 - Fixes to lower memory usage
 - Fixes for other things
 
-### New Voting Sytem (March 23rd, 2020)
-[Click here for more info](https://discord.com/channels/566002482166104066/621065292239601695/691674607614296205)
-
+---
 ### Suggester v3.1 (March 18th, 2020)
 
 **New Stuff**
@@ -309,8 +322,33 @@ https://discord.new/Ye9n7V9SVNPg
 - Emojis now fall back to the default if the configured emoji can't be found
 - Fixed a lot of bugs
 
+---
 ### Suggester v3.0.4 (February 5th, 2020)
 The server name is now shown in DM messages about actions
+
+---
+### Suggester v2.1 (November 16th, 2019)
+This update brings a lot of cool changes, some of which were suggested by yall! 
+
+- **Setup**: Running the `setup` command will initiate a walkthrough for configuring your server, making it much easier than the config command (which still exists)
+
+- **Permission Checks**: The bot now checks permissions in channels before performing actions, making sure everything works as intended
+
+- **Log Channels**: You can now set a log channel where all actions on suggestions are logged using `.config logs #channel`
+
+- **Removing log and denied suggestions channels**: Specifying `none` as the channel in the `config` command will remove the log or denied suggestions channels 
+
+- **Approve, but with comments**: You can now run `.approve` and specify a comment to add to the suggestion!
+
+- **Attach with uploaded attachments**: You can now upload an attachment straight to Discord for the `attach` command and it will be added to the suggestion
+
+- **Mass approve/deny/delete**: You can now approve/deny/delete multiple suggestions at a time using the `mapprove`, `mdeny`, and `mdelete` commands
+
+- **Enable/disable reactions on the suggestion feed**: You can now toggle whether you would like suggestion feed posts to have reactions with `.config emojis toggle`
+
+- **Enable/disable DMs to server members when suggestions are updated**: Using `.config notifications toggle` will toggle whether server members receive DMs when their suggestions are updated
+
+- **Bug fixes**: Gotta catch 'em all!
 
 <!-- tab:Announcements -->
 
