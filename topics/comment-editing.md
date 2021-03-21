@@ -18,11 +18,3 @@ Run `.editcomment [comment ID] [new content]` in any channel the bot can read & 
 ### User Permission
 To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role
 
-### Other Resources
-
-- [How to find a comment's ID?](faq.md?id=how-to-find-a-comments-id)
-- [How to remove a comment?](staff/deletecomment)
- 
- 
- 
- [🦆](https://www.youtube.com/watch?v=j5a0jTc9S10&t=1s)
