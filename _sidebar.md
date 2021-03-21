@@ -1,25 +1,25 @@
 
-### **DOCUMENTATION**
+### DOCUMENTATION
 [Intro](home.md)
 [Beginner's Guide](beginner-guide.md)
 [Configuration](config/configuration.md)
 [Public Commands](sumup.md)
 [Changelog](changelog.md)
 
-### **TOPICS**
+### TOPICS
 [Trello Integration](/topics/trello/intro.md)
 [Anonymous Suggestions](/topics/anonymous-suggestions.md)
 [Editing a suggestion](/topics/suggestion-editing.md)
 
 ---
-# **ADMIN COMMANDS**
+### ADMIN COMMANDS
 [autosetup](admin/autosetup.md)
 [setup](admin/setup.md)
 [config](config/configuration.md)
 [import](admin/import.md)
 ---
 
-# **STAFF COMMANDS**
+### STAFF COMMANDS
 
 **❯ Suggestion Managing**
 [approve](staff/approve.md)
@@ -44,7 +44,7 @@
 [unblock](staff/unblock.md)
 
 
-**❯ Misc**
+**❯ Miscellaneous**
 [listqueue](staff/listqueue.md)
 [info](staff/info.md)
 [mark](staff/mark.md)
@@ -55,9 +55,9 @@
 
 ---
 
-# **SUGGESTER**
+### SUGGESTER
 [Support my development](topics/supporting.md)
-[Community Programs](community-programs.md)
+[Community Programs](topics/community-programs.md)
 [Statistics](topics/stats.md)
 [Privacy Policy](legal.md)
 
