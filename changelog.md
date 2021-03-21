@@ -326,6 +326,7 @@ https://discord.new/Ye9n7V9SVNPg
 ### Suggester v3.0.4 (February 5th, 2020)
 The server name is now shown in DM messages about actions
 
+<!-- tab:2019 -->
 ---
 ### Suggester v2.1 (November 16th, 2019)
 This update brings a lot of cool changes, some of which were suggested by yall! 
