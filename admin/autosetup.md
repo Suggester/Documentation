@@ -26,4 +26,5 @@ To execute this command, Suggester will need the **Manage Channels** permission:
 ![Manage Channels Permission](../assets/manage-channels.png)
 
 ?> If you have configured a server-wide [language](/config/locale.md), the names of the created channels will be set accordingly. If they still appear in english, it means the corresponding strings have not yet been translated.
-![Autosetup Spanish](../assets/autosetup-spanish.png)
+
+?> ![Autosetup Spanish](../assets/autosetup-spanish.png)
