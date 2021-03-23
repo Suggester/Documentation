@@ -1,7 +1,7 @@
 # Command: acomment
 ---
 ### Description
-Use this command to add an anonymous comment to a suggestion, shown as "Staff Comment" on the suggestion embed
+Use this command to add an anonymous comment to a suggestion, shown as "Staff Comment" on the suggestion embed.
 
 ### Usage
 Run `.acomment [suggestion ID] (comment)` in any channel the bot can read & send messages in
