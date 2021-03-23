@@ -9,9 +9,8 @@ Use `.search <parameters separated by a space>` in any channel the bot can read 
 
 ### Parameters and Syntax 
 
-
 | Name                      | Syntax                                   | Example   | Explanation             |
-|:------------------------|--------------------------------------------|------------|---------------------------:|
+|:------------------------:|:--------------------------------------------:|:------------:|:---------------------------:|
 | Suggestion Status | `status:approved/denied/review` | `status:approved` | Only contains approved suggestions |
 | Marked Status | `mark:done/working/consideration/no/default` | `mark:working` | Only contains suggestions [marked](staff/mark.md) as "Working"
 | Vote Count | `votes>(number)` or `votes<(number)` | `votes>30` | Only contains suggestions with more than 30 upvotes |
@@ -24,10 +23,12 @@ Use `.search <parameters separated by a space>` in any channel the bot can read 
 ### Operators
 The above examples support multiple operators to narrow the search results:
 
-`:` means equal to
-`>` means greater than
-`<` means less than
-`!` means "not"
+| Operator | Meaning      |
+|:--------:|:------------:|
+| `:`      | equal to     |
+| `>`      | greater than |
+| `<`      | less than    |
+| `!`      | not          |
 
 ?> You can use quotes around strings to include spaces
 
