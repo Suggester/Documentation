@@ -10,7 +10,9 @@ Run `.editcomment [comment ID] [new content]` in any channel the bot can read & 
 `comment ID`: The ID of the comment you’d like to edit
 `new content`: The edited version of the comment
 
-!> **Note:** You can only edit your own comments or anonymous ones added using the [`.acomment`](/staff/acomment.md) command
+?> The **comment ID** is shown on the suggestion embed.
+
+!> **Note:** You can only edit your own and anonymous comments (added using the [`.acomment`](/staff/acomment.md) command)
 
 ### Alias
 `ecomment`, `revisecomment` and `ec`
