@@ -3,8 +3,26 @@
 <!-- tabs:start -->
 
 <!-- tab:2021 -->
-### Suggester v4.9 (March Xth, 2021)
-yes
+### Suggester v4.9 (March 23rd, 2021)
+🆕 **New Things**
+- Added the `shards` command to show information about all bot shards
+- Added the `search` command, which takes an unlimited number of query parameters, space-separated to query all suggestions on the server. See this [page](topics/search.md) for more information.
+
+🔧 **Improvements**
+- The emojis used in the `mark` command are now colorblind-friendly
+- You can now add attachments to suggestions awaiting review through the `attach` command
+- The `info` command now shows a timestamp for when the suggestion was submitted
+- There is now an error message shown when trying to set the `cooldown` config element lower than the global cooldown for the `suggest` command
+- The denial reason is now shown in the review message when "A change has been processed on this suggestion" is shown
+- The `setup` command now links to the documentation for each config element
+- Using `default` as the emoji setting will restore a reaction to its default configuration
+- `dupe` can now be used on approved suggestions, deleting them from the suggestions feed
+
+🐛  **Bug Fixes**
+- The `help` command is no longer available in DMs
+- Anonymous suggestions now properly handle allowed roles configuration and checking
+- Anonymous suggestions will now show as anonymous in the denied suggestions feed
+- Missing upvote/downvote reactions should no longer cause issue with live vote totals and `colorchange` config
 
 ---
 ### Suggester v4.7.2 (January 31st, 2021)
@@ -12,6 +30,7 @@ yes
 - The `mark` command should no longer output an error if you don't specify a status in the command and select a reaction to choose one
 - Voting totals (upvotes/downvotes) should be more accurate now
 - **@everyone** and **@here** mentions for the `feedping` and `reviewping` elements now resolve correctly and ping intended users
+
 
 ---
 ### Suggester v4.7.1 (January 6th, 2021)
