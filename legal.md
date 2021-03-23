@@ -29,7 +29,7 @@ Bots that help to manage the Suggester Discord server also store some informatio
 **Suggester Support#5646**: DMs sent to the bot, your user tag, nickname (if any), account creation date and account age (only if/when you contact the bot by sending it a direct message)
 
 ## Concerns
-If you have any concerns about the data we store or the functions of the bot, please contact a member of the Suggester Staff Team via the [support server](https://discord.gg/G5pEdUp). 
+If you have any concerns about the data we store or the functions of the bot, please contact a member of the Suggester Staff Team via the [support server](https://suggester.js.org/support). 
 We'll be more than happy to clear up any concerns you may have.
 
 !> If you would like your data to be removed from our systems, please contact one of the developers listed above and we'll help you out from there.

@@ -1,13 +1,13 @@
 # Suggester
 
-![a](/images/suggesterbanner.png)
+![Banner](/images/suggesterbanner.png)
 
 Suggester is a Discord bot helping server staff members & admins to manage feedback in their server, with the usage of a modern suggestion system and granular configuration elements. We're trusted by thousands of servers including some that are verified or partnered with Discord.
 
 #### Quick Links
 
-> [Bot Invite Link](https://discord.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=805694544)\
-> [Support Server](https://discord.gg/G5pEdUp)\
+> [Bot Invite Link](https://suggester.js.org/invite)\
+> [Support Server](https://suggester.js.org/support)\
 > [GitHub](https://github.com/Suggester/Suggester)
 
 ![b](/images/Why%20use%20suggester%3F.png)

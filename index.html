@@ -22,9 +22,8 @@
 <!-- Custom theme styles -->
     <style>
       :root {
-           color: hsl(0deg 32% 94%);
-        
-        --base-background-color: #23272A;
+            color: hsl(0deg 32% 94%);
+        --base-background-color: #363940;
         --cover-background-image: url(https://cdn.discordapp.com/attachments/769650556502409226/815942754005024838/light-1282314_1280.webp);
         --heading-color: hsl(0deg 0% 100%);
         --code-theme-background: #183055;
@@ -50,7 +49,7 @@
         --sidebar-background: #363940;
         --sidebar-nav-link-color: #ffffff;
         --sidebar-border-width: 0px;
-        --table-row-even-background: #121315 ;
+        --table-row-even-background: #121315;
         --table-row-odd-background: #18191d;
         --table-cell-border-width: 0px;
         --table-head-background: #16171a;
@@ -74,20 +73,29 @@
         --cover-heading-color: #000000;
         --cover-link-color: #000000;
         --cover-link-color: #000000;
+         
+        --search-input-color: #000000;
+        --search-result-keyword-background: #7289da;
+        --search-clear-icon-color1: #ff0000;
+        --search-clear-icon-color2: #ffffff;
+        
 
         
     /* Tabs */
     --docsifytabs-tab-background        : #363940;
     --docsifytabs-tab-background--active: var(--docsifytabs-content-background);
     --docsifytabs-tab-color             : #ffffff;
-    --docsifytabs-tab-color--active     : inherit;
-    --docsifytabs-tab-highlight-px      : 3px;
-    --docsifytabs-tab-highlight-color   : var(--theme-color, currentColor);
+    --docsifytabs-tab-color--active     : #7289da;
+    --docsifytabs-tab-highlight-px      : 5px;
     --docsifytabs-tab-padding           : 0.6em 1em;
 
     /* Tab content */
     --docsifytabs-content-background    : inherit;
     --docsifytabs-content-padding       : 1.5rem;
+     
+    --docsifytabs-border-color          : #ffffff;
+    --docsifytabs-border-px             : 3px;
+    --docsifytabs-border-radius-px      : 20px;
 }        
       }
    </style>
@@ -120,8 +128,8 @@
               '/tr/(.*)': 'https://raw.githubusercontent.com/Suggester-Bot/Documentation/turkish/$1'
             },
             footer: {
-              copy: '<span><a href="#/community-programs.md">Community Programs</a> - <a href="#/legal">Privacy Policy</a></span>',
-              auth: '- © Suggester 2020',
+              copy: '<span><a href="#/topics/community-programs.md">Community Programs</a> - <a href="#/legal">Privacy Policy</a></span>',
+              auth: '- © Suggester 2019-2021',
               style: 'text-align: center;'
             },
             

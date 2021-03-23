@@ -4,13 +4,13 @@
 Use this command to edit a suggestion's status
 
 ### Usage
-Use `.mark [suggestion ID] [status] (comment)`
+Use `.mark [suggestion ID] (status) (comment)`
 
 ### Arguments
 
-`suggestion ID`: The ID of the suggestion you'd like to modify the status.
+`suggestion ID`: The ID of the suggestion you'd like to modify the status of
 
-`status`: The new status you want to set, use the table below to find all available statuses (If no status is provided, an interactive menu will be shown to choose one)
+`status`: The new status you want to set, use the table below to find all available statuses (If no status is provided, an interactive menu will be shown to pick one)
 
 | Argument              |                Meaning                |                 Context Examples                                                                         |
 |-----------------------|:-------------------------------------:|-------------------------------------------------------------------|

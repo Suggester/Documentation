@@ -1,15 +1,11 @@
 # Official Suggester Documentation
-Everything you need to know about how Suggester works, including all commands, configuration elements and everything around it!
+Everything you need to know about Suggester, including all commands, configuration elements and community programs. Suggestions have never been easier to set up!
 
-![suggester_banner](https://cdn.discordapp.com/attachments/566351843282780181/769229116054175814/newsbanner_1.png)
+![Suggester Banner](https://cdn.discordapp.com/attachments/566351843282780181/769229116054175814/newsbanner_1.png)
 
 
 ### Resources
 
-> 💬 [Support Server](https://discord.gg/G5pEdUp)\
+> 💬 [Support Server](https://suggester.js.org/support)\
 > 🌐 [Online Documentation](https://suggester.js.org/#/)\
-> 💻 [Suggester Repository](https://github.com/Suggester/Suggester)\
-> 🦆 [Free Rickroll](https://youtu.be/dQw4w9WgXcQ)
-
-
-
+> ❤ [Suggester Repository](https://github.com/Suggester/Suggester)

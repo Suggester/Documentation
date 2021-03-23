@@ -9,7 +9,7 @@ You might be wondering a few things, so we will dive into it below.
 ### How do I start?
 First, you'll need to create a Trello account, you can do so by clicking [here](https://trello.com/signup). Once done, create a Trello board (if you don't know how, check this [guide](https://trello.com/guide/create-a-board)) and add `@suggester_bot` to it ([How?](https://help.trello.com/article/717-adding-people-to-a-board))\
 
-Go back on Discord, then run [`.config trello board [board link]`](/trello/board.md) in a server you have admin perms in to connect the board to your server.
+Go back on Discord, then run [`.config trello board [board link]`](/topics/trello/board.md) in a server you have admin perms in to connect the board to your server.
 
 ### Event & Actions
 You can configure Suggester to do certain actions when any of the following events occur:
@@ -39,13 +39,14 @@ To add a new action to run when a certain event occurs, send the following synta
 
 | Description                                             | Link                                                                               |
 |:-------------------------------------------------------:|:----------------------------------------------------------------------------------:|
-| Add approved suggestions to a list                      | [Click Click Click](/trello/events/approved-suggestions.md)                        |
-| Archive deleted suggestions                             | [Travel your cursor around here, then hit](/trello/events/deleted-suggestions.md)  |
-| Remove deleted suggestions from the Board               | [Place your pointer then push it here](/trello/events/deleted-suggestions.md)      |
-| Give a label to suggestions marked as Implemented       | [Pop your mouse while hovering this](/trello/events/marked-as-implemented.md)      |
-| Add new suggestions to a list                           | [Deliver a quick click on this link](/trello/events/new-suggestion.md)             |
+| Add approved suggestions to a list                      | [Click Click Click](/topics/trello/approved-suggestions.md)                        |
+| Archive deleted suggestions                             | [Travel your cursor around here, then hit](/topics/trello/deleted-suggestions.md)  |
+| Remove deleted suggestions from the Board               | [Place your pointer then push it here](/topics/trello/deleted-suggestions.md)      |
+| Give a label to suggestions marked as Implemented       | [Pop your mouse while hovering this](/topics/trello/marked-as-implemented.md)      |
+| Add new suggestions to a list                           | [Deliver a quick click on this link](/topics/trello/new-suggestion.md)             |
 
 ### That's all folks
-This feature is fairly complex as we want to provide a lot of customizability for servers who use the Trello feature. If you need help, want to report a bug, have any questions or feedback, feel free to join our [Support Server](https://discord.gg/G5pEdUp)!
+This feature is fairly complex as we want to provide a lot of customizability for servers who use the Trello feature. If you need help, want to report a bug, have any questions or feedback, feel free to join our [Support Server](https://suggester.js.org/support)!
 
 
+> Suggester is not affiliated with Trello.

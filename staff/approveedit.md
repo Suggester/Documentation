@@ -9,11 +9,10 @@ Run `.approveedit [suggestion ID]` in any channel the bot can read & send messag
 ### Arguments
 `suggestion ID`: The ID of the suggestion that needs to be edited
 
-
-!> If there is multiple pending edits on the same suggestion, using this command will approve the most recent one
+!> If there is multiple pending edits on the same suggestion, using this command will approve the most recent one.
 
 ### Aliases
-`acceptedit` & `approvedit`
+`acceptedit` and `approvedit`
 
 ### User Permission
 To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role

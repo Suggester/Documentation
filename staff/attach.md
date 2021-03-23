@@ -1,7 +1,7 @@
 # Command: attach
 ---
 ### Description
-Use this command to attach an image to an approved suggestion 
+Use this command to attach an image to a suggestion either pending review or already approved 
 
 ### Usage
 Use `.attach [suggestion ID] [attachment]` in any channel the bot can read & send messages in

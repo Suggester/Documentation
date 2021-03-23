@@ -9,11 +9,11 @@ Commands in this list will use the default prefix (`.`), meaning if you configur
 
 - `.ping`: Displays the response time and some other information about the bot
 
-- `.support`: Sends the link to our [support server](https://discord.gg/G5pEdUp) where you can get in touch with our Support Team
+- `.support`: Sends the link to our [support server](https://suggester.js.org/support) where you can get in touch with our Support Team
 
-- `.invite`: Sends the link to [add the bot](https://discord.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=805694544) to your server
+- `.invite`: Sends the link to [add the bot](https://suggester.js.org/invite) to your server
 
-- `.vote`: Shows information about [voting](supporting/info.md) for Suggester on several bot lists 
+- `.vote`: Displays information about [voting](topics/supporting.md) for Suggester on several bot listing websites 
 
 - `.verify`: Shows a user permissions as they relate to the bot, also accepts a mention/user ID argument to check someone else's permissions
 
@@ -25,7 +25,8 @@ Commands in this list will use the default prefix (`.`), meaning if you configur
 
 - `.github`: Links Suggester's repository, where you can contribute to its development!
 
-- `.shard`: Tells which shard the current server is on ([What's that?](https://discord.com/developers/docs/topics/gateway#sharding))
+- `.shard`: Tells which shard the current server is on. [Learn more](https://discord.com/developers/docs/topics/gateway#sharding)
+- `.shards`: Displays some statistics about the current shard
 
 ## Special Sunflowers
 
@@ -45,18 +46,18 @@ These are special commands everyone can use, so we added them to another part :)
 
 ?> Translations are community made, meaning all locales might not be 100% translated when you'll see them in the bot. If you've configured a language and it responds in English, it means this specific string was not yet translated. More info about community translations can be found [here](community-programs?id=🌐-translating-suggester). 
 
-- `.shortinfo`: This command has its own article which you can see [here](/shortinfo.md)
+- `.shortinfo`: This command has its own article which you can see [here](topics/shortinfo.md)
 
 
 
 ## Suggestion Following
 
 ### What is that?
-You can follow suggestions to be notified when a change is made to them. It works just like normal notifications, but the title refers to "a suggestion you follow" instead of "your suggestion". You can follow suggestions by using the [`.follow`](following/follow.md) command, or upvoting them (you will receive a DM the first time you upvote a suggestion which will contain basic information about autofollowing)
+You can follow suggestions to be notified when a change is made to them. It works just like normal notifications, but the title refers to "a suggestion you follow" instead of "your suggestion". You can follow suggestions using the [`.follow`](topics/follow.md) command, or upvoting them (you will receive a DM the first time you upvote a suggestion which will contain basic information about autofollowing)
 
 ### Autofollowing 
 By default, you'll automatically follow suggestions you **upvote**, though that can be disabled using `.follow auto off`, which means you will not receive notifications for suggestions you've autofollowed in the past, and you won't follow any more automatically. If you turn it back on, you'll receive notifications again for suggestions you autofollowed. This respects all server and user notification settings.
-Servers admins can also choose to disable autofollowing! See this [element](config/autofollowing.md) for more info 
+Servers admins can also choose to disable autofollowing! See this [element](config/autofollowing.md) for more information.  
 
 
 

@@ -9,7 +9,7 @@ Run `.denyedit [suggestion ID]` in any channel the bot can read & send messages 
 ### Arguments
 `suggestion ID`: The ID of the suggestion that was requested to be edited
 
-!> If there is multiple pending edits on the same suggestion, using this command will deny the most recent one
+!> If there is multiple pending edits on the same suggestion, using this command will deny the most recent one.
 
 ### Aliases
 `rejectedit`, `refuseedit` and `refusedit`
