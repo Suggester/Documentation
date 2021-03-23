@@ -9,15 +9,20 @@ Use `.search <parameters separated by a space>` in any channel the bot can read 
 
 ### Parameters and Syntax 
 
-| Name                      | Syntax                                   | Example   | Explanation             |
-|:------------------------:|:--------------------------------------------:|:------------:|:---------------------------:|
-| Suggestion Status | `status:approved/denied/review` | `status:approved` | Only contains approved suggestions |
-| Marked Status | `mark:done/working/consideration/no/default` | `mark:working` | Only contains suggestions [marked](staff/mark.md) as "Working"
-| Vote Count | `votes>(number)` or `votes<(number)` | `votes>30` | Only contains suggestions with more than 30 upvotes |
-| Author | `author:(User ID)` | `author:327887845270487041` | Only contains suggestions sent by the user 327887845270487041 |
-| Approved or denied by | `staff:(User ID)` | `staff:373912954057392138` | Only contains suggestions approved by user 327887845270487041 | 
-| Time | `time>(date)` or `time<(date)`  | ` time<8h` | Only contains suggestions sent in the last 8 hours |
-| Content | `content:(string)` | `content:"nice`| Only contains suggestions with the word "nice" in them |
+| Name                      | Syntax                                      |  Explanation             |
+|:------------------------:|:--------------------------------------------:|:---------------------------:|
+| Suggestion Status        | `status:approved/denied/review`              |  Only contains suggestions with the selected internal status |
+| Marked Status            | `mark:done/working/consideration/no/default` |  Only contains suggestions [marked](staff/mark.md) as the selected status
+| Vote Count               | `votes>(number)` or `votes<(number)`         |  Only contains suggestions with more than X upvotes |
+| Author                   | `author:(User ID)`                           |  Only contains suggestions sent by a specific user |
+| Approved or denied by    | `staff:(User ID)`                            |  Only contains suggestions approved by a specific user | 
+| Time                     | `time>(date)` or `time<(date)`               |  Only contains suggestions sent in the provided period of time |
+| Content                  | `content:(string)`                           |  Only contains suggestions with the string in them |
+
+### Examples
+
+Using `.search status:approved votes>12 content:"memes"` will return any approved suggestion with more than 12 upvotes and that contains "memes"\
+Using `.search mark!working author:123456789987654321 content!"water"` will return any suggestion **not** marked as "Working", sent by the user that has the 123456789987654321 ID and that does not contains "water" 
 
 
 ### Operators
@@ -30,7 +35,7 @@ The above examples support multiple operators to narrow the search results:
 | `<`      | less than    |
 | `!`      | not          |
 
-?> You can use quotes around strings to include spaces
+?> You can use quotes around strings to include spaces.
 
 
 > Don't hesitate to join our [support server](https://suggester.js.org/support) if you need assistance about this rather complex implementation!
