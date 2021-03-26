@@ -3,6 +3,8 @@
 ### What is it for?
 This setting defines which language will Suggester use when responding to commands. If a user has already configured a locale using the `.locale` command, Suggester will prioritize it.
 
+?> If a server has [Community](https://support.discord.com/hc/en-us/articles/360047132851-Enabling-Your-Community-Server) enabled, the bot will attempt to set it as the configured locale. This process **only** occurs when Suggester joins the server.
+
 ### Usage
 Set up the server locale using `.config locale [language]`
 
@@ -21,3 +23,5 @@ The following locales are completely translated at the moment:
 - Brazilian Portuguese (pt-br)
 
 ?> Interested in translating the bot? Take a look at our [translation program](/topics/community-programs.md)!
+
+
