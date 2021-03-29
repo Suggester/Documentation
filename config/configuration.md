@@ -17,7 +17,7 @@ To edit a configuration element, use `.config [element] [value]` in any channel 
 `serverconfig`, `cfg` and `configure`
 
 ### Permission
-Any member with the **Manage Server** permission or a configured [admin role](/config/adminroles.md) is able to modify the server configuration
+Any member with the **Manage Server** permission or a configured [admin role](/config/adminroles.md) is able to modify the server configuration.
 
 !> **Warning:** Adding the `@everyone` role as an admin role will give everyone in the server elevated permissions and may cause harm, do it at your own risks!
 
@@ -43,6 +43,7 @@ Any member with the **Manage Server** permission or a configured [admin role](/c
 | [Implemented](/config/implemented.md)         |                          | channel where implemented suggestions are sent |
 | [Implemented Role](/config/implementedrole.md)|                          | role given to the author of a suggestion when it gets marked as Implemented |
 | [Language](/config/locale.md)                 |       English            | the language used by the bot server wide |
+| [Live Vote Count](/config/votecount.md)       |       Enabled            | preferences for vote count |
 | [Logs](/config/logs.md)                       |                          | a channel where all actions are logged |
 | [Mode](/config/mode.md)²                      |                          | the suggestion handling mode |
 | [Notifications](/config/notify.md)            |       Enabled            | settings for notifications |
@@ -52,7 +53,7 @@ Any member with the **Manage Server** permission or a configured [admin role](/c
 | [Review Ping](/config/reviewping.md)          |                          | role pinged when a new suggestion is submitted |
 | [Self Vote](/config/selfvote.md)              |       Enabled            | settings to limit voting on owned suggestions |
 | [Staff Roles](/config/staffroles.md)²         |                          | roles with suggestion managing perms |
-| [Suggestion Cap](/config/cap.md)              |       Infinite           | max of approved suggestions |
+| [Suggestion Cap](/config/cap.md)              |      None                | max of approved suggestions |
 | [Suggestions Feed](/config/suggestions.md)²   |                          | channel where approved suggestions are sent |
 | [Voting Roles](/config/voting.md)             |      All roles           | list of roles allowed to vote |
 
