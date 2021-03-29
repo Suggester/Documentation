@@ -3,6 +3,13 @@
 <!-- tabs:start -->
 
 <!-- tab:2021 -->
+### Suggester v4.9.1 (March 29th, 2021)
+- The live vote count on suggestions can now be hidden using `config votecount off`
+- When the `autoapprove` mode is set, the response to the `deny` command will now mention the `delete` command
+- The bot now responds with the prefix if the message is just the bot mention
+- If a server is set as a Community on Discord and has a locale set in Server Settings, the bot will try to find that locale and set it as the configured locale on the bot 
+
+---
 ### Suggester v4.9 (March 23rd, 2021)
 🆕 **New Things**
 - Added the `shards` command to show information about all bot shards
