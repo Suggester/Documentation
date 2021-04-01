@@ -3,6 +3,15 @@
 <!-- tabs:start -->
 
 <!-- tab:2021 -->
+### Suggester v4.1.2021 (April 1st, 2021)
+Suggester v4.1.2021 is the largest overhaul Suggester has ever had. We coded until our fingers couldn't anymore, and then we started using our toes. This update contains major updates to our patented SuggestionCreator3000™, allowing for even better-er suggestion creation. The bot also now runs 0% faster, and uses 500% more memory (meaning it will remember your suggestions better... yay!) 
+
+...and it now has owo mode
+thank you for your time and have a good day
+
+> If you hate owo mode you can use `.locale eng` to go back to English but everyone will judge you for it! 
+
+---
 ### Suggester v4.9.1 (March 29th, 2021)
 - The live vote count on suggestions can now be hidden using `config votecount off`
 - When the `autoapprove` mode is set, the response to the `deny` command will now mention the `delete` command
@@ -198,8 +207,8 @@ This release contains bugfixes from the v4.1 release from earlier today, specifi
 This release contains bugfixes for the v4 release from a few days ago:
 - When a suggestion is approved the user now receives the correct link to the suggestion feed message (previously the link ended with /undefined)
 - Fixed incorrect locales displaying for staff commands 
-- Fixed a bug with logging commands where the date was incorrect (we have some cool charts relating to this, check them out [here](/botstats.md)
-Also we've reached 30,000 suggestions :POG:
+- Fixed a bug with logging commands where the date was incorrect (we have some cool charts relating to this, check them out [here](topics/stats.md)
+Also we've reached 30,000 suggestions 
 
 ---
 ### Suggester v4 (June 7th, 2020)
@@ -310,7 +319,7 @@ https://discord.new/Ye9n7V9SVNPg
 
 ---
 ### Suggester 3.1.4 (March 25th, 2020) 
-⚠️ Due to some issues with configuration changes, some log channels were incorrectly configured and therefore did not function as intended. Any log channel configured while Suggester was on version 2 has now been reset.
+Due to some issues with configuration changes, some log channels were incorrectly configured and therefore did not function as intended. Any log channel configured while Suggester was on version 2 has now been reset.
 
 **Changelog**
 - Use `notify self <on|off|toggle>` to toggle whether or not you receive notifications when you perform an action on your own suggestion.
