@@ -37,7 +37,7 @@ Suggester also allows you to keep your server members updated via commenting and
 > Suggester is the most advanced suggestion bot I've ever seen. At first when suggested I was doubtful but after trying it I couldn't go back! It works better than other bots which just think of suggestions as a side idea. But with Suggester, suggestions are the main focus and not just an afterthought. Suggester brings features I didn't know I needed to the table, while remaining simple and easy to use. Would highly recommend.
 > - Issai H, Bot Developer and Bot Hub Owner.
 
-![f](/assets/Switching%20to%20suggester.png)
+![f](//Switching%20to%20suggester.png)
 
 We support importing old suggestions into our bot that were sent from users as well as via bots such as CarlBot, Zira, UnbelievaBoat, and many more with the [`import`](admin/import.md) command!
 
