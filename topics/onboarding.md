@@ -10,7 +10,7 @@ Suggester is a Discord bot helping server staff members & admins to manage feedb
 > [Support Server](https://suggester.js.org/support)\
 > [GitHub](https://github.com/Suggester/Suggester)
 
-![b](../images/Why%20use%20suggester%3F.png)
+![b](../images/Why%20use%20suggester.png)
 
 Suggester is the most configurable suggestion bot on Discord, with many settings that can be tailored to your server such as:
 
