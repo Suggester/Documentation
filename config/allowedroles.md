@@ -10,4 +10,4 @@ Set up allowed roles using `.config allowed add/remove/list [role]`
 ### Accepted Imputs
 Any role name, ID or @mention
 
-📝 **Note:** Users will only need **one** of those roles to be able to submit suggestions
+?> Users will only need **one** of those roles to be able to submit suggestions.
