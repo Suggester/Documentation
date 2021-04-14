@@ -7,7 +7,10 @@ If no roles are configured, all users can vote on suggestions.
 ### Usage
 Set up voting roles using `.config voting add/remove/list [role]`
 
+### Aliases
+`voterole`, `voteroles`, `votingroles` and `votingroles` 
+
 ### Accepted Imputs
 Any role name, ID or @mention
 
-📝 **Note:** If users try to vote on a suggestion while they don't have any voting role, the bot will instantly remove their reaction! 
+?> If someone with none of the voting roles tries to vote on a suggestion, Suggester will instantly remove their reaction.
