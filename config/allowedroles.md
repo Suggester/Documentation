@@ -8,7 +8,7 @@ If no roles are configured, all users can submit suggestions.
 Set up allowed roles using `.config allowed add/remove/list [role]`
 
 ### Aliases
-`staffrole`, `staffroles` and `reviewrole`
+`allowedrole`, `suggestrole`
 
 ### Accepted Imputs
 Any role name, ID or @mention
