@@ -9,7 +9,7 @@ This command allows admins to automatically setup the bot in their server, by cr
 - The third one is the coolest because it will be used to choose a stance on new suggestions, you'll be able to approve or deny them and optionally add a comment.
 - Lastly, a new channel will be created to have eyes on everything. Well, at least what Suggester does in your server, read more about suggestion logs [here](/config/logs.md). 
 
-- Last but not least, a tasty category named "Suggester" will be created and all of the above will be added into it
+- Last but not least, a tasty category named "Suggester" will be created and all of the above will be added into it.
 
 ?> If you are looking for more granular options, take a look at the [config](config/configuration.md) command!
 
