@@ -25,37 +25,39 @@ Any member with the **Manage Server** permission or a configured [admin role](/c
 
 | Element                                       |  Default Value           |  Quick Description¹  |
 |-----------------------------------------------|:------------------------:|------------------------------------------|
-| [Admin Roles](/config/adminroles.md)²         |                          | roles with all perms |
+| [Admin Roles](/config/adminroles.md)²         |                          | Roles with all perms |
 | [Allowed Roles](/config/allowedroles.md)      |                          | roles allowed to send suggestions |
 |[Anonymous Suggestions](/config/anon.md)       |        Disabled          | settings for anonymous feedback |
-| [Approve Role](/config/approverole.md)        |                          | roles given to the author of a suggestion when it gets appproved |
-| [Autofollowing](/config/autofollowing.md)     |        Enabled           | settings for autofollowing |
-| [Blocked Roles](/config/blockedroles.md)      |                          | roles blocked from sending suggestions |
-| [Clean Commands](/config/cleancommands.md)    |       Disabled           | settings for commands deletion |
-| [Color Change](/config/colorchange.md)        |   15 votes - #FFD700     | change the color of the suggestion embed when it reaches X net upvotes |
-| [Commands](/config/commands.md)               |                          | list of channels where commands can be used | 
-| [Comment Timestamps](config/ctime.md)         |       Enabled            | settings for comment timestamps |
+| [Approve Role](/config/approverole.md)        |                          | Roles given to the author of a suggestion when it gets appproved |
+| [Autofollowing](/config/autofollowing.md)     |        Enabled           | Settings for autofollowing |
+| [Blocked Roles](/config/blockedroles.md)      |                          | Roles blocked from sending suggestions |
+| [Clean Commands](/config/cleancommands.md)    |       Disabled           | Settings for commands deletion |
+| [Color Change](/config/colorchange.md)        |   15 votes - #FFD700     | Change the color of the suggestion embed when it reaches X net upvotes |
+| [Commands](/config/commands.md)               |                          | List of channels where commands can be used | 
+| [Comment Timestamps](config/ctime.md)         |       Enabled            | Settings for comment timestamps |
 | [Cooldown](/config/cooldown.md)               |      0 second            | suggestion cooldown |
-| [Denied](/config/denied.md)                   |                          | channel where denied suggestions are posted |
-| [Emojis](/config/emojis.md)                   |     👍,🤷 and 👎        | reaction emojis to vote on approved suggestions |
-| [Feed Ping](/config/feedping.md)              |                          | role pinged when a suggestion is approved |
-| [ICSS](/config/inchannelsuggestions.md)       |       Disabled           | settings for ICSS |
-| [Implemented](/config/implemented.md)         |                          | channel where implemented suggestions are sent |
-| [Implemented Role](/config/implementedrole.md)|                          | role given to the author of a suggestion when it gets marked as Implemented |
-| [Language](/config/locale.md)                 |       English            | the language used by the bot server wide |
-| [Live Vote Count](/config/votecount.md)       |       Enabled            | preferences for vote count |
-| [Logs](/config/logs.md)                       |                          | a channel where all actions are logged |
-| [Mode](/config/mode.md)²                      |                          | the suggestion handling mode |
-| [Notifications](/config/notify.md)            |       Enabled            | settings for notifications |
-| [One Vote](/config/onevote.md)                |       Enabled            | settings to limit voting to one reaction |
-| [Prefix](/config/prefix.md)²                  |        `.`               | prefix :bigbrain: |
-| [Review](/config/review.md)²                  |                          | review channel where pending suggestions are sent |
-| [Review Ping](/config/reviewping.md)          |                          | role pinged when a new suggestion is submitted |
-| [Self Vote](/config/selfvote.md)              |       Enabled            | settings to limit voting on owned suggestions |
-| [Staff Roles](/config/staffroles.md)²         |                          | roles with suggestion managing perms |
-| [Suggestion Cap](/config/cap.md)              |      None                | max of approved suggestions |
-| [Suggestions Feed](/config/suggestions.md)²   |                          | channel where approved suggestions are sent |
-| [Voting Roles](/config/voting.md)             |      All roles           | list of roles allowed to vote |
+| [Denied](/config/denied.md)                   |                          | Channel where denied suggestions are posted |
+| [Disabled Channels](/config/disabledchannels.md)   |                          | Channels where commands don't work |
+| [Disabled Commands](/config/disabledcommands.md)   |                          | Disabled commands can't be used |
+| [Emojis](/config/emojis.md)                   |     👍,🤷 and 👎        | Reaction emojis to vote on approved suggestions |
+| [Feed Ping](/config/feedping.md)              |                          | Role pinged when a suggestion is approved |
+| [ICSS](/config/inchannelsuggestions.md)       |       Disabled           | Settings for IC Suggestion Submission |
+| [Implemented](/config/implemented.md)         |                          | Channel where implemented suggestions are sent |
+| [Implemented Role](/config/implementedrole.md)|                          | Role given to the author of a suggestion when it gets marked as Implemented |
+| [Language](/config/locale.md)                 |       English            | Language used by the bot (server wide) |
+| [Live Vote Count](/config/votecount.md)       |       Enabled            | Preferences for vote count |
+| [Logs](/config/logs.md)                       |                          | Channel where all actions are logged |
+| [Mode](/config/mode.md)²                      |                          | Suggestion handling mode |
+| [Notifications](/config/notify.md)            |       Enabled            | Settings for notifications |
+| [One Vote](/config/onevote.md)                |       Enabled            | Settings to limit voting to one reaction |
+| [Prefix](/config/prefix.md)²                  |        `.`               | Prefix [:bigbrain:](https://cdn.discordapp.com/emojis/742492524634964118.png) |
+| [Review](/config/review.md)²                  |                          | Review channel where pending suggestions are sent |
+| [Review Ping](/config/reviewping.md)          |                          | Role pinged when a new suggestion is submitted |
+| [Self Vote](/config/selfvote.md)              |       Enabled            | Settings to limit voting on owned suggestions |
+| [Staff Roles](/config/staffroles.md)²         |                          | Roles with suggestion managing perms |
+| [Suggestion Cap](/config/cap.md)              |      None                | Maximum of approved suggestions |
+| [Suggestions Feed](/config/suggestions.md)²   |                          | Channel where approved suggestions are sent |
+| [Voting Roles](/config/voting.md)             |      All roles           | List of roles allowed to vote |
 
 > ¹ Click on the option name for more information about it!\
 ² These elements are required for the bot to function properly, if any of these hasn't been configured, an error will appear.

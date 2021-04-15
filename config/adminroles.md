@@ -6,7 +6,12 @@ Suggester bases its permission system the same as Discord, by using different ro
 ### Usage
 Set up an admin role using `.config admin add/remove/list [role]`
 
+### Aliases 
+`adminrole` and `adminroles`
+
 ### Accepted Imputs
 Any role name, ID or @mention
+
+
 
 !> Adding the @everyone role to the configuration will give **all members of your server** enhanced permissions on the bot!

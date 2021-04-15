@@ -8,12 +8,15 @@ Set up the logs channel using `.config logs [channel]`, setting `none` as the ch
 
 ?> Suggester will create a [webhook](https://support.discord.com/hc/en-us/articles/228383668) called "Suggester Logs" in the configured channel
 
+### Aliases
+`logs`, `logchannel` and `logschannel`
+
 ### Accepted Imputs
 Any channel name, ID or #mention
 
 ### Logged Actions
-
 - Suggestion approvals, denials, deletions and submissions
+- [Anonymous suggestions](/topics/anonymous-suggestions.md)
 - Comments (both public and [anonymous](staff/acomment.md)) and their [deletion](staff/deletecomment.md)
 - Status changes
 - Blocking & unblocking
