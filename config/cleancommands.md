@@ -6,7 +6,10 @@ This setting controls whether or not some commands (mainly commands that get hig
 ### Usage
 Set up clean commands using `.config clean on/off/toggle`
 
+### Aliases
+`cleancommand`, `clear`, `clean`, `cleancommands` and `clearcommand`
+
 ### Accepted Imputs
 Either `on`, `off` or `toggle`
 
-!> Errors related to configuration issues (such as missing required elements or permissions) will not be deleted
+!> Errors related to configuration issues (such as missing required elements or permissions) will not be deleted.
