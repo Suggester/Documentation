@@ -5,5 +5,8 @@ This setting controls whether or not users can choose multiple voting options on
 ### Usage
 Set up multiple reaction voting preferences using `.config onevote on/off/toggle`
 
+### Aliases
+`one` and `singlevote`
+
 ### Accepted Imputs
 Either `on`, `off` or `toggle`
