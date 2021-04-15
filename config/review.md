@@ -1,7 +1,7 @@
 # Configuration Element: Review Channel
 
 ### What is it for?
-The channel where suggestions are sent once they are submitted for review, where staff can decide if they either approve them or not
+This element allows you to choose the channel where suggestions will be sent after they've been submitted when the mode is set to `review` (surprising huh). From there, staff members can approve or deny the suggestion.
 
 ### Usage
 Set up a review channel using `.config review [channel]`
