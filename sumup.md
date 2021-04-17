@@ -59,7 +59,7 @@ You can follow suggestions to be notified when a change is made to them. It work
 
 ### Autofollowing 
 By default, you'll automatically follow suggestions you **upvote**, though that can be disabled using `.follow auto off`, which means you will not receive notifications for suggestions you've autofollowed in the past, and you won't follow any more automatically. If you turn it back on, you'll receive notifications again for suggestions you autofollowed. This respects all server and user notification settings.
-Servers admins can also choose to disable autofollowing! See this [element]/config/autofollowing.md) for more information.  
+Servers admins can also choose to disable autofollowing! See this [element](/config/autofollowing.md) for more information.  
 
 
 
