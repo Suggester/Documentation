@@ -1,10 +1,10 @@
 # Trello Integration Configuration Example: When a suggestion is denied 
 
-### What is it for?
+### Description
 This subsetting allows you to define if denied suggestions will be removed from the board
 
 ### Usage
-Use `.config trello actions deny [delete/none]` in any channel the bot can read & send messages in 
+Use `.config trello actions deny [delete/none]` in any channel the bot can read and send messages in. 
 
 ### Arguments
 You may only choose one:\

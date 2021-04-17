@@ -1,7 +1,9 @@
 # Command: listqueue
 ---
 ### Description
-Use this command to get a list of all suggestions currently awaiting review (only available while the mode is set to `review`)
+Use this command to get a list of all suggestions currently awaiting review, with a message link.
+
+?> This command is only available when the mode is set to `review`.
 
 ### Usage
 Use `.listqueue` in any channel the bot can read and send messages in.

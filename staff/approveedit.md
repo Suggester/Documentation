@@ -4,7 +4,7 @@
 Use this command to approve a pending suggestion edit
 
 ### Usage
-Run `.approveedit [suggestion ID]` in any channel the bot can read & send messages in
+Run `.approveedit [suggestion ID]` in any channel the bot can read and send messages in.
 
 ### Arguments
 `suggestion ID`: The ID of the suggestion that needs to be edited
@@ -15,4 +15,4 @@ Run `.approveedit [suggestion ID]` in any channel the bot can read & send messag
 `acceptedit` and `approvedit`
 
 ### User Permission
-To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role
+To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role.

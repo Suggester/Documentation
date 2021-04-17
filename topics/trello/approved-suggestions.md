@@ -1,10 +1,10 @@
 # Trello Integration Configuration Example: When a suggestion is approved 
 
-### What is it for?
+### Description
 This subsetting allows you to define on what list will approved suggestions be added (only available if the [mode](/config/mode.md) is set to `review`)
 
 ### Usage
-Use `.config trello actions approve list [list name]` in any channel the bot can read & send messages in
+Use `.config trello actions approve list [list name]` in any channel the bot can read and send messages in.
 
 ### Arguments
 `list name`: The name of the list you want to select

@@ -8,7 +8,7 @@ Use `.mark [suggestion ID] (status) (comment)`
 
 ### Arguments
 
-`suggestion ID`: The ID of the suggestion you'd like to modify the status of
+`suggestion ID`: The ID of the suggestion you want to modify the status of
 
 `status`: The new status you want to set, use the table below to find all available statuses (If no status is provided, an interactive menu will be shown to pick one)
 
@@ -28,4 +28,4 @@ Use `.mark [suggestion ID] (status) (comment)`
 `status`
 
 ### User Permission
-To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role
+To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role.

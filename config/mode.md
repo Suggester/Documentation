@@ -2,8 +2,6 @@
 
 ### Description
 This setting defines how suggestions will be handled in your server, there are currently **two** available modes:
-- **Review:** suggestions are held for manual review by staff (requires usage of managing commands + 
-- **Autoapprove:** 
 
 | Mode         | Description                                                                 | Additional Requirements                |
 |:------------:|:---------------------------------------------------------------------------:|:------------------------------------------:|

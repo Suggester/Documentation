@@ -4,10 +4,10 @@
 Use this command to unfollow a suggestion
 
 ### Usage
-Use `.unfollow [suggestion ID]` in any channel the bot can read & send messages in
+Use `.unfollow [suggestion ID]` in any channel the bot can read and send messages in.
 
 ### Arguments
-`suggestion ID`: The ID of the suggestion you'd like to unfollow
+`suggestion ID`: The ID of the suggestion you want to unfollow
 
 ### Aliases
 `unsubscribe`, `unsub` and `defollow`

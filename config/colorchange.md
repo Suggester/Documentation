@@ -1,6 +1,6 @@
 # Configuration Element: Color Change
 
-### What is it for?
+### Description
 If configured, this setting defines if the color of the suggestion embed will automatically change when the number of net upvotes reaches a certain theresold. You can customize both the color and the number of **net** upvotes required for the color to change! 
 
 ### Usage
@@ -9,7 +9,7 @@ Set up the requires theresold using `.config colorchange number [number]`
 
 > This element supports [HEX colors](https://www.w3schools.com/colors/colors_picker.asp), [CSS colors](https://www.w3schools.com/colors/colors_w3css.asp), and more!
 
-### Accepted Imputs
+### Accepted Inputs
 | Argument        | Valid Imput                       |
 |-----------------|:---------------------------------:|
 | color           | Any valid HEX or CSS color code   |

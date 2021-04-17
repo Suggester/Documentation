@@ -4,7 +4,7 @@
 Use this command to edit a comment 
 
 ### Usage
-Run `.editcomment [comment ID] [new content]` in any channel the bot can read & send messages in
+Run `.editcomment [comment ID] [new content]` in any channel the bot can read and send messages in.
 
 ### Arguments
 `comment ID`: The ID of the comment you’d like to edit
@@ -18,5 +18,5 @@ Run `.editcomment [comment ID] [new content]` in any channel the bot can read & 
 `ecomment`, `revisecomment` and `ec`
 
 ### User Permission
-To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role
+To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role.
 

@@ -4,7 +4,7 @@
 Use this command to deny a pending suggestion edit
 
 ### Usage
-Run `.denyedit [suggestion ID]` in any channel the bot can read & send messages in
+Run `.denyedit [suggestion ID]` in any channel the bot can read and send messages in.
 
 ### Arguments
 `suggestion ID`: The ID of the suggestion that was requested to be edited
@@ -15,4 +15,4 @@ Run `.denyedit [suggestion ID]` in any channel the bot can read & send messages 
 `rejectedit`, `refuseedit` and `refusedit`
 
 ### User Permission
-To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role
+To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role.
