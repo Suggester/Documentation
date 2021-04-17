@@ -1,10 +1,10 @@
  # Trello Integration Configuration Example: When a suggestion is deleted 
 
-### What is it for?
+### Description
 This subsetting allows you to define if [deleted](/staff/delete.md) suggestions will be archived 
 
 ### Usage
-Use `.config trello actions delete archive` in any channel the bot can read & send messages in
+Use `.config trello actions delete archive` in any channel the bot can read and send messages in.
 
 ### Arguments
 You may only choose one:\

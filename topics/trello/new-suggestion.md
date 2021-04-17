@@ -1,10 +1,10 @@
 # Trello Integration Configuration Example: When a new suggestion is submitted 
 
-### What is it for?
+### Description
 This subsetting allows you to define on what list will new suggestions be added
 
 ### Usage
-Use `.config trello actions suggest [list name]` in any channel the bot can read & send messages in
+Use `.config trello actions suggest [list name]` in any channel the bot can read and send messages in.
 
 ### Arguments
 `list name`: The name of the list you want to select

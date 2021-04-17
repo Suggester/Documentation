@@ -1,6 +1,6 @@
 # Configuration Element: Suggestion Feed Reactions
-### What is it for?
-This setting allows customization of the vote reactions added to approved suggestions
+### Description
+This setting allows customization of the vote reactions added to approved suggestions.
 
 ### Usage
 Set up vote reactions using `.config emojis up/mid/down emoji/default`\
@@ -16,5 +16,5 @@ You can also enable or disable any reaction using `.config emojis up/mid/down en
 
 Using `default` as the emoji argument will reset the setting to its default value.
 
-### Accepted Imputs
+### Accepted Inputs
 Any :emoji: from the current server or the default list

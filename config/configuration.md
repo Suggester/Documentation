@@ -4,7 +4,7 @@ The `.config` command allows you to modify how Suggester will interact within yo
 
 ### How can I use it?
 
-To edit a configuration element, use `.config [element] [value]` in any channel the bot can read & send messages in. There are currently 30+ different settings you can customize, which you can find more information on the table below.
+To edit a configuration element, use `.config [element] [value]` in any channel the bot can read and send messages in. There are currently 30+ different settings you can customize, which you can find more information on the table below.
 
 ### Optional Arguments
 
@@ -19,7 +19,7 @@ To edit a configuration element, use `.config [element] [value]` in any channel 
 ### Permission
 Any member with the **Manage Server** permission or a configured [admin role](/config/adminroles.md) is able to modify the server configuration.
 
-!> **Warning:** Adding the `@everyone` role as an admin role will give everyone in the server elevated permissions and may cause harm, do it at your own risks!
+!> **Warning:** Adding the **@everyone** role as an admin role will give everyone in the server elevated permissions and may cause harm, do it at your own risks!
 
 # Configuration Elements
 
@@ -34,11 +34,11 @@ Any member with the **Manage Server** permission or a configured [admin role](/c
 | [Clean Commands](/config/cleancommands.md)    |       Disabled           | Settings for commands deletion |
 | [Color Change](/config/colorchange.md)        |   15 votes - #FFD700     | Change the color of the suggestion embed when it reaches X net upvotes |
 | [Commands](/config/commands.md)               |                          | List of channels where commands can be used | 
-| [Comment Timestamps](config/ctime.md)         |       Enabled            | Settings for comment timestamps |
+| [Comment Timestamps]/config/ctime.md)         |       Enabled            | Settings for comment timestamps |
 | [Cooldown](/config/cooldown.md)               |      0 second            | suggestion cooldown |
 | [Denied](/config/denied.md)                   |                          | Channel where denied suggestions are posted |
-| [Disabled Channels](/config/disabledchannels.md)   |                          | Channels where commands don't work |
-| [Disabled Commands](/config/disabledcommands.md)   |                          | Disabled commands can't be used |
+| [Disabled Channels](/config/disabledchannels.md) |                       | Channels where commands don't work |
+| [Disabled Commands](/config/disabledcommands.md)  |                      | Disabled commands can't be used |
 | [Emojis](/config/emojis.md)                   |     👍,🤷 and 👎        | Reaction emojis to vote on approved suggestions |
 | [Feed Ping](/config/feedping.md)              |                          | Role pinged when a suggestion is approved |
 | [ICSS](/config/inchannelsuggestions.md)       |       Disabled           | Settings for IC Suggestion Submission |
@@ -60,4 +60,4 @@ Any member with the **Manage Server** permission or a configured [admin role](/c
 | [Voting Roles](/config/voting.md)             |      All roles           | List of roles allowed to vote |
 
 > ¹ Click on the option name for more information about it!\
-² These elements are required for the bot to function properly, if any of these hasn't been configured, an error will appear.
+² These elements are required for the bot to function properly. If you haven't configured one of those, you'll get a lovely error! 

@@ -7,12 +7,12 @@ Yes, you did see a slash. Discord recently introduced the ability for developers
 In order to use slash commands, you'll need to re-invite Suggester using [this link](https://suggester.js.org/invite). 
 In short, the above link will give Suggester a new permission to create Slash Commands in your server, which means even if the bot is already in the server, you'll need to use the link. But don't panic, no data will be lost. Once Suggester gets this new permission, typing `/` in the chat bar will show a popup menu as shown below:
 
-![Slash Commands Menu](../assets/slash.png)
+![Slash Commands Menu](../images/slash.png)
  
 ### Behavior
 Anonymous suggestions are **disabled by default**, but you can enable them using `.config anon on`. To send an anonymous suggestion, simply type `/` in the chat bar, click on the `/asuggest` command and fill in the arguments with your suggestion details (you can add an attachment by clicking on the `attachment` button and using a link).
 
-![Sending an anonymous suggestion](../assets/slash-example.png)
+![Sending an anonymous suggestion](../images/slash-example.png)
 
 
 They show as anonymous in the suggestions feed and public info commands (such as `.shortinfo`), but members with staff permissions (`.cfg staff`) can view the user who submitted them for moderation purposes. 

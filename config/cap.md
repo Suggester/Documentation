@@ -1,6 +1,6 @@
 # Configuration Element: Suggestion Cap
 
-### What is it for?
+### Description
 This element defines the maximum number of approved suggestions there can be at any given time. When the cap is reached, no new suggestions can be submitted.
 
 ### Usage
@@ -9,7 +9,7 @@ Define the suggestion cap using `.config cap [number]`, setting `none` as the li
 ### Aliases
 `maxsuggestions`, `suggestioncap`, `maxsuggest`, `suggestcap` and `suggestmax`
 
-### Accepted Imputs
+### Accepted Inputs
 Any number greater than 0
 
 

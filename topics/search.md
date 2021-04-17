@@ -3,7 +3,7 @@
 Servers with a high amount of suggestions can get messy, making finding a specific suggestion based on its attributes much more complicated then its worth. Our latest release comes with a great and long requested feature: a search command! You'll be able to go through your suggestion feed manually by specifying search parameters to narrow results. This command is rather complex so we'll dive into it below.
 
 ### Usage
-Use `.search <parameters separated by a space>` in any channel the bot can read & send messages in
+Use `.search <parameters separated by a space>` in any channel the bot can read and send messages in.
 
 ?> There is no limit on how many search parameters you can include. 
 
@@ -12,7 +12,7 @@ Use `.search <parameters separated by a space>` in any channel the bot can read 
 | Name                      | Syntax                                      |  Explanation             |
 |:------------------------:|:--------------------------------------------:|:---------------------------:|
 | Suggestion Status        | `status:approved/denied/review`              |  Only contains suggestions with the selected internal status |
-| Marked Status            | `mark:done/working/consideration/no/default` |  Only contains suggestions [marked](staff/mark.md) as the selected status
+| Marked Status            | `mark:done/working/consideration/no/default` |  Only contains suggestions [marked](/staff/mark.md) as the selected status
 | Vote Count               | `votes>(number)` or `votes<(number)`         |  Only contains suggestions with more than X upvotes |
 | Author                   | `author:(User ID)`                           |  Only contains suggestions sent by a specific user |
 | Approved or denied by    | `staff:(User ID)`                            |  Only contains suggestions approved by a specific user | 

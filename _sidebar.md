@@ -2,7 +2,7 @@
 # **DOCUMENTATION**
 [Intro](home.md)
 [Beginner Guide](beginner-guide.md)
-[Configuration](config/configuration.md)
+[Configuration](/config/configuration.md)
 [Public Commands](sumup.md)
 [Changelog](changelog.md)
 
@@ -17,42 +17,42 @@
 # **ADMIN COMMANDS**
 [autosetup](admin/autosetup.md)
 [setup](admin/setup.md)
-[config](config/configuration.md)
+[config](/config/configuration.md)
 [import](admin/import.md)
 
 ---
 # **STAFF COMMANDS**
 
 **❯ Suggestion Managing**
-[approve](staff/approve.md)
-[deny](staff/deny.md)
-[silentdeny](staff/silentdeny.md)
-[delete](staff/delete.md)
-[silentdelete](staff/silentdelete.md)
-[massapprove](staff/massapprove.md)
-[massdeny](staff/massdeny.md)
-[massdelete](staff/massdelete.md)
-[approveedit](staff/approveedit.md) 
-[denyedit](staff/denyedit.md)
+[approve](/staff/approve.md)
+[deny](/staff/deny.md)
+[silentdeny](/staff/silentdeny.md)
+[delete](/staff/delete.md)
+[silentdelete](/staff/silentdelete.md)
+[massapprove](/staff/massapprove.md)
+[massdeny](/staff/massdeny.md)
+[massdelete](/staff/massdelete.md)
+[approveedit](/staff/approveedit.md) 
+[denyedit](/staff/denyedit.md)
 
 **❯ Comments**
-[comment](staff/comment.md)
-[anonymouscomment](staff/acomment.md)
-[deletecomment](staff/deletecomment.md)
-[editcomment](staff/comment-editing.md)
+[comment](/staff/comment.md)
+[anonymouscomment](/staff/acomment.md)
+[deletecomment](/staff/deletecomment.md)
+[editcomment](/staff/comment-editing.md)
 
 **❯ Moderation**
-[block](staff/block.md)
-[unblock](staff/unblock.md)
-[exempt](staff/exempt.md)
+[block](/staff/block.md)
+[unblock](/staff/unblock.md)
+[exempt](/staff/exempt.md)
 
 **❯ Miscellaneous**
-[listqueue](staff/listqueue.md)
-[info](staff/info.md)
-[mark](staff/mark.md)
-[attach](staff/attach.md)
-[removeattachment](staff/removeattachment.md)
-[top & down](staff/top-n-down.md)
+[listqueue](/staff/listqueue.md)
+[info](/staff/info.md)
+[mark](/staff/mark.md)
+[attach](/staff/attach.md)
+[removeattachment](/staff/removeattachment.md)
+[top & down](/staff/top-n-down.md)
 
 ---
 # **Suggester**
