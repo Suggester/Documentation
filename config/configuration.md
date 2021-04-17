@@ -34,7 +34,7 @@ Any member with the **Manage Server** permission or a configured [admin role](/c
 | [Clean Commands](/config/cleancommands.md)    |       Disabled           | Settings for commands deletion |
 | [Color Change](/config/colorchange.md)        |   15 votes - #FFD700     | Change the color of the suggestion embed when it reaches X net upvotes |
 | [Commands](/config/commands.md)               |                          | List of channels where commands can be used | 
-| [Comment Timestamps]/config/ctime.md)         |       Enabled            | Settings for comment timestamps |
+| [Comment Timestamps](/config/ctime.md)         |       Enabled            | Settings for comment timestamps |
 | [Cooldown](/config/cooldown.md)               |      0 second            | suggestion cooldown |
 | [Denied](/config/denied.md)                   |                          | Channel where denied suggestions are posted |
 | [Disabled Channels](/config/disabledchannels.md) |                       | Channels where commands don't work |
