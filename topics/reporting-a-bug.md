@@ -3,7 +3,7 @@
 Bugs are annoying and our developer team is constantly trying to fix them before the public (you!) see them. Unfortunately, our anti-bug spray doesn't always work, meaning you *might* sometimes deal with a bug, or something unexpected when using the bot. If you ever meet one of those, please let us know so we can fix it as soon as possible! We'll dive into it just below:
 
 > **Step 1**\
-Join our Support Server using this [link](https://discord.gg/G5pEdUp)
+Join our Support Server using this [link](https://suggester.js.org/support)
 
 > **Step 2**\
 Head over to the `#bots` channel and run the `!join Canary` command in order to get access to a few secret channels. More info about our Canary program can be found [here](community-programs?id=🐛-hunting-bugs)
