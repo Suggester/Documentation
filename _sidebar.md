@@ -2,7 +2,7 @@
 # **DOCUMENTATION**
 [Intro](home.md)
 [Beginner Guide](beginner-guide.md)
-[Configuration]/config/configuration.md)
+[Configuration](/config/configuration.md)
 [Public Commands](sumup.md)
 [Changelog](changelog.md)
 
