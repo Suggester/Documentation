@@ -17,7 +17,7 @@
 # **ADMIN COMMANDS**
 [autosetup](admin/autosetup.md)
 [setup](admin/setup.md)
-[config]/config/configuration.md)
+[config](/config/configuration.md)
 [import](admin/import.md)
 
 ---
