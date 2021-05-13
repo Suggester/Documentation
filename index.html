@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-    <title>Suggester Docs</title>
-    <link rel="icon" type="image/ico" href="/images/favicon.ico">
+    <title>Suggester</title>
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
     <meta property="og:site_name" content="Suggester Docs">
     <meta property="twitter:card" content="summary_large_image">
     <meta name="description" content="Everything you need to know about Suggester, including all commands, configuration elements and community programs. Suggestions have never been easier to set up!">
-    <meta name="theme-color" content="#7289da">
+    <meta name="theme-color" content="#5865F2">
     <meta property="og:title" content="Official Suggester Documentation">
     <meta property="og:description" content="Everything you need to know about Suggester, including all commands, configuration elements and community programs. Suggestions have never been easier to set up!">
     <meta property="og:url" content="https://suggester.js.org">
@@ -23,20 +23,24 @@
     <style>
       :root {
             color: hsl(0deg 32% 94%);
-        --base-background-color: #363940;
-        --cover-background-image: url(https://cdn.discordapp.com/attachments/769650556502409226/815942754005024838/light-1282314_1280.webp);
+        --base-background-color: #36393f;
+        --base-font-size: 16px;
+
+        --cover-background-image: "/images/gradient.jpg";
         --heading-color: hsl(0deg 0% 100%);
-        --code-theme-background: #183055;
         --heading-h3-font-size: var(--font-size-l);
+
+        /* Code */
+        --code-theme-background: #183055;
         --code-inline-color: #ffffff;
         --code-inline-background: #18191d;
         --code-theme-text: #ffffff;
+
+        /* Link */
         --link-color: #2eafff;
-        --link-color--hover: #2eafff;
-        --link-text-decoration: ;
         --link-text-decoration--hover: underline;
-        --base-font-size: 16px;
-        --navbar-root-background: #000000;
+
+        /* Notices */
         --notice-tip-background: #49453C;
         --notice-tip-border-color: #A27429;
         --notice-tip-border-width: 5px;
@@ -45,51 +49,58 @@
         --notice-important-background: #493A41;
         --notice-important-border-color: #7F4C51;
         --notice-important-border-width: 5px;
-        --notice-important-color: #f0e3e1;            
-        --sidebar-background: #363940;
+        --notice-important-color: #f0e3e1; 
+
+        /* Sidebar */
+        --sidebar-background: #2f3136;
         --sidebar-nav-link-color: #ffffff;
         --sidebar-border-width: 0px;
+        --sidebar-nav-link-background-color--active   : #FEE75C;
+        --sidebar-nav-link-background-color--hover    : #FEE75C;
+        --sidebar-nav-link-color--active              : #000000;
+        --sidebar-nav-link-color--hover               : #000000;
+        --sidebar-nav-link-padding: 0.25em 10px;
+        --sidebar-nav-link-font-weight--active        : 750;
+        --sidebar-nav-link-font-weight--hover         : 750;
+        --sidebar-nav-link-text-decoration--active    : none;
+        --sidebar-nav-link-text-decoration--hover     : none;
+        --sidebar-nav-link-margin                     : 3px;
+
+        /* Tables & Blockquotes */
         --table-row-even-background: #121315;
-        --table-row-odd-background: #18191d;
+        --table-row-odd-background: #18191C;
         --table-cell-border-width: 0px;
-        --table-head-background: #16171a;
+        --table-head-background: #202225;
+
         --blockquote-background: #3b414f;
         --blockquote-border-color:  #576594;
         --blockquote-border-width: 4px;
         --blockquote-border-radius: 20px;
-        --navbar-menu-link-color: #ffffff;
-        --navbar-menu-link-text-decoration--hover: #7289da;
-        --navbar-menu-border-color: #7289da;
-        --navbar-menu-border-radius: 10px;
-        --navbar-menu-border-width: 3px;
-        --navbar-root-text-decoration: #000000;
-        --navbar-menu-root-background: #000000;
-        --navbar-root-color: green;
-          
+
+        
+        /* Coverpage */
         --cover-color: #363940;       
         --cover-button-background: #ffffff;
         --cover-button-color: #000000;
-        --cover-blockquote-color: #000000;
         --cover-heading-color: #000000;
         --cover-link-color: #000000;
         --cover-link-color: #000000;
          
+        /* Search */
         --search-input-color: #000000;
         --search-result-keyword-background: #7289da;
         --search-clear-icon-color1: #ff0000;
         --search-clear-icon-color2: #ffffff;
-        
-
-        
-    /* Tabs */
+           
+       
+        /* Tabs */
     --docsifytabs-tab-background        : #363940;
-    --docsifytabs-tab-background--active: var(--docsifytabs-content-background);
     --docsifytabs-tab-color             : #ffffff;
     --docsifytabs-tab-color--active     : #7289da;
     --docsifytabs-tab-highlight-px      : 5px;
     --docsifytabs-tab-padding           : 0.6em 1em;
 
-    /* Tab content */
+        /* Tab content */
     --docsifytabs-content-background    : inherit;
     --docsifytabs-content-padding       : 1.5rem;
      
@@ -97,36 +108,25 @@
     --docsifytabs-border-px             : 3px;
     --docsifytabs-border-radius-px      : 20px;
 }        
-      }
    </style>
-
-
 
 </head>
 
 <body>
     <div id="app"></div>
     <script>
-        // Docsify
         window.$docsify = {
             // GENERAL
             // -----------------------------------------------------------------
             name: 'Suggester Docs',
             homepage: 'home.md',
-            logo: 'https://cdn.discordapp.com/attachments/566351843282780181/769229116054175814/newsbanner_1.png',
+            logo: '/images/suggesterbanner.png',
             loadSidebar: true,
             coverpage: true,
             loadNavbar: false,
             auto2top: true,
             notFoundPage: true,
             maxLevel: 3,
-            alias: {
-              '/.*/_navbar.md': '/_navbar.md',
-              '/es/(.*)': 'https://raw.githubusercontent.com/Suggester-Bot/Documentation/spanish/$1',
-              '/fr/(.*)': 'https://raw.githubusercontent.com/Suggester-Bot/Documentation/french/$1',
-              '/nl/(.*)': 'https://raw.githubusercontent.com/Suggester-Bot/Documentation/dutch/$1',
-              '/tr/(.*)': 'https://raw.githubusercontent.com/Suggester-Bot/Documentation/turkish/$1'
-            },
             footer: {
               copy: '<span><a href="#/topics/community-programs.md">Community Programs</a> - <a href="#/legal">Privacy Policy</a></span>',
               auth: '- © Suggester 2019-2021',
@@ -139,11 +139,10 @@
             ga    : 'UA-100100910-3',
             search: {
                 depth      : 3,
-                noData     : 'No results!',
+                noData     : 'No results :(',
                 placeholder: 'Search...'
             },
-            themeColor: "#43464d"
-           
+            themeColor: "#36393f"           
         };
     </script>
     <script src="https://unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
@@ -159,6 +158,5 @@
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 </body>
 </html>
