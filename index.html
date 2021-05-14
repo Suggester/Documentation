@@ -26,9 +26,12 @@
         --base-background-color: #36393f;
         --base-font-size: 16px;
 
-        --cover-background-image: url("https://cdn.discordapp.com/attachments/650509356013715477/842536578659647518/gradient.jpg");
+        --cover-background-image: url("https://cdn.discordapp.com/attachments/576057292491980800/842851962260946995/wave-haikei_1.svg");
         --heading-color: hsl(0deg 0% 100%);
         --heading-h3-font-size: var(--font-size-l);
+        --heading-h1-font-weight: 600;
+        --cover-blockquote-font-size: 7em;
+
 
         /* Code */
         --code-theme-background: #183055;
@@ -40,21 +43,28 @@
         --link-color: #2eafff;
         --link-text-decoration--hover: underline;
 
-        /* Notices */
+        /* Notices & Blockquotes */
         --notice-tip-background: #49453C;
+        --notice-tip-color: #f0e3e1;
         --notice-tip-border-color: #A27429;
         --notice-tip-border-width: 5px;
         --notice-border-radius: 20px; 
-        --notice-tip-color: #f0e3e1;
+          
         --notice-important-background: #493A41;
         --notice-important-border-color: #7F4C51;
         --notice-important-border-width: 5px;
         --notice-important-color: #f0e3e1; 
+          
+        --blockquote-border-color:  #576594;
+        --blockquote-border-width: 4px;
+        --blockquote-border-radius: 20px;
+        --blockquote-background: #3b414f;
 
         /* Sidebar */
         --sidebar-background: #2f3136;
-        --sidebar-nav-link-color: #ffffff;
         --sidebar-border-width: 0px;
+          
+        --sidebar-nav-link-color: #ffffff;
         --sidebar-nav-link-background-color--active   : #FEE75C;
         --sidebar-nav-link-background-color--hover    : #FEE75C;
         --sidebar-nav-link-color--active              : #000000;
@@ -66,47 +76,49 @@
         --sidebar-nav-link-text-decoration--hover     : none;
         --sidebar-nav-link-margin                     : 3px;
 
-        /* Tables & Blockquotes */
+        /* Tables */
         --table-row-even-background: #121315;
         --table-row-odd-background: #18191C;
-        --table-cell-border-width: 0px;
         --table-head-background: #202225;
-
-        --blockquote-background: #3b414f;
-        --blockquote-border-color:  #576594;
-        --blockquote-border-width: 4px;
-        --blockquote-border-radius: 20px;
-
-        
+        --table-cell-border-color: #000000;
+        --table-head-border-color: var(--table-cell-border-color);
+        --table-head-border-width: 1px;
+        --table-cell-border-width: 1px;
+        --table-head-font-weight: 750;
+    
         /* Coverpage */
-        --cover-color: #363940;       
-        --cover-button-background: #ffffff;
-        --cover-button-color: #000000;
+        --cover-color: #363940;
         --cover-heading-color: #000000;
+        --cover-button-background: #ffffff;
+        --cover-button-color: #000000;        
         --cover-link-color: #000000;
         --cover-link-color: #000000;
+        --cover-blockquote-font-size: 20px;
          
         /* Search */
         --search-input-color: #000000;
         --search-result-keyword-background: #7289da;
         --search-clear-icon-color1: #ff0000;
         --search-clear-icon-color2: #ffffff;
+          
+        /* Spinner */
+        --spinner-track-color: #7289da;
            
        
         /* Tabs */
-    --docsifytabs-tab-background        : #363940;
-    --docsifytabs-tab-color             : #ffffff;
-    --docsifytabs-tab-color--active     : #7289da;
-    --docsifytabs-tab-highlight-px      : 5px;
-    --docsifytabs-tab-padding           : 0.6em 1em;
+        --docsifytabs-tab-background        : #363940;
+        --docsifytabs-tab-color             : #ffffff;
+        --docsifytabs-tab-color--active     : #7289da;
+        --docsifytabs-tab-highlight-px      : 5px;
+        --docsifytabs-tab-padding           : 0.6em 1em;
 
-        /* Tab content */
-    --docsifytabs-content-background    : inherit;
-    --docsifytabs-content-padding       : 1.5rem;
+        /* Tab Content */
+        --docsifytabs-content-background    : inherit;
+        --docsifytabs-content-padding       : 1.5rem;
      
-    --docsifytabs-border-color          : #ffffff;
-    --docsifytabs-border-px             : 3px;
-    --docsifytabs-border-radius-px      : 20px;
+        --docsifytabs-border-color          : #ffffff;
+        --docsifytabs-border-px             : 3px;
+        --docsifytabs-border-radius-px      : 20px;
 }        
    </style>
 
@@ -140,7 +152,7 @@
             search: {
                 depth      : 3,
                 noData     : 'No results :(',
-                placeholder: 'Search...'
+                placeholder: 'Search..'
             },
             themeColor: "#36393f"           
         };

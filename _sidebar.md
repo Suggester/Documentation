@@ -4,7 +4,7 @@
 [Beginner Guide](beginner-guide.md)
 [Configuration](/config/configuration.md)
 [Public Commands](sumup.md)
-[Changelog](changelog.md)
+[Changelog](changelogs/changelog-2021.md)
 
 ---
 # **TOPICS**
@@ -14,14 +14,14 @@
 [Searching Suggestions](/topics/search.md)
 
 ---
-# **ADMIN COMMANDS**
+# **ADMIN**
 [autosetup](admin/autosetup.md)
 [setup](admin/setup.md)
 [config](/config/configuration.md)
 [import](admin/import.md)
 
 ---
-# **STAFF COMMANDS**
+# **STAFF**
 
 **❯ Suggestion Managing**
 [approve](/staff/approve.md)
@@ -55,7 +55,7 @@
 [top & down](/staff/top-n-down.md)
 
 ---
-# **Suggester**
+# **PRODUCT**
 [Support my development](topics/supporting.md)
 [Community Programs](topics/community-programs.md)
 [Statistics](topics/stats.md)
