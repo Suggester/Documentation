@@ -3,6 +3,8 @@
 <!-- tabs:start -->
 
 <!-- tab:2021 -->
+### Suggester v4.10.1 (May 13th, 2021)
+Discord has [rebranded](https://dis.gd/ournewlook), changing their old blurple color (#7289DA) to a new brighter blue (#5865F2). Since Suggester's profile picture and default color scheme used the OG Blurple color, we're rebranding our icons and assets as well. You'll notice a brand new Suggester icon, as well as a new default color for suggestion embeds and some emojis used by the bot. And happy birthday Discord!!
 
 ### Suggester v4.9.10 (April 15th, 2021)
 
@@ -405,6 +407,9 @@ This update brings a lot of cool changes, some of which were suggested by yall!
 - **Bug fixes**: Gotta catch 'em all!
 
 <!-- tab:Announcements -->
+
+### Suggester Rebranding (May 13th, 2021)
+Discord has [rebranded](https://dis.gd/ournewlook), changing their old blurple color (#7289DA) to a new brighter blue (#5865F2). Since Suggester's profile picture and default color scheme used the OG Blurple color, we're rebranding our icons and assets as well! You'll notice a brand new Suggester icon, as well as a new default color for suggestion embeds and some emojis used by the bot.
 
 ### 2nd Birthday (April 7th, 2021)
 Happy Birthday!! Suggester turned 2 on April 7th! That's pretty cool 😱
