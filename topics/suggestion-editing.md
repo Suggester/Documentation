@@ -25,8 +25,10 @@ Use `.edit [suggestion ID] (new content)` in any channel the bot can read and se
 
 ### Permissions
 
-| Permission                          | Editing all suggestions | Editing own suggestions |
-|-------------------------------------|:-----------------------:|-------------------------|
+| Permission                          | Editing all suggestions | Editing own suggestions  |
+|-------------------------------------|:-----------------------:|:------------------------:|
 | [Admin](/config/adminroles.md)      | ✓                       | ✓                       |
 | [Staff](/config/staffroles.md)      | ✓                       | ✓                       |
-| None                                | ⨉                       | ✓                      |
+| None                                | ⨉                       | ✓                       |
+
+
