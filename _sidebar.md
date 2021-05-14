@@ -4,7 +4,7 @@
 [Beginner Guide](beginner-guide.md)
 [Configuration](/config/configuration.md)
 [Public Commands](sumup.md)
-[Changelog](changelog.md)
+[Changelog](changelogs/changelog-2021.md)
 
 ---
 # **TOPICS**
