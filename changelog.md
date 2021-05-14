@@ -9,17 +9,17 @@
 **New Things**\
 • Commands can now be disabled server-wide using `.config disabledcommands [add/remove] [command name]`\
 • Channels can now be disabled, meaning the bot will not respond to any commands in that channel. This is done using `.config disabledchannels [add/remove] [#channel]`\
-• The `privacy` command has been added, linking to our privacy policy.\
+• The `privacy` command has been added, linking to our privacy policy.
 
 **Improvements**\
-• The prefix can now be edited using the `.prefix` command directly. This is done using `.prefix [your new prefix here]`\
+• The prefix can now be edited using the `.prefix` command directly. This is done using `.prefix [your new prefix here]`
 
 **Bug Fixes**\
 • Blocked users can no longer use `/asuggest`\
-• Comments added through the `.mark` command are no longer duplicated\
+• Comments added through the `.mark` command are no longer duplicated
 
 **Removed**\
-• The `.stats` command was removed because the information it provided was outdated\
+• The `.stats` command was removed because the information it provided was outdated
 
 ### Suggester v4.1.2021 (April 1st, 2021)
 Suggester v4.1.2021 is the largest overhaul Suggester has ever had. We coded until our fingers couldn't anymore, and then we started using our toes. This update contains major updates to our patented SuggestionCreator3000™, allowing for even better-er suggestion creation. The bot also now runs 0% faster, and uses 500% more memory (meaning it will remember your suggestions better... yay!) 
@@ -27,7 +27,7 @@ Suggester v4.1.2021 is the largest overhaul Suggester has ever had. We coded unt
 ...and it now has owo mode
 thank you for your time and have a good day
 
-> If you hate owo mode you can use `.locale eng` to go back to English but everyone will judge you for it! 
+If you hate owo mode you can use `.locale eng` to go back to English but everyone will judge you for it! 
 
 ---
 ### Suggester v4.9.1 (March 29th, 2021)
