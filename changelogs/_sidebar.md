@@ -5,4 +5,5 @@
 
 # **OTHERS**
 [Announcements](/changelogs/announcements.md)
+[Docs Changelog](/changelogs/changelog-docs.md)
 [Go Back](home.md)
