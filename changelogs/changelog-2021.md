@@ -1,4 +1,5 @@
 # Changelog 2021
+---
 
 ### Suggester v4.10.1 (May 13th, 2021)
 Discord has [rebranded](https://dis.gd/ournewlook), changing their old blurple color (#7289DA) to a new brighter blue (#5865F2). Since Suggester's profile picture and default color scheme used the OG Blurple color, we're rebranding our icons and assets as well. You'll notice a brand new Suggester icon, as well as a new default color for suggestion embeds and some emojis used by the bot. And happy birthday Discord!!
