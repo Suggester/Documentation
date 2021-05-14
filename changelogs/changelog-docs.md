@@ -8,3 +8,4 @@
 - Added Documentation Changelog
 - Changed headers and some color HEXes throughout the docs
 - Only some of our rebranded assets are included in this update
+- Centered some table contents and added some caps to the configuration page

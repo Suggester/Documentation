@@ -23,19 +23,19 @@ Any member with the **Manage Server** permission or a configured [admin role](/c
 
 # Configuration Elements
 
-| Element                                       |  Default Value           |  Quick Description¹  |
-|-----------------------------------------------|:------------------------:|------------------------------------------|
+| Element                                       |  Default Value           |  Quick Description¹                        |
+|-----------------------------------------------|:------------------------:|:------------------------------------------:|
 | [Admin Roles](/config/adminroles.md)²         |                          | Roles with all perms |
-| [Allowed Roles](/config/allowedroles.md)      |                          | roles allowed to send suggestions |
-|[Anonymous Suggestions](/config/anon.md)       |        Disabled          | settings for anonymous feedback |
+| [Allowed Roles](/config/allowedroles.md)      |                          | Roles allowed to send suggestions |
+|[Anonymous Suggestions](/config/anon.md)       |        Disabled          | Settings for anonymous feedback |
 | [Approve Role](/config/approverole.md)        |                          | Roles given to the author of a suggestion when it gets appproved |
 | [Autofollowing](/config/autofollowing.md)     |        Enabled           | Settings for autofollowing |
 | [Blocked Roles](/config/blockedroles.md)      |                          | Roles blocked from sending suggestions |
 | [Clean Commands](/config/cleancommands.md)    |       Disabled           | Settings for commands deletion |
-| [Color Change](/config/colorchange.md)        |   15 votes - #FFD700     | Change the color of the suggestion embed when it reaches X net upvotes |
+| [Color Change](/config/colorchange.md)        |   15 votes • #FFD700     | Change the color of the suggestion embed when it reaches X net upvotes |
 | [Commands](/config/commands.md)               |                          | List of channels where commands can be used | 
-| [Comment Timestamps](/config/ctime.md)         |       Enabled            | Settings for comment timestamps |
-| [Cooldown](/config/cooldown.md)               |      0 second            | suggestion cooldown |
+| [Comment Timestamps](/config/ctime.md)        |       Enabled            | Settings for comment timestamps |
+| [Cooldown](/config/cooldown.md)               |      0 second            | Suggestion cooldown |
 | [Denied](/config/denied.md)                   |                          | Channel where denied suggestions are posted |
 | [Disabled Channels](/config/disabledchannels.md) |                       | Channels where commands don't work |
 | [Disabled Commands](/config/disabledcommands.md)  |                      | Disabled commands can't be used |
