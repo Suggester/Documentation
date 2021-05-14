@@ -1,4 +1,4 @@
-### Changelog 2020
+# Changelog 2020
 ---
 ### Suggester v4.6.1 (December 14th, 2020)
 - Added a comment editing feature for server staff! You can now use `editcomment [comment ID] [new content]` to modify comments either posted by you or posted anonymously
