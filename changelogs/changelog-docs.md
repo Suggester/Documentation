@@ -1,5 +1,8 @@
 # Documentation Changelog
 ---
+### May 25th, 2021
+- Moved the `mark` command from "Misc" to "Suggestion Managing" in the sidebar
+
 ### May 14th, 2021
 - New background image 
 - Changelog divided into 2019, 2020, 2021 and Announcements -- all under a new nested sidebar
