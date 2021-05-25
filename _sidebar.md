@@ -26,6 +26,7 @@
 **❯ Suggestion Managing**
 [approve](/staff/approve.md)
 [deny](/staff/deny.md)
+[mark](/staff/mark.md)
 [silentdeny](/staff/silentdeny.md)
 [delete](/staff/delete.md)
 [silentdelete](/staff/silentdelete.md)
@@ -49,7 +50,6 @@
 **❯ Miscellaneous**
 [listqueue](/staff/listqueue.md)
 [info](/staff/info.md)
-[mark](/staff/mark.md)
 [attach](/staff/attach.md)
 [removeattachment](/staff/removeattachment.md)
 [top & down](/staff/top-n-down.md)
