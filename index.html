@@ -41,8 +41,7 @@
 
         /* Link */
         --link-color: #2eafff;
-        --link-text-decoration--hover: underline;
-        --link-text-decoration-color: #FFFFFF;
+        --link-text-decoration--hover: underline;  
 
         /* Notices & Blockquotes */
         --notice-tip-background: #49453C;
@@ -146,8 +145,11 @@
               style: 'text-align: center;'
             },
             
+            themeable: {
+    responsiveTables: true 
+            }
+            
             // PLUGINS
-            // -----------------------------------------------------------------
             executeScript: true,
             ga    : 'UA-100100910-3',
             search: {
