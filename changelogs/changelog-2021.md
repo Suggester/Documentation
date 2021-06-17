@@ -1,8 +1,8 @@
 # Changelog 2021
 ---
 ### Suggester v4.10.3 (June 17th, 2021)
-• The `.edit` command should work properly now
-• Announcement channels are now supported for channel configuration
+• The `.edit` command should work properly now\
+• Announcement channels are now supported for channel configuration\
 • Minor fixes to the `top` and `down` commands
 
 ### Suggester v4.10.2 (May 26th, 2021)
