@@ -1,4 +1,14 @@
 # Announcements
+
+### An Update on Recent Infrastructure Issues (June 25th, 2021)
+We are aware Suggester has had several performance issues in the last few weeks and we are deeply sorry for that. We believe those issues are related to the rather quick growth of Suggester, as its server count was **multiplied by more than 5** in the last year (victim of its success!). 
+
+Past 2,500 guilds, a process that goes by the name of *sharding* goes from recommended to required (for those of you who don't know what that is, it's basically splitting your bot into multiple connections to the Discord API instead of a single one). While deploying new shards is done automatically and thus very simple, supporting an increasing number of these impacts performance metrics such as memory usage and overall latency. That is why Suggester has been slower than usual recently.
+
+However, this isn't the end of the road. Our development team is currently made of **2 awesome person** that take these issues very seriously and they are working on solving them. Due to the nature of the problem, it will take some time to completely get back to normal performances.
+
+As some testers might have already noticed, the canary bot is undergoing caching-related changes that may improve performances. Though as the name implies, it isn't production ready just yet.
+
 ### Suggester Rebranding (May 13th, 2021)
 Discord has [rebranded](https://dis.gd/ournewlook), changing their old blurple color (#7289DA) to a new brighter blue (#5865F2). Since Suggester's profile picture and default color scheme used the OG Blurple color, we're rebranding our icons and assets as well! You'll notice a brand new Suggester icon, as well as a new default color for suggestion embeds and some emojis used by the bot.
 
