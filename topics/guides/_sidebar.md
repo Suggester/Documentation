@@ -1,4 +1,6 @@
 # **GUIDES**
 [Recommended Configuration](/guides/recommended-config)
-More to come soon...
+
+
+# **OTHER**
 [Go Back](home.md)
