@@ -12,7 +12,7 @@
 [Anonymous Suggestions](/topics/anonymous-suggestions.md)
 [Editing a suggestion](/topics/suggestion-editing.md)
 [Searching Suggestions](/topics/search.md)
-[Guides](guides/recommended-config)
+[Guides](/topics/guides/recommended-config)
 
 ---
 # **ADMIN**
