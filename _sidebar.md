@@ -1,10 +1,10 @@
 
 # **DOCUMENTATION**
 [Intro](home.md)
-[Beginner Guide](beginner-guide.md)
+[Beginner Guide](/beginner-guide.md)
 [Configuration](/config/configuration.md)
-[Public Commands](sumup.md)
-[Changelog](changelogs/changelog-2021.md)
+[Public Commands](/sumup.md)
+[Changelog](/changelogs/changelog-2021.md)
 
 ---
 # **TOPICS**
@@ -12,11 +12,12 @@
 [Anonymous Suggestions](/topics/anonymous-suggestions.md)
 [Editing a suggestion](/topics/suggestion-editing.md)
 [Searching Suggestions](/topics/search.md)
+[Guides](guides/recommended-config)
 
 ---
 # **ADMIN**
-[autosetup](admin/autosetup.md)
-[setup](admin/setup.md)
+[autosetup](/admin/autosetup.md)
+[setup](/admin/setup.md)
 [config](/config/configuration.md)
 [import](admin/import.md)
 
