@@ -1,4 +1,4 @@
-### What permissions does Suggester need and why?
+# Requested Permissions Explainer
 
 When you click on the link to invite Suggester, you'll be prompted to confirm that you want to give certain permissions to the bot. If you're skeptical about giving permissions (which is okay!), you might not want to give them, especially elevated ones, without knowing why the bot actually needs it. We'll explain below why does Suggester ask for each permission and if it is required or not.
 
