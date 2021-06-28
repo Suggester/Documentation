@@ -12,7 +12,7 @@
 [Anonymous Suggestions](/topics/anonymous-suggestions.md)
 [Editing a suggestion](/topics/suggestion-editing.md)
 [Searching Suggestions](/topics/search.md)
-[Guides](/topics/guides/guide-intro.md)
+[Guides](/topics/guides/intro.md)
 
 ---
 # **ADMIN**
@@ -56,8 +56,8 @@
 [top & down](/staff/top-n-down.md)
 
 ---
-# **PRODUCT**
-[Vote](/topics/supporting.md)
+# **OTHERS**
+[Voting](/topics/supporting.md)
 [Community Programs](/topics/community-programs.md)
 [Privacy Policy](/legal.md)
 [Support Server](https://suggester.js.org/support)
