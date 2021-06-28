@@ -20,5 +20,5 @@ If you wish to do it yourself, you can use the [setup](admin/setup.md) command t
 
 And you're done! Members of your server can now start suggesting using the `.suggest` command! If you wish to configure more settings like custom reactions, notifications and more, check out the [config](/config/configuration.md) command!
 
-
-?> If you need any help configuring the bot, feel free to join our [Support Server](https://suggester.js.org/support) to receive assistance!
+### Extras
+If you need any more help configuring the bot, feel free to join our [Support Server](https://suggester.js.org/support) to receive assistance! Also, you can find more in-depth guides [here](/topics/guides/intro).
