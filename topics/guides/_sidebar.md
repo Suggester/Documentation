@@ -1,5 +1,5 @@
 # **GUIDES**
-[Recommended Configuration](/guides/recommended-config)
+[Recommended Setup](/topics/guides/recommended-config)
 [Requested Permissions](/topics/guides/permissions)
 
 
