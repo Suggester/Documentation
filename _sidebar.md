@@ -12,14 +12,14 @@
 [Anonymous Suggestions](/topics/anonymous-suggestions.md)
 [Editing a suggestion](/topics/suggestion-editing.md)
 [Searching Suggestions](/topics/search.md)
-[Guides](/topics/guides/recommended-config)
+[Guides](/topics/guides/guide-intro.md)
 
 ---
 # **ADMIN**
 [autosetup](/admin/autosetup.md)
 [setup](/admin/setup.md)
 [config](/config/configuration.md)
-[import](admin/import.md)
+[import](/admin/import.md)
 
 ---
 # **STAFF**
@@ -57,8 +57,8 @@
 
 ---
 # **PRODUCT**
-[Support my development](topics/supporting.md)
-[Community Programs](topics/community-programs.md)
-[Statistics](topics/stats.md)
-[Privacy Policy](legal.md)
+[Vote](/topics/supporting.md)
+[Community Programs](/topics/community-programs.md)
+[Privacy Policy](/legal.md)
+[Support Server](https://suggester.js.org/support)
 
