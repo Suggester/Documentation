@@ -1,10 +1,10 @@
 
 # **DOCUMENTATION**
 [Intro](home.md)
-[Beginner Guide](beginner-guide.md)
+[Beginner Guide](/beginner-guide.md)
 [Configuration](/config/configuration.md)
-[Public Commands](sumup.md)
-[Changelog](changelogs/changelog-2021.md)
+[Public Commands](/sumup.md)
+[Changelog](/changelogs/changelog-2021.md)
 
 ---
 # **TOPICS**
@@ -12,13 +12,14 @@
 [Anonymous Suggestions](/topics/anonymous-suggestions.md)
 [Editing a suggestion](/topics/suggestion-editing.md)
 [Searching Suggestions](/topics/search.md)
+[Guides](/topics/guides/intro.md)
 
 ---
 # **ADMIN**
-[autosetup](admin/autosetup.md)
-[setup](admin/setup.md)
+[autosetup](/admin/autosetup.md)
+[setup](/admin/setup.md)
 [config](/config/configuration.md)
-[import](admin/import.md)
+[import](/admin/import.md)
 
 ---
 # **STAFF**
@@ -55,9 +56,9 @@
 [top & down](/staff/top-n-down.md)
 
 ---
-# **PRODUCT**
-[Support my development](topics/supporting.md)
-[Community Programs](topics/community-programs.md)
-[Statistics](topics/stats.md)
-[Privacy Policy](legal.md)
+# **OTHERS**
+[Voting](/topics/supporting.md)
+[Community Programs](/topics/community-programs.md)
+[Privacy Policy](/legal.md)
+[Support Server](https://suggester.js.org/support)
 
