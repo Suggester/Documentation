@@ -33,3 +33,9 @@ If you have any concerns about the data we store or the functions of the bot, pl
 We'll be more than happy to clear up any concerns you may have.
 
 !> If you would like your data to be removed from our systems, please contact one of the developers listed above and we'll help you out from there.
+
+
+---
+### Translations
+Translations of this privacy policy can be found below:\
+- [Français (French)](https://gist.github.com/Suspense4615/2722a0be87dcfb0286df44efc154c718]
