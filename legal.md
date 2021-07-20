@@ -38,4 +38,4 @@ We'll be more than happy to clear up any concerns you may have.
 ---
 ### Translations
 Translations of this privacy policy can be found below:\
-- [Français (French)](https://gist.github.com/Suspense4615/2722a0be87dcfb0286df44efc154c718]
+- [Français (French)](https://gist.github.com/Suspense4615/2722a0be87dcfb0286df44efc154c718)
