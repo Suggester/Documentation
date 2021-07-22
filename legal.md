@@ -37,5 +37,6 @@ We'll be more than happy to clear up any concerns you may have.
 
 ---
 ### Translations
-Translations of this privacy policy can be found below:\
-- [Français (French)](https://gist.github.com/Suspense4615/2722a0be87dcfb0286df44efc154c718)
+Translations of this privacy policy can be found below:
+- [Français (French)](https://gist.github.com/Suspense4615/2722a0be87dcfb0286df44efc154c718) *Translated by Suspense*
+- [Italiano (Italian)](https://gist.github.com/MoonlightCapital/795e4f847e5ce8ea42f2257df0fc3770) *Translated by MoonlightCapital*
