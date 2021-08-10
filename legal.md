@@ -9,7 +9,7 @@ In order for the bot to function, we store some information about servers and us
 - **Webhook URLs:** We store these to ensure logging through webhooks works - only one URL is stored which is the URL of the webhook created by the bot when logging is configured.
 - **Server Emotes:** We store server emote names/IDs if a server configures an emote as a reaction emote in the suggestion feed.
 - **Submitted Suggestions/Comments:** We store message content submitted as suggestions and comments in order for the bot to have data about each suggestion.
-- **Attachment URLs:** We store URLs of files attached to suggestions in order to make the attaching feature possible.
+- **Attachment URLs:** We store URLs of files attached to suggestions in order to make the attaching feature possible.\
 We log **commands used and servers the bot is added to/removed from** for analytical purposes.
 We store information pertaining to Trello boards connected to the bot and actions such as card creation and comments taken via the bot on those boards.
 
@@ -23,7 +23,8 @@ All data and bot services are protected by authentication and access is limited 
 Bots that help to manage the Suggester Discord server also store some information:\
 **VoteBoat#1330**: Your user ID and the number of votes you have on each site\
 **i18n#1614**: Content provided as translations for strings and your user ID for permission purposes\
-**Suggester Support#5646**: DMs sent to the bot, your user tag, nickname (if any), account creation date and account age (only if/when you contact the bot by sending it a direct message)
+**Suggester Support#5646**: DMs sent to the bot, your user tag, nickname (if any), account creation date and account age (only if/when you contact the bot by sending it a direct message)\
+**Support#8828**: No data is stored.
 
 ## Concerns
 If you have any concerns about the data we store or the functions of the bot, please contact a member of the Suggester Staff Team via the [support server](https://suggester.js.org/support). 
