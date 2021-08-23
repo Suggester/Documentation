@@ -1,5 +1,24 @@
 # Announcements
 
+### An Update on the Latest Extended Downtime (August 23rd, 2021)
+On August 14th, some unauthorized users obtained access to Suggester's database, allowing them to see and remove any data we stored. This caused issues when trying to access it, such as when interacting with old suggestions or setting up a server.
+
+At first we thought this was a genuine issue with the database and thus kept the bot online so people could at least still send suggestions in their favorite servers, if said servers went through some configuration again.
+
+But on August 15, the entirety of our collected data was removed, preventing Suggester from working. After discovering the whole issue, we've decided to bring all public instances of Suggester offline, as an unplanned maintenance due to a major service disruption.
+
+As per Discord's Developer Policy and Legal Agreement, we must inform our users if any unauthorized users or group of users had access to any data we store, and sadly here we are. We believe the data accessed consisted of server setups, suggestion content and user settings. What we store can be found [here](/legal.md).
+
+We have no reason to believe the compromised data was seen or shared by unauthorized third parties before being completely erased.
+
+Suggester will be coming back online in the next few hours with our latest backup, from July 10th. As such, **any data added, removed or edited between that date and the beginning of this downtime will not be available.**
+
+We are still actively investigating how this happened, but in the meantime the bot will be running on a new, much more secure server. We will be doing everything in our power to stop this from happening again.
+
+As a side note, we'll be adding support for Suggester, Suggester 2 and Suggester Canary to the `.import` command, as well as a temporarily raised importing limit so you can hopefully get some of the data back.
+
+On behalf of the entire Suggester team, we are extremely sorry for everything that has happened.
+
 ### An Update on Recent Infrastructure Issues (June 25th, 2021)
 We are aware Suggester has had several performance issues in the last few weeks and we are deeply sorry for that. We believe those issues are related to the rather quick growth of Suggester, as its server count was **multiplied by more than 5** in the last year (victim of its success!). 
 
