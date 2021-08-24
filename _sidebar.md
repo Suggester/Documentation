@@ -58,6 +58,7 @@
 ---
 # **OTHERS**
 [Voting](/topics/supporting.md)
+[Donations]()
 [Community Programs](/topics/community-programs.md)
 [Privacy Policy](/legal.md)
 [Support Server](https://suggester.js.org/support)
