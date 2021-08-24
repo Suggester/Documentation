@@ -35,6 +35,8 @@ We'll be more than happy to clear up any concerns you may have.
 ---
 ### Translations
 Translations of this privacy policy can be found below:
+- [Ελληνικά (Greek)](https://github.com/Suggester/privacy/blob/main/greek.md) *Translated by AugustPeople*
 - [Français (French)](https://github.com/Suggester/privacy/blob/main/french.md) *Translated by Suspense*
 - [Italiano (Italian)](https://github.com/Suggester/privacy/blob/main/italian.md) *Translated by MoonlightCapital*
 - [Türkçe (Turkish)](https://github.com/Suggester/privacy/blob/main/turkish.md) *Translated by pvc/michael*
+
