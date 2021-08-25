@@ -2,7 +2,6 @@
 ---
 ### Donations
 
-Hello!
 If you are looking for a way to support and help keep the costs down for Suggester, you can do a one time donation or purchase a tier off our donation page [here](https://ko-fi.com/suggester).
 Our one time donators and tier buyers are able to get a fancy purple donor role in our [Discord Support Server.](https://suggester.js.org/support)
 
