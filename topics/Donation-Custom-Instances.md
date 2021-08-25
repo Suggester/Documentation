@@ -6,7 +6,7 @@ If you are looking for a way to support and help keep the costs down for Suggest
 Our one time donators and tier buyers are able to get a fancy purple donor role in the [support server](https://suggester.js.org/support).
 
 ### Custom Instances
-If you are looking for a way to support our bot and to be able to get your own personally branded custom instance of Suggester, we have several tiers.
+If you are looking for a way to support our bot and get your own custom instance of Suggester, we have several tiers available!
 
 | Tiers                                                                              |              Rewards              |       Price        |
 |------------------------------------------------------------------------------------|:--------------------------------------------:|----------------------|
