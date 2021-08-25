@@ -1,4 +1,4 @@
-# Donations / Custom Instances
+# Donations & Custom Instances
 ---
 ### Donations
 
