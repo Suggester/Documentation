@@ -41,7 +41,7 @@ Any member with the **Manage Server** permission or a configured [admin role](/c
 | [Disabled Commands](/config/disabledcommands.md)  |                      | Disabled commands can't be used |
 | [Emojis](/config/emojis.md)                   |     👍,🤷 and 👎        | Reaction emojis to vote on approved suggestions |
 | [Feed Ping](/config/feedping.md)              |                          | Role pinged when a suggestion is approved |
-| [ICSS](/config/inchannelsuggestions.md)       |       Disabled           | Settings for IC Suggestion Submission |
+| [Commandless Suggestions](/config/inchannelsuggestions.md)       |       Disabled           | Settings for commandless suggestion submission |
 | [Implemented](/config/implemented.md)         |                          | Channel where implemented suggestions are sent |
 | [Implemented Role](/config/implementedrole.md)|                          | Role given to the author of a suggestion when it gets marked as Implemented |
 | [Language](/config/locale.md)                 |       English            | Language used by the bot (server wide) |
