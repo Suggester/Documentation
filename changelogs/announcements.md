@@ -1,13 +1,29 @@
 # Announcements
 
+### What's Next for Suggester (October 13rd, 2021)
+On July 29th 2021, Discord announced that access to [message content will become a privileged intent](https://support-dev.discord.com/hc/articles/4404772028055) for developers maintaining verified bots, starting in April of 2022.
+
+**Today**\
+In the current state, all but one of Suggester's commands rely on reading user messages to check for the prefix and then parse command data from the content. Following this annnouncement, **we are starting a migration to interactions**, which includes:
+- Moving from prefixed to slash commands  
+- Replacing reactions with buttons
+- Improving the user experience using various message components and context menus
+
+**Release**\
+We think these changes will be shipped before those restrictions enter into effect. Unfortunately, we do not have an ETA to share just yet. We will be rebuilding Suggester from the ground up, so it will take some time before the update is ready.
+
+**Staying Updated & Participating**\
+In the meantime, we've created a new selfrole that you can get in the [support server](https://suggester.js.org/support) which we'll regularly ping for polls and other things related to the rewrite. Some changes might have some impact on how you use the bot, so it is important for us to hear your thoughts about what we're doing; and how we're doing it.
+
+
 ### Custom Instances & Donations (August 27th, 2021)
 We're excited to announce our new Custom Instance program and Ko-fi donation page, https://ko-fi.com/suggester! For users who donate at least $5/month, we will host an instance of the bot with your own custom branding!
 
-You can subscribe to one of the three tiers by navigating http://ko-fi.com/suggester/tiers. After subscribing, contact us in our support server and we'll get it setup for you!
+You can subscribe to one of the three tiers by going to http://ko-fi.com/suggester/tiers. After subscribing, contact us in our support server and we'll get it setup for you!
 
 I want to support Suggester, but don't want to make a recurring purchase! On the Ko-fi page, there is a one-time donation option! We don't offer custom instance hosting for one-time donations, but you do get to permanently rep a fancy purple Donator role on the support server!
 
-• More info can be found [here](/topics/Donation-Custom-Instances.md)
+More info can be found [here](/topics/Donation-Custom-Instances.md)
 
 ### Status Page (August 25th, 2021)
 Not a downtime for once! We now have a status page for real time downtimes and maintenances which you can find at https://suggester.js.org/status 
