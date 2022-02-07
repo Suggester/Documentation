@@ -1,7 +1,7 @@
 # Configuration Element: Color Change
 
 ### Description
-If configured, this setting defines if the color of the suggestion embed will automatically change when the number of net upvotes reaches a certain theresold. You can customize both the color and the number of **net** upvotes required for the color to change! 
+If configured, this setting defines if the color of the suggestion embed will automatically change when the number of net upvotes reaches a certain threshold. You can customize both the color and the number of **net** upvotes required for the color to change.
 
 ### Usage
 Set up the new color using `.config colorchange color [color]`\
