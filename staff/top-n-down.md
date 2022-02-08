@@ -16,11 +16,10 @@ Use `.top (time)` or `.down (time)` in any channel the bot can read and send mes
 > Use `m` for minutes, `h` for hours, `d` for days and `w` for weeks
 
 ### Aliases
-top: `best`, `upvoted` and `upvotes`
+top: `best`, `upvoted` and `upvotes`\
 down: `downvoted`, `worst` and `lowest`
 
 ### User Permission
 To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role.
-
 
 ?> By default, these commands can only show up to 10 suggestions (for both `top` and `down`) but servers in our Large Guild Privileges Program can bypass this limit! More information about our LGP program can be found [here](community-programs.md#-large-guild-privileges)
