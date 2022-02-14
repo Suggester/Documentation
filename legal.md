@@ -24,7 +24,7 @@ Bots that help to manage the Suggester Discord server also store some informatio
 **VoteBoat#1330**: Your user ID and the number of votes you have on each site\
 **i18n#1614**: Content provided as translations for strings and your user ID for permission purposes\
 **Suggester Support#5646**: DMs sent to the bot, your user tag, nickname (if any), account creation date and account age (only if/when you contact the bot by sending it a direct message)\
-**Support#8828**: No data is stored.
+**Support#8828**: This one has its own document which you can find [here](https://suggester.js.org/#/support-bot-privacy).
 
 ## Concerns
 If you have any concerns about the data we store or the functions of the bot, please contact a member of the Suggester Staff Team via the [support server](https://suggester.js.org/support). 
@@ -39,4 +39,5 @@ Translations of this privacy policy can be found below:
 - [Français (French)](https://github.com/Suggester/privacy/blob/main/french.md) *Translated by Suspense*
 - [Italiano (Italian)](https://github.com/Suggester/privacy/blob/main/italian.md) *Translated by MoonlightCapital*
 - [Türkçe (Turkish)](https://github.com/Suggester/privacy/blob/main/turkish.md) *Translated by pvc/michael*
+- [Español (Spanish)](https://github.com/Suggester/privacy/blob/main/spanish.md) *Translated by OviiiOne*
 
