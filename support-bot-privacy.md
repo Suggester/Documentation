@@ -6,4 +6,6 @@ While it does not store data coming from the API, it does rely on logging action
 At this time, only the bot owner (`Suspense#4615`) has access to the logged data.
 
 ## Questions
-If you have any questions about the bot, please join the [support server](https://suggester.js.org/support) and open a ticket in the `#support` channel. If you're not comfortable with using the bot, simply reach out to `Suspense#4615` in direct messages, however this approach will still require you to join the aforementioned support server. 
+If you have any questions about the bot, please join the [support server](https://suggester.js.org/support) and open a ticket in the `#support` channel. If you're not comfortable with using the bot, simply reach out to `Suspense#4615` in direct messages, however this approach will still require you to join the aforementioned support server.
+
+**Last updated:** February 14th, 2022
