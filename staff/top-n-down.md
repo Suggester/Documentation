@@ -22,4 +22,4 @@ down: `downvoted`, `worst` and `lowest`
 ### User Permission
 To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role.
 
-?> By default, these commands can only show up to 10 suggestions (for both `top` and `down`) but servers in our Large Guild Privileges Program can bypass this limit! More information about our LGP program can be found [here](community-programs.md#-large-guild-privileges)
+?> By default, these commands can only show up to 10 suggestions (for both `top` and `down`) but servers in our Large Guild Privileges Program can bypass this limit! More information about our LGP program can be found [here](/topics/community-programs.md#-large-guild-privileges)
