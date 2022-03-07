@@ -11,14 +11,11 @@ When you're done filling the captcha, go back to your server. Suggester should'v
 
 ![Suggester Tutorial](/images/tutorial.png)
 
-Suggester uses a modern configuration system which allows admins to customize its behavior in each server. That being said, you now need to setup the bot in your server. 
-There's two different ways to do that, the first one doesn't require anything but the usage of a command: send `.autosetup` in any channel the bot can read & send messages in, then let the magic happen! More information about automatic setup can be found [here](admin/autosetup.md).
-
-If you wish to do it yourself, you can use the [setup](admin/setup.md) command to start an interactive guide! Simply respond to each prompt with a correct argument listed under the "Inputs" field of the setup embed.
+Suggester uses a modern configuration system which allows admins to customize its behavior in each server. That being said, you now need to setup the bot in your server. Use the [`.setup`](admin/setup.md) command to start an interactive guide! Simply respond to each prompt with a correct argument listed under the "Inputs" field of the setup embed.
 
 ![Interactive Setup](/images/setup.png)
 
 And you're done! Members of your server can now start suggesting using the `.suggest` command! If you wish to configure more settings like custom reactions, notifications and more, check out the [config](/config/configuration.md) command!
 
 ### Extras
-If you need any more help configuring the bot, feel free to join our [Support Server](https://suggester.js.org/support) to receive assistance! Also, you can find more in-depth guides [here](/topics/guides/intro).
+If you need any more help configuring the bot, feel free to join our [support server](https://suggester.js.org/support) to receive assistance! Additionally, you can find more in-depth guides [here](/topics/guides/intro).
