@@ -1,13 +1,12 @@
 # Command: import
 ---
 ### Description
-Use this command to import suggestions from both regular users and [supported bots](admin/import.md?id=supported-bots) into Suggester's database, allowing you to manage them using our tech. If you choose to import messages from a channel, Suggester will count any message as a suggestion. Make sure to remove unwanted messages before processing!\
-Messages can only be added to the database **once**, re-using the command will not import the same suggestion twice, even if you delete it. 
+Use this command to import suggestions from both regular users and [supported bots](admin/import.md?id=supported-bots) into Suggester's database, allowing you to manage them using our tech. If you choose to import messages from a channel, Suggester will count any message as a suggestion, so do make sure to remove any unwanted messages before processing. Messages can only be added to the database **once**, using the command again will not import the same suggestion twice.
 
 ### Usage
-Use `.import` in a channel to import the last **30** messages.
+Use `.import` in a channel to import the last **30 messages** into Suggester. You can only import the last 30 messages in the channel you are using the command in. If you need to import more, you will have to delete the last 30 messages after they were imported. As such, we advise creating a new suggestions channel when importing more than thirty suggestions from another bot.
 
-!> If you need to import more than 30 suggestions, please contact our [support team](https://suggester.js.org/support). You can only import the last 30 messages in the channel you're using the command in, which means if you need to import more you'll need to delete the last 30 messages after they were imported by the bot. 
+!> If you need to import more suggestions at once, our [support team](https://suggester.js.org/support) can temporarily raise the limit to **100 messages**. Make sure to provide your [server id](https://dis.gd/findmyid) when contacting us about higher limits. 
 
 ### Permissions
 To execute this command, the user must have the **Manage Server** permission or a configured [admin](/config/adminroles.md) role.
