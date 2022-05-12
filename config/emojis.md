@@ -14,7 +14,7 @@ You can also enable or disable any reaction using `.config emojis up/mid/down en
 `mid` refers to the no opinion emoji, 🤷 by default\
 `down` refers to the downvote emoji, 👎 by default 
 
-Using `default` as the emoji argument will reset the setting to its default value.
+?> Using `default` as the emoji argument will reset the setting to its default value.
 
 ### Accepted Inputs
-Any :emoji: from the current server or the default list
+Any emoji from the current server or the default list
