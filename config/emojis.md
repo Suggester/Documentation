@@ -17,4 +17,4 @@ You can also enable or disable any reaction using `.config emojis up/mid/down en
 ?> Using `default` as the emoji argument will reset the setting to its default value.
 
 ### Accepted Inputs
-Any emoji from the current server or the default list
+Any emoji from the current server or the default list. Out of ideas? Check out our **custom-made emoji pack** containing a few assets to set as voting reactions [here](../images/voting-reactions-pack.zip)! ✨
