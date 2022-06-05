@@ -8,4 +8,4 @@ Our [support server](https://suggester.js.org/support) is a place for you to get
 • Remain patient and don't abuse pings, opening a ticket already notifies us\
 • Only open a ticket if you need help with Suggester
 
-![Attitude Example](./images/support-guidelines.png)
+![Attitude Example](../images/support-guidelines.png)
