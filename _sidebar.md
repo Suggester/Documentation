@@ -27,9 +27,10 @@
 **❯ Suggestion Managing**
 [approve](/staff/approve.md)
 [deny](/staff/deny.md)
+[delete](/staff/delete.md)
+[dupe](/staff/dupe.md)
 [mark](/staff/mark.md)
 [silentdeny](/staff/silentdeny.md)
-[delete](/staff/delete.md)
 [silentdelete](/staff/silentdelete.md)
 [massapprove](/staff/massapprove.md)
 [massdeny](/staff/massdeny.md)
