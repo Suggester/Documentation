@@ -1,7 +1,7 @@
 # Command: silentdeny
 ---
 ### Description
-Use this command to deny a suggestion without posting it to the denied suggestion channel nor notifying the author in DMs.
+Use this command to deny a suggestion without posting it to the denied suggestions channel nor notifying the author in DMs.
 
 ?> This command is only available when the [mode](/config/mode.md) is set to **review**.
 
@@ -9,7 +9,7 @@ Use this command to deny a suggestion without posting it to the denied suggestio
 Use `.silentdeny [suggestion ID] (reason)` in any channel the bot can read and send messages in.
 
 ### Arguments
-`suggestion ID`: The ID of the suggestion you want to silent deny\
+`suggestion ID`: The ID of the suggestion you want to silently deny\
 `reason`: The reason you're silent denying this suggestion (optional)
 
 ### Aliases
