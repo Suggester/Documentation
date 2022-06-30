@@ -1,7 +1,7 @@
 # Command: mark
 ---
 ### Description
-Use this command to edit a suggestion's status
+Use this command to edit a suggestion's status.
 
 ### Usage
 Use `.mark [suggestion ID] (status) (comment)`
@@ -23,9 +23,8 @@ Use `.mark [suggestion ID] (status) (comment)`
 
 `comment`: A comment to add to the suggestion (optional)
 
-### Caveats
-When marking a suggestion as Implemented, reactions will only be removed from the message if you have configured an [implemented suggestions channel](../config/implemented.md). However, if you wish to keep the suggestion in the lain channel but with no more reactions, simply configure the [implemented suggestions channel](../config/implemented.md) as your current suggestions feed channel.
-
+### Caveat
+When marking a suggestion as Implemented, reactions will only be removed from the message if you have configured an [implemented suggestions channel](../config/implemented.md).
 
 ### Alias
 `status`
