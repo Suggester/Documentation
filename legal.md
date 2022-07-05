@@ -1,4 +1,4 @@
-?> We're moving this page to a new place to keep things tidy! You can now access the privacy policy at https://suggester.js.org/legal/privacy. The current link is now deprecated and will be removed later this year.
+?> We're moving this page to a new place to keep things tidy! You can now access the privacy policy at https://suggester.js.org/#/legal/privacy. The current link is now deprecated and will be removed later this year.
 
 # Privacy and Security Information
 In order for the bot to function, we store some information about servers and users. Below you can find a list of what information we store and why it is stored.
