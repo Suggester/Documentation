@@ -1,4 +1,4 @@
-?> We're moving this page to a new place to keep things tidy! You can now access the privacy policy at https://suggester.js.org/#/legal/privacy. The current link is now deprecated and will be removed later this year.
+!> We're moving this page to a new place to keep things tidy! You can now access the privacy policy at https://suggester.js.org/#/legal/privacy. The current link is now deprecated and will stop working later this year.
 
 # Privacy and Security Information
 In order for the bot to function, we store some information about servers and users. Below you can find a list of what information we store and why it is stored.
@@ -29,8 +29,7 @@ Bots that help to manage the Suggester Discord server also store some informatio
 **Support#8828**: This one has its own document which you can find [here](https://suggester.js.org/#/support-bot-privacy).
 
 ## Concerns
-If you have any concerns about the data we store or the functions of the bot, please contact a member of the Suggester Staff Team via the [support server](https://suggester.js.org/support). 
-We'll be more than happy to clear up any concerns you may have.
+If you have any concerns about the data we store or the functions of the bot, please contact a member of the Suggester Staff Team via the [support server](https://suggester.js.org/support). We'll be more than happy to clear up any concerns you may have.
 
 !> If you would like your data to be removed from our systems, please contact one of the developers listed above and we'll help you out from there.
 
@@ -43,3 +42,4 @@ Translations of this privacy policy can be found below:
 - [Türkçe (Turkish)](https://github.com/Suggester/privacy/blob/main/turkish.md) *Translated by pvc/michael*
 - [Español (Spanish)](https://github.com/Suggester/privacy/blob/main/spanish.md) *Translated by OviiiOne*
 
+!> We're moving this page to a new place to keep things tidy! You can now access the privacy policy at https://suggester.js.org/#/legal/privacy. The current link is now deprecated and will stop working later this year.
