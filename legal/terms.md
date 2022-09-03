@@ -33,7 +33,7 @@ When using our Services, you must comply with these terms and all applicable law
 
 # Your Legal Rights
 ### Right to Erasure
-As outlined in the Article 15 and 17 of the [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/) and in our [privacy policy](/legal/privacy), you can exerce your "right to be forgotten" (also known as "right to erasure") and "right of access by the data subject" to request access or erasure of your data from our systems by [contacting us](https://suggester.js.org/support).
+As outlined in the Article 15 and 17 of the [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/) and in our [privacy policy](/legal/privacy.md), you can exerce your "right to be forgotten" (also known as "right to erasure") and "right of access by the data subject" to request access or erasure of your data from our systems by [contacting us](https://suggester.js.org/support).
 
 ### Termination (initiated by you)
 You are allowed to stop using any or all of the Services at any time and for any reason.
