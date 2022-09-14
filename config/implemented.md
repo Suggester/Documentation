@@ -11,3 +11,5 @@ Set up the archive channel using `.config implemented [channel]`, setting `none`
 
 ### Accepted Inputs
 Any channel name, ID or #mention
+
+?> [Forum Channels](https://discord.com/blog/forum-channels-space-for-organized-conversation) are not currently supported and may not be configured as the implemented suggestions channel.

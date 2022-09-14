@@ -8,3 +8,5 @@ Set up the denied channel using `.config denied [channel]`, setting `none` as th
 
 ### Accepted Inputs
 Any channel name, ID or #mention
+
+?> [Forum Channels](https://discord.com/blog/forum-channels-space-for-organized-conversation) are not currently supported and may not be configured as the denied suggestions channel.

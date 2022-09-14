@@ -22,3 +22,5 @@ Any channel name, ID or #mention
 - Blocks & unblocks
 - Attachments added with the [`.attach`](/staff/attach.md) command
 - [Edition and edition requests](editing/suggestion-editing.md) and their [approval](editing/approveedit.md) or [denial](editing/denyeedit.md) 
+
+?> [Forum Channels](https://discord.com/blog/forum-channels-space-for-organized-conversation) are not currently supported and may not be configured as the logging channel.

@@ -60,4 +60,6 @@ Any member with the **Manage Server** permission or a configured [admin role](/c
 | [Voting Roles](/config/voting.md)             |      All roles           | List of roles allowed to vote |
 
 > ¹ Click on the option name for more information about it!\
-² These elements are required for the bot to function properly. If you haven't configured one of those, you'll get a lovely error! 
+² These elements are required for the bot to function properly. If you haven't configured one of those, you'll get a lovely error!
+
+?> [Forum Channels](https://discord.com/blog/forum-channels-space-for-organized-conversation) are not currently supported and may not be set when configuring elements that accept a channel input.
