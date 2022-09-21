@@ -4,6 +4,7 @@
 [Beginner Guide](/beginner-guide.md)
 [Configuration](/config/configuration.md)
 [Public Commands](/sumup.md)
+[Changelog](/changelogs/changelog-2021.md)
 [Known Issues](/topics/known-issues.md)
 
 ---
@@ -13,7 +14,6 @@
 [Editing a suggestion](/topics/suggestion-editing.md)
 [Searching Suggestions](/topics/search.md)
 [Guides](/topics/guides/intro.md)
-[Changelog](/changelogs/changelog-2021.md)
 
 ---
 # **ADMIN**
