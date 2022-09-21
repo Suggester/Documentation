@@ -9,8 +9,8 @@
 This release aims to mitigate issues where suggestions submitted (generally on the autoapprove mode) would appear in the suggestions feed as completely different suggestions. 
 Please contact our [support team](https://suggester.js.org/support) if this issue still occurs! 
 
-### Suggester v4.10.1 (May 13th, 2021)
-Discord has [rebranded](https://dis.gd/ournewlook), changing their old blurple color (#7289DA) to a new brighter blue (#5865F2). Since Suggester's profile picture and default color scheme used the OG Blurple color, we're rebranding our icons and assets as well. You'll notice a brand new Suggester icon, as well as a new default color for suggestion embeds and some emojis used by the bot. And happy birthday Discord!!
+### Suggester v4.10.1 (May 13rd, 2021)
+Discord has [rebranded](https://discord.com/branding), changing their old blurple color (#7289DA) to a new brighter blue (#5865F2). Since Suggester's profile picture and default color scheme used the OG Blurple color, we're rebranding our icons and assets as well. You'll notice a brand new Suggester icon, as well as a new default color for suggestion embeds and some emojis used by the bot. And happy birthday Discord!!
 
 ### Suggester v4.9.10 (April 15th, 2021)
 
