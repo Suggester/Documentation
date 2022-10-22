@@ -12,7 +12,7 @@ You will find below a list of definitions explaining the meaning of specific wor
 
 # Usage Requirements
 ## Age
-Per Discord's own [terms](https://discord.com/terms), using the plateform requires you to be at least 13 years old and above the minimum age of digital consent in your country. As such by using the Services, you confirm to meet both of the aforementioned requirements. If you are old enough to access our Services in your country, but not old enough to have authority to consent, a parent or legal guardian must agree to these terms on your behalf. 
+Per Discord's own [terms](https://discord.com/terms), using the platform requires you to be at least 13 years old and above the minimum age of digital consent in your country. As such by using the Services, you confirm to meet both of the aforementioned requirements. If you are old enough to access our Services in your country, but not old enough to have authority to consent, a parent or legal guardian must agree to these terms on your behalf. 
 
 ## Account & Responsability
 To use the Services, you will need to create or be the owner of a [Discord](https://discord.com) account. As outlined in Discord's own [terms](https://discord.com/terms), you will have to provide a username, a password, and a way to contact you (an email address and/or phone number). For more information about how Discord uses your data, check out their [privacy policy](https://discord.com/privacy). Additionally, you are responsible for the security of your account, and therefore we are not liable for any actions taken on the behalf of your account impacting your or other people's usage of the Services, regardless of whether it is or has been compromised.
@@ -26,14 +26,14 @@ When using our Services, you must comply with these terms and all applicable law
 
 - **Do not use the Services to harm anyone (yourself included)**: This also includes trying to gain access to other people’s account(s) or any restricted or private portions of the Services, infringing anyone else’s intellectual property rights or any other proprietary rights, harassing, bullying.
 
-- **Do not use the Services to, or try to, harm Discord, us, or any other plateform**: This includes trying to gain access to or attacking our systems (ie. spamming), scraping us, transmitting viruses or other malicious code to our Services, abusing or defrauding us or our payment systems, copying our product or using our intellectual property without explicit written approval, and misusing our reporting or support mechanisms.
+- **Do not use the Services to, or try to, harm Discord, us, or any other platform**: This includes trying to gain access to or attacking our systems (ie. spamming), scraping us, transmitting viruses or other malicious code to our Services, abusing or defrauding us or our payment systems, copying our product or using our intellectual property without explicit written approval, and misusing our reporting or support mechanisms.
 
 - **Do not use the Services to break the law anywhere in the world**: This includes using the Services to commit any crime or infringe on someone else's intellectual property rights.
 
 
 # Your Legal Rights
 ### Right to Erasure
-As outlined in the Article 15 and 17 of the [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/) and in our [privacy policy](/legal/privacy.md), you can exerce your "right to be forgotten" (also known as "right to erasure") and "right of access by the data subject" to request access or erasure of your data from our systems by [contacting us](https://suggester.js.org/support).
+As outlined in the Article 15 and 17 of the [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/) and in our [privacy policy](/legal/privacy.md), you can exercise your "right to be forgotten" (also known as "right to erasure"), and "right of access by the data subject" to request access or erasure of your data from our systems by [contacting us](https://suggester.js.org/support).
 
 ### Termination (initiated by you)
 You are allowed to stop using any or all of the Services at any time and for any reason.
