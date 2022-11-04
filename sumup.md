@@ -1,5 +1,5 @@
 # Public Commands Sumup
-Suggester contains a lot of commands everyone can use, but they don't really need a whole article for each and every of them, as they are mostly basic. You'll find in this page the full list of public commands with a quick explanation of what they do. Commands in this list will use the default prefix (`.`), meaning if you configured a different one, you will have to replace it accordingly.
+Suggester has a lot of commands that everyone can use, but they don't really need a whole article for every single one of them, as they are mostly basic. You'll find in this page the full list of public commands with a quick explanation of what they do. Commands in this list will use the default prefix (`.`), which means that if you configured a different one, you will have to replace it accordingly.
 
 ### Commands Anyone Can Use
 
@@ -7,10 +7,10 @@ Suggester contains a lot of commands everyone can use, but they don't really nee
 - `.ping`: Displays the response time and some other information about the bot.
 - `.support`: Sends the link to our [support server](https://suggester.js.org/support) where you can get in touch with our Support Team.
 - `.invite`: Sends the link to [add the bot](https://suggester.js.org/invite) to your server.
-- `.vote`: Displays information about [voting](topics/supporting.md) for Suggester on several bot listing websites.
+- `.vote`: Displays information about [voting](/topics/supporting.md) for Suggester on several bot listing websites.
 - `.verify`: Shows a user permissions as they relate to the bot, also accepts a mention/user ID argument to check someone else's permissions.
 - `.prefix`: Shows the current configured prefix in your server.
-- `.changelog`: Links the latest stable release from [GitHub](https://github.com/Suggester/Suggester/releases/latest)
+- `.changelog`: Links the latest stable release from [GitHub](https://github.com/Suggester/Suggester/releases/latest).
 - `.tutorial`: Shows a quick guide about setting up and using the bot (the response to this command is the same as the embed sent when the bot is added to a server)
 - `.github`: Links Suggester's repository, where you can contribute to its development!
 - `.shard`: Tells which shard the current server is on. [Learn more](https://discord.com/developers/docs/topics/gateway#sharding)
@@ -33,9 +33,9 @@ These are special commands everyone can use, so we added them to another section
 
 - `.locale`: This command sets your **user** locale, all responses and messages you receive from the bot will use that language (defaulting to English). Using it with no arguments will show a list of all available locales.
 
-?> Translations are community made, meaning all locales might not be fully translated when you see them in the bot. If you've configured a language and it responds in English, it means this specific string was not yet translated. More info about community translations can be found [here](community-programs?id=🌐-translating-suggester). 
+?> Translations are community made, meaning all locales might not be fully supported when you see them in the bot. If you've configured a language and it responds in English, that means this specific string was not yet translated.
 
-- `.shortinfo`: This command has its own article which you can see [here](topics/shortinfo.md)
+- `.shortinfo`: This command has its own article which you can read [here](topics/shortinfo.md).
 
 ### Commands Available in DMs
 The following commands are available in direct messages with Suggester:
