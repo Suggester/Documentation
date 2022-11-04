@@ -58,9 +58,8 @@
 [top & down](/staff/top-n-down.md)
 
 ---
-# **OTHERS**
+# **OTHER LINKS**
 [Donations](/supporting/info.md)
-[Community Programs](/topics/community-programs.md)
 [Support Server](https://suggester.js.org/support)
 [Privacy Policy](/legal/privacy.md)
 [Terms of Use](/legal/terms.md)
