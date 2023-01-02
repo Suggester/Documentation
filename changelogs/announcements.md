@@ -26,11 +26,6 @@ I want to support Suggester, but don't want to make a recurring purchase! On the
 
 More info can be found [here](/supporting/info.md)
 
-### Status Page (August 25th, 2021)
-Not a downtime for once! We now have a status page for real time downtimes and maintenances which you can find at https://suggester.js.org/status 
-It comes with a built-in subscription system where you can get updates from us sent directly to your email, simply by clicking the blue button at the top. We'll continue to announce outages in the support server for the time being.
-
-A few past incidents were backfilled so it doesn't look too empty when we announce it but don't fret, Suggester is working :D
 
 ### An Update on the Latest Extended Downtime (August 23rd, 2021)
 On August 14th, some unauthorized users obtained access to Suggester's database, allowing them to see and remove any data we stored. This caused issues when trying to access it, such as when interacting with old suggestions or setting up a server.
