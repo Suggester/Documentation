@@ -1,12 +1,12 @@
-# Support Privacy Policy
-**Effective Date:** Feburary 14th, 2022
+# Support: Privacy Policy
 
-Support (also referred to as "the support bot", "it" or `Support#8828`) is a Discord bot that makes use of [threads](https://support.discord.com/hc/en-us/articles/4403205878423) to provide a smooth support experience to users. It is used in Suggester's official [support server](https://suggester.js.org/support) and has been since August 2021 to provide a high-quality system to handle user concerns, questions and feedback.
+## Intro
+Support (also referred to as "the support bot", "it" or `Support#8828`) is a Discord bot that makes use of [threads](https://support.discord.com/hc/en-us/articles/4403205878423) to provide a smooth support experience to users. It is used in Suggester's official [support server](https://suggester.js.org/support) since August 2021 and delivers a high-quality system to handle user concerns, questions or feedback.
 
-## Data Handling & Logging
-While it does not store data coming from the API, it does rely on logging actions for analytical and debugging purposes. The term "actions" mostly represents interactions with the bot that result in responses. Logged content contains basic information about your profile (username and discriminator) and a brief description of what you did (for example, opened a support ticket). Due to the nature of this logging system, fully integrated with Discord, we are not able to delete them. Only Official Suggester Staff members have access to the logged data.
+## Data Processing
+Support does not store user data, but our system uses logging to analyze and debug interactions with the bot. These "actions" include any user input that prompts a response, like using a command for example. The logged information includes your profile's basic details (username, discriminator and id) and a brief description of the action you took (e.g. opening a support ticket). Unfortunately, because our logging system is fully integrated with Discord, we cannot delete these records. Only Suggester Staff members have access to the logs.
 
-![Logging Example](https://cdn.discordapp.com/attachments/802590021575639111/947440412115755018/logging-example.png)
+![Logging Example](/images/logging-example.png) 
 
 ## Questions
 If you have any questions about the bot, please join the [support server](https://suggester.js.org/support) and open a ticket in the `#support` channel.
