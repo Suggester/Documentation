@@ -1,7 +1,5 @@
 # Suggester
 
-![Banner](../images/suggesterbanner.png)
-
 Suggester is a Discord bot helping server staff members & admins to manage feedback in their server, with the usage of a modern suggestion system and granular configuration elements. We're trusted by thousands of servers including some that are verified or partnered with Discord.
 
 #### Quick Links
