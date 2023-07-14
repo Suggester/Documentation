@@ -4,11 +4,11 @@
 [Beginner Guide](/beginner-guide.md)
 [Configuration](/config/configuration.md)
 [Public Commands](/sumup.md)
-[Changelog](/changelogs/changelog-2021.md)
 [Known Issues](/topics/known-issues.md)
 
 ---
 # **TOPICS**
+[✨ Add-On: Threaded](/topics/threaded.md)
 [Trello Integration](/topics/trello/intro.md)
 [Anonymous Suggestions](/topics/anonymous-suggestions.md)
 [Editing a suggestion](/topics/suggestion-editing.md)
