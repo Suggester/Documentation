@@ -11,3 +11,6 @@ If you're experiencing issues with the bot, you can use the `/info` command and 
 
 
 ?> * The button might be named differently as the bot is available in several languages.
+
+## Add the bot
+You can add the bot to your server [here](https://discord.com/api/oauth2/authorize?client_id=1127542127191150643&permissions=309237924864&scope=bot%20applications.commands)
