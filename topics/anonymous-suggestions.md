@@ -4,7 +4,7 @@ Server members can now remain anonymous to other server members when suggesting 
 Yes, you did see a slash. Discord introduced the ability for developers to implement their bot's commands into the client so users can get walked through directly from the chat box, how amazing? You can learn more about Slash Commands in general [here](https://support.discord.com/hc/en-us/articles/1500000368501).
 
 ### Introduction
-Typing `/` in the chat bar will show a list of available commands for bots that support slash commands. Currently, Suggester only supports `/assugest` as a slash commands, but wider support will be available in the future.
+Typing `/` in the chat bar will show a list of available commands for bots that support slash commands. Currently, Suggester only supports `/asuggest` as a slash commands, but wider support will be available in the future.
 
 ![Slash Commands Menu](../images/slash.png)
 
