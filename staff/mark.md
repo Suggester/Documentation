@@ -1,16 +1,16 @@
 # Command: mark
 ---
 ### Description
-Use this command to edit a suggestion's status.
+Use this command to edit the displayed status of a suggestion.
 
 ### Usage
-Use `.mark [suggestion ID] (status) (comment)`
+Use `.mark [suggestion ID] [status] (comment)`
 
 ### Arguments
 
-`suggestion ID`: The ID of the suggestion you want to modify the status of
+`suggestion ID`: The ID of the suggestion you want to modify the status 
 
-`status`: The new status you want to set, use the table below to find all available statuses (If no status is provided, an interactive menu will be shown to pick one)
+`status`: The new status you want to set, use the table below to find all available statuses:
 
 | Argument              |                Meaning                |                 Context Examples                                                                         |
 |-----------------------|:-------------------------------------:|-------------------------------------------------------------------|
