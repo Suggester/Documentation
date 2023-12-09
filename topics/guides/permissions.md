@@ -1,6 +1,6 @@
-# Requested Permissions Explainer
+# Why Suggester asks for these permissions
 
-When you click on the link to invite Suggester, you'll be prompted to confirm that you want to give certain permissions to the bot. If you're skeptical about giving permissions (which is okay!), you might not want to give them, especially elevated ones, without knowing why the bot actually needs it. We'll explain below why does Suggester ask for each permission and if it is required or not.
+When you click on the link to invite Suggester, you'll be prompted to confirm that you want to give certain permissions to the bot. If you're skeptical about giving permissions (which is okay!), you might not want to give them without knowing why the bot actually needs them. We'll explain below why Suggester asks for each permission and whether it's required or not.
 
 ### Optional Permissions
 
@@ -17,5 +17,5 @@ When you click on the link to invite Suggester, you'll be prompted to confirm th
 **Add Reactions**: Approved suggestions can be voted on by using specific reactions added by the bot when the suggestion is approved.\
 **Use External Emojis**: Suggester uses custom made emojis for certain commands (like `.mark` or `.config list`) and thus needs this permission for them to display. :coolbeans:
 
-### Optional Scope
-Additionally, Suggester will ask for permission to create [slash commands](https://discord.com/developers/docs/interactions/slash-commands) in your server. This is only required for [anonymous suggestions](topics/anonymous-suggestions) to work but might be used in future features. If you want to remove this scope, simply remove `applications.commands` from the URL.
+### Create Commands
+Additionally, Suggester will ask for permission to create [application commands](https://dis.gd/slashcommands) in your server. This is required for [anonymous suggestions](topics/anonymous-suggestions) to work but will be used in the future as the default way to use the bot.
