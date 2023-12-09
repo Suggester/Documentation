@@ -4,7 +4,7 @@ This setting allows customization of the vote reactions added to approved sugges
 
 ### Usage
 Set up vote reactions using `.config emojis up/mid/down emoji/default`\
-You can also enable or disable any reaction using `.config emojis up/mid/down enable/disable`
+You can also enable or disable specific reactions using `.config emojis up/mid/down enable/disable`
 
 ### Aliases
 `emojis`, `emotes`, `emoji`, `emote`, `react` and `reactions`
@@ -17,4 +17,4 @@ You can also enable or disable any reaction using `.config emojis up/mid/down en
 ?> Using `default` as the emoji argument will reset the setting to its default value.
 
 ### Accepted Inputs
-Any emoji from the current server or the default list. Out of ideas? Check out our **custom-made emoji pack** containing a few assets to set as voting reactions [here](https://github.com/Suggester/Documentation/raw/master/images/voting-reactions-pack.zip)! ✨
+Any emoji from the **current server** or the default list.
