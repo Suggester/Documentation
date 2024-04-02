@@ -26,14 +26,15 @@ Bots that help to manage the Suggester Support server also store some informatio
 If you have any concerns about the data we store or the functions of the bot, please contact a member of the Suggester Staff Team via the [support server](https://suggester.js.org/support). 
 We'll be more than happy to clear up any concerns you may have.
 
-!> If you would like your data to be removed from our systems, please contact us in our support server and we'll help you out from there.
+!> If you would like your data to be removed from our systems, please contact us in our support server and we'll help you from there.
 
 ---
 ### Translations
 Translations of this privacy policy can be found below:
 - [Ελληνικά (Greek)](https://github.com/Suggester/privacy/blob/main/greek.md) *Translated by Teo - @teo.diamanto*
-- [Français (French)](https://github.com/Suggester/privacy/blob/main/french.md) *Translated by Suspense - @almostsuspense*
+- [Français (French)](https://github.com/Suggester/privacy/blob/main/french.md) *Translated by Suspense - @almost.suspense*
 - [Italiano (Italian)](https://github.com/Suggester/privacy/blob/main/italian.md) *Translated by MoonlightCapital - @moonlightcapital*
 - [Türkçe (Turkish)](https://github.com/Suggester/privacy/blob/main/turkish.md) *Translated by stern - @stern38*
 - [Español (Spanish)](https://github.com/Suggester/privacy/blob/main/spanish.md) *Translated by Ovi 🖤 - @oviiione*
+- [Deutsch (German)](https://github.com/Suggester/privacy/blob/main/german.md) *Translated by 550d*
 
