@@ -7,11 +7,11 @@ Regular users can only edit their own approved suggestion(s). If the mode is set
 ### Staff & Admins
 Users with staff or admin permissions can edit **any** suggestion, with no approval required. If the suggestion has been edited by a server staff member, it will be displayed alongside their username on the suggestion embed.
 
-![edited by a server staff member](https://cdn.discordapp.com/attachments/769650556502409226/782613453437140992/unknown.png)
+![A suggestion edited by a server staff member](https://cdn.discordapp.com/attachments/769650556502409226/782613453437140992/unknown.png)
 
 If the mode is set to [review](/config/mode.md), all editing requests from users with no elevated permissions will require approval to update the suggestion. To handle these editing requests, members with staff or admin permissions can use the [`approveedit`](/staff/approveedit.md) and [`denyedit`](/staff/denyedit.md) commands or simply click on the corresponding reactions on the message sent in the [review](config.review.md) channel.
 
-![pending edit request](https://cdn.discordapp.com/attachments/769650556502409226/782617101940162560/unknown.png)
+![A pending editing request awaiting review](https://cdn.discordapp.com/attachments/769650556502409226/782617101940162560/unknown.png)
 
 ### Usage
 Use `.edit [suggestion ID] [new content]` in any channel the bot can read and send messages in.

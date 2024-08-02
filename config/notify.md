@@ -12,6 +12,4 @@ Set up server notifications using `.config notify on/off/toggle`
 ### Accepted Inputs
 Either `on`, `off` or `toggle`
 
-?> DM Notifications will not be sent if the user blocked the bot or chose not to accept DMs from server members.
-
-![Closed DMs](https://cdn.discordapp.com/attachments/769650556502409226/769975133959094272/unknown.png)
+?> Notifications will not be sent if the user blocked the bot or chose not to accept DMs from server members.

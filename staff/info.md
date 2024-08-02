@@ -6,7 +6,7 @@ Use this command to get more information on a specific suggestion
 ### Usage
 Use `.info [suggestion ID]` in any channel the bot can read and send messages in.
 
-![Suggestion details](../images/info.png)
+![A preview of the details shown about the provided suggestion](../images/info.png)
 
 ### Arguments
 `suggestion ID`: The ID of the suggestion you want know more about

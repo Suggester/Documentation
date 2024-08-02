@@ -27,7 +27,7 @@ See the table below for more information on how to format durations
 | weeks    | w        |
 
 ### Examples
-![Blocking](../images/blocking.png)
+![An example usage of the blocking command](../images/blocking.png)
 
 ### Alias
 `disallow`

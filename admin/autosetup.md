@@ -25,6 +25,6 @@ To execute this command, the user must have the **Manage Server** permission or 
 ### Bot Permission
 To execute this command, Suggester will need the **Manage Channels** permission:
 
-![Manage Channels Permission](../images/manage-channels.png)
+![How the 'manage channels' permission toggle looks like](../images/manage-channels.png)
 
 ?> If you have configured a server-wide [language](/config/locale.md), the names of the created channels will be set accordingly. If they still appear in English, it means the corresponding strings have not yet been translated.

@@ -9,7 +9,7 @@ Connect a board using `.config trello board [board link]` in any channel the bot
 ### Argument
 `board link`: A link to the Trello board you're trying to connect, using `none` as the link will reset the configured board
 
-![Example](/images/board.png)
+![An example of how to configure the Trello board link](/images/board.png)
 
 ### Accepted Inputs
 A valid Trello board link 

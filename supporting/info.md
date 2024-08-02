@@ -7,7 +7,7 @@ If you are looking for a way to support and help keep the costs down for Suggest
 ### Custom Instances
 If you are looking for an extra layer of customization, we got you covered! For a monthly price depending on the number of servers you want your instance to be in, we'll host a special instance of Suggester tailored to your liking. We currently provide **3** main customization options: username, avatar and bio. 
 
-![Custom Instance Example](../images/custom-instance-example.png)
+![An example of how a customized version of Suggester looks like](../images/custom-instance-example.png)
 
 ### Pricing
 | Tiers                                                                              | Rewards                                           | Price         |

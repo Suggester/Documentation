@@ -9,4 +9,4 @@ Our [support server](https://suggester.js.org/support) is a place for you to get
 • Avoid using the reply feature on the latest message in chat\
 • Only open a ticket if you need help with Suggester
 
-![Attitude Example](../images/support-guidelines.png)
+![An example of a good attitude to have when interacting with a support team](../images/support-guidelines.png)
