@@ -10,6 +10,6 @@ Set up a staff role using `.config staff add/remove/list [role]`
 `staffroles`, `staffrole` and `reviewrole`
 
 ### Accepted Inputs
-Any role name, ID or @mention
+Any role name, id or @mention
 
 !> Adding the **@everyone** role as a staff role will give **all members of your server** enhanced permissions on the bot!

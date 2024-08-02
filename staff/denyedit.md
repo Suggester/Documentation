@@ -4,10 +4,10 @@
 Use this command to deny a pending suggestion edit
 
 ### Usage
-Run `.denyedit [suggestion ID]` in any channel the bot can read and send messages in.
+Run `.denyedit [suggestion id]` in any channel the bot can read and send messages in.
 
 ### Arguments
-`suggestion ID`: The ID of the suggestion that was requested to be edited
+`suggestion id`: The id of the suggestion that was requested to be edited
 
 !> If there is multiple pending edits on the same suggestion, using this command will deny the most recent one.
 

@@ -7,7 +7,7 @@ Use this command approve multiple suggestions at once
 Use `.massapprove [suggestion IDs] (-r <comment>)` in any channel the bot can read and send messages in.
 
 ###  Arguments
-`suggestion IDs`: The ID of each suggestion you want to approve\
+`suggestion IDs`: The id of each suggestion you want to approve\
 `comment`: A comment you want to include on each approved suggestions
 
 ?> You have to separate the suggestion IDs and the comment with `-r` (eg. `.massapprove 10 11 12 -r Good ideas!`)

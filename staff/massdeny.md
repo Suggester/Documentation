@@ -7,7 +7,7 @@ Use this command to deny multiple suggestions at once
 Use `.massdeny [suggestion IDs] (-r <reason>)` in any channel the bot can read and send messages in.
 
 ###  Arguments
-`suggestion IDs`: The ID of each suggestion you want to deny\
+`suggestion IDs`: The id of each suggestion you want to deny\
 `reason`: The reason you want to add on each denied suggestion (optional)
 
 ?> You have to separate the suggestion IDs and the reason with `-r` 

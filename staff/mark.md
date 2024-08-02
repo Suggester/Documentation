@@ -4,11 +4,11 @@
 Use this command to edit the displayed status of a suggestion.
 
 ### Usage
-Use `.mark [suggestion ID] [status] (comment)`
+Use `.mark [suggestion id] [status] (comment)`
 
 ### Arguments
 
-`suggestion ID`: The ID of the suggestion you want to modify the status 
+`suggestion id`: The id of the suggestion you want to modify the status 
 
 `status`: The new status you want to set, use the table below to find all available statuses:
 

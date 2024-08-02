@@ -4,11 +4,11 @@
 Use this command to deny (or delete, if it's already approved) a suggestion as a duplicate of another, linking the orignal one in the denial reason.
 
 ### Usage
-Use `.dupe [duplicate suggestion ID] [original suggestion ID]` in any channel the bot can read and send messages in.
+Use `.dupe [duplicate suggestion id] [original suggestion id]` in any channel the bot can read and send messages in.
 
 ### Arguments
-`duplicate suggestion ID`: The ID of the suggestion you want to deny or delete as a duplicate\
-`original suggestion ID`: The ID of the original suggestion 
+`duplicate suggestion id`: The id of the suggestion you want to deny or delete as a duplicate\
+`original suggestion id`: The id of the original suggestion 
 
 
 ### Alias

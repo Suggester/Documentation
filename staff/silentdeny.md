@@ -6,10 +6,10 @@ Use this command to deny a suggestion without posting it to the denied suggestio
 ?> This command is only available when the [mode](/config/mode.md) is set to **review**.
 
 ### Usage
-Use `.silentdeny [suggestion ID] (reason)` in any channel the bot can read and send messages in.
+Use `.silentdeny [suggestion id] (reason)` in any channel the bot can read and send messages in.
 
 ### Arguments
-`suggestion ID`: The ID of the suggestion you want to silently deny\
+`suggestion id`: The id of the suggestion you want to silently deny\
 `reason`: The reason you're silent denying this suggestion (optional)
 
 ### Aliases

@@ -4,10 +4,10 @@
 Use this command to add comments to a suggestion, they'll be publicly displayed on the suggestion embed
 
 ### Usage
-Use `.comment [suggestion ID] [comment]` in any channel the bot can read and send messages in.
+Use `.comment [suggestion id] [comment]` in any channel the bot can read and send messages in.
 
 ### Arguments
-`suggestion ID`: The ID of the suggestion you want to comment on\
+`suggestion id`: The id of the suggestion you want to comment on\
 `comment`: The comment to add
 
 ### Supported Formatting

@@ -4,12 +4,12 @@
 Use this command to remove a comment from a suggestion
 
 ### Arguments
-`comment ID`: The ID of the comment you want to remove
+`comment id`: The id of the comment you want to remove
 
-?> Check the field name above the comment to find "ID" followed by a number, this is the comment ID.
+?> Check the field name above the comment to find "id" followed by a number, this is the comment id.
 
 ### Usage
-Use `.deletecomment [comment ID]` in any channel the bot can read and send messages in.
+Use `.deletecomment [comment id]` in any channel the bot can read and send messages in.
 
 ### Aliases
 `delcomment`, `dcomment` and `rmcomment`

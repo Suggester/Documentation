@@ -4,10 +4,10 @@
 Use this command to remove an attachment from a suggestion
 
 ### Usage
-Use `.removeattachment [suggestion ID]` in any channel the bot can read and send messages in.
+Use `.removeattachment [suggestion id]` in any channel the bot can read and send messages in.
 
 ### Arguments
-`suggestion ID`: The ID of the suggestion you want to remove the attachment from
+`suggestion id`: The id of the suggestion you want to remove the attachment from
 
 ### Aliases
 `rmattachment`, `rmattach`, `delattachment` and `deleteattachment`

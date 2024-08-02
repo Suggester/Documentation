@@ -8,7 +8,7 @@ Suggester has a lot of commands that everyone can use, but they don't really nee
 - `.support`: Sends the link to our [support server](https://suggester.js.org/support) where you can get in touch with our Support Team.
 - `.invite`: Sends the link to [add the bot](https://suggester.js.org/invite) to your server.
 - `.vote`: Displays information about [voting](/topics/supporting.md) for Suggester on several bot listing websites.
-- `.verify`: Shows a user permissions as they relate to the bot, also accepts a mention/user ID argument to check someone else's permissions.
+- `.verify`: Shows a user permissions as they relate to the bot, also accepts a mention/user id argument to check someone else's permissions.
 - `.prefix`: Shows the current configured prefix in your server.
 - `.changelog`: Links the latest stable release from [GitHub](https://github.com/Suggester/Suggester/releases/latest).
 - `.tutorial`: Shows a quick guide about setting up and using the bot (the response to this command is the same as the embed sent when the bot is added to a server)

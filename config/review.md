@@ -7,6 +7,6 @@ This element allows you to choose the channel where suggestions will be sent aft
 Set up a review channel using `.config review [channel]`
 
 ### Accepted Inputs
-Any channel name, ID or #mention
+Any channel name, id or #mention
 
 ?> [Forum Channels](https://discord.com/blog/forum-channels-space-for-organized-conversation) are not currently supported and may not be configured as the review channel.

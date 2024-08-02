@@ -4,10 +4,10 @@
 Use this command to add an anonymous comment to a suggestion, shown as "Staff Comment" on the suggestion embed.
 
 ### Usage
-Run `.acomment [suggestion ID] (comment)` in any channel the bot can read and send messages in.
+Run `.acomment [suggestion id] (comment)` in any channel the bot can read and send messages in.
 
 ### Arguments
-`suggestion ID`: The ID of the suggestion you want to anonymously comment on\
+`suggestion id`: The id of the suggestion you want to anonymously comment on\
 `comment`: The comment to add
 
 ### Supported Formatting

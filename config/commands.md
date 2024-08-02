@@ -10,6 +10,6 @@ Set up commands channels using `.config commands add/remove/list [channel]`, set
 `commandchannels`, `command`, `commandchannel` and `commands`
 
 ### Accepted Inputs
-Any channel name, ID or #mention
+Any channel name, id or #mention
 
 ?> [Forum Channels](https://discord.com/blog/forum-channels-space-for-organized-conversation) are not currently supported and may not be configured as a command channel (commands posted in threads or inside forum threads will be ignored).

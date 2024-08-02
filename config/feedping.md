@@ -10,6 +10,6 @@ Set up the feed ping `.config feedping [role]`, setting  `none` as the role will
 `feedping`, `approvepingrole` and `feedpingrole`
 
 ### Accepted Inputs
-Any role name, ID or @mention
+Any role name, id or @mention
 
 ?> Suggester will need the **Mention @everyone, @here, and All Roles** permission in order to ping the configured role if is not mentionable by default.

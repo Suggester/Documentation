@@ -4,10 +4,10 @@
 Use this command to approve a pending suggestion edit
 
 ### Usage
-Run `.approveedit [suggestion ID]` in any channel the bot can read and send messages in.
+Run `.approveedit [suggestion id]` in any channel the bot can read and send messages in.
 
 ### Arguments
-`suggestion ID`: The ID of the suggestion that needs to be edited
+`suggestion id`: The id of the suggestion that needs to be edited
 
 !> If there is multiple pending edits on the same suggestion, using this command will approve the most recent one.
 

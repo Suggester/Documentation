@@ -10,7 +10,7 @@ Set up the suggestion feed using `.config suggestions [channel]`
 `suggestionchannel` and `suggestionschannel`
 
 ### Accepted Inputs
-Any channel name, ID or #mention
+Any channel name, id or #mention
 
 
 ?> [Forum Channels](https://discord.com/blog/forum-channels-space-for-organized-conversation) are not currently supported and may not be configured as the suggestions feed channel.

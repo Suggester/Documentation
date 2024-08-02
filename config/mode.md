@@ -13,6 +13,6 @@ This setting defines how suggestions will be handled in your server, there are *
 Set up the mode using `.config mode review/autoapprove`
 
 ### Accepted Inputs
-Any channel name, ID or #mention
+Any channel name, id or #mention
 
 ?> If you wish to change the mode from `review` to `autoapprove`, you'll have to handle all pending suggestions by either approving or denying them. You can use the [`.listqueue`](/staff/listqueue.md) command to get a list of pending suggestions.

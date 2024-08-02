@@ -10,6 +10,6 @@ Set up the archive channel using `.config implemented [channel]`, setting `none`
 `archivechannel`, `archive`, `implementedchannel`, `done` and `donechannel`
 
 ### Accepted Inputs
-Any channel name, ID or #mention
+Any channel name, id or #mention
 
 ?> [Forum Channels](https://discord.com/blog/forum-channels-space-for-organized-conversation) are not currently supported and may not be configured as the implemented suggestions channel.

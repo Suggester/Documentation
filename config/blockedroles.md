@@ -10,6 +10,6 @@ Set up blocked roles using `.config blocked add/remove/list [role]`
 `blockedroles` and `blockrole`
 
 ### Accepted Inputs
-Any role name, ID or @mention
+Any role name, id or @mention
 
 ?> Members with staff or admin permissions will still be able to use the bot even if they have one or more blocked roles.

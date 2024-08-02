@@ -4,10 +4,10 @@
 Use this command to attach an image to a suggestion either pending review or already approved 
 
 ### Usage
-Use `.attach [suggestion ID] [attachment]` in any channel the bot can read and send messages in.
+Use `.attach [suggestion id] [attachment]` in any channel the bot can read and send messages in.
 
 ### Arguments
-`suggestion ID`: The ID of the suggestion you want to attach an image to\
+`suggestion id`: The id of the suggestion you want to attach an image to\
 `attachment`: The image to attach, we currently support `.png`, `.jpg`, `.jpeg` and `.gif` files. To provide an attachment, you can either use a link (like imgur.com) or directly attach the file to your message ([How?](https://support.discord.com/hc/en-us/articles/211866427))
 
 ### User Permission

@@ -4,13 +4,13 @@
 Use this command to edit a comment 
 
 ### Usage
-Run `.editcomment [comment ID] [new content]` in any channel the bot can read and send messages in.
+Run `.editcomment [comment id] [new content]` in any channel the bot can read and send messages in.
 
 ### Arguments
-`comment ID`: The ID of the comment you’d like to edit
+`comment id`: The id of the comment you’d like to edit
 `new content`: The edited version of the comment
 
-?> The **comment ID** is shown on the suggestion embed.
+?> The **comment id** is shown on the suggestion embed.
 
 !> **Note:** You can only edit your own and anonymous comments (added using the [`.acomment`](/staff/acomment.md) command)
 

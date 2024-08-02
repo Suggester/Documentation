@@ -12,7 +12,7 @@ Set up the logs channel using `.config logs [channel]`, setting `none` as the ch
 `logs`, `logchannel` and `logschannel`
 
 ### Accepted Inputs
-Any channel name, ID or #mention
+Any channel name, id or #mention
 
 ### Logged Actions
 - Suggestion approvals, denials, deletions and submissions

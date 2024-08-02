@@ -7,7 +7,7 @@ Use this command to delete multiple suggestions at once
 Use `.massdelete [suggestion IDs] (-r <reason>)` in any channel the bot can read and send messages in.
 
 ### Arguments
-`suggestion IDs`: The ID of each suggestion you want to delete\
+`suggestion IDs`: The id of each suggestion you want to delete\
 `reason`: The reason you want to add on each deleted suggestion (optional) 
 
 ?> You have to separate the suggestion IDs and the reason with `-r` (eg. `.massdelete 10 11 12 -r Negative feedback`)

@@ -4,10 +4,10 @@
 Use this command to show information about a suggestion in a concise manner
 
 ### Usage
-Run `.shortinfo [suggestion ID] (optional extra parameters)` in any channel the bot can read and send messages in.
+Run `.shortinfo [suggestion id] (optional extra parameters)` in any channel the bot can read and send messages in.
 
 ### Arguments
-`suggestion ID`: The ID of the suggestion you want get info on\
+`suggestion id`: The id of the suggestion you want get info on\
 
 ### Optional Extra Parameters
 Using `-trimsuggest` or `-tm` will limit the shown suggestion's content to its first 250 characters\

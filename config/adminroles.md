@@ -10,7 +10,7 @@ Set up an admin role using `.config admin add/remove/list [role]`
 `adminrole` and `adminroles`
 
 ### Accepted Inputs
-Any role name, ID or @mention
+Any role name, id or @mention
 
 
 

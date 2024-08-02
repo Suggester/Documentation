@@ -11,6 +11,6 @@ Set up allowed roles using `.config allowed add/remove/list [role]`
 `allowedrole`, `suggestrole`
 
 ### Accepted Inputs
-Any role name, ID or @mention
+Any role name, id or @mention
 
 ?> Users will only need **one** of those roles to be able to submit suggestions.

@@ -1,7 +1,7 @@
 # Changelog 2020
 ---
 ### Suggester v4.6.1 (December 14th, 2020)
-- Added a comment editing feature for server staff! You can now use `editcomment [comment ID] [new content]` to modify comments either posted by you or posted anonymously
+- Added a comment editing feature for server staff! You can now use `editcomment [comment id] [new content]` to modify comments either posted by you or posted anonymously
 - Fixed a bug where suggestions couldn't be deleted if their review channel had been deleted
 - Added the "Read Message History" permission to some commands where the bot adds reactions
 - Re-implemented and improved a legume-themed easter egg from a long time ago.. (we did it! 🎉)
@@ -90,7 +90,7 @@ Additionally, with school and things ramping up around this time we might not ha
 ---
 ### Suggester v4.1.2 (July 20th, 2020) 
 - In-channel suggestions are now **disabled** by default, and can be configured using config `sendinchannel <on|off|toggle>`. The release of this feature didn't go as planned, sorry for the confusion it caused.
-- A new status has been added: "In Consideration"! Use `mark <suggestion ID> considered` to try it out
+- A new status has been added: "In Consideration"! Use `mark <suggestion id> considered` to try it out
 - `silentdeny` should now remove reactions from the review embed
 
 ---

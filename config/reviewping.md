@@ -10,6 +10,6 @@ Set up a pinged role using `.config reviewping [role]`, setting `none` as the ro
 `submitping`, `reviewpingrole` and `submitpingrole`
 
 ### Accepted Inputs
-Any role name, ID or @mention
+Any role name, id or @mention
 
 ?> Suggester will need the **Mention @everyone, @here, and All Roles** permission in order to ping the configured role if it is not mentionable by default.

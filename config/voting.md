@@ -11,6 +11,6 @@ Set up voting roles using `.config voting add/remove/list [role]`
 `voterole`, `voteroles`, `votingroles` and `votingroles` 
 
 ### Accepted Inputs
-Any role name, ID or @mention
+Any role name, id or @mention
 
 ?> If someone with none of the voting roles tries to vote on a suggestion, Suggester will instantly remove their reaction.

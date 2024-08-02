@@ -10,7 +10,7 @@ Set up disabled channels using `.config disabledchannels add/remove/list [channe
 `disablechannel`, `disablechannels`, `disabledchannel`, `disablechnl`, `disabledchnl` and `dchnl`
 
 ### Accepted Inputs
-Any channel name, ID or #mention
+Any channel name, id or #mention
 
 !> Disabling the suggestion feed channel will also disable the ability to submit suggestions via any message sent in there, if enabled with [this element](/config/inchannelsuggestions.md).
 

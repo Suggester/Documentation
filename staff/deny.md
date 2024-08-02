@@ -6,10 +6,10 @@ Use this command to deny a suggestion, sending it to the configured [denied sugg
 ?> This command is only available when the mode is set to **review**
 
 ### Usage
-Use `.deny [suggestion ID] (reason)` in any channel the bot can read and send messages in.
+Use `.deny [suggestion id] (reason)` in any channel the bot can read and send messages in.
 
 ### Arguments
-`suggestion ID`: The ID of the suggestion you want to deny\
+`suggestion id`: The id of the suggestion you want to deny\
 `reason`: The reason for the denial (optional)
 
 ### Aliases
