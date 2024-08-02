@@ -19,8 +19,8 @@ Bots that help to manage the Suggester Support server also store some informatio
 **VoteBoat#1330**: Your user id and the number of votes you have on each site\
 **i18n#1614**: Content provided as translations for strings and your user id for permission purposes\
 **Suggester Support#5646**: DMs sent to the bot, your username, nickname (if any), account creation date and account age (only if/when you contact the bot by sending it a direct message)\
-**Support#8828**: This one has its own document which you can find [here](https://suggester.js.org/#/support-bot-privacy).
-**Threaded#5120**: This bot does not store any data, but logs thread creation including server name, server id and corresponding suggestion id. It is owned and managed by Suspense, @almostsuspense.
+**Support#8828**: This one has its own document which you can find [here](https://suggester.js.org/#/support-bot-privacy).\
+**Threaded#5120**: This bot does not store any data, but logs thread creation including server name, server id and corresponding suggestion id. It is owned and managed by Suspense, @almost.suspense.
 
 ## Concerns
 If you have any concerns about the data we store or the functions of the bot, please contact a member of the Suggester Staff Team via the [support server](https://suggester.js.org/support). 
@@ -36,5 +36,4 @@ Translations of this privacy policy can be found below:
 - [Italiano (Italian)](https://github.com/Suggester/privacy/blob/main/italian.md) *Translated by MoonlightCapital - @moonlightcapital*
 - [Türkçe (Turkish)](https://github.com/Suggester/privacy/blob/main/turkish.md) *Translated by stern - @stern38*
 - [Español (Spanish)](https://github.com/Suggester/privacy/blob/main/spanish.md) *Translated by Ovi 🖤 - @oviiione*
-- [Deutsch (German)](https://github.com/Suggester/privacy/blob/main/german.md) *Translated by 550d*
-
+- [Deutsch (German)](https://github.com/Suggester/privacy/blob/main/german.md) *Translated by 550d - @550d*
