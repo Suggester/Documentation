@@ -1,5 +1,4 @@
 # Suggester Terms of Service
-**Effective since October 18th**
   
 ### What is Suggester
 Suggester is a [Discord](https://discord.com) bot helping staff members and admins to manage feedback in their server(s), using a modern suggestion system and its granular configuration elements.
