@@ -1,23 +1,6 @@
 # Announcements
 
-### What's Next for Suggester (October 13rd, 2021)
-On July 29th 2021, Discord announced that access to [message content will become a privileged intent](https://support-dev.discord.com/hc/articles/4404772028055) for developers maintaining verified bots, starting in April of 2022.\
-**Update**: The deadline has been postponed to September 1st, 2022.
-
-**Today**\
-In the current state, all but one of Suggester's commands rely on reading user messages to check for the prefix and then parse command data from the content. Following this annnouncement, **we are starting a migration to interactions**, which includes:
-- Moving from prefixed to slash commands  
-- Replacing reactions with buttons
-- Improving the user experience using various message components and context menus
-
-**Release**\
-We hope to see these changes before the restrictions enter into effect. Unfortunately, we do not have an ETA to share just yet. We will be rebuilding Suggester from the ground up, so it will take some time before the update is ready.
-
-**Staying Updated & Participating**\
-In the meantime, we've created a new selfrole that you can get in the [support server](https://suggester.js.org/support) which we'll regularly ping for polls and other things related to the rewrite. Some changes might have some impact on how you use the bot, so it is important for us to hear your thoughts about what we're doing; and how we're doing it.
-
-
-### Custom Instances & Donations (August 27th, 2021)
+### Custom Instances & Donations
 We're excited to announce our new Custom Instance program and Ko-fi donation page, https://ko-fi.com/suggester! For users who donate at least $5/month, we will host an instance of the bot with your own custom branding!
 
 You can subscribe to one of the three tiers by going to http://ko-fi.com/suggester/tiers. After subscribing, contact us in our support server and we'll get it setup for you!
@@ -26,34 +9,6 @@ I want to support Suggester, but don't want to make a recurring purchase! On the
 
 More info can be found [here](/supporting/info.md)
 
-
-### An Update on the Latest Extended Downtime (August 23rd, 2021)
-On August 14th, some unauthorized users obtained access to Suggester's database, allowing them to see and remove any data we stored. This caused issues when trying to access it, such as when interacting with old suggestions or setting up a server.
-
-At first we thought this was a genuine issue with the database and thus kept the bot online so people could at least still send suggestions in their favorite servers, if said servers went through some configuration again.
-
-But on August 15, the entirety of our collected data was removed, preventing Suggester from working. After discovering the whole issue, we've decided to bring all public instances of Suggester offline, as an unplanned maintenance due to a major service disruption.
-
-As per Discord's Developer Policy and Legal Agreement, we must inform our users if any unauthorized users or group of users had access to any data we store, and sadly here we are. We believe the data accessed consisted of server setups, suggestion content and user settings. What we store can be found [here](/legal.md).
-
-We have no reason to believe the compromised data was seen or shared by unauthorized third parties before being completely erased.
-
-Suggester will be coming back online in the next few hours with our latest backup, from July 10th. As such, **any data added, removed or edited between that date and the beginning of this downtime will not be available.**
-
-We are still actively investigating how this happened, but in the meantime the bot will be running on a new, much more secure server. We will be doing everything in our power to stop this from happening again.
-
-As a side note, we'll be adding support for Suggester, Suggester 2 and Suggester Canary to the `.import` command, as well as a temporarily raised importing limit so you can hopefully get some of the data back.
-
-On behalf of the entire Suggester team, we are extremely sorry for everything that has happened.
-
-### An Update on Recent Infrastructure Issues (June 25th, 2021)
-We are aware Suggester has had several performance issues in the last few weeks and we are deeply sorry for that. We believe those issues are related to the rather quick growth of Suggester, as its server count was **multiplied by more than 5** in the last year (victim of its success!). 
-
-Past 2,500 guilds, a process that goes by the name of *sharding* goes from recommended to required (for those of you who don't know what that is, it's basically splitting your bot into multiple connections to the Discord API instead of a single one). While deploying new shards is done automatically and thus very simple, supporting an increasing number of these impacts performance metrics such as memory usage and overall latency. That is why Suggester has been slower than usual recently.
-
-However, this isn't the end of the road. Our development team is currently made of **2 awesome person** that take these issues very seriously and they are working on solving them. Due to the nature of the problem, it will take some time to completely get back to normal performances.
-
-As some testers might have already noticed, the canary bot is undergoing caching-related changes that may improve performances. Though as the name implies, it isn't production ready just yet.
 
 ### Suggester Rebranding (May 13th, 2021)
 Discord has [rebranded](https://dis.gd/ournewlook), changing their old blurple color (#7289DA) to a new brighter blue (#5865F2). Since Suggester's profile picture and default color scheme used the OG Blurple color, we're rebranding our icons and assets as well! You'll notice a brand new Suggester icon, as well as a new default color for suggestion embeds and some emojis used by the bot.
