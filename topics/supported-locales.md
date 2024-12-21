@@ -35,5 +35,4 @@ Here's a list of locales we support, whether partially or completely, and their 
 | ja     | Japanese               | 日本語               |
 | ko-kr  | Korean                 | 한국어               |
 
-* Language is 100% translated or very close to it.
-
+* Language is entirely translated.

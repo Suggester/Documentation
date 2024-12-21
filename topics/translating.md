@@ -3,9 +3,9 @@
 Hey welcome! Thanks for your interest in translating Suggester, it means a lot! Before starting, let me explain how it works. 
 We use the `i18n#1614` bot to handle translations, which means you will have to make sure your DMs aren't closed on the [support server](https://suggester.js.org/support) before starting. 
 
-When you're done verifying, run the `>start` command in [`#translators`](https://canary.discord.com/channels/566002482166104066/705524292690903060). The bot will then either start the process if you only have one authorized locale, or ask you to pick a locale code from your authorized ones
+When you're done verifying, run the `>start` command in [`#translators`](https://discord.com/channels/566002482166104066/705524292690903060). The bot will then either start the process if you only have one authorized locale, or ask you to pick a locale code from your authorized ones.
 
-?> A **locale code** is a short string, usually composed of a few letters, which represents your language. For example, the locale code of the French language is `fr`.
+?> A **locale code** is a short string which represents your language. For example, the locale code of the French language is `fr`.
 
 ### Dynamic Process Embed Fields
 
@@ -35,6 +35,6 @@ You have 5 minutes to translate a string, then 2 minutes to make sure it is corr
 
 ?> **Syntax:** `>mt [locale code] [string name] [new translation]` 
 
-As a thank you, translators can ask for the "Translator" acknowledgement on the `.verify` command, as well as the ability to choose a custom one once they've translated a significant part of the language (about 10%).
+As a thank you, translators can get the "Translator" acknowledgement on the `.verify` command, as well as the ability to choose a custom one once they've translated a significant part of the language.
 
-Thanks for reading and good luck translating!
+Good luck translating!
