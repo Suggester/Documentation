@@ -15,7 +15,4 @@ When you click on the link to invite Suggester, you'll be prompted to confirm th
 **Send Messages**: This permission is required for the bot to respond to commands, because Suggester isn't mean enough to ignore you.\
 **Embed Links**: This allows the bot to send messages with rich embeds, because that colored bar is a blast.\
 **Add Reactions**: Approved suggestions can be voted on by using specific reactions added by the bot when the suggestion is approved.\
-**Use External Emojis**: Suggester uses custom made emojis for certain commands (like `.mark` or `.config list`) and thus needs this permission for them to display. :coolbeans:
-
-### Create Commands
-Additionally, Suggester will ask for permission to create [application commands](https://dis.gd/slashcommands) in your server. This is required for [anonymous suggestions](topics/anonymous-suggestions) to work but will be used in the future as the default way to use the bot.
+**Use External Emojis**: Suggester uses custom emojis for certain commands (like `.mark` or `.config list`) and thus needs this permission for them to display.

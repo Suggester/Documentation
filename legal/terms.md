@@ -1,7 +1,7 @@
 # Suggester Terms of Service
   
 ### What is Suggester
-Suggester is a [Discord](https://discord.com) bot helping staff members and admins to manage feedback in their server(s), using a modern suggestion system and its granular configuration elements.
+Suggester is a [Discord](https://discord.com) bot helping community staff members and admins to manage feedback in their server(s), using a modern suggestion system and its granular configuration elements.
 
 ### Definitions
 You will find below a list of definitions explaining the meaning of specific words or group of words used throughout these terms:
@@ -53,7 +53,6 @@ Here is a list of our official products:
 - Our production bot account on Discord (Suggester#8366 - 564426594144354315)
 - Our secondary bot account on Discord (Suggester 2#6730 - 708299727166242866)
 - Our canary bot account on Discord (Suggester Canary#8420 - 618458376224899073)
-- Our upcoming dashboard
 
 ## Contact
 If you'd like to contact us, feel free to join our [support server](https://suggester.js.org/support).

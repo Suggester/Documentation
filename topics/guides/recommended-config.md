@@ -12,11 +12,9 @@ Emojis are great, like for real. Look at [this one](https://cdn.discordapp.com/e
 
 ### Prefix
 Setting a custom prefix is one of the most important things to do when you add a new bot to your server, to avoid receiving 17 DMs when you're just looking for help. Suggester's default prefix is a dot (`.`) but you can change it at any time. You can configure it using `.config prefix [new prefix]`. Who wouldn't like having to use this command? `?]!"{$suggest` 
-Please don't use this one though. Like seriously don't, it's ugly. >:(
+Please don't use this one though >:(
 
 ### Voting Limitations
 Suggester currently provides two different settings that relates to voting: `onevote` and `selfvote`. The former prevents members from voting multiple times on the same suggestion (like upvoting and downvoting) and the latter prevents suggestion authors from upvoting their own suggestions (they gotta play fair c:). We recommend setting both by respectively using `.config onevote on/off` and `.config selfvote on/off`.
 
-Of course there is much more configuration options, which you can find [here](config/configuration). Happy configuring!
-
-
+Of course there is much more configuration options, which you can find [here](config/configuration).
