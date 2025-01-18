@@ -5,7 +5,9 @@
 If you are looking for a way to support and help keep the costs down for Suggester, you can make a one-time donation or purchase a tier on our [donation page](https://ko-fi.com/suggester)! Our one-time donators will also obtain a fancy purple Donator role in the [support server](https://suggester.js.org/support).
 
 ### Custom Instances
-If you are looking for an extra layer of customization, we got you covered! For a monthly price depending on the number of servers you want your instance to be in, we'll host a special instance of Suggester tailored to your liking. We currently provide **3** main customization options: username, avatar and bio. 
+If you are looking for an extra layer of customization, we got you covered! For a monthly price varying based on the number of servers you'd like to use it in, we'll host a special instance of Suggester tailored to your liking. We currently provide **4** customization options: username, avatar*, banner* and bio.
+
+\* Your bot's avatar and banner can be animated or static images.
 
 ![An example of how a customized version of Suggester looks like](../images/custom-instance-example.png)
 
