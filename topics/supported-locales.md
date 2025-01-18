@@ -1,5 +1,5 @@
 # Supported Locales
-Here's a list of locales we support, whether partially or completely, and their locale code. Languages marked with an * after their name have been fully translated (eg. Greek*).
+Here's a list of locales we support, whether partially or completely, and their locale code. Languages marked with an * after their name have been fully translated.
 
 | Locale | Name in English)       | Native Name          |
 | ------ | ---------------------- | -------------------- |

@@ -16,7 +16,6 @@ To execute this command, the user must have the **Manage Server** permission or 
 ### Supported Bots
 Suggester supports importing suggestions from the following bots:
 
-- ,Havoc#7078
 - AXVin#4169
 - Anchor#8635
 - Carl-bot#1536
