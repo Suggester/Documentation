@@ -1,11 +1,9 @@
 # Searching Suggestions
 
-Servers with a high amount of suggestions can get messy, which makes it hard to find a specific suggestion based on its attributes (like its author or content). We've added a long requested feature: a search command! You're now able to go through your suggestions feed in the blink of an eye by specifying search parameters to narrow down results. This command is rather complex so we'll dive into it below.
+Servers with a high amount of suggestions can get messy, which makes it hard to find a specific suggestion based on its attributes (like its author or content). With the search command, you're able to browse your suggestion feed by specifying search parameters to narrow down results.
 
 ### Usage
-Use `.search <parameters separated by a space>` in any channel the bot can read and send messages in.
-
-?> You can include as many search parameters as you want. 
+Use `.search <parameters separated by a space>` in any channel the bot can read and send messages in. You can include as many search parameters as you want. 
 
 ### Parameters and Syntax
 
@@ -20,7 +18,7 @@ Use `.search <parameters separated by a space>` in any channel the bot can read 
 | Content                  | `content:(string)`                           |  Only contains suggestions whose content match with the string             | `.search content:"bananas`          |
 
 ### More Examples
-Here's some quick extra examples you might find useful:\
+Here's some quick extra examples you might find useful:
 - Using `.search status:approved votes>12 content:"memes"` will return any approved suggestion with **more than 12 upvotes** while containing "memes".
 - Using `.search mark!working author:123456789987654321 content!"water"` will return any suggestion **not** marked as "Working", sent by the user that has the 123456789987654321 id and that does not contain "water".
 - Using `.search time<30d` would return all suggestions sent in the last **30 days**.
@@ -31,12 +29,9 @@ Here's some quick extra examples you might find useful:\
 ### Operators
 The above examples support multiple operators to narrow down the search results:
 
-| Operator | Meaning      |
+| Operator | Description  |
 |:--------:|:------------:|
 | `:`      | equal to     |
 | `>`      | greater than |
 | `<`      | less than    |
 | `!`      | not          |
-
-
-> Don't hesitate to join our [support server](https://suggester.js.org/support) if you need assistance with this feature. You're also welcome to suggest improvements for this documentation page!
