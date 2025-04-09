@@ -1,5 +1,5 @@
 # Public Commands Sumup
-Suggester has a lot of commands that everyone can use, but they don't really need their own article, as they are quite simple. You'll find in this page a list of public commands with a quick explanation of what they do. Commands in this list will use the default prefix (`.`), which means that if you configured a different one, you will have to replace it accordingly.
+Suggester has a lot of commands that everyone can use, but they don't need their own article as they are quite simple. You'll find in this page a list of public commands with a quick explanation of what they do. Commands in this list will use the default prefix (`.`), which means that if you configured a different one, you will have to replace it accordingly.
 
 ### Commands Anyone Can Use
 
@@ -9,7 +9,6 @@ Suggester has a lot of commands that everyone can use, but they don't really nee
 - `.invite`: Sends the link to [add the bot](https://suggester.js.org/invite) to your server.
 - `.verify`: Shows a user permissions as they relate to the bot, also accepts a mention/user id argument to check someone else's permissions.
 - `.prefix`: Shows the currently configured prefix in the server.
-- `.changelog`: Links the latest stable release from [GitHub](https://github.com/Suggester/Suggester/releases/latest).
 - `.tutorial`: Shows a quick guide about setting up and using the bot (the response to this command is the same as the embed sent when the bot is added to a server)
 - `.github`: Links Suggester's repository, where you can contribute to its development!
 - `.shard`: Tells which group of servers the current server is part of. 
@@ -31,14 +30,14 @@ These are special commands everyone can use, so we added them to another section
 
 - `.locale`: This command sets your **user** locale, all responses and messages you receive from the bot will use that language (defaulting to English). Using it with no arguments will show a list of all available locales.
 
-?> Translations are community sourced, as such all locales might not be fully supported when you use Suggester. If you've configured a language and the bot still responds in English, it means this specific string was not yet translated.
+?> If you've configured a language and the bot still responds in English, it means this specific string has not yet been translated.
 
 - `.shortinfo`: This command has its own article which you can read [here](topics/shortinfo.md).
 
 ### Commands Available in DMs
 The following commands are available in direct messages with Suggester:
 
-`ping`, `changelog`, `follow auto`, `follow list`, `notify` and `privacy`
+`ping`, `follow auto`, `follow list`, `notify` and `privacy`
 
 ## Suggestion Following
 
