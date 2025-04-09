@@ -33,7 +33,8 @@ Any member with the **Manage Server** permission or a configured [admin role](/c
 | [Blocked Roles](/config/blockedroles.md)                   |                    | Roles blocked from sending suggestions                                        |
 | [Clean Commands](/config/cleancommands.md)                 | Disabled           | Settings for commands deletion                                                |
 | [Color Change](/config/colorchange.md)                     | 15 votes • #FFD700 | Change the color of the suggestion embed when it reaches X net upvotes        |
-| [Commands](/config/commands.md)                            |                    | List of channels where commands can be used                                   |  
+| [Commands](/config/commands.md)                            |                    | List of channels where commands can be used                                   |
+| [Commandless Suggestions](/config/inchannelsuggestions.md) | Disabled           | Settings for commandless suggestion submission                                |
 | [Comment Timestamps](/config/ctime.md)                     | Enabled            | Settings for comment timestamps                                               |
 | [Cooldown](/config/cooldown.md)                            | None               | Suggestion cooldown                                                           |
 | [Denied](/config/denied.md)                                |                    | Channel where denied suggestions are posted                                   |
@@ -41,7 +42,6 @@ Any member with the **Manage Server** permission or a configured [admin role](/c
 | [Disabled Commands](/config/disabledcommands.md)           |                    | Disabled commands can't be used                                               |
 | [Emojis](/config/emojis.md)                                | 👍,🤷 and 👎      | Reaction emojis to vote on approved suggestions                               |
 | [Feed Ping](/config/feedping.md)                           |                    | Role pinged when a suggestion is approved                                     |
-| [Commandless Suggestions](/config/inchannelsuggestions.md) | Disabled           | Settings for commandless suggestion submission                                |
 | [Implemented](/config/implemented.md)                      |                    | Channel where implemented suggestions are sent                                |
 | [Implemented Role](/config/implementedrole.md)             |                    | Role given to the author of a suggestion when it gets marked as Implemented   |
 | [Language](/config/locale.md)                              | English            | Server-wide setting for the language used by the bot                          |
