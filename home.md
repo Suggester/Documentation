@@ -21,5 +21,4 @@ If you have any questions, feel free to reach out to us in our [support server](
 | Server Template                    | https://discord.new/Ye9n7V9SVNPg             |
 
 
-
 > Suggester is not affiliated with or endorsed by Discord.

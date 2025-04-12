@@ -58,7 +58,7 @@
 [top & down](/staff/top-n-down.md)
 
 ---
-# **OTHER LINKS**
+# **OTHER**
 [Donations](/supporting/info.md)
 [Support Server](https://suggester.js.org/support)
 [Privacy Policy](/legal/privacy.md)

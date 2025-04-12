@@ -7,9 +7,7 @@ Use this command to allow users to use the bot again (if they were previously pr
 Use `.unblock [user]` in any channel the bot can read and send messages in.
 
 ### Arguments
-`user`: The user you want to unblock 
-
-?> You can use usernames, IDs and mentions.
+`user`: The user you want to unblock, you can use usernames, IDs and mentions.
 
 ### Alias
 `allow`

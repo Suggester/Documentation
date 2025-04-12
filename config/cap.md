@@ -11,5 +11,3 @@ Define the suggestion cap using `.config cap [number]`, setting `none` as the li
 
 ### Accepted Inputs
 Any number greater than 0
-
-

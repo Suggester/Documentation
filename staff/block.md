@@ -7,12 +7,9 @@ Use this command to prevent specific people from using the bot in the server
 Use `.block [user] (duration)` in any channel the bot can read and send messages in.
 
 ### Arguments
-`user`: The user you want to block
+`user`: The user you want to block, you can use usernames, IDs and mentions.
 
-?> You can use usernames, IDs and mentions.
-
-
-`duration`: The duration you want to block the user for (optional)
+`duration`: The duration you want to block the user for (optional, permanent if not provided)
 
 ### Duration & Examples
 See the table below for more information on how to format durations

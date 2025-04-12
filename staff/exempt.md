@@ -9,9 +9,7 @@ Use this command to allow a specific user to bypass the [configured suggestion c
 Use `.exempt [user]` in any channel the bot can read and send messages in.
 
 ### Arguments
-`user`: The user you want to block
-
-?> You can use usernames, IDs and mentions.
+`user`: The user you want to block, you can use usernames, IDs and mentions.
 
 ### User Permission
 To execute this command, the user must have the **Manage Server** permission or a configured [staff](/config/staffroles.md) role.

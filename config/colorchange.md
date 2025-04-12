@@ -19,4 +19,4 @@ Set up the requires theresold using `.config colorchange number [number]`
 ?> The color will only change when the amount of **net** upvotes (downvotes - upvotes) reaches the configured theresold.
 
 ### Default Values
-At **15** net upvotes, the embed color will change to a gold tint ([#FFD700](https://singlecolorimage.com/get/FFD700/250x250))
+At **15** net upvotes, the embed color will change to a gold tint ([#FFD700](https://singlecolorimage.com/get/FFD700/250x250)).

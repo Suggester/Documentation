@@ -12,6 +12,4 @@ Set up an admin role using `.config admin add/remove/list [role]`
 ### Accepted Inputs
 Any role name, id or @mention
 
-
-
-!> Adding the @everyone role to the configuration will give **all members of your server** enhanced permissions on the bot!
+!> Adding the @everyone role to the configuration will give **all members of your server** elevated permissions on the bot!

@@ -11,7 +11,7 @@ This command allows admins to automatically setup the bot in their server, by cr
 
 - Last but not least, a tasty category named "Suggester" will be created and all of the above will be added into it.
 
-?> If you are looking for more granular options, take a look at the [config](/config/configuration.md) command!
+?> If you are looking for more granular options, take a look at the [config](/config/configuration.md) command.
 
 ### Usage
 Run `.autosetup` in any channel the bot can read and send messages in.
