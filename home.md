@@ -5,7 +5,6 @@ All sections in these docs will use the bot's default prefix, which is currently
 
 In this documentation, arguments surrounded by `[square brackets]` are __required__ and arguments surrounded by `(parenthesis)` are __optional__. List of arguments separated by slashes (`/`) denote the possible sub-arguments for a specific command, note that you can only **pick one at a time**.
 
-
 To prevent spam and uphold general good practices, commands can **only** be used by users.
 
 If you have any questions, feel free to reach out to us in our [support server](https://suggester.js.org/support)! Don't worry, we don't bite :)
@@ -19,6 +18,3 @@ If you have any questions, feel free to reach out to us in our [support server](
 | Financial Support                  | https://suggester.js.org/donate              |
 | Beginner Guide                     | https://suggester.js.org/#/beginner-guide    |
 | Server Template                    | https://discord.new/Ye9n7V9SVNPg             |
-
-
-> Suggester is not affiliated with or endorsed by Discord.

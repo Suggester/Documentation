@@ -1,9 +1,7 @@
 # Command: deny
 ---
 ### Description
-Use this command to deny a suggestion, sending it to the configured [denied suggestions channel](/config/denied.md) 
-
-?> This command is only available when the mode is set to **review**
+Use this command to deny a suggestion, sending it to the configured [denied suggestions channel](/config/denied.md). This command is only available when the mode is set to **review**.
 
 ### Usage
 Use `.deny [suggestion id] (reason)` in any channel the bot can read and send messages in.

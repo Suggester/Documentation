@@ -19,11 +19,11 @@ Suggester is the most configurable suggestion bot on Discord, with many settings
 - Customizing voting emojis
 - Allowing only certain roles to vote on suggestions
 - Server language\
-Additionally, we have a unique **review** mode that allows staff members to review suggestions before they are sent to the suggestions channel! This is the mode used by default, but we also offer the **autoapprove** mode which automatically sends suggestions to the approved channel.
+Additionally, we have a **review** mode that allows staff members to review suggestions before they are sent to the suggestions channel! This is the mode used by default, but we also offer the **autoapprove** mode which automatically sends suggestions to the approved channel.
 
 ![c](../images/review.png)
 
-![d](../images/community.png) 
+![d](../images/community.png)
 
 Suggester also allows you to keep your server members updated via commenting and marking statuses!
 

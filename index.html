@@ -1,124 +1,337 @@
 <!doctype html>
 <html lang="en">
-    
+
 <head>
-    <meta charset="utf-8">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
     <title>Suggester</title>
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
     <meta property="og:site_name" content="Suggester Docs">
     <meta property="twitter:card" content="summary_large_image">
-    <meta name="description" content="Everything you need to know about Suggester, including commands, configuration elements and community programs. Suggestions have never been easier to set up!">
+    <meta name="description"
+        content="Everything you need to know about Suggester, including commands, configuration elements and community programs. Suggestions have never been easier to set up!">
     <meta name="theme-color" content="#5865F2">
     <meta property="og:title" content="Official Suggester Documentation">
-    <meta property="og:description" content="Everything you need to know about Suggester, including commands, configuration elements and community programs. Suggestions have never been easier to set up!">
+    <meta property="og:description"
+        content="Everything you need to know about Suggester, including commands, configuration elements and community programs. Suggestions have never been easier to set up!">
     <meta property="og:url" content="https://suggester.js.org">
-   
 
     <!-- Theme -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
 
-<!-- Custom theme styles -->
+    <!-- Custom theme styles -->
     <style>
-      :root {
-          color: hsl(0deg 32% 94%);
-        --base-background-color: #36393f;
-        --base-font-size: 16px;
+        :root {
+            color: hsl(0deg 32% 94%);
+            --base-background-color: #2f2d37;
+            --base-font-size: 16px;
 
-        --cover-background-image: url("./images/main_background.svg");
-        --heading-color: hsl(0deg 0% 100%);
-        --heading-h3-font-size: var(--font-size-l);
-        --heading-h1-font-weight: 600;
-        --cover-blockquote-font-size: 7em;
 
-        /* Code */
-        --code-theme-background: #183055;
-        --code-inline-color: #ffffff;
-        --code-inline-background: #18191d;
-        --code-theme-text: #ffffff;
+            --cover-background-image: url("https://singlecolorimage.com/get/212226/1000x1000");
+            --heading-color: hsl(0deg 0% 100%);
+            --heading-h3-font-size: var(--font-size-l);
+            --heading-h1-font-weight: 600;
+            --cover-blockquote-font-size: 7em;
 
-        /* Link */
-        --link-color: #2eafff;
-        --link-text-decoration--hover: underline;
+            --code-theme-background: #183055;
+            --code-inline-color: #E0E0E0;
+            --code-inline-background: #18191d;
+            --code-theme-text: #E0E0E0;
+            --code-border-radius: 80px;
+            --link-color: #0000FF;
+            --link-text-decoration--hover: underline;
 
-        /* Notices & Blockquotes */
-        --notice-tip-background: #49453C;
-        --notice-tip-color: #f0e3e1;
-        --notice-tip-border-color: #A27429;
-        --notice-tip-border-width: 5px;
-        --notice-border-radius: 20px; 
-          
-        --notice-important-background: #493A41;
-        --notice-important-border-color: #7F4C51;
-        --notice-important-border-width: 5px;
-        --notice-important-color: #f0e3e1; 
-          
-        --blockquote-border-color:  #576594;
-        --blockquote-border-width: 4px;
-        --blockquote-border-radius: 20px;
-        --blockquote-background: #3b414f;
+            --notice-tip-background: #dc7c23b1;
+            --notice-tip-color: #f0e3e1;
+            --notice-tip-border-color: #dc7c23;
+            --notice-tip-border-width: 3px;
+            --notice-border-radius: 20px;
 
-        /* Sidebar */
-        --sidebar-background: #2f3136;
-        --sidebar-border-width: 0px;
-          
-        --sidebar-nav-link-color: #ffffff;
-        --sidebar-nav-link-background-color--active   : #5865F2;
-        --sidebar-nav-link-background-color--hover    : #5865F2;
-        --sidebar-nav-link-color--active              : #5865F2;
-        --sidebar-nav-link-color--hover               : #5865F2;
-        --sidebar-nav-link-padding: 0.25em 10px;
-        --sidebar-nav-link-font-weight--active        : 750;
-        --sidebar-nav-link-font-weight--hover         : 750;
-        --sidebar-nav-link-text-decoration--active    : none;
-        --sidebar-nav-link-text-decoration--hover     : none;
-        --sidebar-nav-link-margin                     : 3px;
+            --notice-important-background: #f31d32a8;
+            --notice-important-border-color: #f31d33;
+            --notice-important-border-width: 3px;
+            --notice-important-color: #f0e3e1;
 
-        /* Tables */
-        --table-row-even-background: #121315;
-        --table-row-odd-background: #18191C;
-        --table-head-background: #202225;
-        --table-cell-border-color: #000000;
-        --table-head-border-color: var(--table-cell-border-color);
-        --table-head-border-width: 1px;
-        --table-cell-border-width: 1px;
-        --table-head-font-weight: 750;
-    
-        /* Coverpage */
-        --cover-color: #363940;
-        --cover-heading-color: #000000;
-        --cover-button-background: #ffffff;
-        --cover-button-color: #000000;        
-        --cover-link-color: #000000;
-        --cover-link-color: #000000;
-        --cover-blockquote-font-size: 20px;
-         
-        /* Search */
-        --search-input-color: #000000;
-        --search-result-keyword-background: #5865F2;
-        --search-clear-icon-color1: #ff0000;
-        --search-clear-icon-color2: #ffffff;
-          
-        /* Spinner */
-        --spinner-track-color: #5865F2;
-           
-        /* Tabs */
-        --docsifytabs-tab-background        : #363940;
-        --docsifytabs-tab-color             : #ffffff;
-        --docsifytabs-tab-color--active     : #5865F2;
-        --docsifytabs-tab-highlight-px      : 5px;
-        --docsifytabs-tab-padding           : 0.6em 1em;
+            --blockquote-border-color: #dcdee6;
+            --blockquote-border-width: 3px;
+            --blockquote-border-radius: 20px;
+            --blockquote-background: #3b414f;
 
-        /* Tab Content */
-        --docsifytabs-content-background    : inherit;
-        --docsifytabs-content-padding       : 1.5rem;
-     
-        --docsifytabs-border-color          : #ffffff;
-        --docsifytabs-border-px             : 3px;
-        --docsifytabs-border-radius-px      : 20px;
-}        
-   </style>
+            --sidebar-background: #212226;
+            --sidebar-border-width: 0px;
+            --sidebar-width: 295px;
+
+            --sidebar-nav-link-color: #E0E0E0;
+            --sidebar-nav-link-background-color--active: #5865F2;
+            --sidebar-nav-link-background-color--hover: #5865F2;
+            --sidebar-nav-link-color--active: #5865F2;
+            --sidebar-nav-link-color--hover: #5865F2;
+            --sidebar-nav-link-padding: 0.25em 10px;
+            --sidebar-nav-link-font-weight--active: 750;
+            --sidebar-nav-link-font-weight--hover: 500;
+            --sidebar-nav-link-text-decoration--active: none;
+            --sidebar-nav-link-text-decoration--hover: none;
+            --sidebar-nav-link-margin: 0px;
+
+            --table-row-even-background: #121315;
+            --table-row-odd-background: #18191C;
+            --table-head-background: #212226;
+            --table-cell-border-color: #000000;
+            --table-head-border-color: var(--table-cell-border-color);
+            --table-head-border-width: 0px;
+            --table-cell-border-width: 0px;
+            --table-head-font-weight: 750;
+
+            --cover-color: #eff1f5;
+            --cover-heading-color: #000000;
+            --cover-button-background: #E0E0E0;
+            --cover-button-color: #000000;
+            --cover-link-color: #000000;
+            --cover-link-color: #000000;
+            --cover-blockquote-font-size: 20px;
+
+            --search-input-color: #000000;
+            --search-result-keyword-background: #5865F2;
+            --search-clear-icon-color1: #ff0000;
+            --search-clear-icon-color2: #E0E0E0;
+
+            --spinner-track-color: #5865F2;
+
+            --docsifytabs-tab-background : #363940;
+            --docsifytabs-tab-color : #E0E0E0;
+            --docsifytabs-tab-color--active : #5865F2;
+            --docsifytabs-tab-highlight-px : 5px;
+            --docsifytabs-tab-padding : 0.6em 1em;
+
+            --docsifytabs-content-background : inherit;
+            --docsifytabs-content-padding : 1.5rem;
+
+            --docsifytabs-border-color : #E0E0E0;
+            --docsifytabs-border-px : 3px;
+            --docsifytabs-border-radius-px : 20px;
+
+            body {
+                font-family: "Work Sans", sans-serif;
+            }
+            ::selection {
+                background: #2ecc71;
+                color: #000000;
+            }
+            .tight-links .sidebar-nav li,
+            .tight-links .sidebar-nav a {
+                padding-left: 0 !important;
+                margin-left: 0 !important;
+            }
+
+            .sidebar a i {
+                font-size: 1em;
+                width: 1em;
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 6px;
+            }
+
+            .tight-links a {
+                padding-left: 0 !important;
+                margin-left: 0 !important;
+            }
+
+            .sidebar a {
+                display: block !important;
+                white-space: normal !important;
+                overflow: visible !important;
+                text-overflow: unset !important;
+                width: auto !important;
+                max-width: 100% !important;
+                padding-left: 0 !important;
+                margin-left: 0 !important;
+            }
+
+            .sidebar {
+                overflow-x: visible !important;
+            }
+
+            .markdown-section pre {
+                border-radius: 8px !important;
+                padding: 1em !important;
+                overflow: auto !important;
+            }
+
+            .markdown-section p code,
+            .markdown-section li code {
+                border-radius: 10px !important;
+                padding: 0.2em 0.5em !important;
+            }
+
+            .markdown-section code,
+            .markdown-section pre code {
+                font-family: 'Fira Code', monospace !important;
+                font-size: 0.9em !important
+            }
+
+            .markdown-section a {
+                display: inline-flex;
+                align-items: center;
+            }
+
+            .markdown-section a i {
+                display: inline-block;
+                margin-right: 8px;
+                vertical-align: middle;
+            }
+
+            .markdown-section p a,
+            .markdown-section li a,
+            .markdown-section table a {
+                color: #3b82f6 !important;
+            }
+
+            .markdown-section p a:hover,
+            .markdown-section li a:hover,
+            .markdown-section table a:hover {
+                color: #2563eb !important;
+            }
+
+            .markdown-section h1 a,
+            .markdown-section h2 a,
+            .markdown-section h3 a,
+            .markdown-section h4 a,
+            .markdown-section h5 a,
+            .markdown-section h6 a {
+                color: inherit !important;
+            }
+
+            .sidebar a {
+                color: inherit !important;
+            }
+
+            .sidebar a:hover {
+                color: #3b82f6 !important;
+            }
+
+            .sidebar-top-button {
+                padding: 1em 0;
+                text-align: center;
+                width: 100%;
+            }
+
+            .sidebar-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0.5em 1em;
+                background-color: #5865F2;
+                color: #ffffff;
+                border-radius: 15px;
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+            .sidebar-btn:hover {
+                background-color: #4752C4;
+            }
+
+            .sidebar .sidebar-top-button .sidebar-btn,
+            .sidebar .sidebar-top-button .sidebar-btn:hover,
+            .sidebar .sidebar-top-button .sidebar-btn:focus,
+            .sidebar .sidebar-top-button .sidebar-btn:active {
+                color: #ffffff !important;
+                text-decoration: none !important;
+            }
+
+            .sidebar-btn i {
+                margin-right: 8px;
+                font-size: 1.2em;
+            }
+
+            .get-started-button {
+  position: absolute;
+  bottom: 15;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 25px;
+  font-size: 1.2em;
+  background-color: #fcfcfc;
+  color: rgb(0, 0, 0);
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: normal;
+  transition: background-color 0.5s;
+}
+
+.get-started-button:hover {
+  background-color: #b7b3b3;
+  text-decoration: none;
+  color: rgb(0, 0, 0)
+}
+
+.issue-header {
+  color: #ff4d4f;
+  padding: 10px 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+
+
+            .sidebar input[type="search"],
+            .sidebar-search input,
+            .search input[type="search"] {
+                background-color: #1c1c1c !important;
+                color: #e0e0e0 !important;
+                border: 0px solid #333 !important;
+                border-radius: 0px !important;
+                padding: 8px 12px !important;
+                width: 100% !important;
+                box-sizing: border-box;
+                font-size: 1em !important;
+            }
+            .sidebar input::placeholder,
+            .sidebar-search input::placeholder,
+            .search input::placeholder {
+                color: #888 !important;
+                opacity: 1 !important;
+            }
+
+            table {
+                border-radius: 8px;
+                overflow: hidden;
+                border-collapse: separate;
+                border-spacing: 0;
+            }
+
+            thead>tr:first-child>th:first-child {
+                border-top-left-radius: 12px;
+            }
+
+            thead>tr:first-child>th:last-child {
+                border-top-right-radius: 12px;
+            }
+
+            tbody>tr:last-child>td:first-child {
+                border-bottom-left-radius: 12px;
+            }
+
+            tbody>tr:last-child>td:last-child {
+                border-bottom-right-radius: 12px;
+            }
+
+
+        }
+    </style>
 
 </head>
 
@@ -126,7 +339,6 @@
     <div id="app"></div>
     <script>
         window.$docsify = {
-            // GENERAL
             name: 'Suggester Docs',
             homepage: 'home.md',
             logo: '/images/docs-banner.png',
@@ -137,20 +349,18 @@
             notFoundPage: true,
             maxLevel: 3,
             footer: {
-              copy: '<span><a href="https://suggester.js.org/invite">Add Suggester</a> - <a href="#/legal/privacy">Privacy Policy</a></span>',
-              auth: '- © Suggester 2019-2025',
-              style: 'text-align: center;'
+                copy: " ",
+                auth: '© Suggester 2019-2025',
+                style: 'text-align: center;'
             },
-            
-            // PLUGINS
             executeScript: true,
-            ga    : 'UA-100100910-3',
+            ga: 'UA-100100910-3',
             search: {
-                depth      : 3,
-                noData     : 'No results :(',
-                placeholder: 'Search..'
+                depth: 3,
+                noData: 'No results :(',
+                placeholder: 'Search...'
             },
-            themeColor: "#36393f"           
+            themeColor: "#36393f"
         };
     </script>
     <script src="https://unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
@@ -165,4 +375,5 @@
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
 </body>
+
 </html>

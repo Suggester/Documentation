@@ -1,7 +1,7 @@
-# Configuration Element: Suggestion Cooldown 
+# Configuration Element: Suggestion Cooldown
 
 ### Description
-This element defines how long users will have to wait before being able to send a suggestion again 
+This element defines how long users will have to wait before being able to send a suggestion again
 
 ### Usage
 Configure the suggestion cooldown using `.config cooldown [time]`
@@ -21,8 +21,8 @@ See the table below for more information on how to format durations:
 | hours    | h        |
 | days     | d        |
 
-> **Examples:**
-> Using `.config cooldown 25s` will set the suggestion cooldown to **25 seconds**.\
-> Using `.config cooldown 3h` will set the cooldown to **3 hours**.
+### **Examples:**
+- Using `.config cooldown 25s` will set the suggestion cooldown to **25 seconds**.\
+- Using `.config cooldown 3h` will set the cooldown to **3 hours**.
 
 ?> Members with staff or admin permissions are not affected by this cooldown.
