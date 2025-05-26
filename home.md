@@ -10,11 +10,9 @@ To prevent spam and uphold general good practices, commands can **only** be used
 If you have any questions, feel free to reach out to us in our [support server](https://suggester.js.org/support)! Don't worry, we don't bite :)
 
 ### Links
-| Resource                           | Shortlink                                    |
-|------------------------------------|----------------------------------------------|
-| GitHub Repository                  | https://suggester.js.org/github              |
-| Support Server                     | https://suggester.js.org/support             |
-| Bot Invite Link                    | https://suggester.js.org/invite              |
-| Financial Support                  | https://suggester.js.org/donate              |
-| Beginner Guide                     | https://suggester.js.org/#/beginner-guide    |
-| Server Template                    | https://discord.new/Ye9n7V9SVNPg             |
+- [GitHub Repository](https://suggester.js.org/github)
+- [Support Server](https://suggester.js.org/support)
+- [Add Suggester](https://suggester.js.org/invite)
+- [Financial Support](https://suggester.js.org/donate)
+- [Beginner Guide](https://suggester.js.org/#/beginner-guide)
+- [Server Template](https://discord.new/Ye9n7V9SVNPg)

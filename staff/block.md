@@ -12,16 +12,7 @@ Use `.block [user] (duration)` in any channel the bot can read and send messages
 `duration`: The duration you want to block the user for (optional, permanent if not provided)
 
 ### Duration & Examples
-See the table below for more information on how to format durations
-
-
-| Name     | Shortcut |
-|:--------:|:--------:|
-| seconds  | s        |
-| minutes  | m        |
-| hours    | h        |
-| days     | d        |
-| weeks    | w        |
+You can use "s" for seconds, "m" for minutes, "h" for hours and "d" for days.
 
 ### Examples
 ![An example usage of the blocking command](../images/blocking.png)

@@ -1,7 +1,7 @@
 # Supported Locales
 Here's a list of locales we support, whether partially or completely, and their locale code. Languages marked with an * after their name have been fully translated.
 
-| Locale | Name in English)       | Native Name          |
+| Locale | Name in English        | Native Name          |
 | ------ | ---------------------- | -------------------- |
 | ar     | Arabic                 | عربي                 |
 | da     | Danish                 | Dansk                |
@@ -28,11 +28,9 @@ Here's a list of locales we support, whether partially or completely, and their 
 | cs     | Czech                  | Čeština              |
 | el     | Greek*                 | Ελληνικά             |
 | bg     | Bulgarian              | български            |
-| ru     | Russian                | Pусский              | 
-| uk     | Ukrainian              | Українська           | 
+| ru     | Russian                | Pусский              |
+| uk     | Ukrainian              | Українська           |
 | hi     | Hindi                  | हिन्दी                 |
 | th     | Thai                   | ไทย                  |
 | ja     | Japanese               | 日本語               |
 | ko-kr  | Korean                 | 한국어               |
-
-* Language is entirely translated.

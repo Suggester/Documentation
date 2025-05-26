@@ -17,23 +17,21 @@
     <meta property="og:site_name" content="Suggester Docs">
     <meta property="twitter:card" content="summary_large_image">
     <meta name="description"
-        content="Everything you need to know about Suggester, including commands, configuration elements and community programs. Suggestions have never been easier to set up!">
+        content="Everything you need to know about Suggester, including commands and configuration elements. Suggestions have never been easier to set up!">
     <meta name="theme-color" content="#5865F2">
     <meta property="og:title" content="Official Suggester Documentation">
     <meta property="og:description"
-        content="Everything you need to know about Suggester, including commands, configuration elements and community programs. Suggestions have never been easier to set up!">
+        content="Everything you need to know about Suggester, including commands and configuration elements. Suggestions have never been easier to set up!">
     <meta property="og:url" content="https://suggester.js.org">
 
     <!-- Theme -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
 
-    <!-- Custom theme styles -->
     <style>
         :root {
             color: hsl(0deg 32% 94%);
             --base-background-color: #2f2d37;
             --base-font-size: 16px;
-
 
             --cover-background-image: url("https://singlecolorimage.com/get/212226/1000x1000");
             --heading-color: hsl(0deg 0% 100%);
@@ -105,26 +103,28 @@
 
             --spinner-track-color: #5865F2;
 
-            --docsifytabs-tab-background : #363940;
-            --docsifytabs-tab-color : #E0E0E0;
-            --docsifytabs-tab-color--active : #5865F2;
-            --docsifytabs-tab-highlight-px : 5px;
-            --docsifytabs-tab-padding : 0.6em 1em;
+            --docsifytabs-tab-background: #363940;
+            --docsifytabs-tab-color: #E0E0E0;
+            --docsifytabs-tab-color--active: #5865F2;
+            --docsifytabs-tab-highlight-px: 5px;
+            --docsifytabs-tab-padding: 0.6em 1em;
 
-            --docsifytabs-content-background : inherit;
-            --docsifytabs-content-padding : 1.5rem;
+            --docsifytabs-content-background: inherit;
+            --docsifytabs-content-padding: 1.5rem;
 
-            --docsifytabs-border-color : #E0E0E0;
-            --docsifytabs-border-px : 3px;
-            --docsifytabs-border-radius-px : 20px;
+            --docsifytabs-border-color: #E0E0E0;
+            --docsifytabs-border-px: 3px;
+            --docsifytabs-border-radius-px: 20px;
 
             body {
                 font-family: "Work Sans", sans-serif;
             }
+
             ::selection {
                 background: #2ecc71;
                 color: #000000;
             }
+
             .tight-links .sidebar-nav li,
             .tight-links .sidebar-nav a {
                 padding-left: 0 !important;
@@ -253,38 +253,37 @@
             }
 
             .get-started-button {
-  position: absolute;
-  bottom: 15;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 10px 25px;
-  font-size: 1.2em;
-  background-color: #fcfcfc;
-  color: rgb(0, 0, 0);
-  border-radius: 40px;
-  text-decoration: none;
-  font-weight: normal;
-  transition: background-color 0.5s;
-}
+                position: absolute;
+                bottom: 15;
+                left: 50%;
+                transform: translateX(-50%);
+                padding: 10px 25px;
+                font-size: 1.2em;
+                background-color: #fcfcfc;
+                color: rgb(0, 0, 0);
+                border-radius: 40px;
+                text-decoration: none;
+                font-weight: normal;
+                transition: background-color 0.5s;
+            }
 
-.get-started-button:hover {
-  background-color: #b7b3b3;
-  text-decoration: none;
-  color: rgb(0, 0, 0)
-}
+            .get-started-button:hover {
+                background-color: #b7b3b3;
+                text-decoration: none;
+                color: rgb(0, 0, 0)
+            }
 
-.issue-header {
-  color: #ff4d4f;
-  padding: 10px 20px;
-  font-size: 1.5em;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  border-radius: 6px;
-  margin-bottom: 20px;
-}
-
+            .issue-header {
+                color: #ff4d4f;
+                padding: 10px 20px;
+                font-size: 1.5em;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                border-radius: 6px;
+                margin-bottom: 20px;
+            }
 
 
             .sidebar input[type="search"],
@@ -299,6 +298,7 @@
                 box-sizing: border-box;
                 font-size: 1em !important;
             }
+
             .sidebar input::placeholder,
             .sidebar-search input::placeholder,
             .search input::placeholder {
@@ -337,6 +337,25 @@
 
 <body>
     <div id="app"></div>
+    <div id="downtime-banner">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        Suggester is currently down, there is currently no ETA on resolution.
+    </div>
+
+    <style>
+        #downtime-banner {
+            background-color: #e22d20;
+            color: rgb(239, 231, 231);
+            text-align: center;
+            padding: 4px 5px;
+            font-size: 1.2em;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 0;
+        }
+    </style>
+
     <script>
         window.$docsify = {
             name: 'Suggester Docs',

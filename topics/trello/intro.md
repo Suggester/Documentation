@@ -6,7 +6,7 @@ Introducing the **Suggester x Trello Integration**! You are now able to connect 
 "Imagine a white board, filled with lists of sticky notes, with each note as a task for you and your team."
 
 ### How do I start?
-First, you'll need to create a Trello account, you can do so by clicking [here](https://trello.com/signup). Once done, [create a board](https://trello.com/guide/create-a-board)) and [add](https://help.trello.com/article/717-adding-people-to-a-board) `@suggester_bot` to it. Go back on Discord and run [`.config trello board [board link]`](/topics/trello/board.md) in a server where you have admin perms in to connect the board to your server. 
+First, you'll need to create a Trello account, you can do so by clicking [here](https://trello.com/signup). Once done, [create a board](https://trello.com/guide/create-a-board) and [add](https://help.trello.com/article/717-adding-people-to-a-board) `@suggester_bot` to it. Go back on Discord and run [`.config trello board [board link]`](/topics/trello/board.md) in a server where you have admin perms in to connect the board to your server.
 
 If you later decide to not use Trello, you can type "none" as the board link in the above syntax to reset it.
 

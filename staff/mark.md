@@ -8,17 +8,17 @@ Use `.mark [suggestion id] [status] (comment)`
 
 ### Arguments
 
-`suggestion id`: The id of the suggestion you want to modify the status 
+`suggestion id`: The id of the suggestion you want to modify the status
 
 `status`: The new status you want to set, use the table below to find all available statuses:
 
-| Argument              |                Meaning                |                 Context Examples                                                                         |
-|-----------------------|:-------------------------------------:|-------------------------------------------------------------------|
-| `default`, `none`, `reset`     | Resets status to default (none shown) |                                                                                                          |
-| `no`, `not`                  | Not Happening                         | Used to let users know the suggestion will not be implemented                                            |
-| `working`, `progress`, `inprogress` | In Progress                           | Useful to leak upcoming stuff 👀                                                                        |
-| `implemented`, `done` | Implemented                           | Use this status when something has been implemented                                                      |
-| `consideration`, `consider`, `considered`, `inconsideration`       | In Consideration                      | Handy status to let users know you're debating about the suggestion, but nothing official *yet*          |
+| Argument              |                Meaning                |
+|-----------------------|:-------------------------------------:|
+| `none`, `reset`       | Resets status to default (none shown) |
+| `no`                  | Not Happening                         |
+| `working`, `progress` | In Progress                           |
+| `implemented`, `done` | Implemented                           |
+| `consider`            | In Consideration                      |
 
 
 `comment`: A comment to add to the suggestion (optional)
