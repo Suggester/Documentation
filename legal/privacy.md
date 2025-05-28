@@ -1,5 +1,5 @@
-# Privacy and Security Information
-Suggester needs access to certain information in order to properly function and provide the services users expect. We have listed below all the information that we store alongside the reason we store it for. All data and bot services are protected by authentication, and access is limited to a small set of users (developers and Suggester Staff members). Additionally, we will never give out the information we store to unauthorized users. If you believe you have found a security issue in one of our systems, please **do not** post publicly. Contact us in our support server and we'll bring up the issue to the developers (Ben, aka `@index.ts` or Brightness, aka `@brightness`) with information so they can investigate.
+# Privacy Policy
+Suggester needs access to certain information in order to properly function and provide the services users expect. We have listed below all the information that we store alongside the reason we store it for. All data and bot services are protected by authentication, and access is limited to a small set of users (developers and "Suggester Staff" members). Additionally, we will never give out the information we store to unauthorized users. If you believe you have found a security issue in one of our systems, **DO NOT** post publicly. Contact us in our support server and we'll bring up the issue to the developers (Ben, aka `@index.ts` or Brightness, aka `@brightness`) with information so they can resolve the issue.
 
 ## What does Suggester store?
 - **User IDs:** We store these to link suggestions to their author, so the bot can show the user who submitted the suggestion. They are also used to maintain a list of blocked users both on
@@ -9,12 +9,12 @@ Suggester needs access to certain information in order to properly function and 
 - **Server IDs:** We store these to keep server configurations and suggestions tied to their respective servers.
 - **Webhook URLs:** We store these to ensure logging through webhooks works - only one URL is stored which is the URL of the webhook created by the bot when logging is configured.
 - **Server Emotes:** We store server emote names/IDs if a server configures an emote as a reaction emote in the suggestion feed.
-- **Submitted Suggestions & Comments:** We store message content submitted as suggestions and comments in order for the bot to have data about each suggestion.
-- **Attachment URLs:** We store URLs of files attached to suggestions in order to make the attaching feature possible.\
+- **Submitted Suggestions & Comments:** We store content submitted as suggestions via commands and comments in order for the bot to have data about each suggestion.
+- **Attachment URLs:** We store the URLs of suggestion attachments.
 - **Trello:** If you opt to use the Trello integration, We store information pertaining to Trello boards connected to the bot and actions such as card creation and comments taken via the bot on those boards.
 
 ## Logging
-We log commands used and servers the bot is added to and removed from for analytical purposes.
+We log usage of commands and servers the bot is added to and removed from for analytical purposes.
 
 ## Other
 Bots that help to manage the "Suggester Support" server also store some information:\
