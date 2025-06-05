@@ -70,7 +70,6 @@
 
 ---
 # **OTHER**
-[<i class="fa-solid fa-heart fa-beat" style="color: #f5479b;"></i> Donations](/supporting/info.md)
 [<i class="fa-solid fa-question"></i> Support Server](https://suggester.js.org/support)
 [<i class="fa-solid fa-lock"></i> Privacy Policy](/legal/privacy.md)
 [<i class="fa-solid fa-section"></i> Terms of Use](/legal/terms.md)
