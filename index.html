@@ -337,31 +337,12 @@
 
 <body>
     <div id="app"></div>
-    <div id="downtime-banner">
-        <i class="fa-solid fa-triangle-exclamation"></i>
-        Suggester is currently down, there is no ETA on resolution.
-    </div>
-
-    <style>
-        #downtime-banner {
-            background-color: #e22d20;
-            color: rgb(239, 231, 231);
-            text-align: center;
-            padding: 4px 5px;
-            font-size: 1.2em;
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 0;
-        }
-    </style>
-
     <script>
         window.$docsify = {
             name: 'Suggester Docs',
             homepage: 'home.md',
             logo: '/images/docs-banner.png',
-            loadSidebar: true,
+            loadSidebar: false,
             coverpage: false,
             loadNavbar: false,
             auto2top: true,
