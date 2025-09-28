@@ -14,7 +14,6 @@
 
   <p>For those of you that purchased a custom instance of Suggester, it will remain operational for some time, but new instances are no longer available for purchase.</p>
 
-  <p>If you have questions, you can join the <a href="https://suggester.js.org/support" target="_blank" rel="noopener noreferrer">support server</a>.</p>
 </div>
 
 <img src="./images/suggester_my_beloved.gif" alt="Suggester My Beloved" class="centered-img" />
