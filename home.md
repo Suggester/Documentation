@@ -6,13 +6,13 @@
 
  <p>Hello everyone,</p>
 
-  <p>As you may have noticed, Suggester has not been online for a while now. Sadly, it has reached the end of its life as we've taken the difficult decision to <strong>shut it down permanently</strong>.</p>
+  <p>As you may have noticed, Suggester has not been online for a while now. Sadly, we've taken the difficult decision to <strong>shut it down permanently</strong>.</p>
 
-  <p>As the years passed, its codebase ran old and outdated, making it increasingly time-consuming to keep it up to date with the latest Discord features, like threads, or more importantly slash commands and everything that came with it. On top of that, the lives of the two developers behind the bot got more and more busy, making it even more difficult to keep it working. To my surprise, it has survived quite a long time without real maintenance, only running on manual restarts every two to three days.</p>
+  <p>Over the years, its codebase slowly became outdated, making it increasingly time-consuming to keep it up to date with the latest Discord features, like threads, or more importantly slash commands and everything that came with it. On top of that, the lives of the two developers behind the bot got more and more busy, making it even more difficult to keep it working. To our surprise, it has survived quite a long time without real maintenance, only running on manual restarts every two to three days.</p>
 
-  <p>This also means <strong>Threaded</strong> will stop operating, because while it's still fully functional, it entirely depends on Suggester to function. Don't worry though, as no threads will be deleted.</p>
+  <p>This also means <strong>Threaded</strong> has stopped operating, because while it was still working without issues, it doesn't really have a purpose if Suggester isn't online.</p>
 
-  <p>For those of you that purchased a custom instance of Suggester, it will remain operational for some time, but new instances are no longer available for purchase.</p>
+  <p>For those of you that purchased a custom instance of Suggester, we will keep it running for some time, but new instances are no longer available for purchase.</p>
 
 </div>
 
@@ -46,12 +46,5 @@
   }
   .rip-suggester-page strong {
     font-weight: 700;
-  }
-  .rip-suggester-page a {
-    color: #5865F2;
-    text-decoration: none;
-  }
-  .rip-suggester-page a:hover {
-    text-decoration: underline;
   }
 </style>
